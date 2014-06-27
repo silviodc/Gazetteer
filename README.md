@@ -6,39 +6,30 @@ This project has the following features:
 1- Read all Biodiversity files that contains data about harvest and places. 
 
     1.1 Clear the inaccurate data, i.e, remove data that not has important information, e.g., county, place, latitude ...
-
     1.2 Count the number of inaccurate data and build maps to shows them
-
     1.3 Count the number of data that has information about place, latitude, longitude...
-
     1.4 Split the data count held in step 1.3 in after and before of GPS use by biologists.
     
 2- Read source Data like Geonames, Wikimapia, DBpedia and use your data to improve the Biodiversity records used in step1
 
     2.1 Build a java client to connect with Wikimapia and download your data (It is need create a Wikimapia user)
-
     2.2 Download Geonames and DBpedia data in RDF
-
       2.2.1 Create a method for read and store this data
 
 3- Cluster all Biodiversity data and resolve toponymy (using Geographical Information Retrieval tecniques)
 
     3.1 We are using Star algorithm and jaccard similarity coeficient to cluster this data
-
     3.2 Together with step 3.1 we are using a stop word list to remove words like (solo arenoso, terra firme...)
    
 4- Improve the Biodiversity data! 
     
     4.1 In this step we are using the data downloaded in step 2 to improve Biodiversity data, find what data has more similarity between Biodiversity data and Geonames, Wikimapia, DBpedia data.
-    
     4.2 Create a method to summarize the geographical coordinates, like Linus' Law (How much more places has the same record, more right it will be)
    
 5- Count the number of data that were improved
     
     5.1 Count how many data that have has information about latitude, longitude were recovered.
-    
     5.2 Count how many data that have has geographical information recovered and were much old, i.e., Before use of GPS by biologists
-    
     5.3 Calculate the T student test using the results of step 5.1 and 5.2 to see how much  significant was our approach
    
 6- Mapping the data to ontology
