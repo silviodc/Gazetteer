@@ -1,6 +1,7 @@
 Gazetteer
 =========
 Project to development a Collaborative Gazetteer for Biodiversity data. This repository will be used to store .java files about Gazetteer that can be edited and updated for other persons.
+
 This project has the following features:
 
 1- Read all Biodiversity files that contains data about harvest and places. 
@@ -35,45 +36,33 @@ This project has the following features:
 6- Mapping the data to ontology
     
     6.1 Create subject, predicate and object for each biodiversity data.
-    
-    6.1 Mapping geographical coordinates to GeoSPARQL
+    6.2 Mapping geographical coordinates to GeoSPARQL
 
 7- Store the data in one Triple Store and verify the results
     
     7.1 Build a base line that contain information about which query represent a place (using 60 places)
-    
     7.2 build the semantic queries
-    
     7.3 Put all queries in the Triple Store and verify the precision, recall and F1 measure
    
 8- Use the same places in step 7 and verify the occurence this data in DBpedia and Geonames
     
     8.1 Build a base line that contain information about which query represent a place in DBpedia and Geonames 
-    
     8.2 Build the semantic queries for both repositories
-    
     8.3 Put all queries in the Triple Store and verify the precision, recall and F1 measure
   
 9- Development a Interface that enables Biologists insert data within Gazetteer
     
     9.1 Use the Google Maps API to show the map
-    
     9.2 Create a view that enables Biologists, see and improve the missing data!
-    
     9.3 Allow Biologists insert places using TAGS
-    
       9.3.1 Cluster the data inserted and improve the Biodiversity data similar.
-    
     9.4 Allow Biologists insert link from DBpedia source, when it exist.   
-    
     9.5 Create a view that enables Biologists agree with geographical coordinates and Links about DBpedia inserted in the Gazetteer
   
 10- Verify the number of place inserted by users and quality from Data
     
     10.1 Verify the average of users that agree with the geographical coordinates
-    
     10.2 Verify the average of users that agree with the Linked Data in Gazetteer
-    
     10.3 Repeat the step 5
 
 
