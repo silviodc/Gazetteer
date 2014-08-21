@@ -1,84 +1,123 @@
 package read_files;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
 public class Read_Biodiversity_files {
 
-	private String path;
-	private ArrayList<String[]> data = new ArrayList<String[]>();
-	private int allrecords;
-	private int onlyLocalityAndCounty;
-	private int onlyPlace;
-	private int onlyCounty;
-	private int noRecord;
+	private ArrayList<Repository> repository = new ArrayList<Repository>();
 	
+	public ArrayList<Repository> getRepository() {
+		return repository;
+	}
+
+	public void setRepository(ArrayList<Repository> repository) {
+		this.repository = repository;
+	}
+
+	public void start_read() throws InterruptedException, IOException, ParserConfigurationException, SAXException{
 	
-	public void read_SpeciesLink_biodiversity_files() throws InterruptedException, UnsupportedEncodingException, FileNotFoundException{
-		
-		File arq = new File("C:\\Users\\Silvio\\Desktop\\INPA.txt"); //se já existir, será sobreescrito  
-	    BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(arq),"UTF-8")); 
-		
-		 String arquivo = "C:\\Users\\Silvio\\Desktop\\speciesLink_all_30928.txt";
+	    String path = new File("files"+File.separator+"Archives_location.xml").getAbsolutePath();
+	 	read_repository(path);
+		for(Repository r:repository){
+			read_SpeciesLink_biodiversity_files(r);
+		}
+	}
+	
+	public void read_SpeciesLink_biodiversity_files(Repository repo) throws InterruptedException, UnsupportedEncodingException, FileNotFoundException{
+		System.out.println("lendo: "+repo.getName()+" ...");
+			
 		 try{     
-			 BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(arquivo), "UTF-8"));
+			 BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(repo.getPath()), "UTF-8"));
   
 	         while(br.ready()){  
 	            String linha = br.readLine();  
 	            String values [] = linha.split("\t");
-	            String record []= dataTreated(values);
+	            String record []= dataTreated(values,repo.getColumns());
 	           
-	            if(!record[1].equals("") && !record[2].equals("") && (!record[3].equals("") && !record[3].equals("0")) && (!record[4].equals("") && !record[4].equals("0"))){
-	            	allrecords++;	           
+	            if((!record[1].equals(" ") && !record[1].equals("")) && (!record[2].equals(" ") && !record[2].equals("")) && (!record[3].equals("") && !record[3].equals("0") && !record[3].equals("0.0")) && (!record[4].equals("") && !record[4].equals("0")&& !record[4].equals("0.0"))){
+	            	repo.setAllrecords(repo.getAllrecords()+1);	  
+	            	repo.getData().add(record);
 	            }else if(!record[1].equals("") && !record[2].equals("")){
-	            	onlyLocalityAndCounty++;
-	            	 String	escrever = record[0]+", "+record[1]+", "+record[2]+", "+record[3]+", "+record[4]+"\n";
-	 	            bw.write(escrever);
-	 	            bw.flush();
-	            }else if(!record[1].equals("") && record[2].equals("") )
-	            	onlyPlace++;
-	            else if(record[1].equals("") && !record[2].equals(""))
-	            	onlyCounty++;
+	            	repo.setOnlyLocalityAndCounty(repo.getOnlyLocalityAndCounty()+1);
+	            	repo.getData().add(record); 
+	            	  
+	            }else if(!record[1].equals("") && record[2].equals("") ){
+	            	repo.setOnlyPlace(repo.getOnlyPlace()+1);
+	            	repo.getData().add(record);	            	
+	            }else if(record[1].equals("") && !record[2].equals(""))
+	            	repo.setOnlyCounty(repo.getOnlyCounty()+1);
 	            else 
-	            	noRecord++;
+	            	repo.setNoRecord(repo.getNoRecord()+1);
 	         }
 	         br.close();  
-	         bw.close();
-	         System.out.println("Leitura Finalizada");
-	         System.out.println("Todos registros: "+allrecords);
-	         System.out.println("Somente local e municipio: "+onlyLocalityAndCounty);
-	         System.out.println("Somente local: "+onlyPlace);
-	         System.out.println("Somente municipio: "+onlyCounty);
-	         System.out.println("Nenhum registro: "+noRecord);
 	      }catch(IOException ioe){  
 	         ioe.printStackTrace();  
-	      }  //108357
+	      } 
 	}
 	
-	public String [] dataTreated(String values[]){
+	public String [] dataTreated(String values[],int columns[]){
 		String temp,temp1;
 		String query [] = new String[5];
-             temp = values[32].replaceAll("\"", "");
-             temp = temp.replaceAll("\'", "");
-             temp = temp.replace('\\', ' ');
-             temp = temp.replaceAll("//", "");
+             temp = values[columns[1]].replaceAll("\\p{Punct}|\\d","");  //PLACE
              temp = temp.replaceAll("NÃO INFORMADO", "");
              if(temp.contains("não determinado"))
             		 temp="";
-             temp1 = values[31].replaceAll("\"", "");
+             temp1 = values[columns[2]].replaceAll("\\p{Punct}|\\d","");  
              temp1= temp1.replaceAll("NÃO INFORMADO", "");
-             query[0]=values[23];query[1]=temp;query[2]=temp1; query[3]=values[33];query[4]=values[34];
-  
+             query[0]=values[columns[0]];//DATE
+             query[1]=temp;//PLACE
+             query[2]=temp1;//COUNTY
+             query[3]=values[columns[3]];//LATI
+             query[4]=values[columns[4]];//LONG
+             
+  // Return in type: [DATE] [PLACE] [COUNTY] [LAT] [LONG]
 		return query;
 	}
+	
+	public void read_repository(String caminho) throws FileNotFoundException, IOException, ParserConfigurationException, SAXException {
+		System.out.println(caminho);
+        File fXmlFile = new File(caminho);
+        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+        Document doc = dBuilder.parse(fXmlFile);
+       
+        //optional, but recommended
+        doc.getDocumentElement().normalize();
+        NodeList nList = doc.getElementsByTagName("repository");
+        for (int temp = 0; temp < nList.getLength(); temp++) {
+            Node nNode = nList.item(temp);
+            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+            	int columns [] = new int [5];
+                Element eElement = (Element) nNode;
+                
+                String filepath =eElement.getElementsByTagName("filepath").item(0).getTextContent();
+                String name =eElement.getElementsByTagName("name").item(0).getTextContent();
+                
+                columns[0] = Integer.parseInt(eElement.getElementsByTagName("ColumDate").item(0).getTextContent());
+                columns[1] = Integer.parseInt(eElement.getElementsByTagName("ColumPlace").item(0).getTextContent());
+                columns[2] = Integer.parseInt(eElement.getElementsByTagName("ColumCounty").item(0).getTextContent());
+                columns[3] = Integer.parseInt(eElement.getElementsByTagName("ColumLong").item(0).getTextContent());
+                columns[4] = Integer.parseInt(eElement.getElementsByTagName("ColumLati").item(0).getTextContent());
+                
+                this.repository.add(new Repository(filepath,name,columns));               
+            }
+        }
+    }
 }
