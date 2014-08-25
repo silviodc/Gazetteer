@@ -19,6 +19,9 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import TAD.Repository;
+import TAD.Statistics;
+
 public class Read_Biodiversity_files {
 
 	private ArrayList<Repository> repository = new ArrayList<Repository>();
@@ -45,27 +48,28 @@ public class Read_Biodiversity_files {
 			
 		 try{     
 			 BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(repo.getPath()), "UTF-8"));
-  
+			 Statistics number = new Statistics();
 	         while(br.ready()){  
 	            String linha = br.readLine();  
 	            String values [] = linha.split("\t");
 	            String record []= dataTreated(values,repo.getColumns());
 	           
 	            if((!record[1].equals(" ") && !record[1].equals("")) && (!record[2].equals(" ") && !record[2].equals("")) && (!record[3].equals("") && !record[3].equals("0") && !record[3].equals("0.0")) && (!record[4].equals("") && !record[4].equals("0")&& !record[4].equals("0.0"))){
-	            	repo.setAllrecords(repo.getAllrecords()+1);	  
-	            	repo.getData().add(record);
+	            	number.setAllrecords(number.getAllrecords()+1);	  
+	            	repo.setData(record);
 	            }else if(!record[1].equals("") && !record[2].equals("")){
-	            	repo.setOnlyLocalityAndCounty(repo.getOnlyLocalityAndCounty()+1);
-	            	repo.getData().add(record); 
+	            	number.setOnlyLocalityAndCounty(number.getOnlyLocalityAndCounty()+1);
+	            	repo.setData(record); 
 	            	  
 	            }else if(!record[1].equals("") && record[2].equals("") ){
-	            	repo.setOnlyPlace(repo.getOnlyPlace()+1);
-	            	repo.getData().add(record);	            	
+	            	number.setOnlyPlace(number.getOnlyPlace()+1);
+	            	repo.setData(record);	            	
 	            }else if(record[1].equals("") && !record[2].equals(""))
-	            	repo.setOnlyCounty(repo.getOnlyCounty()+1);
+	            	number.setOnlyCounty(number.getOnlyCounty()+1);
 	            else 
-	            	repo.setNoRecord(repo.getNoRecord()+1);
+	            	number.setNoRecord(number.getNoRecord()+1);
 	         }
+	         repo.setNumbers(number);
 	         br.close();  
 	      }catch(IOException ioe){  
 	         ioe.printStackTrace();  
@@ -104,7 +108,7 @@ public class Read_Biodiversity_files {
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node nNode = nList.item(temp);
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-            	int columns [] = new int [5];
+            	int columns [] = new int [6];
                 Element eElement = (Element) nNode;
                 
                 String filepath =eElement.getElementsByTagName("filepath").item(0).getTextContent();
@@ -115,7 +119,7 @@ public class Read_Biodiversity_files {
                 columns[2] = Integer.parseInt(eElement.getElementsByTagName("ColumCounty").item(0).getTextContent());
                 columns[3] = Integer.parseInt(eElement.getElementsByTagName("ColumLong").item(0).getTextContent());
                 columns[4] = Integer.parseInt(eElement.getElementsByTagName("ColumLati").item(0).getTextContent());
-                
+                columns[5] = Integer.parseInt(eElement.getElementsByTagName("ColumPoly").item(0).getTextContent());
                 this.repository.add(new Repository(filepath,name,columns));               
             }
         }

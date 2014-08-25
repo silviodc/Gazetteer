@@ -8,6 +8,7 @@
         <ColumCounty>31</ColumCounty>
         <ColumLati>33</ColumLati>
         <ColumLong>34</ColumLong>
+        <ColumPoly>C:\\Users\\Silvio\\Documents\\GitHub\\Gazetteer\\Collaborative_Gazetteer\\files\\Amazonas_polygon.txt</ColumPoly>
     </repository>
       <repository>
        <name>gbif</name>
@@ -17,6 +18,7 @@
         <ColumCounty>53</ColumCounty>
         <ColumLati>25</ColumLati>
         <ColumLong>26</ColumLong>
+        <ColumPoly>C:\\Users\\Silvio\\Documents\\GitHub\\Gazetteer\\Collaborative_Gazetteer\\files\\Amazonas_polygon.txt</ColumPoly>
     </repository> 
      
 </root>

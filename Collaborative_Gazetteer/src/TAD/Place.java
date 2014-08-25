@@ -1,9 +1,6 @@
 package TAD;
 
-import java.util.ArrayList;
-
 import com.bbn.openmap.geo.Geo;
-import com.bbn.openmap.geo.OMGeo;
 
 public class Place {
 
@@ -12,9 +9,7 @@ public class Place {
 	private String nameFilter;
 	private String county;
     private Geo geometry;
-    
-    
-    
+        
 	public Place(int year, String location, String nameFilter, String county,Geo geo ) {
 		this.year = year;
 		this.location = location;
@@ -51,6 +46,12 @@ public class Place {
 	}
 	public void setCounty(String county) {
 		this.county = county;
+	}
+	public Geo getGeometry() {
+		return geometry;
+	}
+	public void setGeometry(Geo geometry) {
+		this.geometry = geometry;
 	}
 	
 	
