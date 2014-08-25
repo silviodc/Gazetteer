@@ -19,6 +19,10 @@ public class Out_Polygon {
 	       return poly.isPointInside(new Geo(x,y));
 	}
 	
+	public boolean insidePolygon(OMGeo.Polygon poly, Geo point){       
+	       return poly.isPointInside(point);
+	}
+	
 	 public OMGeo.Polygon buildPolygon(String path) throws FileNotFoundException, IOException{
 	       
 	        String line;

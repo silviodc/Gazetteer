@@ -3,13 +3,17 @@ package count_and_statistic_analyze;
 import java.util.ArrayList;
 import java.util.Date;
 
+import analyze_geographical_coordinates.Out_Polygon;
+
+import com.bbn.openmap.geo.OMGeo;
+
 import TAD.Place;
 
 public class Count_Coordinates {
 	
 	private static final int today =2014;
 	
-	public static int [][] countDate( ArrayList<Place> places){
+	public static int [][] countDate( ArrayList<Place> places, OMGeo.Polygon poly){
 		Place place_min = null, place_max = null;
 		
 		for(int i=0; i<places.size();i++){
@@ -43,6 +47,8 @@ public class Count_Coordinates {
 			int count =0;
 			for(int k=0;k<places.size();k++){
 				if((year == places.get(k).getYear()) && places.get(k).getGeometry()!=null ){
+					Out_Polygon out = new Out_Polygon();
+					if(out.insidePolygon(poly, places.get(k).getGeometry()))
 					count++;
 					places.remove(k);
 				}else if (places.get(k).getGeometry()==null){

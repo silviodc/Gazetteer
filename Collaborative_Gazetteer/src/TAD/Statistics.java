@@ -6,6 +6,7 @@ public class Statistics {
 	private int onlyPlace;
 	private int onlyCounty;
 	private int noRecord;
+	private int out_polygon;
 	private int[][] coordinates_per_year;
 	
 		
@@ -46,6 +47,12 @@ public class Statistics {
 		this.noRecord = noRecord;
 	}
 	
+	public int getOut_polygon() {
+		return out_polygon;
+	}
+	public void setOut_polygon(int out_polygon) {
+		this.out_polygon = out_polygon;
+	}
 	public void print_information(){
         System.out.println("Todos registros: "+allrecords);
         System.out.println("Somente local e municipio: "+onlyLocalityAndCounty);

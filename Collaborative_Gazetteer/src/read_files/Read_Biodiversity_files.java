@@ -38,7 +38,8 @@ public class Read_Biodiversity_files {
 	
 	    String path = new File("files"+File.separator+"Archives_location.xml").getAbsolutePath();
 	 	read_repository(path);
-		for(Repository r:repository){
+	 	for(Repository r:repository){
+	 		r.build_polygon_to_repository();
 			read_SpeciesLink_biodiversity_files(r);
 		}
 	}
@@ -119,8 +120,8 @@ public class Read_Biodiversity_files {
                 columns[2] = Integer.parseInt(eElement.getElementsByTagName("ColumCounty").item(0).getTextContent());
                 columns[3] = Integer.parseInt(eElement.getElementsByTagName("ColumLong").item(0).getTextContent());
                 columns[4] = Integer.parseInt(eElement.getElementsByTagName("ColumLati").item(0).getTextContent());
-                columns[5] = Integer.parseInt(eElement.getElementsByTagName("ColumPoly").item(0).getTextContent());
-                this.repository.add(new Repository(filepath,name,columns));               
+                String path_polygon = eElement.getElementsByTagName("ColumPoly").item(0).getTextContent();
+                this.repository.add(new Repository(filepath,name,columns,path_polygon));               
             }
         }
     }

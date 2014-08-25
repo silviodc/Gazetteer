@@ -1,5 +1,7 @@
 package TAD;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import analyze_geographical_coordinates.Out_Polygon;
@@ -10,6 +12,7 @@ import com.bbn.openmap.geo.OMGeo;
 public class Repository {
 	private String path;
 	private String name;
+	private String path_polygon;
 	private int columns[];
     private Statistics numbers;
 	private ArrayList<Place> places = new  ArrayList<Place>();
@@ -17,11 +20,12 @@ public class Repository {
 	
 	public Repository(){}
 	
-	public Repository(String path, String name, int[] columns) {
+	public Repository(String path, String name, int[] columns,String path_polygon) {
 		super();
 		this.path = path;
 		this.name = name;
 		this.columns = columns;
+		this.path_polygon = path_polygon;
 	}
 	
 	public OMGeo.Polygon getPolygon() {
@@ -80,6 +84,10 @@ public class Repository {
 	}
 	public void setNumbers(Statistics numbers) {
 		this.numbers = numbers;
+	}
+	public void build_polygon_to_repository() throws FileNotFoundException, IOException{
+		Out_Polygon poly = new Out_Polygon();
+		polygon = poly.buildPolygon(path_polygon);
 	}
 
 	private float transformFloat(String numero) {

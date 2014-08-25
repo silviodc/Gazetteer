@@ -7,6 +7,7 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
+import analyze_geographical_coordinates.Out_Polygon;
 import count_and_statistic_analyze.Count_Coordinates;
 import TAD.Place;
 import TAD.Repository;
@@ -24,7 +25,7 @@ public class Test {
 		rb.start_read();
 		Transform_and_Filter tsf = new Transform_and_Filter();
 		tsf.transform_Repository_to_Place(rb.getRepository());		
-		int [][] years = Count_Coordinates.countDate(rb.getRepository().get(0).getPlaces());
+		int [][] years = Count_Coordinates.countDate(rb.getRepository().get(0).getPlaces(),rb.getRepository().get(0).getPolygon());
 		int cont=0;
 		for(int i=0;i<years.length;i++){
 			cont +=years[i][1];
@@ -32,7 +33,14 @@ public class Test {
 		}
 		System.out.println("Total coordenadas: "+cont);
 		rb.getRepository().get(0).getNumbers().print_information();
-		
+
+		int count_out=0;
+		Out_Polygon out = new Out_Polygon();
+		for(int i=0;i<rb.getRepository().get(0).getPlaces().size();i++){
+		if(out.insidePolygon(rb.getRepository().get(0).getPolygon(), rb.getRepository().get(0).getPlaces().get(i).getGeometry()))
+			count_out++;
+		}
+		System.out.println(count_out);
 	} catch (UnsupportedEncodingException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
