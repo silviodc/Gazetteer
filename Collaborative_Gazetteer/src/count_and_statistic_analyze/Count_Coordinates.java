@@ -1,7 +1,6 @@
 package count_and_statistic_analyze;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 import analyze_geographical_coordinates.Out_Polygon;
 
@@ -13,9 +12,9 @@ public class Count_Coordinates {
 	
 	private static final int today =2014;
 	
-	public static int [][] countDate( ArrayList<Place> places, OMGeo.Polygon poly){
+	public static int [][] countDate( ArrayList<Place> original_places, OMGeo.Polygon poly){
 		Place place_min = null, place_max = null;
-		
+		ArrayList<Place> places =  (ArrayList<Place>) original_places.clone();
 		for(int i=0; i<places.size();i++){
 			if(places.get(i).getYear()<Integer.MAX_VALUE){
 				place_max = places.get(i);
@@ -58,6 +57,9 @@ public class Count_Coordinates {
 			}
 			pl[i][1]=count;
 		}
+		
+		System.out.println("Total de locais originais: "+original_places.size());
+		System.out.println("Total de locais com reducao: "+places.size());
 		return pl;
 	}
     

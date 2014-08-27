@@ -7,6 +7,8 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
+import communicate_with_other_data_source.Geonames;
+
 import analyze_geographical_coordinates.Out_Polygon;
 import count_and_statistic_analyze.Count_Coordinates;
 import TAD.Place;
@@ -19,7 +21,18 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-       Read_Biodiversity_files rb = new Read_Biodiversity_files();
+      
+		
+		Geonames g = new Geonames();
+		try {
+			g.acessGeonames();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		/*
+		
+		Read_Biodiversity_files rb = new Read_Biodiversity_files();
        Place p=null;
        try {
 		rb.start_read();
@@ -31,16 +44,13 @@ public class Test {
 			cont +=years[i][1];
 			System.out.println(years[i][0]+","+years[i][1]);
 		}
-		System.out.println("Total coordenadas: "+cont);
+		
 		rb.getRepository().get(0).getNumbers().print_information();
 
-		int count_out=0;
 		Out_Polygon out = new Out_Polygon();
-		for(int i=0;i<rb.getRepository().get(0).getPlaces().size();i++){
-		if(out.insidePolygon(rb.getRepository().get(0).getPolygon(), rb.getRepository().get(0).getPlaces().get(i).getGeometry()))
-			count_out++;
+		for(Repository r: rb.getRepository()){
+			System.out.println("Repositorio "+r.getName()+" Fora do poligono "+out.count_out_Polygon(r.getPolygon(),r.getPlaces()));
 		}
-		System.out.println(count_out);
 	} catch (UnsupportedEncodingException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -59,7 +69,7 @@ public class Test {
 	} catch (SAXException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
-	}
+	}*/
 	}
 
 }
