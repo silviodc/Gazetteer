@@ -2,23 +2,27 @@
 <root>
     <repository>
         <name>speciesLink</name>
-        <filepath>C:\\Users\\Silvio\\Desktop\\sheet1.txt</filepath>
+       <!-- <filepath>C:\\Users\\Silvio\\Desktop\\sheet1.txt</filepath> -->
+       <filepath>/Users/silvio/git/Gazetteer/Collaborative_Gazetteer/files/sheet1.txt</filepath>
         <ColumDate>23</ColumDate>
         <ColumPlace>32</ColumPlace>
         <ColumCounty>31</ColumCounty>
         <ColumLati>33</ColumLati>
         <ColumLong>34</ColumLong>
-        <ColumPoly>C:\\Users\\Silvio\\Documents\\GitHub\\Gazetteer\\Collaborative_Gazetteer\\files\\Amazonas_polygon.txt</ColumPoly>
+        <!-- <ColumPoly>C:\\Users\\Silvio\\Documents\\GitHub\\Gazetteer\\Collaborative_Gazetteer\\files\\Amazonas_polygon.txt</ColumPoly> -->
+        <ColumPoly>/Users/silvio/git/Gazetteer/Collaborative_Gazetteer/files/Amazonas_polygon.txt</ColumPoly>
     </repository>
       <repository>
        <name>gbif</name>
-       <filepath>C:\\Users\\Silvio\\Desktop\\occurrence.txt</filepath>
+      <!-- <filepath>C:\\Users\\Silvio\\Desktop\\occurrence.txt</filepath> -->
+      <filepath>/Users/silvio/git/Gazetteer/Collaborative_Gazetteer/files/occurrence.txt</filepath>
         <ColumDate>27</ColumDate>
         <ColumPlace>56</ColumPlace>
         <ColumCounty>53</ColumCounty>
         <ColumLati>25</ColumLati>
         <ColumLong>26</ColumLong>
-        <ColumPoly>C:\\Users\\Silvio\\Documents\\GitHub\\Gazetteer\\Collaborative_Gazetteer\\files\\Amazonas_polygon.txt</ColumPoly>
+       <!-- <ColumPoly>C:\\Users\\Silvio\\Documents\\GitHub\\Gazetteer\\Collaborative_Gazetteer\\files\\Amazonas_polygon.txt</ColumPoly> -->
+       <ColumPoly>/Users/silvio/git/Gazetteer/Collaborative_Gazetteer/files/Amazonas_polygon.txt</ColumPoly>
     </repository> 
      
 </root>

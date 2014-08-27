@@ -4,10 +4,11 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+
+import TAD.Place;
 
 import com.bbn.openmap.geo.Geo;
 import com.bbn.openmap.geo.OMGeo;
@@ -21,6 +22,17 @@ public class Out_Polygon {
 	
 	public boolean insidePolygon(OMGeo.Polygon poly, Geo point){       
 	       return poly.isPointInside(point);
+	}
+	
+	public int count_out_Polygon(OMGeo.Polygon poly, ArrayList<Place> places){
+		int out_polygon=0;
+		for(Place p: places){
+			if(p.getGeometry()!=null)
+				if(insidePolygon(poly,p.getGeometry()))
+					out_polygon++;
+		}
+		
+		return out_polygon;
 	}
 	
 	 public OMGeo.Polygon buildPolygon(String path) throws FileNotFoundException, IOException{
