@@ -107,11 +107,11 @@ public class Dicionario {
        Geonames g = new Geonames();
        geonames.addAll(g.nomes());
        DadosSpeciesLink excel = new DadosSpeciesLink();
-       File arquivo = new File("C:\\Users\\Silvio\\Documents\\Gazetteer\\experimento\\IndividuosRDFgbif.txt"); //se já existir, será sobreescrito  
+       File arquivo = new File("C:\\Users\\Silvio\\Documents\\Gazetteer\\experimento\\IndividuosRDFgbif.txt"); //se j�� existir, ser�� sobreescrito  
        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(arquivo),"UTF-8")); 
-       File aqv = new File("C:\\Users\\Silvio\\Documents\\Gazetteer\\experimento\\"+caminho+"gbif.txt"); //se já existir, será sobreescrito  
+       File aqv = new File("C:\\Users\\Silvio\\Documents\\Gazetteer\\experimento\\"+caminho+"gbif.txt"); //se j�� existir, ser�� sobreescrito  
        BufferedWriter amost = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(aqv),"UTF-8"));  
-       File aq1 = new File("C:\\Users\\Silvio\\Documents\\Gazetteer\\experimento\\"+caminho+simi+"gbif.txt"); //se já existir, será sobreescrito   
+       File aq1 = new File("C:\\Users\\Silvio\\Documents\\Gazetteer\\experimento\\"+caminho+simi+"gbif.txt"); //se j�� existir, ser�� sobreescrito   
        BufferedWriter amostg = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(aq1),"UTF-8"));  
        lerToponimo("C:\\Users\\Silvio\\Documents\\NetBeansProjects\\Dicionario\\src\\toponimos.xml");
        preencheInuteis("C:\\Users\\Silvio\\Documents\\Gazetteer\\naoRelevante.txt");
@@ -152,7 +152,7 @@ public class Dicionario {
             String municipio = s.getMunicipio().toLowerCase().replaceAll("\\W", "");
             
                        
-           // if (!municipio.equals("") && !municipio.equals("NÃOINFORMADO") && !municipio.equals("nãoinformado") && municipio!=null && !local1.equals("")) {
+           // if (!municipio.equals("") && !municipio.equals("N��OINFORMADO") && !municipio.equals("n��oinformado") && municipio!=null && !local1.equals("")) {
                //System.out.println(seme.size());
                 String temp = nomes.get(k).getNome();
                 // System.out.println(temp);
@@ -206,7 +206,7 @@ public class Dicionario {
                     String lati = locais.get(locais.size()-1).getSemelhantes().get(i).getLatitude();
                     String longi = locais.get(locais.size()-1).getSemelhantes().get(i).getLongitude();
                     String mun =  locais.get(locais.size()-1).getSemelhantes().get(i).getMunicipio();
-                    if(!mun.equals("NÃO INFORMADO") && !mun.equals("") && mun!=null){
+                    if(!mun.equals("N��O INFORMADO") && !mun.equals("") && mun!=null){
                         Municipio.add(locais.get(locais.size()-1).getSemelhantes().get(i).getMunicipio());
                     }
                     float l1=0,l2=0 ;
@@ -429,13 +429,13 @@ public class Dicionario {
 
     public static boolean verificaMunicipio(String municipio, String municipio1) {
         
-        if (municipio.equals(municipio1) || municipio1.equals("") || municipio1.equals("não informado") ||municipio.equals(" ")||municipio1.equals(" ") ||municipio==null || municipio1==null) {
+        if (municipio.equals(municipio1) || municipio1.equals("") || municipio1.equals("n��o informado") ||municipio.equals(" ")||municipio1.equals(" ") ||municipio==null || municipio1==null) {
             return true;
         }
         return false;
     }
 
-    public static float transformaFloat(String numero) {
+   /* public static float transformaFloat(String numero) {
         float valor = 0;
         char n[] = numero.toCharArray();
         numero = "";
@@ -451,9 +451,9 @@ public class Dicionario {
             return 0;
         }
         return valor;
-    }
+    }*/
 
-    public static void preencheInuteis(String caminho) throws IOException {
+  /*  public static void preencheInuteis(String caminho) throws IOException {
         String nome = caminho;
         String palavra;
         FileReader arq = new FileReader(nome);
@@ -480,9 +480,9 @@ public class Dicionario {
             
         
         return ok;
-    }
+    }*/
      
-    public static void inuteis2(ArrayList <Local> locais) throws FileNotFoundException, IOException {
+  /*  public static void inuteis2(ArrayList <Local> locais) throws FileNotFoundException, IOException {
         String palavra ="";
          ArrayList<String> inuteis = new ArrayList<String>();
          FileReader arq = new FileReader("C:\\Users\\Silvio\\Documents\\Gazetteer\\naoRelevante.txt");
@@ -515,7 +515,7 @@ public class Dicionario {
         System.out.println(locais.size());
         System.out.println();
         
-    }
+    }*/
     public static boolean repetido(String id){
         for(int i=0; i<nomes.size();i++){
             if(nomes.get(i).getId_especies().equals(id))
@@ -526,7 +526,7 @@ public class Dicionario {
 
     public static void Expressao(Expressao expressao, DadosSpeciesLink excel) throws IOException {
 
-        // cria o padrão de localidades
+        // cria o padr��o de localidades
         nomes.clear();
         seme.clear();
         Pattern pattern = Pattern.compile(expressao.getExpressao());
@@ -534,7 +534,7 @@ public class Dicionario {
         for (int i = 0; i < nome.size(); i++) {
             Matcher matcher = pattern.matcher(nome.get(i).getNome());
 
-            // procura as ocorrências do padrão no texto
+            // procura as ocorr��ncias do padr��o no texto
             while (matcher.find()) {
                 String local = matcher.group();
                 local = local.replaceAll("\"", "");
@@ -571,7 +571,7 @@ public class Dicionario {
         worker.execute();
     }
 
-    public static double jaccardSimilarity(String similar1, String similar2) {
+   /* public static double jaccardSimilarity(String similar1, String similar2) {
         HashSet<String> h1 = new HashSet<String>();
         HashSet<String> h2 = new HashSet<String>();
         for (String s : similar1.split("\\s+")) {
@@ -590,7 +590,7 @@ public class Dicionario {
         int union = sizeh1 + h2.size();
         int intersection = h1.size();
         return (double) intersection / union;
-    }
+    }*/
 
     public static void lerToponimo(String caminho) throws FileNotFoundException, IOException, ParserConfigurationException, SAXException {
 
@@ -624,10 +624,10 @@ public class Dicionario {
         System.out.println("TOTAL DE LOCAIS com latitude recuperada: "+totalD);
     }
 
-   public static void KMLGoogleEarth(Poligono geo) throws FileNotFoundException, UnsupportedEncodingException, IOException{
-       System.out.println("Começou google earth");
+   /*public static void KMLGoogleEarth(Poligono geo) throws FileNotFoundException, UnsupportedEncodingException, IOException{
+       System.out.println("Come��ou google earth");
        int cont=0;
-           File aq1 = new File("C:\\Users\\Silvio\\Desktop\\coordenatesgbif.kml"); //se já existir, será sobreescrito   
+           File aq1 = new File("C:\\Users\\Silvio\\Desktop\\coordenatesgbif.kml"); //se j�� existir, ser�� sobreescrito   
          BufferedWriter amostg = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(aq1),"UTF-8"));  
        String template ="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
         "<kml xmlns=\"http://www.opengis.net/kml/2.2\">  <Document> \n";
@@ -637,7 +637,7 @@ public class Dicionario {
         bd.Conectar();
         String [][] res = null;
      //   String query = "select locality,id,latitude,longitude,county from occurrence where locality<>\"\" or (latitude<>\"\" and longitude<>\"\") and locality<>'.'";
-          String query = "select locality,latitude,longitude,county from sheet1 where (latitude<>\"\" and longitude<>\"\") and locality like '%Parque Nacional do Jaú%'";
+          String query = "select locality,latitude,longitude,county from sheet1 where (latitude<>\"\" and longitude<>\"\") and locality like '%Parque Nacional do Ja��%'";
       
         
          System.out.println(query);
@@ -670,5 +670,5 @@ public class Dicionario {
          amostg.close();
            System.out.println("ACABOU google earth");
            System.out.println(cont);
-   }
+   }*/
 }
