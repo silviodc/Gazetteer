@@ -1,6 +1,7 @@
 package TAD;
 
 import com.bbn.openmap.geo.Geo;
+import com.bbn.openmap.geo.OMGeo;
 
 public class Place {
 
@@ -9,6 +10,8 @@ public class Place {
 	private String nameFilter;
 	private String county;
     private Geo geometry;
+    private OMGeo.Polygon polygon;
+    
         
 	public Place(int year, String location, String nameFilter, String county,Geo geo ) {
 		this.year = year;
@@ -22,6 +25,15 @@ public class Place {
 		this.location = location;
 		this.nameFilter = nameFilter;
 		this.county = county;
+	}
+	
+	
+	
+	public OMGeo.Polygon getPolygon() {
+		return polygon;
+	}
+	public void setPolygon(OMGeo.Polygon polygon) {
+		this.polygon = polygon;
 	}
 	public int getYear() {
 		return year;
