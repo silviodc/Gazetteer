@@ -1,5 +1,85 @@
 package cluster;
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import TAD.Expression;
+import TAD.Group;
+import TAD.Place;
+import TAD.Repository;
+
 
 public class Star_algorithm {
 
+	private final double similarity = 0.4;
+	
+	
+	public ArrayList<Group> start_clustering(Repository rep, ArrayList<Expression> exp){
+		ArrayList<Place> candidate_place = new ArrayList<Place>();		
+		ArrayList<Group> group = new ArrayList<Group>();
+		for(Expression e:exp){			
+			//Split names according with regular expression
+			Pattern pattern = Pattern.compile(e.getExpression());	
+			for(Place pl: rep.getPlaces() ){				
+				Matcher matcher = pattern.matcher(pl.getNameFilter());	
+				while (matcher.find()) {
+					 if(!pl.isUsed() && !pl.isAmbiguo()){ // look if the name is used or ambiguous
+						 candidate_place.add(pl);
+						 pl.setUsed(true);
+					 }else{
+						if(desambiguation(pl,exp)){ //try resolve ambiguity
+							pl.setUsed(false);
+							pl.setAmbiguo(true);// set this place as a ambiguous
+						}
+					 } 
+				 }
+				
+				while(candidate_place.isEmpty()){		
+					Group group_created = clustering_using_start(candidate_place);
+					group_created.setExp(e);
+					group_created.setRepository(rep.getName());
+					group.add(group_created);
+				}
+			}
+		}
+		return group;
+	}
+	
+	public Group clustering_using_start(ArrayList<Place> candidate_place){
+		
+		// CLUSTERING!!! using star
+		Random rand = new Random();
+		Place centroid = candidate_place.get(rand.nextInt(candidate_place.size())); // get some centroid to start matching
+		candidate_place.remove(centroid);//remove centroid from candidate places
+		Group local_group = new Group();
+		local_group.getPlaces().add(centroid);
+		
+		
+		Jaccard_Similarity jaccard = new Jaccard_Similarity(); // try resolve matching using jaccard similarity metric
+		
+		for(Place pl: candidate_place){
+			double value = jaccard.jaccardSimilarity(centroid.getNameFilter(),pl.getNameFilter());
+			if(value >= similarity && verific_county(pl.getCounty(),centroid.getCounty())){
+					local_group.getPlaces().add(pl);
+					candidate_place.remove(pl);
+			}	
+		}
+		return local_group;
+	}
+
+	
+	private boolean verific_county(String county, String county1) {
+        
+        if (county.equals(county1) || county1.equals("") || county1.equals("não informado") ||county.equals(" ")||county1.equals(" ") ||county==null ||county1==null) {
+            return true;
+        }
+        return false;
+    }
+	
+	private boolean desambiguation(Place pl, ArrayList<Expression> exp) {
+		
+		
+		return true;
+	}	
 }

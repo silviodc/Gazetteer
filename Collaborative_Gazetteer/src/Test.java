@@ -23,13 +23,7 @@ public class Test {
 		// TODO Auto-generated method stub
       
 		
-		Geonames g = new Geonames();
-		try {
-			g.acessGeonames();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		/*
 		
 		Read_Biodiversity_files rb = new Read_Biodiversity_files();
