@@ -19,13 +19,24 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import TAD.Expression;
 import TAD.Repository;
 import TAD.Statistics;
 
 public class Read_Biodiversity_files {
 
 	private ArrayList<Repository> repository = new ArrayList<Repository>();
+	private static ArrayList<Expression> exp = new ArrayList<Expression>();
+
 	
+	public ArrayList<Expression> getExp() {
+		return exp;
+	}
+
+	public void setExp(ArrayList<Expression> exp) {
+		this.exp = exp;
+	}
+
 	public ArrayList<Repository> getRepository() {
 		return repository;
 	}
@@ -114,7 +125,7 @@ public class Read_Biodiversity_files {
                 
                 String filepath =eElement.getElementsByTagName("filepath").item(0).getTextContent();
                 String name =eElement.getElementsByTagName("name").item(0).getTextContent();
-                
+                                
                 columns[0] = Integer.parseInt(eElement.getElementsByTagName("ColumDate").item(0).getTextContent());
                 columns[1] = Integer.parseInt(eElement.getElementsByTagName("ColumPlace").item(0).getTextContent());
                 columns[2] = Integer.parseInt(eElement.getElementsByTagName("ColumCounty").item(0).getTextContent());
@@ -125,4 +136,29 @@ public class Read_Biodiversity_files {
             }
         }
     }
+	
+	public void read_Expression()  throws FileNotFoundException, IOException, ParserConfigurationException, SAXException {
+		  	String path = new File("files"+File.separator+"toponimos.xml").getAbsolutePath();
+			File fXmlFile = new File(path);
+	        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+	        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+	        Document doc = dBuilder.parse(fXmlFile);
+	       
+	        //optional, but recommended
+	        doc.getDocumentElement().normalize();
+	        NodeList nList = doc.getElementsByTagName("toponimo");
+	        for (int temp = 0; temp < nList.getLength(); temp++) {
+	            Node nNode = nList.item(temp);
+	            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+	            	 Element eElement = (Element) nNode;
+	                 String name =eElement.getElementsByTagName("nome").item(0).getTextContent();
+	                 String expression =eElement.getElementsByTagName("expressao").item(0).getTextContent();
+				     String ontology = eElement.getElementsByTagName("onty").item(0).getTextContent();
+				     String feature = eElement.getElementsByTagName("feature").item(0).getTextContent();
+				     Expression e = new Expression(name, expression, feature, ontology);
+				     exp.add(e);
+	            }
+	       }
+	}
+	
 }

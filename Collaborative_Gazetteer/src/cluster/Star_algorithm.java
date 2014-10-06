@@ -18,43 +18,51 @@ public class Star_algorithm {
 	public ArrayList<Group> start_clustering(Repository rep, ArrayList<Expression> exp){
 		ArrayList<Place> candidate_place = new ArrayList<Place>();		
 		ArrayList<Group> group = new ArrayList<Group>();
-		for(Expression e:exp){			
-			//Split names according with regular expression
-			Pattern pattern = Pattern.compile(e.getExpression());	
-			for(Place pl: rep.getPlaces() ){				
-				Matcher matcher = pattern.matcher(pl.getNameFilter());	
-				while (matcher.find()) {
-					 if(!pl.isUsed() && !pl.isAmbiguo()){ // look if the name is used or ambiguous
-						 candidate_place.add(pl);
-						 pl.setUsed(true);
-					 }else{
-						if(desambiguation(pl,exp)){ //try resolve ambiguity
-							pl.setUsed(false);
-							pl.setAmbiguo(true);// set this place as a ambiguous
-						}
-					 } 
-				 }
-				
-				while(candidate_place.isEmpty()){		
-					Group group_created = clustering_using_start(candidate_place);
-					group_created.setExp(e);
-					group_created.setRepository(rep.getName());
-					group.add(group_created);
+		for(Expression e:exp){
+			Pattern pattern = Pattern.compile(e.getExpression());
+				//Split names according with regular expression	
+				for(Place pl: rep.getPlaces() ){				
+					Matcher matcher = pattern.matcher(pl.getNameFilter());	
+					while (matcher.find()) {
+						 if(!pl.isUsed() && !pl.isAmbiguo() && uniqueExp(pl,exp,e)){ // look if the name is used or ambiguous
+							 candidate_place.add(pl);
+							 pl.setUsed(true);
+						 }else{							
+								pl.setUsed(false);
+								pl.setAmbiguo(true);// set this place as a ambiguous
+							}
+					 }
+					while(candidate_place.size()>0){		
+						Random rand = new Random();
+						Place centroid = candidate_place.get(rand.nextInt(candidate_place.size())); // get some centroid to start matching
+						candidate_place.remove(centroid);//remove centroid from candidate places
+						Group group_created = clustering_using_start(candidate_place,centroid);
+						group_created.setExp(e);
+						group_created.setRepository(rep.getName());
+						group.add(group_created);
+					}
 				}
-			}
 		}
 		return group;
 	}
 	
-	public Group clustering_using_start(ArrayList<Place> candidate_place){
+	private boolean uniqueExp(Place pl, ArrayList<Expression> exp, Expression e) {
+		for(Expression expression:exp){
+			Pattern pattern = Pattern.compile(expression.getExpression());
+			Matcher matcher = pattern.matcher(pl.getNameFilter());	
+			while (matcher.find() && !expression.equals(e)) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public Group clustering_using_start(ArrayList<Place> candidate_place,Place centroid){
 		
 		// CLUSTERING!!! using star
-		Random rand = new Random();
-		Place centroid = candidate_place.get(rand.nextInt(candidate_place.size())); // get some centroid to start matching
-		candidate_place.remove(centroid);//remove centroid from candidate places
-		Group local_group = new Group();
-		local_group.getPlaces().add(centroid);
 		
+		Group local_group = new Group();
+		local_group.getPlaces().add(centroid);		
 		
 		Jaccard_Similarity jaccard = new Jaccard_Similarity(); // try resolve matching using jaccard similarity metric
 		
@@ -78,8 +86,7 @@ public class Star_algorithm {
     }
 	
 	private boolean desambiguation(Place pl, ArrayList<Expression> exp) {
-		
-		
+	
 		return true;
 	}	
 }
