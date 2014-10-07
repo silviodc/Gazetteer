@@ -26,14 +26,15 @@ public class Star_algorithm {
 					while (matcher.find()) {
 						 if(!pl.isUsed() && !pl.isAmbiguo() && uniqueExp(pl,exp,e)){ // look if the name is used or ambiguous
 							 candidate_place.add(pl.clone());
+							 System.out.println(pl.getLocation());
 							 pl.setUsed(true);
-							 System.out.println("SETOUUU");
 						 }else{					
 								pl.setUsed(false);
 								pl.setAmbiguo(true);// set this place as a ambiguous
 							}
 					 }
-					System.out.println(candidate_place.size());
+				}
+					System.out.println("=========================");
 					while(candidate_place.size()>0){		
 						Random rand = new Random();
 						Place centroid = candidate_place.get(rand.nextInt(candidate_place.size())); // get some centroid to start matching
@@ -43,7 +44,7 @@ public class Star_algorithm {
 						group_created.setRepository(rep.getName());
 						group.add(group_created);
 					}
-				}
+				
 				candidate_place.clear();
 		}
 		return group;
@@ -75,13 +76,13 @@ public class Star_algorithm {
 		
 		Jaccard_Similarity jaccard = new Jaccard_Similarity(); // try resolve matching using jaccard similarity metric
 		System.out.println(candidate_place.size());
-		for(Place pl: candidate_place){
-			double value = jaccard.jaccardSimilarity(centroid.getNameFilter(),pl.getNameFilter());
+		for(int i =0; i<candidate_place.size();i++){
+			double value = jaccard.jaccardSimilarity(centroid.getNameFilter(),candidate_place.get(i).getNameFilter());
 			System.out.println(value);
-			if(value >= similarity && verific_county(pl.getCounty(),centroid.getCounty())){
+			if(value >= similarity && verific_county(candidate_place.get(i).getCounty(),centroid.getCounty())){
 				System.out.println("É similar");
-					local_group.getPlaces().add(pl);
-					candidate_place.remove(pl);
+					local_group.getPlaces().add(candidate_place.get(i));
+					candidate_place.remove(candidate_place.get(i));
 			}	
 		}
 		return local_group;

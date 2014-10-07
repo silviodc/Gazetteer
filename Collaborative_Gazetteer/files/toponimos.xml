@@ -347,4 +347,12 @@ and open the template in the editor.
         <onty>http://linkedgeodata.org/ontology/Farm</onty>
         <expressao>(?i)\bsitio\b(.+?)(Dr.|Sr.|dr.|sr.)(.+?)[,|.|;|:]</expressao>
     </toponimo>
+     <toponimo>
+        <feature>S.COLONIA</feature>
+        <local>colonia</local>
+        <nome>Colony</nome>
+        <poly>1</poly>
+        <onty>http://linkedgeodata.org/ontology/Colony</onty>
+        <expressao>(?i)\bcolonia\b(.*?)[,|.|;|:]</expressao>
+    </toponimo>
 </root>
