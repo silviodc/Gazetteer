@@ -12,6 +12,7 @@ import org.xml.sax.SAXException;
 import cluster.Star_algorithm;
 import analyze_geographical_coordinates.Out_Polygon;
 import TAD.Group;
+import TAD.Place;
 import TAD.Repository;
 import communicate_with_other_data_source.Geonames;
 import count_and_statistic_analyze.Count_Coordinates;
@@ -33,16 +34,18 @@ public class Test {
 			rb.read_Expression();
 			rb.start_read();			
 			tsf.transform_Repository_to_Place(rb.getRepository());	
-			
-			int [][] years = Count_Coordinates.countDate(rb.getRepository().get(0).getPlaces(),rb.getRepository().get(0).getPolygon());
-			int cont=0;
-			for(int i=0;i<years.length;i++){
-				cont +=years[i][1];
-				System.out.println(years[i][0]+","+years[i][1]);
-			}
-			
-			for(Repository r: rb.getRepository()){
-				System.out.println("Repositorio "+r.getName()+" Fora do poligono "+out.count_out_Polygon(r.getPolygon(),r.getPlaces()));
+			for(int i=0;i<rb.getRepository().size();i++){
+				ArrayList<Place> cloned_places = (ArrayList) rb.getRepository().get(i).getPlaces().clone();
+				int [][] years = Count_Coordinates.countDate(cloned_places,rb.getRepository().get(i).getPolygon());
+				int cont=0;
+				for(int j=0;j<years.length;j++){
+					cont +=years[j][1];
+					System.out.println(years[j][0]+","+years[j][1]);
+				}
+				
+				for(Repository r: rb.getRepository()){
+					System.out.println("Repositorio "+r.getName()+" Fora do poligono "+out.count_out_Polygon(r.getPolygon(),r.getPlaces()));
+				}
 			}
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -80,11 +83,25 @@ public class Test {
 		ArrayList<Group> g= new ArrayList<Group>();
 		System.out.println("Numeros de lugares do repositorio: "+rb.getRepository().get(0).getPlaces().size());
 		System.out.println("NUmero de expressoes: "+rb.getExp().size());
-		g.addAll(start.start_clustering(rb.getRepository().get(0),rb.getExp()));
+		try {
+			g.addAll(start.start_clustering(rb.getRepository().get(0),rb.getExp()));
+		} catch (InstantiationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		System.out.println("passou");
 		System.out.println(g.size());
-		for(int i=0;i<g.get(0).getPlaces().size();i++){
-			System.out.println(g.get(0).getPlaces().get(i).getLocation());
+		for(int i=0;i<g.size();i++){
+			for(int j=0;j<g.get(i).getPlaces().size();j++){
+		//		System.out.println(g.get(i).getPlaces().get(j).getLocation());
+			}
+		//	System.out.println("======================================================");
 		}
 	}
 

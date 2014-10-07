@@ -44,7 +44,7 @@ public class Transform_and_Filter {
 	             for (String s : stop_words) {
 	                for(int k=0;k<temp.length;k++){
 	                    if(temp[k].equals(s) || temp[k].equals(""))
-	                     temp[k] = "";
+	                     temp[k] = " ";
 	                }
 	            }
 	         
@@ -52,7 +52,7 @@ public class Transform_and_Filter {
 	                if(!temp[n].equals(""))
 	                    ok +=temp[n]+" ";
 	            }
-	            p.setNameFilter(ok);
+	            p.setNameFilter(ok+".");
 	        }        
 	    }
 	

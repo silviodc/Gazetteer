@@ -5,15 +5,23 @@ public class Expression {
 	    private String expression;
 	    private String feature;
 	    private String ontology;
-	      
-	    public Expression(String name, String expression, String feature,String ontology) {
+	    private int id;
+	    
+	    
+	    public Expression(String name, String expression, String feature,String ontology,int id) {
 			this.name = name;
 			this.expression = expression;
 			this.feature = feature;
 			this.ontology = ontology;
+			this.id = id;
 		}
-		
-	    public String getName() {
+	    public int getId() {
+			return id;
+		}
+		public void setId(int id) {
+			this.id = id;
+		}
+		public String getName() {
 			return name;
 		}
 		public void setName(String name) {

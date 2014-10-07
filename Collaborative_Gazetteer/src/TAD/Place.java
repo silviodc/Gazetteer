@@ -2,7 +2,7 @@ package TAD;
 
 import com.bbn.openmap.geo.Geo;
 
-public class Place {
+public class Place implements Cloneable {
 
 	private int year;
 	private String location;
@@ -90,5 +90,10 @@ public class Place {
 	public void setAmbiguo(boolean ambiguo) {
 		this.ambiguo = ambiguo;
 	}
+	
+	//Sobreescreva o metodo clone.  
+    public Place clone() throws CloneNotSupportedException{  
+            return (Place) super.clone();  
+     }  
 
 }

@@ -15,7 +15,7 @@ public class Star_algorithm {
 	private final double similarity = 0.4;
 	
 	
-	public ArrayList<Group> start_clustering(Repository rep, ArrayList<Expression> exp){
+	public ArrayList<Group> start_clustering(Repository rep, ArrayList<Expression> exp) throws InstantiationException, IllegalAccessException, CloneNotSupportedException{
 		ArrayList<Place> candidate_place = new ArrayList<Place>();		
 		ArrayList<Group> group = new ArrayList<Group>();
 		for(Expression e:exp){
@@ -25,13 +25,15 @@ public class Star_algorithm {
 					Matcher matcher = pattern.matcher(pl.getNameFilter());	
 					while (matcher.find()) {
 						 if(!pl.isUsed() && !pl.isAmbiguo() && uniqueExp(pl,exp,e)){ // look if the name is used or ambiguous
-							 candidate_place.add(pl);
+							 candidate_place.add(pl.clone());
 							 pl.setUsed(true);
-						 }else{							
+							 System.out.println("SETOUUU");
+						 }else{					
 								pl.setUsed(false);
 								pl.setAmbiguo(true);// set this place as a ambiguous
 							}
 					 }
+					System.out.println(candidate_place.size());
 					while(candidate_place.size()>0){		
 						Random rand = new Random();
 						Place centroid = candidate_place.get(rand.nextInt(candidate_place.size())); // get some centroid to start matching
@@ -42,15 +44,22 @@ public class Star_algorithm {
 						group.add(group_created);
 					}
 				}
+				candidate_place.clear();
 		}
 		return group;
 	}
 	
-	private boolean uniqueExp(Place pl, ArrayList<Expression> exp, Expression e) {
-		for(Expression expression:exp){
-			Pattern pattern = Pattern.compile(expression.getExpression());
+	private boolean uniqueExp(Place pl, ArrayList<Expression> expression, Expression e) {
+		ArrayList<Expression> exp = new ArrayList<Expression>();
+		exp.addAll(expression);
+		for(int i=0;i<exp.size();i++){
+		   if(exp.get(i).getId()==e.getId())
+			   exp.remove(i);
+		}
+		for(Expression ex:exp){
+			Pattern pattern = Pattern.compile(ex.getExpression());
 			Matcher matcher = pattern.matcher(pl.getNameFilter());	
-			while (matcher.find() && !expression.equals(e)) {
+			while (matcher.find() && ex.getId()!=e.getId()) {
 				return false;
 			}
 		}
@@ -65,10 +74,12 @@ public class Star_algorithm {
 		local_group.getPlaces().add(centroid);		
 		
 		Jaccard_Similarity jaccard = new Jaccard_Similarity(); // try resolve matching using jaccard similarity metric
-		
+		System.out.println(candidate_place.size());
 		for(Place pl: candidate_place){
 			double value = jaccard.jaccardSimilarity(centroid.getNameFilter(),pl.getNameFilter());
+			System.out.println(value);
 			if(value >= similarity && verific_county(pl.getCounty(),centroid.getCounty())){
+				System.out.println("É similar");
 					local_group.getPlaces().add(pl);
 					candidate_place.remove(pl);
 			}	

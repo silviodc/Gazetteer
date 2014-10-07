@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Group {
 	
-	private ArrayList<Place> places;
+	private ArrayList<Place> places = new ArrayList<Place>();
 	private Expression exp;
 	private Statistics stats;
 	private String repository;
