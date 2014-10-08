@@ -12,7 +12,7 @@ import TAD.Repository;
 
 public class Star_algorithm {
 
-	private final double similarity = 0.4;
+	private final double similarity = 0.5;
 	
 	
 	public ArrayList<Group> start_clustering(Repository rep, ArrayList<Expression> exp) throws InstantiationException, IllegalAccessException, CloneNotSupportedException{
@@ -26,7 +26,6 @@ public class Star_algorithm {
 					while (matcher.find()) {
 						 if(!pl.isUsed() && !pl.isAmbiguo() && uniqueExp(pl,exp,e)){ // look if the name is used or ambiguous
 							 candidate_place.add(pl.clone());
-							 System.out.println(pl.getLocation());
 							 pl.setUsed(true);
 						 }else{					
 								pl.setUsed(false);
@@ -34,13 +33,13 @@ public class Star_algorithm {
 							}
 					 }
 				}
-					System.out.println("=========================");
 					while(candidate_place.size()>0){		
 						Random rand = new Random();
 						Place centroid = candidate_place.get(rand.nextInt(candidate_place.size())); // get some centroid to start matching
 						candidate_place.remove(centroid);//remove centroid from candidate places
 						Group group_created = clustering_using_start(candidate_place,centroid);
 						group_created.setExp(e);
+						group_created.setCentroid(centroid);
 						group_created.setRepository(rep.getName());
 						group.add(group_created);
 					}
@@ -75,12 +74,10 @@ public class Star_algorithm {
 		local_group.getPlaces().add(centroid);		
 		
 		Jaccard_Similarity jaccard = new Jaccard_Similarity(); // try resolve matching using jaccard similarity metric
-		System.out.println(candidate_place.size());
+		
 		for(int i =0; i<candidate_place.size();i++){
 			double value = jaccard.jaccardSimilarity(centroid.getNameFilter(),candidate_place.get(i).getNameFilter());
-			System.out.println(value);
 			if(value >= similarity && verific_county(candidate_place.get(i).getCounty(),centroid.getCounty())){
-				System.out.println("É similar");
 					local_group.getPlaces().add(candidate_place.get(i));
 					candidate_place.remove(candidate_place.get(i));
 			}	

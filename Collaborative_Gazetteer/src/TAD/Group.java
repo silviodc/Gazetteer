@@ -8,7 +8,7 @@ public class Group {
 	private Expression exp;
 	private Statistics stats;
 	private String repository;
-	
+	private Place centroid;
 		
 	public String getRepository() {
 		return repository;
@@ -34,6 +34,11 @@ public class Group {
 	public void setStats(Statistics stats) {
 		this.stats = stats;
 	}
+	public Place getCentroid() {
+		return centroid;
+	}
+	public void setCentroid(Place centroid) {
+		this.centroid = centroid;
+	}
 	
-
 }

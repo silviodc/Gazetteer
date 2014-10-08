@@ -92,11 +92,11 @@ public class Read_Biodiversity_files {
 		String temp,temp1;
 		String query [] = new String[5];
              temp = values[columns[1]].replaceAll("\\p{Punct}|\\d","");  //PLACE
-             temp = temp.replaceAll("N√O INFORMADO", "");
-             if(temp.contains("n„o determinado"))
+             temp = temp.replaceAll("N√ÉO INFORMADO", "");
+             if(temp.contains("n√£o determinado"))
             		 temp="";
              temp1 = values[columns[2]].replaceAll("\\p{Punct}|\\d","");  
-             temp1= temp1.replaceAll("N√O INFORMADO", "");
+             temp1= temp1.replaceAll("N√ÉO INFORMADO", "");
              query[0]=values[columns[0]];//DATE
              query[1]=temp;//PLACE
              query[2]=temp1;//COUNTY

@@ -66,7 +66,7 @@ public class Test {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+		System.out.println("Leu todos os arquivos");
 	/*	Geonames g = new Geonames();
 		try {
 			System.out.println("Vai ler geonames");
