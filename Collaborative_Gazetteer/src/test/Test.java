@@ -1,11 +1,20 @@
 package test;
 
+
+
+
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
 import javax.xml.parsers.ParserConfigurationException;
+
+
+import org.rosuda.REngine.REXP;
+import org.rosuda.REngine.Rserve.*;
+
 
 import org.xml.sax.SAXException;
 
@@ -23,7 +32,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-			// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
 		Read_Biodiversity_files rb = new Read_Biodiversity_files();
 		Transform_and_Filter tsf = new Transform_and_Filter();
 		Out_Polygon out = new Out_Polygon();
@@ -37,12 +46,7 @@ public class Test {
 			for(int i=0;i<rb.getRepository().size();i++){
 				ArrayList<Place> cloned_places = (ArrayList) rb.getRepository().get(i).getPlaces().clone();
 				int [][] years = Count_Coordinates.countDate(cloned_places,rb.getRepository().get(i).getPolygon());
-				int cont=0;
-				for(int j=0;j<years.length;j++){
-					cont +=years[j][1];
-					System.out.println(years[j][0]+","+years[j][1]);
-				}
-				
+				Count_Coordinates.build_csv(years,rb.getRepository().get(i).getName());
 				for(Repository r: rb.getRepository()){
 					System.out.println("Repositorio "+r.getName()+" Fora do poligono "+out.count_out_Polygon(r.getPolygon(),r.getPlaces()));
 				}

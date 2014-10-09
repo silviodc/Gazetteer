@@ -19,5 +19,7 @@
 	<classpathentry kind="lib" path="/Users/silvio/Documents/Gazetteer/Collaborative_Gazetteer/files/JENA/slf4j-log4j12-1.6.4.jar"/>
 	<classpathentry kind="lib" path="/Users/silvio/Documents/Gazetteer/Collaborative_Gazetteer/files/JENA/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="/Users/silvio/Documents/Gazetteer/Collaborative_Gazetteer/files/JENA/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="/Users/silvio/Downloads/REngine.jar"/>
+	<classpathentry kind="lib" path="/Users/silvio/Downloads/RserveEngine.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

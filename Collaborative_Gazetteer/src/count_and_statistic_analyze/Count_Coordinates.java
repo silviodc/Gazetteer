@@ -1,5 +1,8 @@
 package count_and_statistic_analyze;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import analyze_geographical_coordinates.Out_Polygon;
@@ -7,6 +10,7 @@ import analyze_geographical_coordinates.Out_Polygon;
 import com.bbn.openmap.geo.OMGeo;
 
 import TAD.Place;
+import TAD.Repository;
 
 public class Count_Coordinates {
 	
@@ -63,4 +67,19 @@ public class Count_Coordinates {
 		return pl;
 	}
     
+	public static void build_csv(int [][] years, String name) throws IOException{
+		
+		File file = new File(name+".csv");
+	    // creates the file
+	    file.createNewFile();
+	    // creates a FileWriter Object
+	    FileWriter writer = new FileWriter(file); 
+	    writer.write("Date,Coordinates \n");  
+		for(int j=0;j<years.length;j++){			
+			 writer.write(years[j][0]+","+years[j][1]+"\n");
+			 writer.flush();
+		}
+		writer.close();
+		
+	}
 }
