@@ -28,12 +28,24 @@ public class Out_Polygon {
 		int out_polygon=0;
 		for(Place p: places){
 			if(p.getGeometry()!=null)
-				if(insidePolygon(poly,p.getGeometry()))
-					out_polygon++;
+				if(!insidePolygon(poly,p.getGeometry())){
+					out_polygon++;	
+				}
 		}
 		
 		return out_polygon;
 	}
+	
+	public void clean_noise_coordinates(OMGeo.Polygon poly, ArrayList<Place> places){
+		for(int i=0;i<places.size();i++){
+			if(places.get(i).getGeometry()!=null)
+				if(!insidePolygon(poly,places.get(i).getGeometry())){
+					places.get(i).setGeometry(null);	
+				}
+		}
+		
+	}
+	
 	
 	 public OMGeo.Polygon buildPolygon(String path) throws FileNotFoundException, IOException{
 	       

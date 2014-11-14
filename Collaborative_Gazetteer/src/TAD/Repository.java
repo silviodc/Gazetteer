@@ -74,9 +74,9 @@ public class Repository {
 			float x =transformFloat(data[3]);
             float y = transformFloat(data[4]);
 			//constructor (int year, String location, String nameFilter, String county, Geo geometry)
-			 places.add(new Place(Integer.parseInt(data[0]),data[1]," ",data[2], new Geo(x,y)));
-			 }else if(data[0].equals("")){
-				 places.add(new Place(Integer.MAX_VALUE,data[1]," ",data[2]));
+			 places.add(new Place(Integer.parseInt(data[0]),data[1]," ",data[2], new Geo(x,y),this.name));
+			 }else{
+				 places.add(new Place(Integer.MAX_VALUE,data[1]," ",data[2],this.name));
 			 }
 	}
 	public Statistics getNumbers() {

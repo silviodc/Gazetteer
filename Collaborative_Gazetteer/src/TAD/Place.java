@@ -12,24 +12,37 @@ public class Place implements Cloneable {
     private String type;
     private boolean used=false;
     private boolean ambiguo=false;
+    private String repository;
     
-    public Place (String location, Geo geo){
+    
+    
+    public String getRepository() {
+		return repository;
+	}
+
+	public void setRepository(String repository) {
+		this.repository = repository;
+	}
+
+	public Place (String location, Geo geo){
     	this.location = location;
     	this.geometry = geo;
     }
     
-	public Place(int year, String location, String nameFilter, String county,Geo geo ) {
+	public Place(int year, String location, String nameFilter, String county,Geo geo, String repository ) {
 		this.year = year;
 		this.location = location;
 		this.nameFilter = nameFilter;
 		this.county = county;
 		this.geometry = geo;
+		this.repository=repository;
 	}
-	public Place(int year, String location, String nameFilter, String county) {
+	public Place(int year, String location, String nameFilter, String county,String repository) {
 		this.year = year;
 		this.location = location;
 		this.nameFilter = nameFilter;
 		this.county = county;
+		this.repository=repository;
 	}
 	public int getYear() {
 		return year;

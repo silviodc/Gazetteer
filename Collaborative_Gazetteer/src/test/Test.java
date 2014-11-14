@@ -4,6 +4,8 @@ package test;
 
 
 
+import improve_coordinates.Summarize;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -12,44 +14,57 @@ import java.util.ArrayList;
 import javax.xml.parsers.ParserConfigurationException;
 
 
-import org.rosuda.REngine.REXP;
-import org.rosuda.REngine.Rserve.*;
+
+
+
 
 
 import org.xml.sax.SAXException;
 
+import com.bbn.openmap.tools.icon.OpenMapAppPartCollection.OpenMapAppPart.Poly;
+
+import cluster.Desambiguation;
 import cluster.Star_algorithm;
 import analyze_geographical_coordinates.Out_Polygon;
 import TAD.Group;
 import TAD.Place;
 import TAD.Repository;
-import communicate_with_other_data_source.Geonames;
 import count_and_statistic_analyze.Count_Coordinates;
 import read_files.Read_Biodiversity_files;
 import read_files.Transform_and_Filter;
 
 public class Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, CloneNotSupportedException, IOException {
 		
 		// TODO Auto-generated method stub
 		Read_Biodiversity_files rb = new Read_Biodiversity_files();
 		Transform_and_Filter tsf = new Transform_and_Filter();
 		Out_Polygon out = new Out_Polygon();
 		Star_algorithm start = new Star_algorithm();
-		
-		
+		Summarize sumy = new Summarize();
+		ArrayList<Group> group= new ArrayList<Group>();
+		ArrayList<Place> all_place = new ArrayList<Place>();
+		Poly poly;
 		try {
 			rb.read_Expression();
 			rb.start_read();			
 			tsf.transform_Repository_to_Place(rb.getRepository());	
 			for(int i=0;i<rb.getRepository().size();i++){
+				
+				System.out.println("Statistics: <<<<<<<");
+				System.out.println("All records: "+rb.getRepository().get(i).getNumbers().getAllrecords());
+				System.out.println("No record:  "+rb.getRepository().get(i).getNumbers().getNoRecord());
+				System.out.println("County: "+rb.getRepository().get(i).getNumbers().getOnlyCounty());
+				System.out.println("Locality and County "+rb.getRepository().get(i).getNumbers().getOnlyLocalityAndCounty());
+				System.out.println("Place "+rb.getRepository().get(i).getNumbers().getOnlyPlace());
+				System.out.println("=========================");
+				System.out.println("Repositorio "+rb.getRepository().get(i).getName()+" Fora do poligono "+out.count_out_Polygon(rb.getRepository().get(i).getPolygon(),rb.getRepository().get(i).getPlaces()));
+				out.clean_noise_coordinates(rb.getRepository().get(i).getPolygon(),rb.getRepository().get(i).getPlaces());
 				ArrayList<Place> cloned_places = (ArrayList) rb.getRepository().get(i).getPlaces().clone();
 				int [][] years = Count_Coordinates.countDate(cloned_places,rb.getRepository().get(i).getPolygon());
-				Count_Coordinates.build_csv(years,rb.getRepository().get(i).getName());
-				for(Repository r: rb.getRepository()){
-					System.out.println("Repositorio "+r.getName()+" Fora do poligono "+out.count_out_Polygon(r.getPolygon(),r.getPlaces()));
-				}
+				Count_Coordinates.build_csv(years,rb.getRepository().get(i).getName());		
+				
 			}
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -70,43 +85,42 @@ public class Test {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("Leu todos os arquivos");
-	/*	Geonames g = new Geonames();
-		try {
-			System.out.println("Vai ler geonames");
-			g.acessGeonames();
-			for(Repository r : rb.getRepository()){
-			
-				g.compareGeonames_and_Places(r.getPlaces());
-			}
-			System.out.println("Terminou de ler o geonames");
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}*/
-		ArrayList<Group> g= new ArrayList<Group>();
-		System.out.println("Numeros de lugares do repositorio: "+rb.getRepository().get(0).getPlaces().size());
-		System.out.println("NUmero de expressoes: "+rb.getExp().size());
-		try {
-			g.addAll(start.start_clustering(rb.getRepository().get(0),rb.getExp()));
-		} catch (InstantiationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (CloneNotSupportedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		System.out.println("Read all files DONE!!");
+
+		for(int i=0;i<rb.getRepository().size();i++){
+			all_place.addAll(rb.getRepository().get(i).getPlaces());
 		}
-		System.out.println("passou");
-		System.out.println(g.size());
-		for(int i=0;i<g.size();i++){
-			for(int j=0;j<g.get(i).getPlaces().size();j++){
-		//		System.out.println(g.get(i).getPlaces().get(j).getLocation());
+
+		System.out.println("Starting clustering ...");
+	
+		group.addAll(start.start_clustering(all_place,rb.getExp()));
+		System.out.println("clustering done!!");
+		
+		System.out.println("Improve Coordinates....");
+		sumy.referenciaGeo(group);	
+		System.out.println("Improve Coordinates DONE!!");
+		
+		
+		Desambiguation ds = new Desambiguation();
+		ds.desambig(Star_algorithm.getAmbiguoPlace(),group);
+		
+		for(int i=0;i<rb.getRepository().size();i++)
+			rb.getRepository().get(i).getPlaces().clear();
+		
+		int tmp =0;
+		for(int i=0;i<rb.getRepository().size();i++){
+			String name = rb.getRepository().get(i).getName();
+			for(int k=0;k<group.size();k++){
+				if(group.get(k).getRepository().equals(name)){
+					rb.getRepository().get(i).getPlaces().addAll(group.get(k).getPlaces());
+				}
 			}
-		//	System.out.println("======================================================");
 		}
+		for(int i=0;i<rb.getRepository().size();i++){
+			int relative_date [][]= Count_Coordinates.countDate(rb.getRepository().get(i).getPlaces(),rb.getRepository().get(i).getPolygon());
+			Count_Coordinates.build_csv(relative_date,rb.getRepository().get(i).getName()+"New");
+		}
+		
 	}
 
 }

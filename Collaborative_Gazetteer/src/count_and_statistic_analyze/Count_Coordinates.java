@@ -51,19 +51,17 @@ public class Count_Coordinates {
 			for(int k=0;k<places.size();k++){
 				if((year == places.get(k).getYear()) && places.get(k).getGeometry()!=null ){
 					Out_Polygon out = new Out_Polygon();
-					if(out.insidePolygon(poly, places.get(k).getGeometry()))
-					count++;
-					places.remove(k);
+					if(out.insidePolygon(poly, places.get(k).getGeometry())){
+						count++;
+					
+					}
 				}else if (places.get(k).getGeometry()==null){
-					places.remove(k);
+					
 					pl[pl.length-1][1]++;
 				}
 			}
 			pl[i][1]=count;
 		}
-		
-		System.out.println("Total de locais originais: "+original_places.size());
-		System.out.println("Total de locais com reducao: "+places.size());
 		return pl;
 	}
     
@@ -76,7 +74,7 @@ public class Count_Coordinates {
 	    FileWriter writer = new FileWriter(file); 
 	    writer.write("Date,Coordinates \n");  
 		for(int j=0;j<years.length;j++){			
-			 writer.write(years[j][0]+","+years[j][1]+"\n");
+			 writer.write(years[j][0]+","+(years[j][1])+"\n");
 			 writer.flush();
 		}
 		writer.close();

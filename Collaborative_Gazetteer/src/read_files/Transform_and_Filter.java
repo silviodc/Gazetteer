@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 import com.bbn.openmap.geo.Geo;
 
+import TAD.Group;
 import TAD.Place;
 import TAD.Repository;
 
@@ -21,7 +22,7 @@ public class Transform_and_Filter {
 		 ArrayList<String> stop_words = read_stop_words("files"+File.separator+"stop_words.txt");
 		 
 		 for(Repository r: repository){
-			 remove_stop_word(r.getPlaces(),stop_words);
+			 remove_stop_word(r.getPlaces(),stop_words,r.getName());
 		 }
 		 		
 	}
@@ -35,7 +36,7 @@ public class Transform_and_Filter {
          }
          return uselles;
 	 }
-	 public void remove_stop_word(ArrayList <Place> places,ArrayList<String> stop_words){
+	 public void remove_stop_word(ArrayList <Place> places,ArrayList<String> stop_words,String repository){
 	        String temp [];
 	        for(Place p:places){
 	            String ok ="";
@@ -53,6 +54,7 @@ public class Transform_and_Filter {
 	                    ok +=temp[n]+" ";
 	            }
 	            p.setNameFilter(ok+".");
+	            p.setRepository(repository);
 	        }        
 	    }
 	
@@ -73,4 +75,15 @@ public class Transform_and_Filter {
 	        }
 	        return valor;
 	    }
+	public ArrayList<Place> getRepClustered(ArrayList<Group> g, String name) {
+		ArrayList<Place> places = new ArrayList<Place>();
+		for(int i=0;i<g.size();i++){
+			for(int j=0;j<g.get(i).getPlaces().size();j++){
+				if(g.get(i).getPlaces().get(j).getRepository().equals(name)){
+					places.add(g.get(i).getPlaces().get(j));
+				}
+			}
+		}
+		return places;
+	}
 }

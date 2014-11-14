@@ -2,6 +2,8 @@ package TAD;
 
 import java.util.ArrayList;
 
+import com.bbn.openmap.geo.OMGeo.Polygon;
+
 public class Group {
 	
 	private ArrayList<Place> places = new ArrayList<Place>();
@@ -9,6 +11,7 @@ public class Group {
 	private Statistics stats;
 	private String repository;
 	private Place centroid;
+	private Polygon poly;
 		
 	public String getRepository() {
 		return repository;
@@ -40,5 +43,13 @@ public class Group {
 	public void setCentroid(Place centroid) {
 		this.centroid = centroid;
 	}
+	public Polygon getPoly() {
+		return poly;
+	}
+	public void setPoly(Polygon poly) {
+		this.poly = poly;
+	}
+	
+	
 	
 }

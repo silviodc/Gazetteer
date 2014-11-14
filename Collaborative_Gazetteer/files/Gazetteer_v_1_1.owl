@@ -12,12 +12,14 @@
     <!ENTITY geosparql "http://www.opengis.net/ont/geosparql#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Gazetter "http://www.semanticweb.org/ontologies/Gazetter#" >
 ]>
 
 
-<rdf:RDF xmlns="http://www.semanticweb.org/silvio/ontologies/Gazetter#"
-     xml:base="http://www.semanticweb.org/silvio/ontologies/Gazetter"
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/Gazetter#"
+     xml:base="http://www.semanticweb.org/ontologies/Gazetter"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:Gazetter="http://www.semanticweb.org/ontologies/Gazetter#"
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:ns="http://creativecommons.org/ns#"
@@ -27,7 +29,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/silvio/ontologies/Gazetter">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/Gazetter">
         <terms:modified rdf:datatype="&xsd;date">2012-02-14</terms:modified>
         <dc:date rdf:datatype="&xsd;date">2012-04-30</dc:date>
         <dc:description rdf:datatype="&xsd;string">An RDF/OWL vocabulary for representing spatial information</dc:description>
@@ -43,11 +45,11 @@
         <rdfs:isDefinedBy rdf:resource="http://www.geonames.org/ontology/mappings_v3.01.rdf"/>
         <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/function/ogc-geosparql/1.0"/>
         <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/rule/ogc-geosparql/1.0"/>
-        <dc:source rdf:resource="http://www.opengis.net/doc/IS/geosparql/1.0"/>
         <rdfs:seeAlso rdf:resource="http://www.opengis.net/doc/IS/geosparql/1.0"/>
+        <dc:source rdf:resource="http://www.opengis.net/doc/IS/geosparql/1.0"/>
         <owl:imports rdf:resource="http://www.opengis.net/ont/gml"/>
         <owl:imports rdf:resource="http://www.opengis.net/ont/sf"/>
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/silvio/ontologies/Gazetter"/>
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/ontologies/Gazetter"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
     </owl:Ontology>
     
@@ -199,6 +201,12 @@
         <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql"/>
         <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0"/>
     </rdfs:Datatype>
+    
+
+
+    <!-- http://www.opengis.net/ont/sf#wktLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.opengis.net/ont/sf#wktLiteral"/>
     
 
 
@@ -937,6 +945,7 @@
     <owl:ObjectProperty rdf:about="&geosparql;sfWithin">
         <rdfs:label xml:lang="en">within</rdfs:label>
         <dc:date rdf:datatype="&xsd;date">2011-06-16</dc:date>
+        <skos:altLabel rdf:datatype="&xsd;string">dentro</skos:altLabel>
         <dc:creator>OGC GeoSPARQL 1.0 Standard Working Group</dc:creator>
         <dc:description xml:lang="en">
       Exists if the subject SpatialObject is spatially within the 
@@ -956,6 +965,244 @@
         <rdfs:domain rdf:resource="&geosparql;SpatialObject"/>
         <rdfs:range rdf:resource="&geosparql;SpatialObject"/>
         <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#above -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;above">
+        <rdfs:label rdf:datatype="&xsd;string">above</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">acima</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#access -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;access">
+        <rdfs:label rdf:datatype="&xsd;string">access</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">acesso</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#after -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;after">
+        <rdfs:label rdf:datatype="&xsd;string">after</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">depois</skos:altLabel>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#along -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;along">
+        <rdfs:label rdf:datatype="&xsd;string">along</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">ao longo</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#before -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;before">
+        <rdfs:label rdf:datatype="&xsd;string">before</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">antes</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#behind -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;behind">
+        <rdfs:label rdf:datatype="&xsd;string">behind</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">atrás</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#below -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;below">
+        <rdfs:label rdf:datatype="&xsd;string">below</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">abaixo</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#between -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;between">
+        <rdfs:label rdf:datatype="&xsd;string">between</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">entre
+</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#border -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;border">
+        <skos:altLabel rdf:datatype="&xsd;string">beira</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">borda</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">fronteira</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">margem</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#east -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;east">
+        <rdfs:label rdf:datatype="&xsd;string">east</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">leste</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#km -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;km">
+        <skos:altLabel rdf:datatype="&xsd;string">kilometros</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#left -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;left">
+        <rdfs:label rdf:datatype="&xsd;string">left</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">esquerda</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#minutes -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;minutes">
+        <rdfs:label rdf:datatype="&xsd;string">minutes</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">minutos</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#near -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;near">
+        <rdfs:label rdf:datatype="&xsd;string">near</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">perto</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">próximo</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#north -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;north">
+        <rdfs:label rdf:datatype="&xsd;string">north</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">norte</skos:altLabel>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#northeast -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;northeast">
+        <rdfs:label rdf:datatype="&xsd;string">northeast</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">nordeste</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#northwest -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;northwest">
+        <rdfs:label rdf:datatype="&xsd;string">northwest</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">noroeste</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#notGeometry -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;notGeometry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#out -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;out">
+        <rdfs:label rdf:datatype="&xsd;string">out</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">fora</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#partyOf -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;partyOf">
+        <rdfs:label rdf:datatype="&xsd;string">partyOf</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">faz parte</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#right -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;right">
+        <rdfs:label rdf:datatype="&xsd;string">right</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">direita</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#side -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;side">
+        <rdfs:label rdf:datatype="&xsd;string">side</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">lado</skos:altLabel>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#south -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;south">
+        <rdfs:label rdf:datatype="&xsd;string">south</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">sul</skos:altLabel>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#south-west -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;south-west">
+        <rdfs:label rdf:datatype="&xsd;string">south-west</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">sudoeste</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#southeast -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;southeast">
+        <rdfs:label rdf:datatype="&xsd;string">southeast</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">sudeste</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#west -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;west">
+        <rdfs:label rdf:datatype="&xsd;string">west</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">oeste</skos:altLabel>
     </owl:ObjectProperty>
     
 
@@ -1197,6 +1444,39 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#contributors -->
+
+    <owl:DatatypeProperty rdf:about="&Gazetter;contributors">
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#county -->
+
+    <owl:DatatypeProperty rdf:about="&Gazetter;county">
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#date -->
+
+    <owl:DatatypeProperty rdf:about="&Gazetter;date">
+        <rdfs:range rdf:resource="&xsd;date"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#locality -->
+
+    <owl:DatatypeProperty rdf:about="&Gazetter;locality">
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1213,12 +1493,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Airport">
         <rdfs:label xml:lang="en">Airport</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Airport"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.AIRP"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1228,12 +1502,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Atoll">
         <rdfs:label xml:lang="en">Atoll</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.ATOL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1244,12 +1512,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Bridge">
         <rdfs:label xml:lang="en">Bridge</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Bridge"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.BDG"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1259,12 +1521,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Building">
         <rdfs:label xml:lang="en">Building</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.BLDG"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1275,12 +1531,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Canal">
         <rdfs:label xml:lang="en">Canal</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Canal"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.CNL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1291,12 +1541,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Cave">
         <rdfs:label xml:lang="en">Cave</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Cave"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CAVE"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1307,12 +1551,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Church">
         <rdfs:label xml:lang="en">Church</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Church"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CH"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1321,12 +1559,6 @@
     <!-- http://dbpedia.org/ontology/Community -->
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Community">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#P.PPL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1336,12 +1568,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Continent">
         <rdfs:label xml:lang="en">Continent</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#L.CONT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1362,12 +1588,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/HistoricPlace">
         <rdfs:label xml:lang="en">Historic Place</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Historic"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.HSTS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1378,12 +1598,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Hospital">
         <rdfs:label xml:lang="en">Hospital</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Hospital"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.HSP"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1394,12 +1608,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Hotel">
         <rdfs:label xml:lang="en">Hotel</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Hotel"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.HTL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1408,12 +1616,6 @@
     <!-- http://dbpedia.org/ontology/Island -->
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Island">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.ISL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1424,12 +1626,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Lake">
         <rdfs:label xml:lang="en">Lake</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/LakeBodyOfWater"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.LK"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1440,12 +1636,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Lighthouse">
         <rdfs:label xml:lang="en">Lighthouse</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Lighthouse"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.LTHSE"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1456,12 +1646,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Monument">
         <rdfs:label xml:lang="en">Monument</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Monument"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MNMT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1472,12 +1656,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Mountain">
         <rdfs:label xml:lang="en">Mountain</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Mountain"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.MT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1487,12 +1665,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/MountainPass">
         <rdfs:label xml:lang="en">Mountain Pass</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.PASS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1503,12 +1675,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Museum">
         <rdfs:label xml:lang="en">Museum</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Museum"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MUS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1519,12 +1685,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Park">
         <rdfs:label xml:lang="en">Park</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Park"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#L.PRK"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1535,12 +1695,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/PowerStation">
         <rdfs:label xml:lang="en">Power Station</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/PowerStation"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.PS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1549,18 +1703,6 @@
     <!-- http://dbpedia.org/ontology/ProtectedArea -->
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/ProtectedArea">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#L.RESF"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#L.RESN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1570,12 +1712,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/RailwayTunnel">
         <rdfs:label xml:lang="en">Railway Tunnel</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#R.TNLRR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1586,12 +1722,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Restaurant">
         <rdfs:label xml:lang="en">Restaurant</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Restaurant"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.REST"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1601,12 +1731,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/River">
         <rdfs:label>River</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.STM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1616,12 +1740,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Road">
         <rdfs:label xml:lang="en">Road</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#R.RD"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1631,12 +1749,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/RoadJunction">
         <rdfs:label xml:lang="en">Road Junction</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#R.RDJCT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1646,12 +1758,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/RoadTunnel">
         <rdfs:label xml:lang="en">Road Tunnel</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#R.TNLRD"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1662,12 +1768,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/ShoppingMall">
         <rdfs:label xml:lang="en">Shopping Mall</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Mall"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MALL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1678,12 +1778,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Stadium">
         <rdfs:label xml:lang="en">Stadium</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Stadium"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.STDM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1694,12 +1788,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Stream">
         <rdfs:label xml:lang="en">Stream</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Stream"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.STM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1710,12 +1798,6 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Theatre">
         <rdfs:label xml:lang="en">Theatre</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Theatre"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.THTR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1725,12 +1807,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Tunnel">
         <rdfs:label xml:lang="en">Tunnel</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#R.TNL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1740,12 +1816,6 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Valley">
         <rdfs:label xml:lang="en">Valley</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.VAL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1754,12 +1824,6 @@
     <!-- http://dbpedia.org/ontology/Village -->
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Village">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#L.RESV"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1769,12 +1833,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/AbandonedStation">
         <rdfs:label xml:lang="en">Abandoned Station</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.RSTNQ"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1784,12 +1842,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Aerodrome">
         <rdfs:label xml:lang="en">Aerodrome</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.AIRF"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1799,12 +1851,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Airport">
         <rdfs:label xml:lang="en">Airport</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.AIRP"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1814,12 +1860,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Aqueduct">
         <rdfs:label xml:lang="en">Aqueduct</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.CNLA"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1829,12 +1869,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Barracks">
         <rdfs:label xml:lang="en">Barracks</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.BRKS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1844,12 +1878,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Battlefield">
         <rdfs:label xml:lang="en">Battlefield</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#L.BTL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1859,12 +1887,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Beach">
         <rdfs:label xml:lang="en">Beach</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.BCH"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1874,12 +1896,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Bridge">
         <rdfs:label xml:lang="en">Bridge</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.BDG"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1889,12 +1905,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/BusStation">
         <rdfs:label xml:lang="en">Bus Station</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.BUSTN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1904,12 +1914,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/BusStop">
         <rdfs:label xml:lang="en">Bus Stop</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.BUSTP"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1919,12 +1923,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Canal">
         <rdfs:label xml:lang="en">Canal</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.CNL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1934,12 +1932,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Cape">
         <rdfs:label xml:lang="en">Cape</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.CAPE"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1949,12 +1941,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Casino">
         <rdfs:label xml:lang="en">Casino</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CSNO"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1964,12 +1950,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Castle">
         <rdfs:label xml:lang="en">Castle</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CSTL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1979,12 +1959,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Cave">
         <rdfs:label xml:lang="en">Cave</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CAVE"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -1995,12 +1969,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Cemetery">
         <rdfs:label xml:lang="en">Cemetery</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/GraveYard"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CMTY"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2011,12 +1979,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Church">
         <rdfs:label xml:lang="en">Church</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Church"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CH"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2026,12 +1988,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/CommunityCentre">
         <rdfs:label xml:lang="en">Community Centre</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CTRCM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2051,12 +2007,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Courthouse">
         <rdfs:label xml:lang="en">Courthouse</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CTHSE"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2066,12 +2016,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Dam">
         <rdfs:label xml:lang="en">Dam</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.DAM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2081,12 +2025,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Ditch">
         <rdfs:label xml:lang="en">Ditch</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.DTCH"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2096,12 +2034,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Farm">
         <rdfs:label xml:lang="en">Farm</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.FRM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2111,12 +2043,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Fjord">
         <rdfs:label xml:lang="en">Fjord</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.FJD"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2126,12 +2052,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Garden">
         <rdfs:label xml:lang="en">Garden</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.GDN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2141,12 +2061,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Geyser">
         <rdfs:label xml:lang="en">Geyser</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.GYSR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2156,12 +2070,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Glacier">
         <rdfs:label xml:lang="en">Glacier</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.GLCR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2172,12 +2080,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/GolfCourse">
         <rdfs:label xml:lang="en">Golf Course</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/GolfCourse"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.RECG"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2197,12 +2099,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Harbour">
         <rdfs:label xml:lang="en">Harbour</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.HBR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2212,12 +2108,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Heliport">
         <rdfs:label xml:lang="en">Heliport</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.AIRH"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2227,12 +2117,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Hill">
         <rdfs:label xml:lang="en">Hill</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.HLL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2242,12 +2126,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Historic">
         <rdfs:label xml:lang="en">Historic</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.HSTS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2258,12 +2136,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Hospital">
         <rdfs:label xml:lang="en">Hospital</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Hospital"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.HSP"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2273,12 +2145,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/HotSpring">
         <rdfs:label xml:lang="en">Hot Spring</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.SPNT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2289,12 +2155,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Hotel">
         <rdfs:label xml:lang="en">Hotel</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Hotel"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.HTL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2304,12 +2164,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Islet">
         <rdfs:label xml:lang="en">Islet</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.ISLET"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2319,12 +2173,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Landfill">
         <rdfs:label xml:lang="en">Landfill</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.LNDF"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2335,12 +2183,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Library">
         <rdfs:label xml:lang="en">Library</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Library"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.LIBR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2350,12 +2192,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Lighthouse">
         <rdfs:label xml:lang="en">Lighthouse</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.LTHSE"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2365,12 +2201,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Mall">
         <rdfs:label xml:lang="en">Mall</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MALL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2380,12 +2210,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Meadow">
         <rdfs:label xml:lang="en">Meadow</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#V.MDW"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2395,12 +2219,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Mill">
         <rdfs:label xml:lang="en">Mill</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.ML"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2410,12 +2228,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Mine">
         <rdfs:label xml:lang="en">Mine</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2425,12 +2237,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Monastery">
         <rdfs:label xml:lang="en">Monastery</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MSTY"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2440,12 +2246,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Monument">
         <rdfs:label xml:lang="en">Monument</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MNMT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2455,12 +2255,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Moor">
         <rdfs:label xml:lang="en">Moor</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.MOOR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2470,12 +2264,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Observatory">
         <rdfs:label xml:lang="en">Observatory</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.OBS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2485,12 +2273,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Palace">
         <rdfs:label xml:lang="en">Palace</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.PAL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2500,12 +2282,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Peak">
         <rdfs:label xml:lang="en">Peak</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#U.PKU"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2515,12 +2291,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Peninsula">
         <rdfs:label xml:lang="en">Peninsula</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.PEN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2530,12 +2300,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/PetroleumWell">
         <rdfs:label xml:lang="en">Petroleum Well</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.OILW"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2545,12 +2309,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Pier">
         <rdfs:label xml:lang="en">Pier</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.PIER"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2560,12 +2318,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Plain">
         <rdfs:label xml:lang="en">Plain</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.PLN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2575,12 +2327,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Plateau">
         <rdfs:label xml:lang="en">Plateau</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.PLAT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2590,12 +2336,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/PowerStation">
         <rdfs:label xml:lang="en">Power Station</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.PS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2605,12 +2345,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Prison">
         <rdfs:label xml:lang="en">Prison</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.PRN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2620,12 +2354,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Quarry">
         <rdfs:label xml:lang="en">Quarry</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MNQR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2635,12 +2363,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/RailwayJunction">
         <rdfs:label xml:lang="en">Railway Junction</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#R.RJCT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2652,12 +2374,6 @@
         <rdfs:label xml:lang="en">Railway Station</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/TrainStation"/>
         <owl:equivalentClass rdf:resource="http://schema.org/TrainStation"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.RSTN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2667,12 +2383,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/RailwayStop">
         <rdfs:label xml:lang="en">Railway Stop</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.RSTP"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2682,12 +2392,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Rapids">
         <rdfs:label xml:lang="en">Rapids</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.RPDS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2697,12 +2401,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Reef">
         <rdfs:label xml:lang="en">Reef</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#U.RFU"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2712,12 +2410,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Resort">
         <rdfs:label xml:lang="en">Resort</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.RSRT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2728,12 +2420,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Restaurant">
         <rdfs:label xml:lang="en">Restaurant</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Restaurant"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.REST"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2743,12 +2429,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Ridge">
         <rdfs:label xml:lang="en">Ridge</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.RDGE"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2758,12 +2438,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Rocks">
         <rdfs:label xml:lang="en">Rocks</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.RKS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2773,12 +2447,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/School">
         <rdfs:label xml:lang="en">School</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.SCH"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2789,12 +2457,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Stadium">
         <rdfs:label xml:lang="en">Stadium</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/StadiumOrArena"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.STDM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2804,12 +2466,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Stream">
         <rdfs:label xml:lang="en">Stream</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.STM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2819,12 +2475,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Theatre">
         <rdfs:label xml:lang="en">Theatre</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.THTR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2844,12 +2494,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/University">
         <rdfs:label xml:lang="en">University</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.UNIV"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2859,12 +2503,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Vineyard">
         <rdfs:label xml:lang="en">Vineyard</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#V.VIN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2875,12 +2513,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Volcano">
         <rdfs:label xml:lang="en">Volcano</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Volcano"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.VLC"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2891,12 +2523,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Waterfall">
         <rdfs:label xml:lang="en">Waterfall</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Waterfall"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.FLLS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2906,12 +2532,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Weir">
         <rdfs:label xml:lang="en">Weir</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.WEIR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2921,12 +2541,6 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Windmill">
         <rdfs:label xml:lang="en">Windmill</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MLWND"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2946,12 +2560,6 @@
     <owl:Class rdf:about="http://rdf.insee.fr/geo/Arrondissement">
         <rdfs:label xml:lang="fr">Arrondissement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#A.ADM3"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:isDefinedBy rdf:resource="http://data.lirmm.fr/ontologies/geo-fr#Arrondissement"/>
     </owl:Class>
     
@@ -2962,12 +2570,6 @@
     <owl:Class rdf:about="http://rdf.insee.fr/geo/Commune">
         <rdfs:label xml:lang="fr">Commune</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#A.ADM4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:isDefinedBy rdf:resource="http://data.lirmm.fr/ontologies/geo-fr#Commune"/>
     </owl:Class>
     
@@ -2978,12 +2580,6 @@
     <owl:Class rdf:about="http://rdf.insee.fr/geo/Departement">
         <rdfs:label xml:lang="fr">Département</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#A.ADM2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:isDefinedBy rdf:resource="http://data.lirmm.fr/ontologies/geo-fr#Departement"/>
     </owl:Class>
     
@@ -2993,12 +2589,6 @@
 
     <owl:Class rdf:about="http://schema.org/AdministrativeArea">
         <rdfs:label xml:lang="en">AdministrativeArea</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureClass"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#A"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3008,12 +2598,6 @@
 
     <owl:Class rdf:about="http://schema.org/Cemetery">
         <rdfs:label xml:lang="en">Cemetery</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CMTY"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3023,12 +2607,6 @@
 
     <owl:Class rdf:about="http://schema.org/Church">
         <rdfs:label xml:lang="en">Church</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CH"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3039,12 +2617,6 @@
     <owl:Class rdf:about="http://schema.org/City">
         <rdfs:label xml:lang="en">City</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#P.PPL"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -3053,12 +2625,6 @@
 
     <owl:Class rdf:about="http://schema.org/GolfCourse">
         <rdfs:label xml:lang="en">GolfCourse</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.RECG"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3068,12 +2634,6 @@
 
     <owl:Class rdf:about="http://schema.org/Hospital">
         <rdfs:label xml:lang="en">Hospital</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.HSP"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3083,12 +2643,6 @@
 
     <owl:Class rdf:about="http://schema.org/Hotel">
         <rdfs:label xml:lang="en">Hotel</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.HTL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3098,12 +2652,6 @@
 
     <owl:Class rdf:about="http://schema.org/LakeBodyOfWater">
         <rdfs:label xml:lang="en">LakeBodyOfWater</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.LK"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3113,12 +2661,6 @@
 
     <owl:Class rdf:about="http://schema.org/Library">
         <rdfs:label xml:lang="en">Library</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.LIBR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3128,12 +2670,6 @@
 
     <owl:Class rdf:about="http://schema.org/Mosque">
         <rdfs:label xml:lang="en">Mosque</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MSQE"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3143,12 +2679,6 @@
 
     <owl:Class rdf:about="http://schema.org/Mountain">
         <rdfs:label xml:lang="en">Mountain</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.MT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3158,12 +2688,6 @@
 
     <owl:Class rdf:about="http://schema.org/Museum">
         <rdfs:label xml:lang="en">Museum</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MUS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3173,12 +2697,6 @@
 
     <owl:Class rdf:about="http://schema.org/Park">
         <rdfs:label xml:lang="en">Park</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#L.PRK"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3188,12 +2706,6 @@
 
     <owl:Class rdf:about="http://schema.org/PoliceStation">
         <rdfs:label xml:lang="en">PoliceStation</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.PP"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3203,12 +2715,6 @@
 
     <owl:Class rdf:about="http://schema.org/Pond">
         <rdfs:label xml:lang="en">Pond</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.PND"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3218,12 +2724,6 @@
 
     <owl:Class rdf:about="http://schema.org/PostOffice">
         <rdfs:label xml:lang="en">PostOffice</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.PO"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3233,12 +2733,6 @@
 
     <owl:Class rdf:about="http://schema.org/RadioStation">
         <rdfs:label xml:lang="en">RadioStation</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.STNR"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3248,12 +2742,6 @@
 
     <owl:Class rdf:about="http://schema.org/Reservoir">
         <rdfs:label xml:lang="en">Reservoir</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.RSV"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3263,12 +2751,6 @@
 
     <owl:Class rdf:about="http://schema.org/Restaurant">
         <rdfs:label xml:lang="en">Restaurant</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.REST"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3278,12 +2760,6 @@
 
     <owl:Class rdf:about="http://schema.org/SeaBodyOfWater">
         <rdfs:label xml:lang="en">SeaBodyOfWater</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.SEA"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3293,12 +2769,6 @@
 
     <owl:Class rdf:about="http://schema.org/StadiumOrArena">
         <rdfs:label xml:lang="en">StadiumOrArena</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.STDM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3308,12 +2778,6 @@
 
     <owl:Class rdf:about="http://schema.org/State">
         <rdfs:label xml:lang="en">State</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#A.ADM1"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3323,12 +2787,6 @@
 
     <owl:Class rdf:about="http://schema.org/Store">
         <rdfs:label xml:lang="en">Store</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.RET"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3338,12 +2796,6 @@
 
     <owl:Class rdf:about="http://schema.org/SubwayStation">
         <rdfs:label xml:lang="en">SubwayStation</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.MTRO"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3353,12 +2805,6 @@
 
     <owl:Class rdf:about="http://schema.org/TrainStation">
         <rdfs:label xml:lang="en">Train Station</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.RSTN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3368,12 +2814,6 @@
 
     <owl:Class rdf:about="http://schema.org/Volcano">
         <rdfs:label xml:lang="en">Volcano</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#T.VLC"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3383,12 +2823,6 @@
 
     <owl:Class rdf:about="http://schema.org/Waterfall">
         <rdfs:label xml:lang="en">Waterfall</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.FLLS"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3398,12 +2832,6 @@
 
     <owl:Class rdf:about="http://schema.org/Zoo">
         <rdfs:label xml:lang="en">Zoo</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.ZOO"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3421,12 +2849,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Agricultural_township -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Agricultural_township">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.AGRF"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3435,12 +2857,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Avenue -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Avenue">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#R.ST"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3449,12 +2865,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Branch_river -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Branch_river">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#H.STM"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3463,12 +2873,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Camp -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Camp">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#P.PPL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3477,12 +2881,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Camping -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Camping">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.CMP"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3491,12 +2889,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Coast -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Coast">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#P.PPLL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3505,12 +2897,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Grove -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Grove">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#L.LCTY"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3519,12 +2905,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Higway -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Higway">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#R.RD"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3533,12 +2913,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Hydroelectric -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Hydroelectric">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.PSH"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3547,12 +2921,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Station -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Station">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#S.RSTN"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3561,12 +2929,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Street -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Street">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#R.ST"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3575,12 +2937,6 @@
     <!-- http://www.geonames.org/ontology/mappings#Township -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Township">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.geonames.org/ontology#featureCode"/>
-                <owl:hasValue rdf:resource="http://www.geonames.org/ontology#P.PPL"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -3673,6 +3029,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#Caatinga -->
+
+    <owl:Class rdf:about="&Gazetter;Caatinga">
+        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/silvio/ontologies/www.linkedgeodata/ontology/Ridge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/silvio/ontologies/www.linkedgeodata/ontology/Ridge"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <owl:Class rdf:about="&foaf;Person"/>
@@ -3690,718 +3060,58 @@
     
 
 
-    <!-- http://labs.mondeca.com/foaf/mondeca.rdf#bvatant -->
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#1 -->
 
-    <owl:NamedIndividual rdf:about="http://labs.mondeca.com/foaf/mondeca.rdf#bvatant">
-        <rdf:type rdf:resource="&foaf;Person"/>
-        <foaf:name>Bernard Vatant</foaf:name>
+    <owl:NamedIndividual rdf:about="&Gazetter;1">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/River"/>
+        <locality>Rio Uatumã</locality>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.geonames.org/ontology#A -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#A"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#A.ADM1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#A.ADM1"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#A.ADM2 -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#A.ADM2"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#A.ADM3 -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#A.ADM3"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#A.ADM4 -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#A.ADM4"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.CNL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.CNL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.CNLA -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.CNLA"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.DTCH -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.DTCH"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.FJD -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.FJD"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.FLLS -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.FLLS"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.GLCR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.GLCR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.GYSR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.GYSR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.HBR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.HBR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.LK -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.LK"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.MOOR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.MOOR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.PND -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.PND"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.RPDS -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.RPDS"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.RSV -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.RSV"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.SEA -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.SEA"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.SPNT -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.SPNT"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#H.STM -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#H.STM"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#L.BTL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#L.BTL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#L.CONT -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#L.CONT"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#L.LCTY -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#L.LCTY"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#L.PRK -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#L.PRK"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#L.RESF -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#L.RESF"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#L.RESN -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#L.RESN"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#L.RESV -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#L.RESV"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#P.PPL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#P.PPL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#P.PPLL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#P.PPLL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#R.RD -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#R.RD"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#R.RDJCT -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#R.RDJCT"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#R.RJCT -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#R.RJCT"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#R.ST -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#R.ST"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#R.TNL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#R.TNL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#R.TNLRD -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#R.TNLRD"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#R.TNLRR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#R.TNLRR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.AGRF -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.AGRF"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.AIRF -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.AIRF"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.AIRH -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.AIRH"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.AIRP -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.AIRP"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.BDG -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.BDG"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.BLDG -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.BLDG"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.BRKS -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.BRKS"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.BUSTN -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.BUSTN"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.BUSTP -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.BUSTP"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.CAVE -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.CAVE"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.CH -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.CH"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.CMP -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.CMP"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.CMTY -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.CMTY"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.CSNO -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.CSNO"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.CSTL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.CSTL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.CTHSE -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.CTHSE"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.CTRCM -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.CTRCM"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.DAM -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.DAM"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.FRM -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.FRM"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.GDN -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.GDN"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.HSP -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.HSP"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.HSTS -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.HSTS"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.HTL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.HTL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.LIBR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.LIBR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.LNDF -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.LNDF"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.LTHSE -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.LTHSE"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.MALL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.MALL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.ML -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.ML"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.MLWND -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.MLWND"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.MN -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.MN"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.MNMT -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.MNMT"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.MNQR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.MNQR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.MSQE -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.MSQE"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.MSTY -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.MSTY"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.MTRO -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.MTRO"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.MUS -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.MUS"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.OBS -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.OBS"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.OILW -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.OILW"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.PAL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.PAL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.PIER -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.PIER"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.PO -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.PO"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.PP -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.PP"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.PRN -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.PRN"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.PS -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.PS"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.PSH -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.PSH"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.RECG -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.RECG"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.REST -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.REST"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.RET -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.RET"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.RSRT -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.RSRT"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.RSTN -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.RSTN"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.RSTNQ -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.RSTNQ"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.RSTP -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.RSTP"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.SCH -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.SCH"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.STDM -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.STDM"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.STNR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.STNR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.THTR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.THTR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.UNIV -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.UNIV"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.WEIR -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.WEIR"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#S.ZOO -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#S.ZOO"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.ATOL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.ATOL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.BCH -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.BCH"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.CAPE -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.CAPE"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.HLL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.HLL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.ISL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.ISL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.ISLET -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.ISLET"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.MT -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.MT"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.PASS -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.PASS"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.PEN -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.PEN"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.PLAT -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.PLAT"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.PLN -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.PLN"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.RDGE -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.RDGE"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.RKS -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.RKS"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.VAL -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.VAL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.VLC -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#T.VLC"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#U.PKU -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#U.PKU"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#U.RFU -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#U.RFU"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#V.MDW -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#V.MDW"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#V.VIN -->
-
-    <owl:NamedIndividual rdf:about="http://www.geonames.org/ontology#V.VIN"/>
-    
-
-
-    <!-- http://www.semanticweb.org/silvio/ontologies/Gazetter#Geometry/1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/silvio/ontologies/Gazetter#Geometry/1">
-        <geosparql:asWKT rdf:datatype="&geosparql;wktLiteral">
-			&lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt;Point(0.9166669845581055 -67.21666717529297)
-		</geosparql:asWKT>
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#2 -->
+
+    <owl:NamedIndividual rdf:about="&Gazetter;2">
+        <rdf:type rdf:resource="http://linkedgeodata.org/ontology/Waterfall"/>
+        <locality>Cachoeira dos Padres</locality>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/silvio/ontologies/Gazetter#silvio -->
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#3 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/silvio/ontologies/Gazetter#silvio"/>
+    <owl:NamedIndividual rdf:about="&Gazetter;3">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/River"/>
+        <locality>Rio Uatumã margem esquerda</locality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#4 -->
+
+    <owl:NamedIndividual rdf:about="&Gazetter;4">
+        <rdf:type rdf:resource="&Gazetter;Caatinga"/>
+        <locality>caatinga arenahumosa</locality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#5 -->
+
+    <owl:NamedIndividual rdf:about="&Gazetter;5">
+        <rdf:type rdf:resource="http://www.geonames.org/ontology/mappings#Branch_river"/>
+        <locality>Igarapé dos Padres</locality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#6 -->
+
+    <owl:NamedIndividual rdf:about="&Gazetter;6">
+        <rdf:type rdf:resource="http://www.geonames.org/ontology/mappings#Camp"/>
+        <locality>Campina dos Padres</locality>
+        <behind rdf:resource="&Gazetter;5"/>
+    </owl:NamedIndividual>
     
 
 

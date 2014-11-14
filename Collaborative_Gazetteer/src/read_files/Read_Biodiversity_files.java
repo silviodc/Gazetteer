@@ -76,10 +76,12 @@ public class Read_Biodiversity_files {
 	            }else if(!record[1].equals("") && record[2].equals("") ){
 	            	number.setOnlyPlace(number.getOnlyPlace()+1);
 	            	repo.setData(record);	            	
-	            }else if(record[1].equals("") && !record[2].equals(""))
+	            }else if(record[1].equals("") && !record[2].equals("")){
 	            	number.setOnlyCounty(number.getOnlyCounty()+1);
-	            else 
+	            }else{ 
 	            	number.setNoRecord(number.getNoRecord()+1);
+	            }
+	            
 	         }
 	         repo.setNumbers(number);
 	         br.close();  
