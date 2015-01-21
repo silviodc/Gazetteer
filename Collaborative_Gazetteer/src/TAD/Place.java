@@ -10,13 +10,31 @@ public class Place implements Cloneable {
 	private String county;
     private Geo geometry;
     private String type;
+    private String local;
     private boolean used=false;
     private boolean ambiguo=false;
     private String repository;
+    private boolean partOf;
+    private Place father;
     
     
-    
-    public String getRepository() {
+    public boolean isPartOf() {
+		return partOf;
+	}
+
+	public void setPartOf(boolean partOf) {
+		this.partOf = partOf;
+	}
+
+	public Place getFather() {
+		return father;
+	}
+
+	public void setFather(Place father) {
+		this.father = father;
+	}
+
+	public String getRepository() {
 		return repository;
 	}
 
@@ -29,6 +47,14 @@ public class Place implements Cloneable {
     	this.geometry = geo;
     }
     
+	public String getLocal() {
+		return local;
+	}
+
+	public void setLocal(String local) {
+		this.local = local;
+	}
+
 	public Place(int year, String location, String nameFilter, String county,Geo geo, String repository ) {
 		this.year = year;
 		this.location = location;
@@ -37,6 +63,15 @@ public class Place implements Cloneable {
 		this.geometry = geo;
 		this.repository=repository;
 	}
+	
+	public Place(int year, String location, String county,Geo geo, String repository ) {
+		this.year = year;
+		this.location = location;
+		this.county = county;
+		this.geometry = geo;
+		this.repository=repository;
+	}
+	
 	public Place(int year, String location, String nameFilter, String county,String repository) {
 		this.year = year;
 		this.location = location;

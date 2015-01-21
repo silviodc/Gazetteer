@@ -13,7 +13,7 @@ import com.bbn.openmap.geo.Geo;
 
 public class Summarize {
 
-	
+	public static int improved=0;
 	public void referenciaGeo(ArrayList<Group> group){
 		   for (Group gp:group) {
 	        	int numTimes=1;
@@ -44,6 +44,7 @@ public class Summarize {
 		
 		for(int i=0;i<arrayList.size();i++){
 			 arrayList.get(i).setGeometry(moda.getGeometry());
+			 improved++;
 	//		 System.out.println(arrayList.get(i).getGeometry()+"  "+arrayList.get(i).getYear()+"=== MODA: "+moda.getGeometry());
 
 		}

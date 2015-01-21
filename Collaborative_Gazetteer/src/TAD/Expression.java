@@ -2,14 +2,16 @@ package TAD;
 
 public class Expression {
 	    private String name;
+	    private String local;
 	    private String expression;
 	    private String feature;
 	    private String ontology;
 	    private int id;
 	    
 	    
-	    public Expression(String name, String expression, String feature,String ontology,int id) {
+	    public Expression(String name, String local, String expression, String feature,String ontology,int id) {
 			this.name = name;
+			this.local = local;
 			this.expression = expression;
 			this.feature = feature;
 			this.ontology = ontology;
@@ -44,6 +46,12 @@ public class Expression {
 		}
 		public void setOntology(String ontology) {
 			this.ontology = ontology;
+		}
+		public String getLocal() {
+			return local;
+		}
+		public void setLocal(String local) {
+			this.local = local;
 		}
 	    
 	    

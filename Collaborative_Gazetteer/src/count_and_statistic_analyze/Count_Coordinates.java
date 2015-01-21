@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import analyze_geographical_coordinates.Out_Polygon;
 
@@ -16,37 +17,44 @@ public class Count_Coordinates {
 	
 	private static final int today =2014;
 	
+	
+	private static boolean search(ArrayList<Integer>pl, int year){
+		for(int i=0; i<pl.size();i++){
+			if(pl.get(i)==year || year >today)
+				return false;
+		}
+		return true;
+	}
+	
 	public static int [][] countDate( ArrayList<Place> original_places, OMGeo.Polygon poly){
 		Place place_min = null, place_max = null;
 		ArrayList<Place> places =  (ArrayList<Place>) original_places.clone();
-		for(int i=0; i<places.size();i++){
-			if(places.get(i).getYear()<Integer.MAX_VALUE){
-				place_max = places.get(i);
-				place_min = places.get(i);
-				break;
-			}
-		}
-		for(int i=0; i<places.size();i++){
-			if(places.get(i).getYear()<=today){
-				if(place_min.getYear()>=places.get(i).getYear())
-					place_min = places.get(i);
-				if(place_max.getYear()<=places.get(i).getYear())
-					place_max = places.get(i);
-			}
-		}
-		int tam = (place_max.getYear()-place_min.getYear())+1;
-	
-		int [][] pl = new int[tam+1][2];
-		int year = place_min.getYear();
-		for(int i=0;i<pl.length-1;i++){
-			pl[i][0]= year;
-			year++;
-		}
-	
-		pl[pl.length-1][0]=Integer.MAX_VALUE;
 		
-		for(int i=0;i<pl.length-1;i++){
-			year = pl[i][0];
+		ArrayList<Integer> pl = new ArrayList<Integer>();
+		ArrayList<Integer[]> years = new ArrayList<Integer[]>();
+	    
+		while(!places.isEmpty()){
+			if(search(pl,places.get(0).getYear())){
+				pl.add(places.get(0).getYear());
+			}
+			places.remove(0);
+		}
+		System.out.println("Fez a busca");
+		places.clear();
+		places =  (ArrayList<Place>) original_places.clone();
+		
+		int []tmp = new int[pl.size()]; 
+		for(int i=0;i<pl.size();i++){
+			tmp[i]= pl.get(i);
+		}
+		Arrays.sort(tmp);
+		System.out.println("Ordenou");
+		for(int i=0;i<tmp.length;i++){
+			years.add(new Integer[]{tmp[i],0});
+		}
+		System.out.println("Vai computar os anos... tam("+years.size()+")");
+		for(int i=0;i<years.size();i++){
+			int year = years.get(i)[0];
 			int count =0;
 			for(int k=0;k<places.size();k++){
 				if((year == places.get(k).getYear()) && places.get(k).getGeometry()!=null ){
@@ -55,14 +63,19 @@ public class Count_Coordinates {
 						count++;
 					
 					}
-				}else if (places.get(k).getGeometry()==null){
-					
-					pl[pl.length-1][1]++;
 				}
 			}
-			pl[i][1]=count;
+			years.get(i)[1]=count;
 		}
-		return pl;
+		System.out.println("Criando a matriz...");
+		int [][] mat = new int [years.size()][2];
+		int i=0;
+		for(Integer[]temp:years){
+			mat[i][0]=temp[0];
+			mat[i][1]=temp[1];
+			i++;
+		}
+		return mat;
 	}
     
 	public static void build_csv(int [][] years, String name) throws IOException{

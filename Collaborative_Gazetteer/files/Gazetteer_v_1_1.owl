@@ -3063,8 +3063,8 @@
     <!-- http://www.semanticweb.org/ontologies/Gazetter#1 -->
 
     <owl:NamedIndividual rdf:about="&Gazetter;1">
-        <rdf:type rdf:resource="http://dbpedia.org/ontology/River"/>
-        <locality>Rio Uatumã</locality>
+        <geosparql:asWKT rdf:datatype="http://www.opengis.net/ont/sf#wktLiteral">3 -60</geosparql:asWKT>
+        <locality>Manaus</locality>
     </owl:NamedIndividual>
     
 
@@ -3072,45 +3072,8 @@
     <!-- http://www.semanticweb.org/ontologies/Gazetter#2 -->
 
     <owl:NamedIndividual rdf:about="&Gazetter;2">
-        <rdf:type rdf:resource="http://linkedgeodata.org/ontology/Waterfall"/>
-        <locality>Cachoeira dos Padres</locality>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/Gazetter#3 -->
-
-    <owl:NamedIndividual rdf:about="&Gazetter;3">
-        <rdf:type rdf:resource="http://dbpedia.org/ontology/River"/>
-        <locality>Rio Uatumã margem esquerda</locality>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/Gazetter#4 -->
-
-    <owl:NamedIndividual rdf:about="&Gazetter;4">
-        <rdf:type rdf:resource="&Gazetter;Caatinga"/>
-        <locality>caatinga arenahumosa</locality>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/Gazetter#5 -->
-
-    <owl:NamedIndividual rdf:about="&Gazetter;5">
-        <rdf:type rdf:resource="http://www.geonames.org/ontology/mappings#Branch_river"/>
-        <locality>Igarapé dos Padres</locality>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/Gazetter#6 -->
-
-    <owl:NamedIndividual rdf:about="&Gazetter;6">
-        <rdf:type rdf:resource="http://www.geonames.org/ontology/mappings#Camp"/>
-        <locality>Campina dos Padres</locality>
-        <behind rdf:resource="&Gazetter;5"/>
+        <locality xml:lang="pt">Rio Amazonas</locality>
+        <near rdf:resource="&Gazetter;1"/>
     </owl:NamedIndividual>
     
 

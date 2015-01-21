@@ -127,7 +127,7 @@ public class Read_Biodiversity_files {
                 
                 String filepath =eElement.getElementsByTagName("filepath").item(0).getTextContent();
                 String name =eElement.getElementsByTagName("name").item(0).getTextContent();
-                                
+                               
                 columns[0] = Integer.parseInt(eElement.getElementsByTagName("ColumDate").item(0).getTextContent());
                 columns[1] = Integer.parseInt(eElement.getElementsByTagName("ColumPlace").item(0).getTextContent());
                 columns[2] = Integer.parseInt(eElement.getElementsByTagName("ColumCounty").item(0).getTextContent());
@@ -157,7 +157,8 @@ public class Read_Biodiversity_files {
 	                 String expression =eElement.getElementsByTagName("expressao").item(0).getTextContent();
 				     String ontology = eElement.getElementsByTagName("onty").item(0).getTextContent();
 				     String feature = eElement.getElementsByTagName("feature").item(0).getTextContent();
-				     Expression e = new Expression(name, expression, feature, ontology,exp.size()+1);
+				     String local =eElement.getElementsByTagName("local").item(0).getTextContent(); 
+				     Expression e = new Expression(name,local, expression, feature, ontology,exp.size()+1);
 				     exp.add(e);
 	            }
 	       }

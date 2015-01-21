@@ -10,6 +10,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Random;
 
 import javax.xml.parsers.ParserConfigurationException;
 
@@ -19,8 +21,12 @@ import javax.xml.parsers.ParserConfigurationException;
 
 
 
+
+
+
 import org.xml.sax.SAXException;
 
+import com.bbn.openmap.geo.Geo;
 import com.bbn.openmap.tools.icon.OpenMapAppPartCollection.OpenMapAppPart.Poly;
 
 import cluster.Desambiguation;
@@ -37,7 +43,7 @@ public class Test {
 
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException, CloneNotSupportedException, IOException {
 		
-		// TODO Auto-generated method stub
+		Desambiguation ds = new Desambiguation();
 		Read_Biodiversity_files rb = new Read_Biodiversity_files();
 		Transform_and_Filter tsf = new Transform_and_Filter();
 		Out_Polygon out = new Out_Polygon();
@@ -62,6 +68,12 @@ public class Test {
 				System.out.println("Repositorio "+rb.getRepository().get(i).getName()+" Fora do poligono "+out.count_out_Polygon(rb.getRepository().get(i).getPolygon(),rb.getRepository().get(i).getPlaces()));
 				out.clean_noise_coordinates(rb.getRepository().get(i).getPolygon(),rb.getRepository().get(i).getPlaces());
 				ArrayList<Place> cloned_places = (ArrayList) rb.getRepository().get(i).getPlaces().clone();
+				int lugar=0;
+				for(Place pl: cloned_places){
+					if(pl.getGeometry()!=null)
+						lugar++;
+				}
+				System.out.println("Quantidade de coordenadas: "+lugar);
 				int [][] years = Count_Coordinates.countDate(cloned_places,rb.getRepository().get(i).getPolygon());
 				Count_Coordinates.build_csv(years,rb.getRepository().get(i).getName());		
 				
@@ -88,21 +100,21 @@ public class Test {
 		System.out.println("Read all files DONE!!");
 
 		for(int i=0;i<rb.getRepository().size();i++){
-			all_place.addAll(rb.getRepository().get(i).getPlaces());
+			all_place.addAll((Collection<? extends Place>) rb.getRepository().get(i).getPlaces().clone());
 		}
 
+		
 		System.out.println("Starting clustering ...");
-	
 		group.addAll(start.start_clustering(all_place,rb.getExp()));
 		System.out.println("clustering done!!");
-		
+				
+		System.out.println("Starting desambiguation ...");
+		ds.desambig(Star_algorithm.getAmbiguoPlace(),group);
+		System.out.println("desambiguation done!!");
+				
 		System.out.println("Improve Coordinates....");
 		sumy.referenciaGeo(group);	
 		System.out.println("Improve Coordinates DONE!!");
-		
-		
-		Desambiguation ds = new Desambiguation();
-		ds.desambig(Star_algorithm.getAmbiguoPlace(),group);
 		
 		for(int i=0;i<rb.getRepository().size();i++)
 			rb.getRepository().get(i).getPlaces().clear();
@@ -113,14 +125,16 @@ public class Test {
 			for(int k=0;k<group.size();k++){
 				if(group.get(k).getRepository().equals(name)){
 					rb.getRepository().get(i).getPlaces().addAll(group.get(k).getPlaces());
+					rb.getRepository().get(i).getPlaces().add(group.get(k).getCentroid());
 				}
 			}
 		}
+		
 		for(int i=0;i<rb.getRepository().size();i++){
 			int relative_date [][]= Count_Coordinates.countDate(rb.getRepository().get(i).getPlaces(),rb.getRepository().get(i).getPolygon());
 			Count_Coordinates.build_csv(relative_date,rb.getRepository().get(i).getName()+"New");
 		}
-		
+		System.out.println(Summarize.improved);
 	}
 
 }
