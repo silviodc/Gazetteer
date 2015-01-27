@@ -16,10 +16,27 @@ public class Place implements Cloneable {
     private String repository;
     private boolean partOf;
     private Place father;
-    
+    private Place relation;
+    private String relationName;
     
     public boolean isPartOf() {
 		return partOf;
+	}
+
+	public String getRelationName() {
+		return relationName;
+	}
+
+	public void setRelationName(String relationName) {
+		this.relationName = relationName;
+	}
+
+	public Place getRelation() {
+		return relation;
+	}
+
+	public void setRelation(Place relation) {
+		this.relation = relation;
 	}
 
 	public void setPartOf(boolean partOf) {

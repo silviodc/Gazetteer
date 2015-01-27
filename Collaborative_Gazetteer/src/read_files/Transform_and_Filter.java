@@ -40,6 +40,7 @@ public class Transform_and_Filter {
 	        String temp [];
 	        for(Place p:places){
 	            String ok ="";
+	            p.setLocal(p.getLocation());
 	            p.setNameFilter(p.getLocation().toLowerCase().replaceAll("(?!\")\\p{Punct}", " "));
 	            temp = p.getNameFilter().split(" ");
 	             for (String s : stop_words) {

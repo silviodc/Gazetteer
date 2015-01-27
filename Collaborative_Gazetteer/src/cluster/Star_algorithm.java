@@ -43,17 +43,14 @@ public class Star_algorithm {
 							 candidate_place.add(pl);
 							 pl.setUsed(true);
 						 }else if(!pl.isUsed()){
-							 composite.add(pl);
+							 candidate_place.add(pl);
 							 pl.setUsed(true);
 						 }
 					 }
 				}
 			    agroup(candidate_place,e,group);
 				candidate_place.clear();
-				System.out.println("*");
 		}
-		agroup(composite,group);
-		composite.clear();
 		return group;
 	}
 	
@@ -69,18 +66,7 @@ public class Star_algorithm {
 			group.add(group_created);
 		}
 	}
-	private void agroup(ArrayList<Place> candidate_place, ArrayList<Group> group) throws CloneNotSupportedException{
-		while(candidate_place.size()>0){		
-			Random rand = new Random();
-			Place centroid = candidate_place.get(rand.nextInt(candidate_place.size())); // get some centroid to start matching
-			candidate_place.remove(centroid);//remove centroid from candidate places
-			Group group_created = clustering_using_start(candidate_place,centroid);
-			group_created.setCentroid(centroid);
-			group_created.setRepository(centroid.getRepository());
-			group.add(group_created);
-		}
-	}
-
+	
 	private Collection<? extends Place> resolveCompositePlaces(ArrayList<Expression> expression) throws CloneNotSupportedException {
 		ArrayList<Place> places = new ArrayList<Place>();
 		ArrayList<String> composite = new ArrayList<String>();
@@ -110,12 +96,15 @@ public class Star_algorithm {
 				//Place(int year, String location, String nameFilter, String county,Geo geo, String repository)
 				String placeDiscovered = composite.get(j-1)+" "+temp[j];
 				Place discovered = new Place(temp1.getYear(),placeDiscovered,placeDiscovered,temp1.getCounty(),temp1.getGeometry(), temp1.getRepository());
+				discovered.setLocal(placeDiscovered);
 				discovered.setFather(temp1);
 				discovered.setPartOf(true);
 				places.add(discovered);
 			}
 			ambiguoPlace.remove(0);
 		}
+		Desambiguation desambiguation = new Desambiguation();
+		desambiguation.correlationBetweenPlaces(places);
 		return places;
 	}
 
@@ -185,5 +174,7 @@ public class Star_algorithm {
 			}
 		}
 		places.addAll(resolveCompositePlaces(exp));
+		
+		
 	}
 }

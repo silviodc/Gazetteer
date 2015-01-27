@@ -1080,6 +1080,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#left_margin -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;left_margin">
+        <rdfs:label rdf:datatype="&xsd;string">left margin</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">margem esquerda</skos:altLabel>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/Gazetter#minutes -->
 
     <owl:ObjectProperty rdf:about="&Gazetter;minutes">
@@ -1156,6 +1166,15 @@
     <owl:ObjectProperty rdf:about="&Gazetter;right">
         <rdfs:label rdf:datatype="&xsd;string">right</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">direita</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#right_margin -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;right_margin">
+        <rdfs:label rdf:datatype="&xsd;string">right margin</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">margem direita</skos:altLabel>
     </owl:ObjectProperty>
     
 
