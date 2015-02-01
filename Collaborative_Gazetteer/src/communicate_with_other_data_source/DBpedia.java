@@ -30,19 +30,44 @@ public class DBpedia {
 			}
 		} 
 	
-	public ArrayList<Place> pull_query(){
-		ArrayList<Place> dbpedia_places = new ArrayList<Place>();
+	public ArrayList<String> pull_query(){
+		ArrayList<String> dbpedia_places = new ArrayList<String>();
+		String query="PREFIX dbpedia-owl:<http://dbpedia.org/ontology/> "
+				+ "PREFIXX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
+				+ "select *"
+				+ " where { ?place rdf:type dbpedia-owl:Place ."
+				+ " ?place dbpedia-owl:isPartOf <http://dbpedia.org/resource/North_Region,_Brazil>."
+				+ " }";
+		query(query,dbpedia_places);
+	
+		query = "select * where { ?place rdf:type dbpedia-owl:Place . ?s dbpedia-owl:isPartOf <http://dbpedia.org/resource/Amazonas_(Brazilian_state)>. }";
+		query(query,dbpedia_places);
+		
+		query = "select * where { ?place ?p <http://dbpedia.org/resource/Category:Protected_areas_of_Amazonas_(Brazilian_state)> . }";
+		query(query,dbpedia_places);
+		
+		query = "";
+		
+		return dbpedia_places;
+	}
+	public void query(String query, ArrayList<String> dbpedia_places){
+
 		String service="http://dbpedia.org/sparql";
-		String query="PREFIX dbo:<http://dbpedia.org/ontology/>" +
-		"PREFIX : <http://dbpedia.org/resource/>" +
-				"select ?person where {?person dbo:birthPlace :Eindhoven.}";
+		
 		QueryExecution qe=QueryExecutionFactory.sparqlService(service, query);
 		ResultSet rs=qe.execSelect(); 
 		while (rs.hasNext()){
 			QuerySolution s=rs.nextSolution(); 
-			System.out.println(s.getResource("?person").toString());
+			System.out.println(s.getResource("?place").toString());
+			dbpedia_places.add(s.getResource("?place").toString());
 		}
-		return dbpedia_places;
+	}
+}
+
+class main {
+	public static void main(String args[]){
+		DBpedia db = new DBpedia();
+		db.pull_query();
 	}
 }
 

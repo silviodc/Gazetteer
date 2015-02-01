@@ -41,7 +41,7 @@ public class Transform_and_Filter {
 	        for(Place p:places){
 	            String ok ="";
 	            p.setLocal(p.getLocation());
-	            p.setNameFilter(p.getLocation().toLowerCase().replaceAll("(?!\")\\p{Punct}", " "));
+	            p.setNameFilter(p.getLocation().toLowerCase().replaceAll("[^\\p{ASCII}]", " "));
 	            temp = p.getNameFilter().split(" ");
 	             for (String s : stop_words) {
 	                for(int k=0;k<temp.length;k++){
