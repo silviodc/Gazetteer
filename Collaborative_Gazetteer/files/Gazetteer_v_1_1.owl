@@ -1104,7 +1104,7 @@
     <owl:ObjectProperty rdf:about="&Gazetter;near">
         <rdfs:label rdf:datatype="&xsd;string">near</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">perto</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">próximo</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">proximo</skos:altLabel>
     </owl:ObjectProperty>
     
 
