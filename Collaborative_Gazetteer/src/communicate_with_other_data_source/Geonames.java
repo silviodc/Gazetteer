@@ -1,5 +1,6 @@
 package communicate_with_other_data_source;
 
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,7 +12,7 @@ import java.util.ArrayList;
 
 
 
-import cluster.Jaccard_Similarity;
+import cluster.Bigram_Similarity;
 
 import com.bbn.openmap.geo.Geo;
 
@@ -35,6 +36,7 @@ public class Geonames {
             	Geo geo = new Geo(transformFloat(values[4]),transformFloat(values[5]));
             	try{
             	geonamesPlaces.add(new Place(values[1],geo));
+            	geonamesPlaces.get(geonamesPlaces.size()-1).setNameFilter(values[1]);
             	}catch(Exception ex){
             		ex.printStackTrace();
             		System.out.println(values[1]+" "+geo);
@@ -45,10 +47,10 @@ public class Geonames {
 	
 	public void compareGeonames_and_Places(ArrayList<Place> places) throws Exception{
 		int count=0;
-		Jaccard_Similarity jaccard = new Jaccard_Similarity();
+		Bigram_Similarity jaccard = new Bigram_Similarity();
 		for(Place p:geonamesPlaces){
 			for(Place pl:places){
-				if(jaccard.jaccardSimilarity(p.getLocation(), pl.getNameFilter())>0.4){
+				if(jaccard.stringSimilarityScore(jaccard.bigram(p.getLocation()), jaccard.bigram(pl.getNameFilter()))>=0.6){
 					pl.setLocation(p.getLocation());
 					pl.setGeometry(p.getGeometry());
 				

@@ -33,7 +33,7 @@ public class Random_Sample {
 	
 	public void random_Centroid(ArrayList<Group> group, int num) throws IOException{
 		ArrayList<Group> cloned = (ArrayList<Group>) group.clone();
-		  File file = new File("Inner_Group_sample.txt");
+		  File file = new File("Centroid_sample.txt");
 	      // creates the file
 	      file.createNewFile();
 	      // creates a FileWriter Object

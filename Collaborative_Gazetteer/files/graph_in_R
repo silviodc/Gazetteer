@@ -1,0 +1,31 @@
+# Create Line Chart
+new = read.csv("C:\\Users\\Silvio\\Documents\\GitHub\\Gazetteer\\Collaborative_Gazetteer\\speciesLinkNew.csv",header=TRUE)
+old = read.csv("C:\\Users\\Silvio\\Documents\\GitHub\\Gazetteer\\Collaborative_Gazetteer\\speciesLink.csv",header=TRUE)
+print(new)
+
+ntrees <- 2
+print(ntrees )
+# get the range for the x and y axis 
+xrange <- range(new[][1]) 
+yrange <- range(new[][2]) 
+print(xrange)
+print(yrange)
+# set up the plot 
+plot(xrange, yrange, type="n", xlab="years",ylab="Coordinates" ) 
+colors <- rainbow(ntrees) 
+linetype <- c(1:ntrees) 
+plotchar <- seq(18,18+ntrees,1)
+
+# add lines 
+  lines(old$Date, old$Coordinates, type="b", lwd=1.5,lty=linetype[1], col=colors[1], pch=plotchar[1]) 
+
+  lines(new$Date, new$Coordinates, type="b", lwd=1.5,lty=linetype[2], col=colors[2], pch=plotchar[2]) 
+
+
+
+# add a title and subtitle 
+title("After GPS")
+
+# add a legend 
+legend(xrange[1], yrange[2], 1:ntrees, cex=0.8, col=colors,
+  	pch=plotchar, lty=linetype, title="Time")

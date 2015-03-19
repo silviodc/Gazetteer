@@ -1,0 +1,1357 @@
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject is spatially disjoint \n      from the object SpatialObject. DE-9IM: FF*FF****\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject is spatially disjoint \n      from the object SpatialObject. DE-9IM: FF*FF****\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject is spatially disjoint \n      from the object SpatialObject. DE-9IM: FF*FF****\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://www.w3.org/2000/01/rdf-schema#label> "disjoint"@en .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://www.w3.org/2004/02/skos/core#prefLabel> "disjoint"@en .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#sfDisjoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <http://www.opengis.net/ont/geosparql#asWKT> "<![CDATA[\n<http://www.opengis.net/def/crs/OGC/1.3/CRS84>\nPoint(-93.4 34.4)\n]]>" .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <asWKT> "<![CDATA[<http://www.opengis.net/def/crs/OGC/1.3/CRS84>Point(Geo[-5.416666507720947,-67.0999984741211])]]>"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <http://www.semanticweb.org/ontologies/Gazetter#locality> "Rio Amazonas"@pt .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <http://www.semanticweb.org/ontologies/Gazetter#agreement> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Geometry> .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <http://www.semanticweb.org/ontologies/Gazetter#county> "Manaus" .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <http://www.semanticweb.org/ontologies/Gazetter#near> <http://www.semanticweb.org/ontologies/Gazetter#1> .
+<http://www.semanticweb.org/ontologies/Gazetter#2> <http://www.semanticweb.org/ontologies/Gazetter#agreement> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.geonames.org/ontology/mappings#Hydroelectric> <http://www.w3.org/2004/02/skos/core#altLabel> "hidreletrica"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Hydroelectric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Hydroelectric> <http://www.w3.org/2000/01/rdf-schema#label> "Hydroelectric"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Hydroelectric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.geonames.org/ontology/mappings#Grove> <http://www.w3.org/2004/02/skos/core#altLabel> "bosque"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Grove> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Grove> <http://www.w3.org/2000/01/rdf-schema#label> "Grove"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Grove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Hospital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Hospital> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital"@en .
+<http://schema.org/Hospital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#notGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Park> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Park> .
+<http://dbpedia.org/ontology/Park> <http://www.w3.org/2000/01/rdf-schema#label> "Park"@en .
+<http://dbpedia.org/ontology/Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Cave> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Cave> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Cave> .
+<http://dbpedia.org/ontology/Cave> <http://www.w3.org/2000/01/rdf-schema#label> "Cave"@en .
+<http://dbpedia.org/ontology/Cave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Waterfall> <http://www.w3.org/2004/02/skos/core#altLabel> "cachoeira"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Waterfall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Waterfall> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Waterfall> .
+<http://linkedgeodata.org/ontology/Waterfall> <http://www.w3.org/2000/01/rdf-schema#label> "Waterfall"@en .
+<http://linkedgeodata.org/ontology/Waterfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Village> <http://www.w3.org/2004/02/skos/core#altLabel> "aldeia"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Village> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Village> <http://www.w3.org/2000/01/rdf-schema#label> "Village"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Village> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Glacier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Glacier> <http://www.w3.org/2000/01/rdf-schema#label> "Glacier"@en .
+<http://linkedgeodata.org/ontology/Glacier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Theatre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Theatre> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Theatre> .
+<http://dbpedia.org/ontology/Theatre> <http://www.w3.org/2000/01/rdf-schema#label> "Theatre"@en .
+<http://dbpedia.org/ontology/Theatre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.opengis.net/ont/geosparql#hasGeometry> .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://purl.org/dc/elements/1.1/description> "\n      The default geometry to be used in spatial calculations.\n      It is Usually the most detailed geometry.\n    "@en .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2004/02/skos/core#definition> "\n      The default geometry to be used in spatial calculations.\n      It is Usually the most detailed geometry.\n    "@en .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "defaultGeometry"@en .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      The default geometry to be used in spatial calculations.\n      It is Usually the most detailed geometry.\n    "@en .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2004/02/skos/core#prefLabel> "defaultGeometry"@en .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://linkedgeodata.org/ontology/Aerodrome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Aerodrome> <http://www.w3.org/2000/01/rdf-schema#label> "Aerodrome"@en .
+<http://linkedgeodata.org/ontology/Aerodrome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Fjord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Fjord> <http://www.w3.org/2000/01/rdf-schema#label> "Fjord"@en .
+<http://linkedgeodata.org/ontology/Fjord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/publisher> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#publisher-006> .
+<http://purl.org/dc/elements/1.1/publisher> <http://purl.org/dc/terms/description> "Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity."@en .
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for making the resource available."@en .
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/publisher> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/publisher> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher"@en .
+<http://linkedgeodata.org/ontology/Ridge> <http://www.w3.org/2004/02/skos/core#altLabel> "serra"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Ridge> <http://www.w3.org/2004/02/skos/core#altLabel> "cordilheira"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Ridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Ridge> <http://www.w3.org/2000/01/rdf-schema#label> "Ridge"@en .
+<http://linkedgeodata.org/ontology/Ridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/University> <http://www.w3.org/2004/02/skos/core#altLabel> "Universidade"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/University> <http://www.w3.org/2004/02/skos/core#altLabel> "Campus"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/University> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/University> <http://www.w3.org/2000/01/rdf-schema#label> "University"@en .
+<http://linkedgeodata.org/ontology/University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Stadium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Stadium> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/StadiumOrArena> .
+<http://linkedgeodata.org/ontology/Stadium> <http://www.w3.org/2000/01/rdf-schema#label> "Stadium"@en .
+<http://linkedgeodata.org/ontology/Stadium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Ditch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Ditch> <http://www.w3.org/2000/01/rdf-schema#label> "Ditch"@en .
+<http://linkedgeodata.org/ontology/Ditch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.geonames.org/ontology#Feature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.geonames.org/ontology#Feature> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://www.geonames.org/ontology#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/coverage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/coverage> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#coverage-006> .
+<http://purl.org/dc/elements/1.1/coverage> <http://www.w3.org/2000/01/rdf-schema#comment> "The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant."@en .
+<http://purl.org/dc/elements/1.1/coverage> <http://purl.org/dc/terms/description> "Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges."@en .
+<http://purl.org/dc/elements/1.1/coverage> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/coverage> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/coverage> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/coverage> <http://www.w3.org/2000/01/rdf-schema#label> "Coverage"@en .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/terms/creator> <http://labs.mondeca.com/foaf/mondeca.rdf#bvatant> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/elements/1.1/creator> "Open Geospatial Consortium"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.opengis.net/def/rule/ogc-geosparql/1.0> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/terms/modified> "2012-02-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2000/01/rdf-schema#comment> "Those mappings are non-exhaustive and valid at the date of publication. They can be invalidated by further changes in the quoted ontologies"@en .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/elements/1.1/date> "2012-04-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/elements/1.1/description> "An RDF/OWL vocabulary for representing spatial information"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.geonames.org/ontology/mappings_v3.01.rdf> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/ontologies/Gazetter> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/elements/1.1/source> "OGC GeoSPARQL – A Geographic Query Language for RDF Data OGC 11-052r5"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/elements/1.1/source> <http://www.opengis.net/doc/IS/geosparql/1.0> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/terms/publisher> "Geonames.org" .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/terms/description> "Expression of mappings between Geonames feature codes and equivalent classes in various ontologies such as schema.org, linkedgeodata.org, dbpedia.org, INSEE ontology."@en .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2002/07/owl#imports> <http://www.opengis.net/ont/sf> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://purl.org/dc/terms/title> "Mappings from Geonames codes to external classes"@en .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2002/07/owl#versionInfo> "OGC GeoSPARQL 1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.opengis.net/doc/IS/geosparql/1.0> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2002/07/owl#imports> <http://www.opengis.net/ont/gml> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.opengis.net/def/function/ogc-geosparql/1.0> .
+<http://www.semanticweb.org/ontologies/Gazetter> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://linkedgeodata.org/ontology/Cemetery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Cemetery> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/GraveYard> .
+<http://linkedgeodata.org/ontology/Cemetery> <http://www.w3.org/2000/01/rdf-schema#label> "Cemetery"@en .
+<http://linkedgeodata.org/ontology/Cemetery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#behind> <http://www.w3.org/2004/02/skos/core#altLabel> "atrás"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#behind> <http://www.w3.org/2000/01/rdf-schema#label> "behind"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#behind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/StadiumOrArena> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/StadiumOrArena> <http://www.w3.org/2000/01/rdf-schema#label> "StadiumOrArena"@en .
+<http://schema.org/StadiumOrArena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/GolfCourse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/GolfCourse> <http://www.w3.org/2000/01/rdf-schema#label> "GolfCourse"@en .
+<http://schema.org/GolfCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://purl.org/dc/elements/1.1/description> "\n      The class spatial-object represents everything that can have \n      a spatial representation. It is superclass of feature and geometry.\n    "@en .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/2004/02/skos/core#prefLabel> "SpatialObject"@en .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/2004/02/skos/core#definition> "\n      The class spatial-object represents everything that can have \n      a spatial representation. It is superclass of feature and geometry.\n    "@en .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/2000/01/rdf-schema#label> "SpatialObject"@en .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      The class spatial-object represents everything that can have \n      a spatial representation. It is superclass of feature and geometry.\n    "@en .
+<http://schema.org/Store> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Store> <http://www.w3.org/2000/01/rdf-schema#label> "Store"@en .
+<http://schema.org/Store> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://www.w3.org/2000/01/rdf-schema#label> "crosses"@en .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://www.w3.org/2004/02/skos/core#prefLabel> "crosses"@en .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially crosses the \n      object SpatialObject. DE-9IM: T*T******\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially crosses the \n      object SpatialObject. DE-9IM: T*T******\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially crosses the \n      object SpatialObject. DE-9IM: T*T******\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#sfCrosses> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://schema.org/City> <http://www.w3.org/2004/02/skos/core#altLabel> "Cidade"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://schema.org/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/City> <http://www.w3.org/2000/01/rdf-schema#label> "City"@en .
+<http://schema.org/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Mosque> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque"@en .
+<http://schema.org/Mosque> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Canal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Canal> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Canal> .
+<http://dbpedia.org/ontology/Canal> <http://www.w3.org/2000/01/rdf-schema#label> "Canal"@en .
+<http://dbpedia.org/ontology/Canal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Library> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Library> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Library> .
+<http://linkedgeodata.org/ontology/Library> <http://www.w3.org/2000/01/rdf-schema#label> "Library"@en .
+<http://linkedgeodata.org/ontology/Library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#county> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#county> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#near> <http://www.w3.org/2004/02/skos/core#altLabel> "proximo"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#near> <http://www.w3.org/2004/02/skos/core#altLabel> "perto"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#near> <http://www.w3.org/2000/01/rdf-schema#label> "near"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#near> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Island> <http://www.w3.org/2004/02/skos/core#altLabel> "ilha"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Island> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Island> <http://www.w3.org/2000/01/rdf-schema#label> "Island"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject is spatially covered \n      by the object SpatialObject. DE-9IM: TFFTTFTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject is spatially covered \n      by the object SpatialObject. DE-9IM: TFFTTFTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/2000/01/rdf-schema#label> "tangential proper part"@en .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/2004/02/skos/core#prefLabel> "tangential proper part"@en .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject is spatially covered \n      by the object SpatialObject. DE-9IM: TFFTTFTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://linkedgeodata.org/ontology/RailwayJunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/RailwayJunction> <http://www.w3.org/2000/01/rdf-schema#label> "Railway Junction"@en .
+<http://linkedgeodata.org/ontology/RailwayJunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#border> <http://www.w3.org/2004/02/skos/core#altLabel> "margem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#border> <http://www.w3.org/2004/02/skos/core#altLabel> "fronteira"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#border> <http://www.w3.org/2004/02/skos/core#altLabel> "borda"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#border> <http://www.w3.org/2004/02/skos/core#altLabel> "beira"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#border> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Lighthouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Lighthouse> <http://www.w3.org/2000/01/rdf-schema#label> "Lighthouse"@en .
+<http://linkedgeodata.org/ontology/Lighthouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#5> <http://www.semanticweb.org/ontologies/Gazetter#county> "Manaus" .
+<http://www.semanticweb.org/ontologies/Gazetter#5> <http://www.opengis.net/ont/geosparql#asWKT> "<![CDATA[\n<http://www.opengis.net/def/crs/OGC/1.3/CRS84>\nPolygon((-83.3 34.0, -83.1 34.0, -83.1 34.2,\n-83.3 34.2, -83.3 34.0))\n]]>" .
+<http://www.semanticweb.org/ontologies/Gazetter#5> <http://www.semanticweb.org/ontologies/Gazetter#contributors> "9" .
+<http://www.semanticweb.org/ontologies/Gazetter#5> <http://www.semanticweb.org/ontologies/Gazetter#agreement> "3" .
+<http://www.semanticweb.org/ontologies/Gazetter#5> <http://www.semanticweb.org/ontologies/Gazetter#locality> "ilha machintaria"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ontologies/Gazetter#access> <http://www.w3.org/2004/02/skos/core#altLabel> "acesso"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#access> <http://www.w3.org/2000/01/rdf-schema#label> "access"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Airport> <http://www.w3.org/2004/02/skos/core#altLabel> "aeroporto"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Airport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Airport> <http://www.w3.org/2000/01/rdf-schema#label> "Airport"@en .
+<http://linkedgeodata.org/ontology/Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Windmill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Windmill> <http://www.w3.org/2000/01/rdf-schema#label> "Windmill"@en .
+<http://linkedgeodata.org/ontology/Windmill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://www.w3.org/2000/01/rdf-schema#label> "overlaps"@en .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially overlaps the \n      object SpatialObject. DE-9IM: T*T***T** \n    "@en .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially overlaps the \n      object SpatialObject. DE-9IM: T*T***T** \n    "@en .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially overlaps the \n      object SpatialObject. DE-9IM: T*T***T** \n    "@en .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://www.w3.org/2004/02/skos/core#prefLabel> "overlaps"@en .
+<http://www.opengis.net/ont/geosparql#sfOverlaps> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://www.w3.org/2004/02/skos/core#prefLabel> "disjoint"@en .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject is spatially disjoint\n      from the object SpatialObject. DE-9IM: FF*FF****\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://www.w3.org/2000/01/rdf-schema#label> "disjoint"@en .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject is spatially disjoint\n      from the object SpatialObject. DE-9IM: FF*FF****\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehDisjoint> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject is spatially disjoint\n      from the object SpatialObject. DE-9IM: FF*FF****\n    "@en .
+<http://linkedgeodata.org/ontology/PetroleumWell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/PetroleumWell> <http://www.w3.org/2000/01/rdf-schema#label> "Petroleum Well"@en .
+<http://linkedgeodata.org/ontology/PetroleumWell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Museum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Museum> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Museum> .
+<http://dbpedia.org/ontology/Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Museum"@en .
+<http://dbpedia.org/ontology/Museum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Restaurant> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Restaurant> .
+<http://dbpedia.org/ontology/Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant"@en .
+<http://dbpedia.org/ontology/Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Mountain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Mountain> <http://www.w3.org/2000/01/rdf-schema#label> "Mountain"@en .
+<http://schema.org/Mountain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/identifier> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#identifier-006> .
+<http://purl.org/dc/elements/1.1/identifier> <http://purl.org/dc/terms/description> "Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. "@en .
+<http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "An unambiguous reference to the resource within a given context."@en .
+<http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/identifier> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/identifier> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en .
+<http://rdf.insee.fr/geo/Commune> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.lirmm.fr/ontologies/geo-fr#Commune> .
+<http://rdf.insee.fr/geo/Commune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/AdministrativeArea> .
+<http://rdf.insee.fr/geo/Commune> <http://www.w3.org/2000/01/rdf-schema#label> "Commune"@fr .
+<http://rdf.insee.fr/geo/Commune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Reef> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Reef> <http://www.w3.org/2000/01/rdf-schema#label> "Reef"@en .
+<http://linkedgeodata.org/ontology/Reef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.ietf.org/rfc/rfc4646.txt> .
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/language> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#language-007> .
+<http://purl.org/dc/elements/1.1/language> <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646]."@en .
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/2000/01/rdf-schema#comment> "A language of the resource."@en .
+<http://purl.org/dc/elements/1.1/language> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/language> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en .
+<http://dbpedia.org/ontology/ProtectedArea> <http://www.w3.org/2004/02/skos/core#altLabel> "reserva florestal"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/ProtectedArea> <http://www.w3.org/2004/02/skos/core#altLabel> "parque"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/ProtectedArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/ProtectedArea> <http://www.w3.org/2000/01/rdf-schema#label> "ProtectedArea"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/ProtectedArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#out> <http://www.w3.org/2004/02/skos/core#altLabel> "fora"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#out> <http://www.w3.org/2000/01/rdf-schema#label> "out"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#out> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially overlaps the \n      object SpatialObject. DE-9IM: T*T***T**\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially overlaps the \n      object SpatialObject. DE-9IM: T*T***T**\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially overlaps the \n      object SpatialObject. DE-9IM: T*T***T**\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://www.w3.org/2000/01/rdf-schema#label> "overlap"@en .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#ehOverlap> <http://www.w3.org/2004/02/skos/core#prefLabel> "overlap"@en .
+<http://dbpedia.org/ontology/Road> <http://www.w3.org/2004/02/skos/core#altLabel> "estrada"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Road> <http://www.w3.org/2004/02/skos/core#altLabel> "br"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Road> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Road> <http://www.w3.org/2000/01/rdf-schema#label> "Road"@en .
+<http://dbpedia.org/ontology/Road> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://www.w3.org/2000/01/rdf-schema#label> "intersects"@en .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://www.w3.org/2004/02/skos/core#prefLabel> "intersects"@en .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject is not spatially disjoint \n      from the object SpatialObject.\n      DE-9IM: T******** ^ *T******* ^ ***T***** ^ ****T**** \n    "@en .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject is not spatially disjoint \n      from the object SpatialObject.\n      DE-9IM: T******** ^ *T******* ^ ***T***** ^ ****T**** \n    "@en .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject is not spatially disjoint \n      from the object SpatialObject.\n      DE-9IM: T******** ^ *T******* ^ ***T***** ^ ****T**** \n    "@en .
+<http://www.opengis.net/ont/geosparql#sfIntersects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Bridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Bridge> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/Bridge> <http://www.w3.org/2000/01/rdf-schema#label> "Bridge"@en .
+<http://dbpedia.org/ontology/Bridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#locality> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#locality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/AdministrativeArea> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Country> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Garden> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Garden> <http://www.w3.org/2000/01/rdf-schema#label> "Garden"@en .
+<http://linkedgeodata.org/ontology/Garden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#south> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#south> <http://www.w3.org/2004/02/skos/core#altLabel> "sul"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#south> <http://www.w3.org/2000/01/rdf-schema#label> "south"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#south> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Aqueduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Aqueduct> <http://www.w3.org/2000/01/rdf-schema#label> "Aqueduct"@en .
+<http://linkedgeodata.org/ontology/Aqueduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Hotel> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Hotel> .
+<http://linkedgeodata.org/ontology/Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel"@en .
+<http://linkedgeodata.org/ontology/Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially equals the \n      object SpatialObject. DE-9IM: TFFFTFFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://www.w3.org/2004/02/skos/core#prefLabel> "equals"@en .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially equals the \n      object SpatialObject. DE-9IM: TFFFTFFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially equals the \n      object SpatialObject. DE-9IM: TFFFTFFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://www.w3.org/2000/01/rdf-schema#label> "equals"@en .
+<http://www.opengis.net/ont/geosparql#sfEquals> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://schema.org/Reservoir> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Reservoir> <http://www.w3.org/2000/01/rdf-schema#label> "Reservoir"@en .
+<http://schema.org/Reservoir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#right_margin> <http://www.w3.org/2004/02/skos/core#altLabel> "margem direita"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#right_margin> <http://www.w3.org/2000/01/rdf-schema#label> "right margin"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#right_margin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/RailwayStop> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/RailwayStop> <http://www.w3.org/2000/01/rdf-schema#label> "Railway Stop"@en .
+<http://linkedgeodata.org/ontology/RailwayStop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Valley> <http://www.w3.org/2004/02/skos/core#altLabel> "vale"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Valley> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Valley> <http://www.w3.org/2000/01/rdf-schema#label> "Valley"@en .
+<http://dbpedia.org/ontology/Valley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/sf#wktLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://linkedgeodata.org/ontology/Bridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Bridge> <http://www.w3.org/2000/01/rdf-schema#label> "Bridge"@en .
+<http://linkedgeodata.org/ontology/Bridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/MountainPass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/MountainPass> <http://www.w3.org/2000/01/rdf-schema#label> "Mountain Pass"@en .
+<http://dbpedia.org/ontology/MountainPass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/subject> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#subject-007> .
+<http://purl.org/dc/elements/1.1/subject> <http://purl.org/dc/terms/description> "Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary."@en .
+<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "The topic of the resource."@en .
+<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/subject> <http://purl.org/dc/terms/modified> "2012-06-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/subject> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2000/01/rdf-schema#label> "Subject"@en .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/2004/02/skos/core#prefLabel> "externally connected"@en .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially meets the \n      object SpatialObject. DE-9IM: FFTFTTTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/2000/01/rdf-schema#label> "externally connected"@en .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially meets the \n      object SpatialObject. DE-9IM: FFTFTTTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially meets the \n      object SpatialObject. DE-9IM: FFTFTTTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.semanticweb.org/ontologies/Gazetter#between> <http://www.w3.org/2004/02/skos/core#altLabel> "entre\n"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#between> <http://www.w3.org/2000/01/rdf-schema#label> "between"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#between> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.geonames.org/ontology/mappings#Camp> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Camp> <http://www.w3.org/2000/01/rdf-schema#label> "campo"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Camp> <http://www.w3.org/2000/01/rdf-schema#label> "Camp"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Camp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Palace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Palace> <http://www.w3.org/2000/01/rdf-schema#label> "Palace"@en .
+<http://linkedgeodata.org/ontology/Palace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Volcano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Volcano> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Volcano> .
+<http://linkedgeodata.org/ontology/Volcano> <http://www.w3.org/2000/01/rdf-schema#label> "Volcano"@en .
+<http://linkedgeodata.org/ontology/Volcano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Cemetery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Cemetery> <http://www.w3.org/2000/01/rdf-schema#label> "Cemetery"@en .
+<http://schema.org/Cemetery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/GolfCourse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/GolfCourse> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/GolfCourse> .
+<http://linkedgeodata.org/ontology/GolfCourse> <http://www.w3.org/2000/01/rdf-schema#label> "Golf Course"@en .
+<http://linkedgeodata.org/ontology/GolfCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      A Well-known Text serialization of a geometry object.\n    "@en .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://purl.org/dc/elements/1.1/description> "\n      A Well-known Text serialization of a geometry object.\n    "@en .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/2004/02/skos/core#definition> "\n      A Well-known Text serialization of a geometry object.\n    "@en .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/2004/02/skos/core#prefLabel> "Well-known Text Literal"@en .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/2000/01/rdf-schema#label> "Well-known Text Literal"@en .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.geonames.org/ontology/mappings#Township> <http://www.w3.org/2004/02/skos/core#altLabel> "vila"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Township> <http://www.w3.org/2004/02/skos/core#altLabel> "distrito"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Township> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Township> <http://www.w3.org/2000/01/rdf-schema#label> "Township"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Township> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Harbour> <http://www.w3.org/2004/02/skos/core#altLabel> "porto"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Harbour> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Harbour> <http://www.w3.org/2000/01/rdf-schema#label> "Harbour"@en .
+<http://linkedgeodata.org/ontology/Harbour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      (true) if this geometric object is the empty Geometry. If \n      true, then this geometric object represents the empty point \n      set for the coordinate space.\n    "@en .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://purl.org/dc/elements/1.1/description> "\n      (true) if this geometric object is the empty Geometry. If \n      true, then this geometric object represents the empty point \n      set for the coordinate space.\n    "@en .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://www.w3.org/2004/02/skos/core#definition> "\n      (true) if this geometric object is the empty Geometry. If \n      true, then this geometric object represents the empty point \n      set for the coordinate space.\n    "@en .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://www.w3.org/2004/02/skos/core#prefLabel> "isEmpty"@en .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://www.w3.org/2000/01/rdf-schema#label> "isEmpty"@en .
+<http://www.opengis.net/ont/geosparql#isEmpty> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://www.w3.org/2004/02/skos/core#prefLabel> "coveredBy"@en .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject is spatially covered \n      by the object SpatialObject. DE-9IM: TFF*TFT**\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://www.w3.org/2000/01/rdf-schema#label> "coveredBy"@en .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject is spatially covered \n      by the object SpatialObject. DE-9IM: TFF*TFT**\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehCoveredBy> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject is spatially covered \n      by the object SpatialObject. DE-9IM: TFF*TFT**\n    "@en .
+<http://linkedgeodata.org/ontology/CommunityCentre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/CommunityCentre> <http://www.w3.org/2000/01/rdf-schema#label> "Community Centre"@en .
+<http://linkedgeodata.org/ontology/CommunityCentre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/2004/02/skos/core#prefLabel> "tangential proper part inverse"@en .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially covers the \n      object SpatialObject. DE-9IM: TTTFTTFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially covers the \n      object SpatialObject. DE-9IM: TTTFTTFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/2000/01/rdf-schema#label> "tangential proper part inverse"@en .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially covers the \n      object SpatialObject. DE-9IM: TTTFTTFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://linkedgeodata.org/ontology/Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Restaurant> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Restaurant> .
+<http://linkedgeodata.org/ontology/Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant"@en .
+<http://linkedgeodata.org/ontology/Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Courthouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Courthouse> <http://www.w3.org/2000/01/rdf-schema#label> "Courthouse"@en .
+<http://linkedgeodata.org/ontology/Courthouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Church> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Church> <http://www.w3.org/2000/01/rdf-schema#label> "Church"@en .
+<http://schema.org/Church> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.geospecies.org/ont/geospecies#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/AdministrativeArea> .
+<http://rdf.geospecies.org/ont/geospecies#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<http://rdf.geospecies.org/ont/geospecies#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/relation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#relation-006> .
+<http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/description> "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en .
+<http://purl.org/dc/elements/1.1/relation> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource."@en .
+<http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation"@en .
+<http://linkedgeodata.org/ontology/Historic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Historic> <http://www.w3.org/2000/01/rdf-schema#label> "Historic"@en .
+<http://linkedgeodata.org/ontology/Historic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/creator> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#creator-006> .
+<http://purl.org/dc/elements/1.1/creator> <http://purl.org/dc/terms/description> "Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity."@en .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity primarily responsible for making the resource."@en .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/creator> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/creator> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#label> "Creator"@en .
+<http://www.semanticweb.org/ontologies/Gazetter#3> <http://www.semanticweb.org/ontologies/Gazetter#behind> <http://www.semanticweb.org/ontologies/Gazetter#2> .
+<http://www.semanticweb.org/ontologies/Gazetter#3> <http://www.opengis.net/ont/geosparql#asWKT> "<![CDATA[\n<http://www.opengis.net/def/crs/OGC/1.3/CRS84>\nPoint(-83.4 36.4)\n]]>" .
+<http://www.semanticweb.org/ontologies/Gazetter#3> <http://www.semanticweb.org/ontologies/Gazetter#county> "Manaus" .
+<http://www.semanticweb.org/ontologies/Gazetter#3> <http://www.semanticweb.org/ontologies/Gazetter#locality> "Camp A3"@pt .
+<http://www.semanticweb.org/ontologies/Gazetter#3> <http://www.semanticweb.org/ontologies/Gazetter#contributors> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/ontologies/Gazetter#3> <http://www.semanticweb.org/ontologies/Gazetter#agreement> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/ontologies/Gazetter#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology/mappings#Camp> .
+<http://www.semanticweb.org/ontologies/Gazetter#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/ontology/Tunnel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Tunnel> <http://www.w3.org/2000/01/rdf-schema#label> "Tunnel"@en .
+<http://dbpedia.org/ontology/Tunnel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/format> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/format> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#format-007> .
+<http://purl.org/dc/elements/1.1/format> <http://www.w3.org/2000/01/rdf-schema#comment> "The file format, physical medium, or dimensions of the resource."@en .
+<http://purl.org/dc/elements/1.1/format> <http://purl.org/dc/terms/description> "Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]."@en .
+<http://purl.org/dc/elements/1.1/format> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/format> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/format> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/format> <http://www.w3.org/2000/01/rdf-schema#label> "Format"@en .
+<http://www.semanticweb.org/ontologies/Gazetter#minutes> <http://www.w3.org/2004/02/skos/core#altLabel> "minutos"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#minutes> <http://www.w3.org/2000/01/rdf-schema#label> "minutes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#minutes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/State> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/State> <http://www.w3.org/2000/01/rdf-schema#label> "State"@en .
+<http://schema.org/State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://www.w3.org/2004/02/skos/core#prefLabel> "touches"@en .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially touches the \n      object SpatialObject.\n      DE-9IM: FT******* ^ F**T***** ^ F***T****\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially touches the \n      object SpatialObject.\n      DE-9IM: FT******* ^ F**T***** ^ F***T****\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://www.w3.org/2000/01/rdf-schema#label> "touches"@en .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially touches the \n      object SpatialObject.\n      DE-9IM: FT******* ^ F**T***** ^ F***T****\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#sfTouches> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially contains the \n      object SpatialObject. DE-9IM: TTTFFTFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/2004/02/skos/core#prefLabel> "non-tangential proper part inverse"@en .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially contains the \n      object SpatialObject. DE-9IM: TTTFFTFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially contains the \n      object SpatialObject. DE-9IM: TTTFFTFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/2000/01/rdf-schema#label> "non-tangential proper part inverse"@en .
+<http://dbpedia.org/ontology/Lighthouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Lighthouse> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Lighthouse> .
+<http://dbpedia.org/ontology/Lighthouse> <http://www.w3.org/2000/01/rdf-schema#label> "Lighthouse"@en .
+<http://dbpedia.org/ontology/Lighthouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Stadium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Stadium> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Stadium> .
+<http://dbpedia.org/ontology/Stadium> <http://www.w3.org/2000/01/rdf-schema#label> "Stadium"@en .
+<http://dbpedia.org/ontology/Stadium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Farm> <http://www.w3.org/2004/02/skos/core#altLabel> "sitio"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Farm> <http://www.w3.org/2004/02/skos/core#altLabel> "fazenda"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Farm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Farm> <http://www.w3.org/2000/01/rdf-schema#label> "Farm"@en .
+<http://linkedgeodata.org/ontology/Farm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#partyOf> <http://www.w3.org/2004/02/skos/core#altLabel> "faz parte"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#partyOf> <http://www.w3.org/2000/01/rdf-schema#label> "partyOf"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#partyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#east> <http://www.w3.org/2004/02/skos/core#altLabel> "leste"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#east> <http://www.w3.org/2000/01/rdf-schema#label> "east"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#east> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Castle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Castle> <http://www.w3.org/2000/01/rdf-schema#label> "Castle"@en .
+<http://linkedgeodata.org/ontology/Castle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#km> <http://www.w3.org/2004/02/skos/core#altLabel> "kilometros"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#km> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/BusStop> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/BusStop> <http://www.w3.org/2000/01/rdf-schema#label> "Bus Stop"@en .
+<http://linkedgeodata.org/ontology/BusStop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Park> <http://www.w3.org/2000/01/rdf-schema#label> "Park"@en .
+<http://schema.org/Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Quarry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Quarry> <http://www.w3.org/2000/01/rdf-schema#label> "Quarry"@en .
+<http://linkedgeodata.org/ontology/Quarry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Observatory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Observatory> <http://www.w3.org/2000/01/rdf-schema#label> "Observatory"@en .
+<http://linkedgeodata.org/ontology/Observatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Community> <http://www.w3.org/2004/02/skos/core#altLabel> "comunidade"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Community> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Community> <http://www.w3.org/2000/01/rdf-schema#label> "community"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Lake> <http://www.w3.org/2004/02/skos/core#altLabel> "lago"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Lake> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Lake> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/LakeBodyOfWater> .
+<http://dbpedia.org/ontology/Lake> <http://www.w3.org/2000/01/rdf-schema#label> "Lake"@en .
+<http://dbpedia.org/ontology/Lake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/source> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#source-006> .
+<http://purl.org/dc/elements/1.1/source> <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en .
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource from which the described resource is derived."@en .
+<http://purl.org/dc/elements/1.1/source> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/source> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/2000/01/rdf-schema#label> "Source"@en .
+<http://www.semanticweb.org/ontologies/Gazetter#northeast> <http://www.w3.org/2004/02/skos/core#altLabel> "nordeste"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#northeast> <http://www.w3.org/2000/01/rdf-schema#label> "northeast"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#northeast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#description-006> .
+<http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2000/01/rdf-schema#comment> "An account of the resource."@en .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description"@en .
+<http://linkedgeodata.org/ontology/TrainStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/TrainStation> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/TrainStation> .
+<http://linkedgeodata.org/ontology/TrainStation> <http://www.w3.org/2000/01/rdf-schema#label> "Train Station"@en .
+<http://linkedgeodata.org/ontology/TrainStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Canal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Canal> <http://www.w3.org/2000/01/rdf-schema#label> "Canal"@en .
+<http://linkedgeodata.org/ontology/Canal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/RailwayTunnel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/RailwayTunnel> <http://www.w3.org/2000/01/rdf-schema#label> "Railway Tunnel"@en .
+<http://dbpedia.org/ontology/RailwayTunnel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://www.w3.org/2004/02/skos/core#prefLabel> "coordinateDimension"@en .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      The number of measurements or axes needed to describe the position of this\n      geometry in a coordinate system.\n    "@en .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://www.w3.org/2004/02/skos/core#definition> "\n      The number of measurements or axes needed to describe the position of this\n      geometry in a coordinate system.\n    "@en .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://purl.org/dc/elements/1.1/description> "\n      The number of measurements or axes needed to describe the position of this\n      geometry in a coordinate system.\n    "@en .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#coordinateDimension> <http://www.w3.org/2000/01/rdf-schema#label> "coordinateDimension"@en .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2004/02/skos/core#prefLabel> "hasGeometry"@en .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://purl.org/dc/elements/1.1/description> "\n      A spatial representation for a given feature.\n    "@en .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      A spatial representation for a given feature.\n    "@en .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "hasGeometry"@en .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2004/02/skos/core#definition> "\n      A spatial representation for a given feature.\n    "@en .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://www.w3.org/2004/02/skos/core#definition> "\n      The number of measurements or axes needed to describe the spatial position of \n      this geometry in a coordinate system.\n    "@en .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      The number of measurements or axes needed to describe the spatial position of \n      this geometry in a coordinate system.\n    "@en .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://www.w3.org/2000/01/rdf-schema#label> "spatialDimension"@en .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://www.w3.org/2004/02/skos/core#prefLabel> "spatialDimension"@en .
+<http://www.opengis.net/ont/geosparql#spatialDimension> <http://purl.org/dc/elements/1.1/description> "\n      The number of measurements or axes needed to describe the spatial position of \n      this geometry in a coordinate system.\n    "@en .
+<http://dbpedia.org/ontology/Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Building> <http://www.w3.org/2000/01/rdf-schema#label> "Building"@en .
+<http://dbpedia.org/ontology/Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject is spatially disjoint\n      from the object SpatialObject. DE-9IM: FFTFFTTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject is spatially disjoint\n      from the object SpatialObject. DE-9IM: FFTFFTTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject is spatially disjoint\n      from the object SpatialObject. DE-9IM: FFTFFTTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/2004/02/skos/core#prefLabel> "disconnected"@en .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/2000/01/rdf-schema#label> "disconnected"@en .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.semanticweb.org/ontologies/Gazetter#before> <http://www.w3.org/2004/02/skos/core#altLabel> "antes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#before> <http://www.w3.org/2000/01/rdf-schema#label> "before"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#before> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Plateau> <http://www.w3.org/2004/02/skos/core#altLabel> "planalto"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Plateau> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Plateau> <http://www.w3.org/2000/01/rdf-schema#label> "Plateau"@en .
+<http://linkedgeodata.org/ontology/Plateau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Rocks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Rocks> <http://www.w3.org/2000/01/rdf-schema#label> "Rocks"@en .
+<http://linkedgeodata.org/ontology/Rocks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/BusStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/BusStation> <http://www.w3.org/2000/01/rdf-schema#label> "Bus Station"@en .
+<http://linkedgeodata.org/ontology/BusStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#below> <http://www.w3.org/2004/02/skos/core#altLabel> "abaixo"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#below> <http://www.w3.org/2000/01/rdf-schema#label> "below"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#below> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/HotSpring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/HotSpring> <http://www.w3.org/2000/01/rdf-schema#label> "Hot Spring"@en .
+<http://linkedgeodata.org/ontology/HotSpring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/AbandonedStation> <http://www.w3.org/2004/02/skos/core#altLabel> "Estação Abandonada"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/AbandonedStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/AbandonedStation> <http://www.w3.org/2000/01/rdf-schema#label> "Abandoned Station"@en .
+<http://linkedgeodata.org/ontology/AbandonedStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Airport> <http://www.w3.org/2004/02/skos/core#altLabel> "Aeroporto"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/Airport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Airport> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Airport> .
+<http://dbpedia.org/ontology/Airport> <http://www.w3.org/2000/01/rdf-schema#label> "Airport"@en .
+<http://dbpedia.org/ontology/Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Pier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Pier> <http://www.w3.org/2000/01/rdf-schema#label> "Pier"@en .
+<http://linkedgeodata.org/ontology/Pier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/PowerStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/PowerStation> <http://www.w3.org/2000/01/rdf-schema#label> "Power Station"@en .
+<http://linkedgeodata.org/ontology/PowerStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant"@en .
+<http://schema.org/Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#along> <http://www.w3.org/2004/02/skos/core#altLabel> "ao longo"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#along> <http://www.w3.org/2000/01/rdf-schema#label> "along"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#along> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/PostOffice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/PostOffice> <http://www.w3.org/2000/01/rdf-schema#label> "PostOffice"@en .
+<http://schema.org/PostOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Peak> <http://www.w3.org/2004/02/skos/core#altLabel> "pico"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Peak> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Peak> <http://www.w3.org/2000/01/rdf-schema#label> "Peak"@en .
+<http://linkedgeodata.org/ontology/Peak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#Caatinga> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.semanticweb.org/ontologies/Gazetter#Caatinga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Atoll> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Atoll> <http://www.w3.org/2000/01/rdf-schema#label> "Atoll"@en .
+<http://dbpedia.org/ontology/Atoll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/RoadJunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/RoadJunction> <http://www.w3.org/2000/01/rdf-schema#label> "Road Junction"@en .
+<http://dbpedia.org/ontology/RoadJunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/SubwayStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/SubwayStation> <http://www.w3.org/2000/01/rdf-schema#label> "SubwayStation"@en .
+<http://schema.org/SubwayStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Zoo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Zoo> <http://www.w3.org/2000/01/rdf-schema#label> "Zoo"@en .
+<http://schema.org/Zoo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/AdministrativeArea> <http://www.w3.org/2004/02/skos/core#altLabel> "Área Administrativa"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://schema.org/AdministrativeArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/AdministrativeArea> <http://www.w3.org/2000/01/rdf-schema#label> "AdministrativeArea"@en .
+<http://schema.org/AdministrativeArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#left> <http://www.w3.org/2004/02/skos/core#altLabel> "esquerda"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#left> <http://www.w3.org/2000/01/rdf-schema#label> "left"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#left> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Peninsula> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Peninsula> <http://www.w3.org/2000/01/rdf-schema#label> "Peninsula"@en .
+<http://linkedgeodata.org/ontology/Peninsula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.geonames.org/ontology#featureCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <http://www.opengis.net/ont/geosparql#asWKT> "<![CDATA[\n<http://www.opengis.net/def/crs/OGC/1.3/CRS84>\nPoint(-83.4 34.4)\n]]>" .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <agreement> "0"^^<http://www.w3.org/2001/XMLSchema#long> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <http://www.semanticweb.org/ontologies/Gazetter#county> "Manaus" .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <county> ""^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <http://www.semanticweb.org/ontologies/Gazetter#locality> "Manaus" .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <date> "1991"^^<http://www.w3.org/2001/XMLSchema#long> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <http://www.semanticweb.org/ontologies/Gazetter#agreement> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.semanticweb.org/ontologies/Gazetter#2> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <http://www.semanticweb.org/ontologies/Gazetter#contributors> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/City> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <contributors> "0"^^<http://www.w3.org/2001/XMLSchema#long> .
+<http://www.semanticweb.org/ontologies/Gazetter#1> <location> "Altamira margem direita rio Juruá"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://www.w3.org/2000/01/rdf-schema#label> "meet"@en .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially meets the \n      object SpatialObject. \n      DE-9IM: FT******* ^ F**T***** ^ F***T****\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially meets the \n      object SpatialObject. \n      DE-9IM: FT******* ^ F**T***** ^ F***T****\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://www.w3.org/2004/02/skos/core#prefLabel> "meet"@en .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially meets the \n      object SpatialObject. \n      DE-9IM: FT******* ^ F**T***** ^ F***T****\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#ehMeet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://dbpedia.org/ontology/Monument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Monument> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Monument> .
+<http://dbpedia.org/ontology/Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument"@en .
+<http://dbpedia.org/ontology/Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#south-west> <http://www.w3.org/2004/02/skos/core#altLabel> "sudoeste"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#south-west> <http://www.w3.org/2000/01/rdf-schema#label> "south-west"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#south-west> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially equals the \n      object SpatialObject. DE-9IM: TFFFTFFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/2000/01/rdf-schema#label> "equals"@en .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially equals the \n      object SpatialObject. DE-9IM: TFFFTFFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially equals the \n      object SpatialObject. DE-9IM: TFFFTFFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/2004/02/skos/core#prefLabel> "equals"@en .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://linkedgeodata.org/ontology/Casino> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Casino> <http://www.w3.org/2000/01/rdf-schema#label> "Casino"@en .
+<http://linkedgeodata.org/ontology/Casino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Barracks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Barracks> <http://www.w3.org/2000/01/rdf-schema#label> "Barracks"@en .
+<http://linkedgeodata.org/ontology/Barracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/RadioStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/RadioStation> <http://www.w3.org/2000/01/rdf-schema#label> "RadioStation"@en .
+<http://schema.org/RadioStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/contributor> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#contributor-006> .
+<http://purl.org/dc/elements/1.1/contributor> <http://purl.org/dc/terms/description> "Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity."@en .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for making contributions to the resource."@en .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/contributor> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/contributor> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2000/01/rdf-schema#label> "Contributor"@en .
+<http://linkedgeodata.org/ontology/Prison> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Prison> <http://www.w3.org/2000/01/rdf-schema#label> "Prison"@en .
+<http://linkedgeodata.org/ontology/Prison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject is spatially inside \n      the object SpatialObject. DE-9IM: TFF*FFT**\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://www.w3.org/2004/02/skos/core#prefLabel> "inside"@en .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject is spatially inside \n      the object SpatialObject. DE-9IM: TFF*FFT**\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://www.w3.org/2000/01/rdf-schema#label> "inside"@en .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject is spatially inside \n      the object SpatialObject. DE-9IM: TFF*FFT**\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehInside> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://linkedgeodata.org/ontology/RailwayStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/RailwayStation> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/TrainStation> .
+<http://linkedgeodata.org/ontology/RailwayStation> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/TrainStation> .
+<http://linkedgeodata.org/ontology/RailwayStation> <http://www.w3.org/2000/01/rdf-schema#label> "Railway Station"@en .
+<http://linkedgeodata.org/ontology/RailwayStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#dimension> <http://www.w3.org/2004/02/skos/core#prefLabel> "dimension"@en .
+<http://www.opengis.net/ont/geosparql#dimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimension"@en .
+<http://www.opengis.net/ont/geosparql#dimension> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#dimension> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#dimension> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#dimension> <http://purl.org/dc/elements/1.1/description> "\n      The topological dimension of this geometric object, which \n      must be less than or equal to the coordinate dimension. \n      In non-homogeneous collections, this will return the largest \n      topological dimension of the contained objects.\n    "@en .
+<http://www.opengis.net/ont/geosparql#dimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.opengis.net/ont/geosparql#dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.opengis.net/ont/geosparql#dimension> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#dimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#dimension> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      The topological dimension of this geometric object, which \n      must be less than or equal to the coordinate dimension. \n      In non-homogeneous collections, this will return the largest \n      topological dimension of the contained objects.\n    "@en .
+<http://www.opengis.net/ont/geosparql#dimension> <http://www.w3.org/2004/02/skos/core#definition> "\n      The topological dimension of this geometric object, which \n      must be less than or equal to the coordinate dimension. \n      In non-homogeneous collections, this will return the largest \n      topological dimension of the contained objects.\n    "@en .
+<http://www.opengis.net/ont/geosparql#dimension> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://schema.org/SeaBodyOfWater> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/SeaBodyOfWater> <http://www.w3.org/2000/01/rdf-schema#label> "SeaBodyOfWater"@en .
+<http://schema.org/SeaBodyOfWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Resort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Resort> <http://www.w3.org/2000/01/rdf-schema#label> "Resort"@en .
+<http://linkedgeodata.org/ontology/Resort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Theatre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Theatre> <http://www.w3.org/2000/01/rdf-schema#label> "Theatre"@en .
+<http://linkedgeodata.org/ontology/Theatre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Cave> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Cave> <http://www.w3.org/2000/01/rdf-schema#label> "Cave"@en .
+<http://linkedgeodata.org/ontology/Cave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Church> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Church> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Church> .
+<http://dbpedia.org/ontology/Church> <http://www.w3.org/2000/01/rdf-schema#label> "Church"@en .
+<http://dbpedia.org/ontology/Church> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/RoadTunnel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/RoadTunnel> <http://www.w3.org/2000/01/rdf-schema#label> "Road Tunnel"@en .
+<http://dbpedia.org/ontology/RoadTunnel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#after> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#after> <http://www.w3.org/2004/02/skos/core#altLabel> "depois"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#after> <http://www.w3.org/2000/01/rdf-schema#label> "after"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#after> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Dam> <http://www.w3.org/2004/02/skos/core#altLabel> "represa"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://linkedgeodata.org/ontology/Dam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Dam> <http://www.w3.org/2000/01/rdf-schema#label> "Dam"@en .
+<http://linkedgeodata.org/ontology/Dam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#southeast> <http://www.w3.org/2004/02/skos/core#altLabel> "sudeste"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#southeast> <http://www.w3.org/2000/01/rdf-schema#label> "southeast"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#southeast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Hill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Hill> <http://www.w3.org/2000/01/rdf-schema#label> "Hill"@en .
+<http://linkedgeodata.org/ontology/Hill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Mountain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Mountain> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Mountain> .
+<http://dbpedia.org/ontology/Mountain> <http://www.w3.org/2000/01/rdf-schema#label> "Mountain"@en .
+<http://dbpedia.org/ontology/Mountain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Library> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Library> <http://www.w3.org/2000/01/rdf-schema#label> "Library"@en .
+<http://schema.org/Library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#date-006> .
+<http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/2000/01/rdf-schema#comment> "A point or period of time associated with an event in the lifecycle of the resource."@en .
+<http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
+<http://linkedgeodata.org/ontology/GraveYard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/GraveYard> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Cemetery> .
+<http://linkedgeodata.org/ontology/GraveYard> <http://www.w3.org/2000/01/rdf-schema#label> "Graveyard"@en .
+<http://linkedgeodata.org/ontology/GraveYard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially contains the \n      object SpatialObject. DE-9IM: T*****FF*\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially contains the \n      object SpatialObject. DE-9IM: T*****FF*\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2004/02/skos/core#prefLabel> "contains"@en .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially contains the \n      object SpatialObject. DE-9IM: T*****FF*\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2000/01/rdf-schema#label> "contains"@en .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.opengis.net/ont/geosparql#hasSerialization> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#label> "asWKT"@en .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      The WKT serialization of a geometry\n    "@en .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://purl.org/dc/elements/1.1/description> "\n      The WKT serialization of a geometry\n    "@en .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2004/02/skos/core#definition> "\n      The WKT serialization of a geometry\n    "@en .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2004/02/skos/core#prefLabel> "asWKT"@en .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/HistoricPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/HistoricPlace> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Historic> .
+<http://dbpedia.org/ontology/HistoricPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Historic Place"@en .
+<http://dbpedia.org/ontology/HistoricPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Church> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Church> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Church> .
+<http://linkedgeodata.org/ontology/Church> <http://www.w3.org/2000/01/rdf-schema#label> "Church"@en .
+<http://linkedgeodata.org/ontology/Church> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Plain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Plain> <http://www.w3.org/2000/01/rdf-schema#label> "Plain"@en .
+<http://linkedgeodata.org/ontology/Plain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/rights> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rights-006> .
+<http://purl.org/dc/elements/1.1/rights> <http://purl.org/dc/terms/description> "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."@en .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about rights held in and over the resource."@en .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/rights> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/rights> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2000/01/rdf-schema#label> "Rights"@en .
+<http://schema.org/Waterfall> <http://www.w3.org/2004/02/skos/core#altLabel> "cachoeira"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://schema.org/Waterfall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Waterfall> <http://www.w3.org/2000/01/rdf-schema#label> "Waterfall"@en .
+<http://schema.org/Waterfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Weir> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Weir> <http://www.w3.org/2000/01/rdf-schema#label> "Weir"@en .
+<http://linkedgeodata.org/ontology/Weir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#above> <http://www.w3.org/2004/02/skos/core#altLabel> "acima"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#above> <http://www.w3.org/2000/01/rdf-schema#label> "above"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#above> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#west> <http://www.w3.org/2004/02/skos/core#altLabel> "oeste"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#west> <http://www.w3.org/2000/01/rdf-schema#label> "west"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#west> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject is spatially inside \n      the object SpatialObject. DE-9IM: TFFTFFTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/2000/01/rdf-schema#label> "non-tangential proper part"@en .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject is spatially inside \n      the object SpatialObject. DE-9IM: TFFTFFTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject is spatially inside \n      the object SpatialObject. DE-9IM: TFFTFFTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/2004/02/skos/core#prefLabel> "non-tangential proper part"@en .
+<http://linkedgeodata.org/ontology/School> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/School> <http://www.w3.org/2000/01/rdf-schema#label> "School"@en .
+<http://linkedgeodata.org/ontology/School> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#left_margin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#left_margin> <http://www.w3.org/2004/02/skos/core#altLabel> "margem esquerda"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#left_margin> <http://www.w3.org/2000/01/rdf-schema#label> "left margin"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#left_margin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/silvio/ontologies/www.linkedgeodata/ontology/Ridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.geonames.org/ontology/mappings#Street> <http://www.w3.org/2004/02/skos/core#altLabel> "rua"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Street> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Street> <http://www.w3.org/2000/01/rdf-schema#label> "Street"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Street> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/2004/02/skos/core#prefLabel> "partially overlapping"@en .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially overlaps the \n      object SpatialObject. DE-9IM: TTTTTTTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially overlaps the \n      object SpatialObject. DE-9IM: TTTTTTTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/2000/01/rdf-schema#label> "partially overlapping"@en .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially overlaps the \n      object SpatialObject. DE-9IM: TTTTTTTTT\n    "@en .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://www.w3.org/2000/01/rdf-schema#label> "covers"@en .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially covers the \n      object SpatialObject. DE-9IM: T*TFT*FF*\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://www.w3.org/2004/02/skos/core#prefLabel> "covers"@en .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially covers the \n      object SpatialObject. DE-9IM: T*TFT*FF*\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehCovers> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially covers the \n      object SpatialObject. DE-9IM: T*TFT*FF*\n    "@en .
+<http://linkedgeodata.org/ontology/Rapids> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Rapids> <http://www.w3.org/2000/01/rdf-schema#label> "Rapids"@en .
+<http://linkedgeodata.org/ontology/Rapids> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#4> <http://www.semanticweb.org/ontologies/Gazetter#behind> <http://www.semanticweb.org/ontologies/Gazetter#5> .
+<http://www.semanticweb.org/ontologies/Gazetter#4> <http://www.semanticweb.org/ontologies/Gazetter#county> "Manaus" .
+<http://www.semanticweb.org/ontologies/Gazetter#4> <http://www.opengis.net/ont/geosparql#asWKT> "<![CDATA[\n<http://www.opengis.net/def/crs/OGC/1.3/CRS84>\nLineString((-83.4 34.0, -83.3 34.3))\n]]>" .
+<http://www.semanticweb.org/ontologies/Gazetter#4> <http://www.semanticweb.org/ontologies/Gazetter#locality> "vila dos tapuãs"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#4> <http://www.semanticweb.org/ontologies/Gazetter#agreement> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/ontologies/Gazetter#4> <http://www.semanticweb.org/ontologies/Gazetter#contributors> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/ontologies/Gazetter#4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.geonames.org/ontology/mappings#Higway> <http://www.w3.org/2004/02/skos/core#altLabel> "rodovia"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Higway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Higway> <http://www.w3.org/2000/01/rdf-schema#label> "Higway"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Higway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Beach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Beach> <http://www.w3.org/2000/01/rdf-schema#label> "Beach"@en .
+<http://linkedgeodata.org/ontology/Beach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#northwest> <http://www.w3.org/2004/02/skos/core#altLabel> "noroeste"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#northwest> <http://www.w3.org/2000/01/rdf-schema#label> "northwest"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#northwest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Hospital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Hospital> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Hospital> .
+<http://linkedgeodata.org/ontology/Hospital> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital"@en .
+<http://linkedgeodata.org/ontology/Hospital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.geonames.org/ontology/mappings#Camping> <http://www.w3.org/2004/02/skos/core#altLabel> "acampamento"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Camping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Camping> <http://www.w3.org/2000/01/rdf-schema#label> "Camping"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Camping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Connects a geometry object with its text-based serialization.\n    "@en .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://www.w3.org/2004/02/skos/core#prefLabel> "has serialization"@en .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://www.w3.org/2004/02/skos/core#definition> "\n      Connects a geometry object with its text-based serialization.\n    "@en .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://www.w3.org/2000/01/rdf-schema#label> "has serialization"@en .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://purl.org/dc/elements/1.1/description> "\n      Connects a geometry object with its text-based serialization.\n    "@en .
+<http://www.opengis.net/ont/geosparql#hasSerialization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.semanticweb.org/ontologies/Gazetter#contributors> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/ontologies/Gazetter#contributors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#right> <http://www.w3.org/2004/02/skos/core#altLabel> "direita"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#right> <http://www.w3.org/2000/01/rdf-schema#label> "right"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#right> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Stream> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Stream> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Stream> .
+<http://dbpedia.org/ontology/Stream> <http://www.w3.org/2000/01/rdf-schema#label> "Stream"@en .
+<http://dbpedia.org/ontology/Stream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Mall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Mall> <http://www.w3.org/2000/01/rdf-schema#label> "Mall"@en .
+<http://linkedgeodata.org/ontology/Mall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Moor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Moor> <http://www.w3.org/2000/01/rdf-schema#label> "Moor"@en .
+<http://linkedgeodata.org/ontology/Moor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/ShoppingMall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/ShoppingMall> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Mall> .
+<http://dbpedia.org/ontology/ShoppingMall> <http://www.w3.org/2000/01/rdf-schema#label> "Shopping Mall"@en .
+<http://dbpedia.org/ontology/ShoppingMall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject is spatially within the \n      object SpatialObject. DE-9IM: T*F**F***\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2000/01/rdf-schema#label> "within"@en .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject is spatially within the \n      object SpatialObject. DE-9IM: T*F**F***\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2004/02/skos/core#prefLabel> "within"@en .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject is spatially within the \n      object SpatialObject. DE-9IM: T*F**F***\n    "@en .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2004/02/skos/core#altLabel> "dentro"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.geonames.org/ontology#featureClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Geyser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Geyser> <http://www.w3.org/2000/01/rdf-schema#label> "Geyser"@en .
+<http://linkedgeodata.org/ontology/Geyser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Cape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Cape> <http://www.w3.org/2000/01/rdf-schema#label> "Cape"@en .
+<http://linkedgeodata.org/ontology/Cape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/> <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> .
+<http://purl.org/dc/elements/1.1/> <http://purl.org/dc/terms/title> "Dublin Core Metadata Element Set, Version 1.1"@en .
+<http://purl.org/dc/elements/1.1/> <http://purl.org/dc/terms/modified> "2012-06-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://schema.org/TrainStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/TrainStation> <http://www.w3.org/2000/01/rdf-schema#label> "Train Station"@en .
+<http://schema.org/TrainStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/title> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#title-006> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#comment> "A name given to the resource."@en .
+<http://purl.org/dc/elements/1.1/title> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/title> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#label> "Title"@en .
+<http://linkedgeodata.org/ontology/Stream> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Stream> <http://www.w3.org/2000/01/rdf-schema#label> "Stream"@en .
+<http://linkedgeodata.org/ontology/Stream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.geonames.org/ontology/mappings#Station> <http://www.w3.org/2004/02/skos/core#altLabel> "estação"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Station> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Station> <http://www.w3.org/2000/01/rdf-schema#label> "Station"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Station> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.geonames.org/ontology/mappings#Branch_river> <http://www.w3.org/2004/02/skos/core#altLabel> "igarape"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Branch_river> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Branch_river> <http://www.w3.org/2000/01/rdf-schema#label> "Branch_river"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Branch_river> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/PoliceStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/PoliceStation> <http://www.w3.org/2000/01/rdf-schema#label> "PoliceStation"@en .
+<http://schema.org/PoliceStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel"@en .
+<http://schema.org/Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Monument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument"@en .
+<http://linkedgeodata.org/ontology/Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/AdministrativeArea> .
+<http://linkedgeodata.org/ontology/Country> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.geospecies.org/ont/geospecies#Country> .
+<http://linkedgeodata.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<http://linkedgeodata.org/ontology/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/dc/elements/1.1/type> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#type-006> .
+<http://purl.org/dc/elements/1.1/type> <http://www.w3.org/2000/01/rdf-schema#comment> "The nature or genre of the resource."@en .
+<http://purl.org/dc/elements/1.1/type> <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element."@en .
+<http://purl.org/dc/elements/1.1/type> <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+<http://purl.org/dc/elements/1.1/type> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/type> <http://purl.org/dc/terms/issued> "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/elements/1.1/type> <http://www.w3.org/2000/01/rdf-schema#label> "Type"@en .
+<http://www.geonames.org/ontology/mappings#Avenue> <http://www.w3.org/2004/02/skos/core#altLabel> "avenida"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Avenue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Avenue> <http://www.w3.org/2000/01/rdf-schema#label> "Avenue"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Avenue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.insee.fr/geo/Departement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.lirmm.fr/ontologies/geo-fr#Departement> .
+<http://rdf.insee.fr/geo/Departement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/AdministrativeArea> .
+<http://rdf.insee.fr/geo/Departement> <http://www.w3.org/2000/01/rdf-schema#label> "Département"@fr .
+<http://rdf.insee.fr/geo/Departement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Pond> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Pond> <http://www.w3.org/2000/01/rdf-schema#label> "Pond"@en .
+<http://schema.org/Pond> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Meadow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Meadow> <http://www.w3.org/2000/01/rdf-schema#label> "Meadow"@en .
+<http://linkedgeodata.org/ontology/Meadow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://www.w3.org/2000/01/rdf-schema#label> "isSimple"@en .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://www.w3.org/2004/02/skos/core#prefLabel> "isSimple"@en .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      (true) if this geometric object has no anomalous geometric \n      points, such as self intersection or self tangency.\n    "@en .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://purl.org/dc/elements/1.1/description> "\n      (true) if this geometric object has no anomalous geometric \n      points, such as self intersection or self tangency.\n    "@en .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://www.w3.org/2004/02/skos/core#definition> "\n      (true) if this geometric object has no anomalous geometric \n      points, such as self intersection or self tangency.\n    "@en .
+<http://www.opengis.net/ont/geosparql#isSimple> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://linkedgeodata.org/ontology/Landfill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Landfill> <http://www.w3.org/2000/01/rdf-schema#label> "Landfill"@en .
+<http://linkedgeodata.org/ontology/Landfill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://www.w3.org/2004/02/skos/core#prefLabel> "contains"@en .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially contains the \n      object SpatialObject. DE-9IM: T*TFF*FF*\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially contains the \n      object SpatialObject. DE-9IM: T*TFF*FF*\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://www.w3.org/2000/01/rdf-schema#label> "contains"@en .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially contains the \n      object SpatialObject. DE-9IM: T*TFF*FF*\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehContains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/Museum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Museum"@en .
+<http://schema.org/Museum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/ontologies/Gazetter#date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.semanticweb.org/ontologies/Gazetter#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Hotel> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Hotel> .
+<http://dbpedia.org/ontology/Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel"@en .
+<http://dbpedia.org/ontology/Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://www.w3.org/2004/02/skos/core#prefLabel> "GML Literal"@en .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://www.w3.org/2000/01/rdf-schema#label> "GML Literal"@en .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://www.w3.org/2004/02/skos/core#definition> "\n      A GML serialization of a geometry object.\n    "@en .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://purl.org/dc/elements/1.1/description> "\n      A GML serialization of a geometry object.\n    "@en .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      A GML serialization of a geometry object.\n    "@en .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.opengis.net/ont/geosparql#gmlLiteral> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://linkedgeodata.org/ontology/Islet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Islet> <http://www.w3.org/2000/01/rdf-schema#label> "Islet"@en .
+<http://linkedgeodata.org/ontology/Islet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Mine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Mine> <http://www.w3.org/2000/01/rdf-schema#label> "Mine"@en .
+<http://linkedgeodata.org/ontology/Mine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Volcano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/Volcano> <http://www.w3.org/2000/01/rdf-schema#label> "Volcano"@en .
+<http://schema.org/Volcano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.geonames.org/ontology/mappings#Coast> <http://www.w3.org/2004/02/skos/core#altLabel> "costa"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Coast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Coast> <http://www.w3.org/2000/01/rdf-schema#label> "Coast"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Coast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/Gazetter#north> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#north> <http://www.w3.org/2004/02/skos/core#altLabel> "norte"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#north> <http://www.w3.org/2000/01/rdf-schema#label> "north"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#north> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedgeodata.org/ontology/Heliport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Heliport> <http://www.w3.org/2000/01/rdf-schema#label> "Heliport"@en .
+<http://linkedgeodata.org/ontology/Heliport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2004/02/skos/core#prefLabel> "Feature"@en .
+<http://www.opengis.net/ont/geosparql#Feature> <http://purl.org/dc/elements/1.1/description> "\n      This class represents the top-level feature type. This class is \n      equivalent to GFI_Feature defined in ISO 19156:2011, and it is \n      superclass of all feature types.\n    "@en .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#Feature> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#label> "Feature"@en .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      This class represents the top-level feature type. This class is \n      equivalent to GFI_Feature defined in ISO 19156:2011, and it is \n      superclass of all feature types.\n    "@en .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#Feature> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2004/02/skos/core#definition> "\n      This class represents the top-level feature type. This class is \n      equivalent to GFI_Feature defined in ISO 19156:2011, and it is \n      superclass of all feature types.\n    "@en .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#Feature> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://rdf.insee.fr/geo/Arrondissement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.lirmm.fr/ontologies/geo-fr#Arrondissement> .
+<http://rdf.insee.fr/geo/Arrondissement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/AdministrativeArea> .
+<http://rdf.insee.fr/geo/Arrondissement> <http://www.w3.org/2000/01/rdf-schema#label> "Arrondissement"@fr .
+<http://rdf.insee.fr/geo/Arrondissement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      The GML serialization of a geometry\n    "@en .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#asGML> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#gmlLiteral> .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/2004/02/skos/core#prefLabel> "asGML"@en .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.opengis.net/ont/geosparql#hasSerialization> .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/2000/01/rdf-schema#label> "asGML"@en .
+<http://www.opengis.net/ont/geosparql#asGML> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#asGML> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#asGML> <http://www.w3.org/2004/02/skos/core#definition> "\n      The GML serialization of a geometry\n    "@en .
+<http://www.opengis.net/ont/geosparql#asGML> <http://purl.org/dc/elements/1.1/description> "\n      The GML serialization of a geometry\n    "@en .
+<http://www.semanticweb.org/ontologies/Gazetter#side> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/ontologies/Gazetter#side> <http://www.w3.org/2004/02/skos/core#altLabel> "lado"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#side> <http://www.w3.org/2000/01/rdf-schema#label> "side"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/ontologies/Gazetter#side> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.geonames.org/ontology/mappings#Agricultural_township> <http://www.w3.org/2004/02/skos/core#altLabel> "Distrito Agropecuário"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Agricultural_township> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.geonames.org/ontology/mappings#Agricultural_township> <http://www.w3.org/2000/01/rdf-schema#label> "Agricultural_township"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.geonames.org/ontology/mappings#Agricultural_township> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Mill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Mill> <http://www.w3.org/2000/01/rdf-schema#label> "Mill"@en .
+<http://linkedgeodata.org/ontology/Mill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Vineyard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Vineyard> <http://www.w3.org/2000/01/rdf-schema#label> "Vineyard"@en .
+<http://linkedgeodata.org/ontology/Vineyard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/River> <http://www.w3.org/2004/02/skos/core#altLabel> "Rio"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://dbpedia.org/ontology/River> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/River> <http://www.w3.org/2000/01/rdf-schema#label> "River" .
+<http://dbpedia.org/ontology/River> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/PowerStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/PowerStation> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/PowerStation> <http://www.w3.org/2000/01/rdf-schema#label> "Power Station"@en .
+<http://dbpedia.org/ontology/PowerStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Hospital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Hospital> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linkedgeodata.org/ontology/Hospital> .
+<http://dbpedia.org/ontology/Hospital> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital"@en .
+<http://dbpedia.org/ontology/Hospital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/LakeBodyOfWater> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://schema.org/LakeBodyOfWater> <http://www.w3.org/2000/01/rdf-schema#label> "LakeBodyOfWater"@en .
+<http://schema.org/LakeBodyOfWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedgeodata.org/ontology/Monastery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Monastery> <http://www.w3.org/2000/01/rdf-schema#label> "Monastery"@en .
+<http://linkedgeodata.org/ontology/Monastery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://www.w3.org/2004/02/skos/core#definition> "\n      Exists if the subject SpatialObject spatially equals the \n      object SpatialObject. DE-9IM: TFFFTFFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      Exists if the subject SpatialObject spatially equals the \n      object SpatialObject. DE-9IM: TFFFTFFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://www.w3.org/2004/02/skos/core#prefLabel> "equals"@en .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://purl.org/dc/elements/1.1/description> "\n      Exists if the subject SpatialObject spatially equals the \n      object SpatialObject. DE-9IM: TFFFTFFFT\n    "@en .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://www.w3.org/2000/01/rdf-schema#label> "equals"@en .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#ehEquals> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.semanticweb.org/ontologies/Gazetter#agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://purl.org/dc/elements/1.1/date> "2011-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2004/02/skos/core#definition> "\n      The class represents the top-level geometry type. This class is \n      equivalent to the UML class GM_Object defined in ISO 19107, and \n      it is superclass of all geometry types.\n    "@en .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#label> "Geometry"@en .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometry"@en .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://purl.org/dc/elements/1.1/creator> "OGC GeoSPARQL 1.0 Standard Working Group" .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/spec/geosparql/1.0> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/geosparql> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://purl.org/dc/elements/1.1/contributor> "Matthew Perry" .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#comment> "\n      The class represents the top-level geometry type. This class is \n      equivalent to the UML class GM_Object defined in ISO 19107, and \n      it is superclass of all geometry types.\n    "@en .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://purl.org/dc/elements/1.1/description> "\n      The class represents the top-level geometry type. This class is \n      equivalent to the UML class GM_Object defined in ISO 19107, and \n      it is superclass of all geometry types.\n    "@en .
+<http://linkedgeodata.org/ontology/Battlefield> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://linkedgeodata.org/ontology/Battlefield> <http://www.w3.org/2000/01/rdf-schema#label> "Battlefield"@en .
+<http://linkedgeodata.org/ontology/Battlefield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Continent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://dbpedia.org/ontology/Continent> <http://www.w3.org/2000/01/rdf-schema#label> "Continent"@en .
+<http://dbpedia.org/ontology/Continent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

@@ -14,7 +14,7 @@ import com.bbn.openmap.geo.Geo;
 public class Summarize {
 
 	public static int improved=0;
-	public void referenciaGeo(ArrayList<Group> group){
+	public void referenciaGeo(ArrayList<Group> group,int today){
 		   for (Group gp:group) {
 	        	int numTimes=1;
 	        	Place moda=null;
@@ -35,18 +35,34 @@ public class Summarize {
 	 	        }
 	 	        if(moda!=null){
 	 	        	gp.setCentroid(moda);
-	 	        	replace_moda_all_data(moda, gp.getPlaces());
+	 	        	replace_moda_all_data(moda, gp.getPlaces(),today);
 	 	        }
 	       }
 	}
 
-	private static void replace_moda_all_data(Place moda, ArrayList<Place> arrayList) {
-		
+	private static void replace_moda_all_data(Place moda, ArrayList<Place> arrayList,int today) {
+		int tempYear=0;
+		if(moda.getYear()>today){
+			for(int i=0;i<arrayList.size();i++){
+				if(arrayList.get(i).getYear()<=today){
+					if(tempYear!=0 && tempYear>arrayList.get(i).getYear() && arrayList.get(i).getGeometry().distance(moda.getGeometry())<300){
+						tempYear = arrayList.get(i).getYear();
+					}else if(tempYear==0 && arrayList.get(i).getGeometry().distance(moda.getGeometry())<300){
+						tempYear = arrayList.get(i).getYear();
+					 }
+				}			
+			}
+		}
+		if(tempYear!=0)
+			moda.setYear(tempYear);
+					
 		for(int i=0;i<arrayList.size();i++){
 			 arrayList.get(i).setGeometry(moda.getGeometry());
-			 improved++;
-	//		 System.out.println(arrayList.get(i).getGeometry()+"  "+arrayList.get(i).getYear()+"=== MODA: "+moda.getGeometry());
-
+			 if(arrayList.get(i).getYear()>today){
+				 arrayList.get(i).setYear(moda.getYear());
+				 improved++;
+			 }
 		}
+		
 	}
 }

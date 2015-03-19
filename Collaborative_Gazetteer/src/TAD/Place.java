@@ -1,5 +1,6 @@
 package TAD;
 
+
 import com.bbn.openmap.geo.Geo;
 
 public class Place implements Cloneable {
@@ -80,6 +81,11 @@ public class Place implements Cloneable {
 		this.geometry = geo;
 		this.repository=repository;
 	}
+	public Place( String location ) {
+		this.location = location;
+		
+	}
+		
 	
 	public Place(int year, String location, String county,Geo geo, String repository ) {
 		this.year = year;

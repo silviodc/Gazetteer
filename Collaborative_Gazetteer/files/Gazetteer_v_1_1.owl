@@ -1054,11 +1054,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#derection -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;derection">
+        <rdfs:label rdf:datatype="&xsd;string">direction</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">direcao</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">direção</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/Gazetter#east -->
 
     <owl:ObjectProperty rdf:about="&Gazetter;east">
         <rdfs:label rdf:datatype="&xsd;string">east</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">leste</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#flowing -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;flowing">
+        <rdfs:label rdf:datatype="&xsd;string">flowing</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">afluente</skos:altLabel>
     </owl:ObjectProperty>
     
 
@@ -1071,21 +1090,22 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/Gazetter#left -->
-
-    <owl:ObjectProperty rdf:about="&Gazetter;left">
-        <rdfs:label rdf:datatype="&xsd;string">left</rdfs:label>
-        <skos:altLabel rdf:datatype="&xsd;string">esquerda</skos:altLabel>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/ontologies/Gazetter#left_margin -->
 
     <owl:ObjectProperty rdf:about="&Gazetter;left_margin">
         <rdfs:label rdf:datatype="&xsd;string">left margin</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">marg</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">margem esquerda</skos:altLabel>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#margin -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;margin">
+        <rdfs:label rdf:datatype="&xsd;string">margin</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">margem</skos:altLabel>
     </owl:ObjectProperty>
     
 
@@ -1104,7 +1124,9 @@
     <owl:ObjectProperty rdf:about="&Gazetter;near">
         <rdfs:label rdf:datatype="&xsd;string">near</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">perto</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">proximidades</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">proximo</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">próximo</skos:altLabel>
     </owl:ObjectProperty>
     
 
@@ -1175,6 +1197,15 @@
     <owl:ObjectProperty rdf:about="&Gazetter;right_margin">
         <rdfs:label rdf:datatype="&xsd;string">right margin</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">margem direita</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#river_hole -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;river_hole">
+        <rdfs:label rdf:datatype="&xsd;string">river_hole</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">furo</skos:altLabel>
     </owl:ObjectProperty>
     
 
@@ -1460,6 +1491,12 @@
         <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0"/>
         <rdfs:range rdf:resource="&xsd;integer"/>
     </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#agreement -->
+
+    <owl:DatatypeProperty rdf:about="&Gazetter;agreement"/>
     
 
 
@@ -2323,7 +2360,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Peak">
         <rdfs:label xml:lang="en">Peak</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">pico</skos:altLabel>
     </owl:Class>
     
 
@@ -2570,7 +2606,6 @@
         <rdfs:label xml:lang="en">Waterfall</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Waterfall"/>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">cachoeira</skos:altLabel>
     </owl:Class>
     
 
@@ -2873,7 +2908,6 @@
     <owl:Class rdf:about="http://schema.org/Waterfall">
         <rdfs:label xml:lang="en">Waterfall</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">cachoeira</skos:altLabel>
     </owl:Class>
     
 
@@ -3112,6 +3146,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#Seringal -->
+
+    <owl:Class rdf:about="&Gazetter;Seringal">
+        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/silvio/ontologies/www.linkedgeodata/ontology/Ridge -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/silvio/ontologies/www.linkedgeodata/ontology/Ridge"/>
@@ -3121,48 +3163,6 @@
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <owl:Class rdf:about="&foaf;Person"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/Gazetter#1 -->
-
-    <owl:NamedIndividual rdf:about="&Gazetter;1">
-        <rdf:type rdf:resource="http://schema.org/City"/>
-        <geosparql:asWKT rdf:datatype="http://www.opengis.net/ont/sf#wktLiteral">3 -60</geosparql:asWKT>
-        <locality>Manaus</locality>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/Gazetter#2 -->
-
-    <owl:NamedIndividual rdf:about="&Gazetter;2">
-        <rdf:type rdf:resource="http://dbpedia.org/ontology/River"/>
-        <locality xml:lang="pt">Rio Amazonas</locality>
-        <near rdf:resource="&Gazetter;1"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/Gazetter#3 -->
-
-    <owl:NamedIndividual rdf:about="&Gazetter;3">
-        <rdf:type rdf:resource="http://www.geonames.org/ontology/mappings#Camp"/>
-        <locality rdf:datatype="&xsd;string">Camp A3</locality>
-        <geosparql:asWKT rdf:datatype="http://www.opengis.net/ont/sf#wktLiteral">POINT( -2, 55)</geosparql:asWKT>
-        <behind rdf:resource="&Gazetter;2"/>
-    </owl:NamedIndividual>
     
 
 

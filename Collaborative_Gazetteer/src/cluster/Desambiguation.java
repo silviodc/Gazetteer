@@ -2,7 +2,11 @@ package cluster;
 
 import java.io.File;
 import java.io.InputStream;
+import java.text.Normalizer;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
@@ -21,94 +25,153 @@ import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 
 import TAD.Group;
 import TAD.Place;
+
 public class Desambiguation {
 
-	
-	public void correlationBetweenPlaces(ArrayList<Place> places){
-		
-		
-			OntModel model = OpenConnectOWL();
-			
-			ArrayList<String> objectProperties = new ArrayList<String>();
-			ArrayList<String> objectsP = new ArrayList<String>();
-	        ExtendedIterator<ObjectProperty> iter = model.listObjectProperties();
-	        while (iter.hasNext()) {
-	        	ObjectProperty thisClass = (ObjectProperty) iter.next();
-	             ExtendedIterator label = thisClass.listLabels(null);
 
-	             while (label.hasNext()) {
-	               RDFNode thisLabel = (RDFNode) label.next();
-	               
-	               if(thisLabel.isLiteral()){
-	            	   objectsP.add(thisLabel.toString());	
-	            	   objectProperties.add(thisLabel.toString().split("http")[0].replaceAll("(?!\")\\p{Punct}", "").replaceAll("@en", ""));
-	               	}
-	             }
-	        }
-	        ArrayList<String>candidate = new ArrayList<String>();
-	        
-	    	for(int i=0; i<places.size();i++){
-	    		String used="";
-	    		int index=0;
-				for(int j=0;j<objectProperties.size();j++){
-					if(places.get(i).getLocation().contains(objectProperties.get(j))){
-						candidate.add(objectProperties.get(j));
-					}
+	private OntModel model;
+	
+	public Collection<? extends Place> resolveCompositePlaces(ArrayList<Place> ambiguoPlace) throws CloneNotSupportedException {
+		System.out.println("PROCESSING COMPOSITE!");
+		ArrayList<Place> places = new ArrayList<Place>();
+		ArrayList<Place> novos = new ArrayList<Place>();
+		if(model == null)
+			model = loadOntology();
+
+		ArrayList<String> objectProperties = new ArrayList<String>();
+		ArrayList<String> classes = new ArrayList<String>();
+		
+		/*
+		 * Get the object properties
+		 * and labels referent these objecties
+		 */
+		
+		ExtendedIterator<ObjectProperty> itera = model.listObjectProperties();
+		while (itera.hasNext()) {
+			ObjectProperty thisProperty = (ObjectProperty) itera.next();
+			ExtendedIterator label = thisProperty.listLabels(null);
+			while (label.hasNext()) {
+				RDFNode thisLabel = (RDFNode) label.next();
+				if(thisLabel.isLiteral()){
+					String labl = thisLabel.toString().split("http")[0].replaceAll("(?!\")\\p{Punct}", "").replaceAll("@en", "");
+					objectProperties.add(labl.toLowerCase());
 				}
-				if(candidate.size()>0){
-					used=candidate.get(0);
-					for(int j=1;j<candidate.size();j++){
-						if(used.length()<candidate.get(j).length())
-							used = candidate.get(j);
-						
-					}
-					for(int j=1;j<objectProperties.size();j++){
-						if(objectProperties.get(j).trim().equals(used))
-							index = j;
-					}
-				}
-				candidate.clear();
-				if(!used.equals("")){
-					places.get(i).setRelation(places.get(i+1));
-					places.get(i).setRelationName(objectsP.get(index));
-					System.out.println(places.get(i).getLocal()+" "+places.get(i).getRelationName()+" "+places.get(i).getRelation().getLocation());
-				
-				}
+			
 			}
 		}
 		
-	
-	private OntModel OpenConnectOWL(){
-		 String path = new File("files"+File.separator+"Gazetteer_v_1_1.owl").getAbsolutePath();
-		OntModel mod = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_RULE_INF);
-		java.io.InputStream in = FileManager.get().open(path);
-		if(in == null){
-			System.err.println("ERRO AO CARREGAR A ONTOLOGIA");
+		/*
+		 * get the class from ontology
+		 */
+		ExtendedIterator<OntClass> iter = model.listClasses();
+		while (iter.hasNext()) {
+			OntClass thisClass = (OntClass) iter.next();
+			ExtendedIterator label = thisClass.listLabels(null);
+			while (label.hasNext()) {
+				RDFNode thisLabel = (RDFNode) label.next();
+				if(thisLabel.isLiteral()){
+					String labl = thisLabel.toString().split("http")[0].replaceAll("(?!\")\\p{Punct}", "").replaceAll("@en", "");
+					classes.add(labl.toLowerCase());
+				}
+			}
+		 }
+		boolean relation=false;
+		Place antigo=null,novo=null;
+		while (ambiguoPlace.size() > 0) {
+			Place temp1 = ambiguoPlace.get(0).clone();
+			String query = temp1.getLocation();
+			int index=0;
+			String word="";
+			String temp [] = query.split(" ");
+			//System.out.println("NAME: "+ query+"_____________INICIO_________________");
+			
+			for(int i=0;i<temp.length;i++){
+				int verify = findStop(temp[i],objectProperties,classes);
+				if(verify>=1)
+					index++;
+				if(index>=2 && verify==2){					
+					Place pl = new Place(word);
+					//System.out.println(pl.getLocation());
+					pl.setRelationName(findRelation(word,objectProperties));
+					antigo = pl;
+					if(relation)
+						antigo.setRelation(pl);
+					relation = true;
+					insertInformation(pl,temp1,word);
+					word="";	
+					word+=temp[i]+" ";
+					index=1;
+					novos.add(pl);
+				}else{
+					word+=temp[i]+" ";
+				}
+			}
+		//	System.out.println(word);
+			Place pl = new Place(word);
+			novos.add(pl);
+			places.add(temp1);
+			if(novos.size()>1){
+				places.addAll(novos);
+			}
+			novos.clear();
+			insertInformation(pl,temp1,word);
+			if(relation)
+				antigo.setRelation(pl);
+			System.out.println("COUNT______"+places.size()+"____WAITING__"+ambiguoPlace.size());
+			ambiguoPlace.remove(0);
 		}
-		return (OntModel) mod.read(in,"");
+		System.out.println("DONE COMPOSITE!");
+		return places;
 	}
 	
-	private ResultSet ExecSPARQL(String query,String resource){
-		QueryExecution qe = QueryExecutionFactory.sparqlService(resource, query);
-		ResultSet results = qe.execSelect();
-		return results;
+	private void insertInformation(Place pl, Place temp1, String word){
+
+		pl.setCounty(temp1.getCounty());
+		pl.setFather(temp1);
+		pl.setNameFilter(word);
+		pl.setPartOf(true);
+		pl.setRepository(temp1.getRepository());
+		pl.setYear(temp1.getYear());
+		pl.setGeometry(temp1.getGeometry());
+	}
+
+	private int findStop(String temp, ArrayList<String> objectProperties,ArrayList<String> classes){
+		boolean placeType=false;
+		for(int k=0;k<objectProperties.size();k++){
+			if(objectProperties.get(k).toLowerCase().equals(temp.toLowerCase()))
+				return 1;
+								
+		}
+		for(int k=0;k<classes.size();k++){
+			if(classes.get(k).toLowerCase().equals(temp.toLowerCase()))
+				return 2;
+		}
+		return -1;
 	}
 	
-	private ResultSet ExecSPARQL(String query){
-		Query qry = QueryFactory.create(query);
-		QueryExecution qe = QueryExecutionFactory.create(query,OpenConnectOWL());
-		ResultSet results = qe.execSelect();
-		return results;
+	private String findRelation(String temp, ArrayList<String> objectProperties){
+		for(int k=0;k<objectProperties.size();k++){
+			String labl = objectProperties.get(k);
+			if(temp.toLowerCase().contains(labl.toLowerCase())){
+					return labl;
+			}
+							
+		}
+		return null;
+	}
+	public OntModel loadOntology() {
+		// String ontologyIRI =
+		// "https://raw.githubusercontent.com/silviodc/Gazetteer/master/Collaborative_Gazetteer/files/Gazetteer_v_1_1.owl";
+
+		String path = new File("files" + File.separator + "Gazetteer_v_1_1.owl")
+				.getAbsolutePath();
+		OntModel m = ModelFactory.createOntologyModel();
+		InputStream in = FileManager.get().open(path);
+		if (in == null)
+			return null;
+
+		return (OntModel) m.read(in, "");
 	}
 
 
-	public void desambig(ArrayList<Place> ambiguoPlace, ArrayList<Group> group) {
-		// TODO Auto-generated method stub
-		
-	}
-	
-	/*private boolean criarIndividuos(){
-		OntClass classe = OpenConnectOWL().getComplementClass("");
-		Individual individual = OpenConnectOWL().createIndividual( yourNameSpace + "individual2", classe);
-	}*/
 }

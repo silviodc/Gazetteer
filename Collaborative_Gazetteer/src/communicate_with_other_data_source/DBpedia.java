@@ -1,14 +1,29 @@
 package communicate_with_other_data_source;
 
+import TAD.Place;
+import analyze_geographical_coordinates.Out_Polygon;
+
+import com.bbn.openmap.geo.Geo;
+import com.bbn.openmap.geo.OMGeo.Polygon;
+import com.hp.hpl.jena.ontology.OntClass;
+import com.hp.hpl.jena.ontology.OntModel;
+import com.hp.hpl.jena.ontology.OntModelSpec;
 import com.hp.hpl.jena.query.QueryExecution; 
 import com.hp.hpl.jena.query.QueryExecutionFactory; 
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.sparql.engine.http.QueryExceptionHTTP;
 
-import TAD.Place;
 
+import com.hp.hpl.jena.util.FileManager;
+import com.hp.hpl.jena.util.iterator.ExtendedIterator;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class DBpedia {
 	
@@ -24,50 +39,119 @@ public class DBpedia {
 			// end if 
 			} catch (QueryExceptionHTTP e) {
 				System.out.println(service + " is DOWN");
-			}finally{ 
-				qe.close();
 				return false;
+			}finally{ 
+				qe.close();			
 			}
 		} 
 	
-	public ArrayList<String> pull_query(){
-		ArrayList<String> dbpedia_places = new ArrayList<String>();
-		String query="PREFIX dbpedia-owl:<http://dbpedia.org/ontology/> "
-				+ "PREFIXX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
-				+ "select *"
-				+ " where { ?place rdf:type dbpedia-owl:Place ."
-				+ " ?place dbpedia-owl:isPartOf <http://dbpedia.org/resource/North_Region,_Brazil>."
-				+ " }";
-		query(query,dbpedia_places);
-	
-		query = "select * where { ?place rdf:type dbpedia-owl:Place . ?s dbpedia-owl:isPartOf <http://dbpedia.org/resource/Amazonas_(Brazilian_state)>. }";
-		query(query,dbpedia_places);
+	public ArrayList<Place> pull_query() throws NumberFormatException, FileNotFoundException, IOException{
 		
-		query = "select * where { ?place ?p <http://dbpedia.org/resource/Category:Protected_areas_of_Amazonas_(Brazilian_state)> . }";
-		query(query,dbpedia_places);
+		Out_Polygon out = new Out_Polygon();
+		Polygon poly = out.buildPolygon("files"+File.separator+"Amazonas_polygon.txt");
+		String query="";
+        ArrayList<Place> dbpedia_places = new ArrayList<Place>();
+    
+        query = " PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>"
+	        			+ " PREFIX dbo: <http://dbpedia.org/ontology/> "
+	        			+ " PREFIX dcterms: <http://purl.org/dc/terms/> "
+	        			+ " PREFIX dbpedia-owl:<http://dbpedia.org/ontology/>  "
+	        			+ " PREFIX dbpedia:<http://dbpedia.org/resource/>"
+	        			+ " PREFIX state:<http://pt.dbpedia.org/resource/> "
+	        			+ " PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+	        			+ " PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> "
+	        			+ " PREFIX foaf:<http://xmlns.com/foaf/0.1/> "
+	        			+ " SELECT * WHERE  {"
+	        			+ " ?s geo:lat ?lat ."
+	        			+ " ?s geo:long ?long ."
+	        			+ " ?s foaf:name ?name ."
+	        			+ " ?s dbpedia-owl:country <http://dbpedia.org/resource/Brazil>. }";
+	        	query(query, dbpedia_places,poly);		
+   
+		query = "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
+				+ "PREFIX dbpedia-owl:<http://dbpedia.org/ontology/> "
+				+ "PREFIX foaf:<http://xmlns.com/foaf/0.1/> "
+				+ "PREFIX geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> "
+				+ "select * where { ?place ?p <http://dbpedia.org/resource/Category:Protected_areas_of_Amazonas_(Brazilian_state)> . "
+				+ " ?place geo:lat ?lat . "
+    			+ " ?place geo:long ?long . "
+				+ "?place foaf:name ?name . "
+				+ "?place geo:geometry ?geo . }";
+		query(query, dbpedia_places,poly);
+
+		query = "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>  "
+				+ "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> "
+				+ "PREFIX dcterms:<http://purl.org/dc/terms/> "
+				+ "PREFIX foaf:<http://xmlns.com/foaf/0.1/> "
+				+ "select * where { ?place rdf:type <http://dbpedia.org/class/yago/RiversOfBrazil> . "
+				+ "?place foaf:name ?name . "
+				+ " ?place geo:lat ?lat . "
+    			+ " ?place geo:long ?long . "
+				+ "?place dcterms:subject <http://dbpedia.org/resource/Category:Tributaries_of_the_Amazon_River> . }";
 		
-		query = "";
+		query(query, dbpedia_places,poly);
+		query = "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>  "
+				+ "PREFIX geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> "
+				+ "PREFIX dcterms:<http://purl.org/dc/terms/> "
+				+ "PREFIX foaf:<http://xmlns.com/foaf/0.1/> "
+				+ "select * where { ?place rdf:type <http://dbpedia.org/class/yago/RiversOfBrazil> . "
+				+ "?place foaf:name ?name . "
+				+ " ?place geo:lat ?lat . "
+    			+ " ?place geo:long ?long . "
+				+ "?place dcterms:subject <http://dbpedia.org/resource/Category:Amazon_Basin> . }";
+		query(query, dbpedia_places,poly);
+
+		query="PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>  "
+				+ "PREFIX geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> "
+				+ "PREFIX dcterms:<http://purl.org/dc/terms/>"
+				+ "PREFIX foaf:<http://xmlns.com/foaf/0.1/>"
+				+ "select * where {"
+				+ "?place rdf:type <http://dbpedia.org/class/yago/WaterfallsOfBrazil> . "
+				+ " ?place geo:lat ?lat . "
+    			+ " ?place geo:long ?long . }";
+		query(query, dbpedia_places,poly);
+		System.out.println(dbpedia_places.size());
 		
 		return dbpedia_places;
 	}
-	public void query(String query, ArrayList<String> dbpedia_places){
-
-		String service="http://dbpedia.org/sparql";
+	public void query(String query, ArrayList<Place> dbpedia_places, Polygon poly) throws NumberFormatException, FileNotFoundException, IOException{
+		Out_Polygon out = new Out_Polygon();	
 		
+		System.out.println(query);
+		String service="http://dbpedia.org/sparql";
 		QueryExecution qe=QueryExecutionFactory.sparqlService(service, query);
 		ResultSet rs=qe.execSelect(); 
-		while (rs.hasNext()){
-			QuerySolution s=rs.nextSolution(); 
-			System.out.println(s.getResource("?place").toString());
-			dbpedia_places.add(s.getResource("?place").toString());
+		while (rs.hasNext()){			
+				QuerySolution s=rs.nextSolution(); 
+				try{
+					float lat = s.getLiteral("?lat").getFloat();
+					float log = s.getLiteral("?long").getFloat();
+					if(out.insidePolygon(poly,lat,log)){
+						System.out.println(s.getLiteral("name").toString()+" "+s.getLiteral("?lat").getFloat()+" "+s.getLiteral("long").getFloat());
+						dbpedia_places.add(new Place(s.getLiteral("name").toString().replaceAll("@en", ""), new Geo(lat,log)));
+						dbpedia_places.get(dbpedia_places.size()-1).setNameFilter(s.getLiteral("name").toString());
+				}
+			}catch(Exception ex){
+				System.out.println(ex.getCause());
+			}
 		}
+		System.out.println("Search done!");
 	}
-}
+	
 
-class main {
-	public static void main(String args[]){
-		DBpedia db = new DBpedia();
-		db.pull_query();
+	public static OntModel OpenConnectOWL(){
+		 String path = new File("dbpedia_2014.owl").getAbsolutePath();
+		OntModel mod = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_RULE_INF);
+		java.io.InputStream in = FileManager.get().open(path);
+		if(in == null){
+			System.err.println("ERRO AO CARREGAR A ONTOLOGIA");
+		}
+		return (OntModel) mod.read(in,"");
+	}
+	
+	public HashMap<String,String> findAmazonasCounty(){
+		return null;
+		
 	}
 }
 
