@@ -1,0 +1,391 @@
+Centroid >> comunidade Agrovila RDS do Tupé    2009   Geo[-2.0000000000000004,-59.99999999999999]
+comunidade Agrovila RDS do Tupé    2009   Geo[-2.0000000000000004,-59.99999999999999]
+comunidade Agrovila RDS do Tupé    2009   Geo[-2.0000000000000004,-59.99999999999999]
+comunidade Julião RDS do Tupé    2009   Geo[-2.0000000000000004,-59.99999999999999]
+comunidade Agrovila RDS do Tupé    2009   Geo[-2.0000000000000004,-59.99999999999999]
+comunidade Agrovila RDS do Tupé    2009   Geo[-2.0000000000000004,-59.99999999999999]
+___________________________________
+
+Centroid >> Reserva Egler    2147483647   null
+Reserva Egler    2147483647   null
+Reserva Egler    2147483647   null
+___________________________________
+
+Centroid >> Coletada em beira de estrada na BR  que segue para Cucuí em vegetação secundária em solo de Latossolo Amarelo de textura muito argilosa    2147483647   null
+Coletada em beira de estrada na BR  que segue para Cucuí em vegetação secundária em solo de Latossolo Amarelo de textura muito argilosa    2147483647   null
+Coletada em beira de estrada na BR  que segue para Cucuí em vegetação secundária em solo de Latossolo Amarelo de textura muito argilosa    2147483647   null
+___________________________________
+
+Centroid >> Basin of Rio Maués Rio Urupadi along igarapé Quininha ca  Km upstream from its mouth inundated along river margin    1983   Geo[-3.733333110809326,-57.28333282470703]
+Basin of Rio Maués Rio Urupadi along igarapé Quininha ca  Km upstream from its mouth inundated along river margin    1983   Geo[-3.733333110809326,-57.28333282470703]
+Basin of Rio Maués Rio Urupadi trail leading E ca  Km from mouth of Igarapé Quininha forest on terra firme Forest grass growing along trail in disturbed soil    1983   Geo[-3.733333110809326,-57.28333282470703]
+___________________________________
+
+Centroid >> Serra logo atrás da cidade Mata de terra firme    1987   Geo[-0.1166670024394989,-67.08333587646484]
+Lago do Faro ao centro da Serra do Dedel Mata de terra firme    1927   Geo[-0.1166670024394989,-67.08333587646484]
+Serra logo atrás da cidade Mata de terra firme    1987   Geo[-0.1166670024394989,-67.08333587646484]
+Lago do Faro ao centro da Serra do Dedel Mata de terra firme    1927   Geo[-0.1166670024394989,-67.08333587646484]
+___________________________________
+
+Centroid >> Comunidade Vila Nova I da Tribo Sateré Mawé    2147483647   null
+Comunidade Vila Nova I da Tribo Sateré Mawé    2147483647   null
+Comunidade Vila Nova I da Tribo Sateré Mawé    2147483647   null
+Comunidade Castanhal da Tribo Sateré Mawé    2147483647   null
+Comunidade Vila Nova I da Tribo Sateré Mawé    2147483647   null
+___________________________________
+
+Centroid >> Margens do rio Solimões Cipó dentro da água    2147483647   null
+Margens do rio Solimões Cipó dentro da água    2147483647   null
+___________________________________
+
+Centroid >> Igarapé de Mangabal BR  Km  Campo I m ao Norte da BR  Km nfa Beira da estradanfb Campo Natural com grupos de árvores e árvores esparsas e lagoa    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores isoladas Na margem do campo natural na beira da estrada da terra    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo   m ao Norte da BR  km  Campo natural com grupos de árvore e arvore esparsas No meio da ilha Na mata Na capoeira    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km  Campo Natural com grupos de árvores e árvores esparsas numa elevação com solo fofo    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo Im ao norte da BR  Km   Ilha da Tucandeira Uma ilha da mata com árvores compadas trepadeiras e subbosque    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo II ao Norte da BR  Km  Campo tipo Parque ao Sul da BR  Km nfa Campo Natural com grupos de árvores e árvores esparsas Não pastadonfb Utilizado como pastagemnfc Campo Natural tipo Par    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Ilha ao redor das árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores isoladas    1979   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas nfOrla da mata oriental secundária    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsa Parte oriental    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo   m ao Norte da BR  km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III ao Norte da BR  km  Campo Natural com muito poucas árvores e arbustos servindo de pasto    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo   m ao norte da BR km  Fazenda Flávio ao sul da BR km  Campo natural com grupos de árvores esparsas Esparsamento pelo campo Campo natural tipo parque    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda Chícaro Ao norte da BR  km  Habitat e tipo de vegetação Campo Natural com árvores e arbustos que serve como pastagem Á beira da estrada em campo beira da mata beira da ilha de Tucandeira    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  m ao norte da BR km  Habitat e tipo devegetação Campo natural com grupos de árvores e árvores esparsas Em sombra das árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Cmpo I  m ao norte da BR km  Campo natural com grupos de árvores e árvores esparsas Na margem da ilha    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR km  Campo natural com grupos de árvores e árvores esparsas Beira da estrada na frente do pasto de gasolina    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda do Flávio Neri ao Sul da BR  Km  Campo natural tipo parque Em lixeira no campo  ou  menos aberto Também em Niterói e em Ilha de abacaxi    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km nfCampo natural com grupos de árvores e árvores esparsas Na sombra das árvores das ilhas e nas orlas da mata    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  m ao norte de BR km  Habitat e tipo de vegetaçào Campo natural com grupos de árvores e árvores isoladas Orla da mata secundária que margeia ocampo do lado leste    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Em água e em depressões úmidas nos campos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Em água da lagoa temporária e em depressões úmidas no campo entre os capins    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III ao Norte da BR  Km  Campo Natural com muito poucas árvores e arbustos servindo de peso Em água de lagoa    1979   Geo[-7.516666889190674,-63.16666793823243]
+Igarapé de Mangabal BR  Km  Campo I m ao Norte da BR  Km nfa Beira da estradanfb Campo Natural com grupos de árvores e árvores esparsas e lagoa    1980   Geo[-7.516666889190674,-63.16666793823243]
+m ao norte da BR  Km  Campo  Campo natural com árvores esparsas grupos de árvores ou campo limpo Em todos os campos pesquisados    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Na mata ciliar do banheiro    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR km  Campo natural com grupos de árvores e árvores esparsas Ruderal Terra firme    1980   Geo[-7.516666889190674,-63.16666793823243]
+Cmapo I  m ao norte da BR km  Campo Natural com grupos de árvores e árvores esparsas Orla da mata º  Lat º  Long    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvore e árvore esparsas Na orla de um grupo de árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Em terra preta e úmida de depressão em Campo I E nos campos outros nos habiats ruderais    1980   Geo[-7.516666889190674,-63.16666793823243]
+Transição matacampo  km ao norte da BR na altura do INCRA Habitat e tipo de vegetação Transição matacampo vegetação ruderal    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  m ao norte da BR km Habitat e tipo de vegetação Campo natural com grupos de árvores e árvores isoladas Local relativamente úmido e sombreado embora também nos locais ensolarados    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km  Campo Natural com grupos de árvores isoladas Ocorre em todos os campos ensolarados e úmidos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  km  Campo Natural com grupos de árvores e árvores esparsas Em poça de água    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Ilha de Tucandeira Uma Ilha da mata com árvores copadas trepadeiras e subbosque    1980   Geo[-7.516666889190674,-63.16666793823243]
+Estado do Amazonas no município de Humaitá campo I m ao norte da BR  Km  campo natural com grupos de árvores e árvores esparsas habitat ruderal à beira do caminho solo raso aterro úmido    1980   Geo[-7.516666889190674,-63.16666793823243]
+Camp I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Em brejo do Igarapézinho Orla da mata    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa BR  Km  Campo natural que serve de pastagem com muito poucas árvores e arbustos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa ao norte da BR  Km  Campo natural que serve de pastagem com poucas árvores e arbustos    1979   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km  Campo natural com grupos de árvores e árvores esparsas Geralmente ocorre na sombra das árvores    1979   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  km  Campo natural com grupos de árvores e árvores esparsas Ilha ao redor das árvores  msm    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Em ilha    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Solo arenoso na orla da mata    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Pelo Campo I fazendo parte de cobertura das gramineas em ilhas ao redor das árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Também no Campo III da lagoa no lugar mais seco    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas beira de estrada    1980   Geo[-7.516666889190674,-63.16666793823243]
+ Km para o Norte da BR  Km  Campos de Niterói Campo Natural com poucos arbustos e árvores isoladas parcialmente inundável Em lugar seco no outono muito frequente depois da queimada    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa ao Norte da BR  Km  Campo Natural que serve de pasto com muito poucas árvores e arbustos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Em lugares úmidos do campo mas não na água    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Ilha ao redor das árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Na orla da mata    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa ao Norte da BR  Km  Campo Natural que serve de pasto com poucas árvores e arbustos Margens da lagoa e em água de  cm de profundidade    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa ao Norte da BR  Km  Campo Natural com muito poucas árvores e arbustos em solo úmido    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores isoladas Na beira do campo em local quase ruderal    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Em água de Igarapé Banheiro  m mata adentro    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  Km  na beira do caminho e em lugares ruderais Geralmente campos mexidos e terrenos baldios    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores isoladas Na margem do campo natural na beira da estrada da terra    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo IV  m ao Norte da Transamazônica  Km da balsa Fazenda do Flávio Neri ao Sul da BR  Km nfa Derrubada e cultura abandonada há  anos dominando gramíneas b Campo Natural tipo parque    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas parte ocidental    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores isoladas Estrada que leva ao campo beira do campo Habitat ruderal    1980   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda do Flávio Neri ao Sul da BR  Km  Campo III  Campo Balança ao Norte da BR  Km  Campo da Olaria  Km ao Leste de entrocamento da BR  e  nfa Campo Natural tipo parque b Campo natural com poucas árvores esparsas utili    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR km  Campo natural com grupo de árvores e árvores esparsas Campo Solo escuro úmido Orla da mata    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores isoladas Na sombra de uma árvore em solo relativamente úmido    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  km  Campo natural com grupos de árvores e árvores esparsas Na margem da lagoa temporária nos cupins    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km  Ilha de Tucandeira Uma ilha da mata relativamente extensa com árvores copadas trepadeiras e subbosque cerrado    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  KM  Campo natural com grupos de aárvores e árvores esparsas    1979   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda Arlindo  Km ao Leste da BR  Km  Campo natural com poucas árvores esparsas Em ilhas das árvores e da mata em lugares úmidos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda do Arlindo Marmentini ao Sudeste da BR  km Campo natural com árvores esparsas e ilhas da mata Ilha da árvore    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  mao Norte da BR km Habitat e tipo de vegetação Campo natural com grupos de árvores e árvores esparsas Próximo a segundo olho de água    1980   Geo[-7.516666889190674,-63.16666793823243]
+ m ao norte da BR km  Campo l Habitat e tipo de vegetação Campo natural com árvores esparsas Também na beira da estrada no aterro    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR km  Campo Natural com grupos de árvores e árvores esparsas Nos lugares úmidos de terra preta    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo lll ao norte da BR km  Habitat e tipo de vegetação Campo natural com poucas árvores e arbustos servindo de pasto    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  m ao norte da BR km  Habitat e tipo de vegetaçãoCampo Natural com grupos de árvores esparsas Ilha ao redor das árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo   m ao Norte da BR km  Habitat e tipo de vegetação Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km  Campo Natural com grupos de árvores e árvores esparsas Na ilha da mata orla e campo    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo para oeste da estrada para Porto Velho BR km  Poucas árvores mais arbustos Vegetação herbácea alta até  cm as mais baixas ervas de  cm Cerrada    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo   m ao Norte da BR  km  Campo natural com grupos de árvore e arvore esparsas No meio da ilha Na mata Na capoeira    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km  Campo Natural com grupos de árvores e árvores esparsas numa elevação com solo fofo    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo Im ao norte da BR  Km   Ilha da Tucandeira Uma ilha da mata com árvores compadas trepadeiras e subbosque    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo II ao Norte da BR  Km  Campo tipo Parque ao Sul da BR  Km nfa Campo Natural com grupos de árvores e árvores esparsas Não pastadonfb Utilizado como pastagemnfc Campo Natural tipo Par    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Ilha ao redor das árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores isoladas    1979   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas nfOrla da mata oriental secundária    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsa Parte oriental    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo   m ao Norte da BR  km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III ao Norte da BR  km  Campo Natural com muito poucas árvores e arbustos servindo de pasto    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo   m ao norte da BR km  Fazenda Flávio ao sul da BR km  Campo natural com grupos de árvores esparsas Esparsamento pelo campo Campo natural tipo parque    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda Chícaro Ao norte da BR  km  Habitat e tipo de vegetação Campo Natural com árvores e arbustos que serve como pastagem Á beira da estrada em campo beira da mata beira da ilha de Tucandeira    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  m ao norte da BR km  Habitat e tipo devegetação Campo natural com grupos de árvores e árvores esparsas Em sombra das árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Cmpo I  m ao norte da BR km  Campo natural com grupos de árvores e árvores esparsas Na margem da ilha    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR km  Campo natural com grupos de árvores e árvores esparsas Beira da estrada na frente do pasto de gasolina    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda do Flávio Neri ao Sul da BR  Km  Campo natural tipo parque Em lixeira no campo  ou  menos aberto Também em Niterói e em Ilha de abacaxi    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  m ao norte de BR km  Habitat e tipo de vegetaçào Campo natural com grupos de árvores e árvores isoladas Orla da mata secundária que margeia ocampo do lado leste    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Em água e em depressões úmidas nos campos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Em água da lagoa temporária e em depressões úmidas no campo entre os capins    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III ao Norte da BR  Km  Campo Natural com muito poucas árvores e arbustos servindo de peso Em água de lagoa    1979   Geo[-7.516666889190674,-63.16666793823243]
+Igarapé de Mangabal BR  Km  Campo I m ao Norte da BR  Km nfa Beira da estradanfb Campo Natural com grupos de árvores e árvores esparsas e lagoa    1980   Geo[-7.516666889190674,-63.16666793823243]
+m ao norte da BR  Km  Campo  Campo natural com árvores esparsas grupos de árvores ou campo limpo Em todos os campos pesquisados    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Na mata ciliar do banheiro    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR km  Campo natural com grupos de árvores e árvores esparsas Ruderal Terra firme    1980   Geo[-7.516666889190674,-63.16666793823243]
+Cmapo I  m ao norte da BR km  Campo Natural com grupos de árvores e árvores esparsas Orla da mata º  Lat º  Long    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvore e árvore esparsas Na orla de um grupo de árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Em terra preta e úmida de depressão em Campo I E nos campos outros nos habiats ruderais    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  m ao norte da BR km  Habitat e tipo de vegetação Campo natural com grupos de árvores esparsas Parte oeste do campo a  m da orla da mata e igarapezinho Perto de laterita Declive seco com laterite    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  m ao norte da BR km Habitat e tipo de vegetação Campo natural com grupos de árvores e árvores isoladas Local relativamente úmido e sombreado embora também nos locais ensolarados    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km  Campo Natural com grupos de árvores isoladas Ocorre em todos os campos ensolarados e úmidos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  km  Campo Natural com grupos de árvores e árvores esparsas Em poça de água    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Ilha de Tucandeira Uma Ilha da mata com árvores copadas trepadeiras e subbosque    1980   Geo[-7.516666889190674,-63.16666793823243]
+Estado do Amazonas no município de Humaitá campo I m ao norte da BR  Km  campo natural com grupos de árvores e árvores esparsas habitat ruderal à beira do caminho solo raso aterro úmido    1980   Geo[-7.516666889190674,-63.16666793823243]
+Camp I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Em brejo do Igarapézinho Orla da mata    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa BR  Km  Campo natural que serve de pastagem com muito poucas árvores e arbustos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa ao norte da BR  Km  Campo natural que serve de pastagem com poucas árvores e arbustos    1979   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km  Campo natural com grupos de árvores e árvores esparsas Geralmente ocorre na sombra das árvores    1979   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  km  Campo natural com grupos de árvores e árvores esparsas Ilha ao redor das árvores  msm    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Em ilha    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Solo arenoso na orla da mata    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Também no Campo III da lagoa no lugar mais seco    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas beira de estrada    1980   Geo[-7.516666889190674,-63.16666793823243]
+ Km para o Norte da BR  Km  Campos de Niterói Campo Natural com poucos arbustos e árvores isoladas parcialmente inundável Em lugar seco no outono muito frequente depois da queimada    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa ao Norte da BR  Km  Campo Natural que serve de pasto com muito poucas árvores e arbustos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Em lugares úmidos do campo mas não na água    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas Ilha ao redor das árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas Na orla da mata    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa ao Norte da BR  Km  Campo Natural que serve de pasto com poucas árvores e arbustos Margens da lagoa e em água de  cm de profundidade    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo III da lagoa ao Norte da BR  Km  Campo Natural com muito poucas árvores e arbustos em solo úmido    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores isoladas Na beira do campo em local quase ruderal    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  Km  na beira do caminho e em lugares ruderais Geralmente campos mexidos e terrenos baldios    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo IV  m ao Norte da Transamazônica  Km da balsa Fazenda do Flávio Neri ao Sul da BR  Km nfa Derrubada e cultura abandonada há  anos dominando gramíneas b Campo Natural tipo parque    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  Km  Campo Natural com grupos de árvores e árvores esparsas parte ocidental    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores isoladas Estrada que leva ao campo beira do campo Habitat ruderal    1980   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda do Flávio Neri ao Sul da BR  Km  Campo III  Campo Balança ao Norte da BR  Km  Campo da Olaria  Km ao Leste de entrocamento da BR  e  nfa Campo Natural tipo parque b Campo natural com poucas árvores esparsas utili    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR km  Campo natural com grupo de árvores e árvores esparsas Campo Solo escuro úmido Orla da mata    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao Norte da BR  Km  Campo natural com grupos de árvores e árvores isoladas Na sombra de uma árvore em solo relativamente úmido    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao norte da BR  km  Campo natural com grupos de árvores e árvores esparsas Na margem da lagoa temporária nos cupins    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  KM  Campo natural com grupos de aárvores e árvores esparsas    1979   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda Arlindo  Km ao Leste da BR  Km  Campo natural com poucas árvores esparsas Em ilhas das árvores e da mata em lugares úmidos    1980   Geo[-7.516666889190674,-63.16666793823243]
+Fazenda do Arlindo Marmentini ao Sudeste da BR  km Campo natural com árvores esparsas e ilhas da mata Ilha da árvore    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  mao Norte da BR km Habitat e tipo de vegetação Campo natural com grupos de árvores e árvores esparsas Próximo a segundo olho de água    1980   Geo[-7.516666889190674,-63.16666793823243]
+ m ao norte da BR km  Campo l Habitat e tipo de vegetação Campo natural com árvores esparsas Também na beira da estrada no aterro    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I m ao norte da BR km  Campo Natural com grupos de árvores e árvores esparsas Nos lugares úmidos de terra preta    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo lll ao norte da BR km  Habitat e tipo de vegetação Campo natural com poucas árvores e arbustos servindo de pasto    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo l  m ao norte da BR km  Habitat e tipo de vegetaçãoCampo Natural com grupos de árvores esparsas Ilha ao redor das árvores    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo   m ao Norte da BR km  Habitat e tipo de vegetação Campo natural com grupos de árvores e árvores esparsas    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo I  m ao Norte da BR  km  Campo Natural com grupos de árvores e árvores esparsas Na ilha da mata orla e campo    1980   Geo[-7.516666889190674,-63.16666793823243]
+Campo para oeste da estrada para Porto Velho BR km  Poucas árvores mais arbustos Vegetação herbácea alta até  cm as mais baixas ervas de  cm Cerrada    1980   Geo[-7.516666889190674,-63.16666793823243]
+___________________________________
+
+Centroid >> Atrás da cidade de Tefé próximo ao Aeroporto    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao Aeroporto    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao Aeroporto Mata secundária de terra firme solo argiloso    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao aeroporto Mata secundária de terra firme solo argiloso    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao aeroporto Mata secundária de terra firme solo argiloso    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao Aeroporto Mata secundária de terra firme solo argiloso    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atras da cidade de Tefe proximo ao aeroporto Mata secondaria de terra firme solo argiloso    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao Aeroporto    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao Aeroporto    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao Aeroporto    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao Aeroporto    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé Próximo ao Aeroporto Mata secundária de terra firme solo argiloso    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao Aeroporto Mata secundária de terra firme solo argiloso    1982   Geo[-3.3666670322418213,-64.69999694824219]
+Atrás da cidade de Tefé próximo ao Aeroporto Mata secundária de terra firme solo argiloso    1982   Geo[-3.3666670322418213,-64.69999694824219]
+___________________________________
+
+Centroid >> Fazenda Rosalina Margem direita Aguaçú    2147483647   null
+Fazenda Rosalina Margem direita Aguaçú    2147483647   null
+Fazenda Rosalina estrada Aguassu    2147483647   null
+Fazenda Rosa Ana borda da barragem    2147483647   null
+Fazenda Rosalina margem direita Agrossu Solo argilo arenoso    2147483647   null
+Fazenda Rosalina estrada Aguassu    2147483647   null
+___________________________________
+
+Centroid >> Amazonas Rio Caquetá Inspección Santa Isabel Trocha de Santa Isabel a Mirití areniscas disectadas    2147483647   null
+Amazonas Rio Caquetá Inspección Santa Isabel Trocha de Santa Isabel a Mirití areniscas disectadas    2147483647   null
+Amazonas Corregimiento Pto Santander Rio Caquetá Bocas del rio Meta a Santa Isabel    2147483647   null
+Amazonas Rio Caquetá Inspección Santa Isabel Trocha de Santa Isabel a Mirití areniscas disectadas    2147483647   null
+Amazonas Rio Caquetá Inspección Santa Isabel Trocha de Santa Isabel a Mirití areniscas disectadas    2147483647   null
+Amazonas Corregimiento Pto Santander Rio Caquetá Bocas del rio Meta a Santa Isabel    2147483647   null
+Amazonas Rio Caquetá Inspección Santa Isabel Trocha de Santa Isabel a Mirití areniscas disectadas    2147483647   null
+Amazonas Rio Caquetá Inspección Santa Isabel  Km Noreste Santa Isabel    2147483647   null
+Amazonas Rio Caquetá Inspección Santa Isabel Trocha de Santa Isabel a Mirití areniscas disectadas    2147483647   null
+Amazonas Rio Caquetá Inspección Santa Isabel  Km Noreste Santa Isabel    2147483647   null
+Amazonas Rio Caquetá Inspección Santa Isabel Trocha de Santa Isabel a Mirití areniscas disectadas    2147483647   null
+___________________________________
+
+Centroid >> Lago Jacaretinga várzea solo argiloarenoso úmido    2147483647   null
+Lago Jacaretinga várzea solo argiloarenoso úmido    2147483647   null
+___________________________________
+
+Centroid >> Alto Rio Negro Ilha de Nossa Senhora Aparecida    2147483647   null
+Alto Rio Negro Ilha de Nossa Senhora Aparecida    2147483647   null
+___________________________________
+
+Centroid >> Estrada da Forquilha margem do igarapé da cachoei Estrada da Forquilha margem do Igarapé da Cachoeira Alta    2147483647   null
+Estrada da Forquilha margem do igarapé da cachoei Estrada da Forquilha margem do Igarapé da Cachoeira Alta    2147483647   null
+___________________________________
+
+Centroid >> Rio NegroCaatinga do Taracuá Caatinga alta aren Rio NegroCaatinga do Taracuá Caatinga alta arenosa    2147483647   null
+Rio NegroCaatinga do Taracuá Caatinga alta aren Rio NegroCaatinga do Taracuá Caatinga alta arenosa    2147483647   null
+Alto Rio Negro Rio Waupés Taracuá caatinga próx Alto Rio Negro Rio Waupés Taracuá caatinga próxima as missões Caatinga solo arenoso verde    2147483647   null
+Rio Waupés caatinga em Taracuá Em arbusto de ca Rio Waupés caatinga em Taracuá Em arbusto de caatinga    2147483647   null
+___________________________________
+
+Centroid >> Margin of Igapó açu at crossing with BR  ManausPorto Velho Road Black water flooded margin    2147483647   null
+Margin of Igapó açu at crossing with BR  ManausPorto Velho Road Black water flooded margin    2147483647   null
+margin of Igapó Açu at crossing with BR ManausPorto Velho Road Black water flooded river margin    2147483647   null
+Margin of Igapó Açú at crossing with BR ManausPorto Velho Road Black water flooded river margin    2147483647   null
+Margin of Igapó Açu at crossing with BR ManausPorto Velho Road Black water flooded margin    2147483647   null
+___________________________________
+
+Centroid >> Rio Javarí Serigal Miraflor mata de várzea solo arenoso    2147483647   null
+Rio Javarí Serigal Miraflor mata de várzea solo arenoso    2147483647   null
+Rio Javarí Seringal Miraflor mata de várzea solo arenoso    2147483647   null
+Rio Capitarizinho Mata de várzea solo argiloso    2147483647   null
+Rio Javarí Serigal Miraflor mata de várzea solo arenoso    2147483647   null
+___________________________________
+
+Centroid >> Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+lago Tupé boca    2009   Geo[-3.043056011199951,-59.99999999999999]
+lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago de Tefé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2008   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2008   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2008   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2008   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2008   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2008   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2008   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2008   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2008   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+Lago Tupé    2009   Geo[-3.043056011199951,-59.99999999999999]
+___________________________________
+
+Centroid >> Rio Negro próximo a São Gabriel em frente a Serra Uranari    2147483647   null
+Rio Negro próximo a São Gabriel em frente a Serra Uranari    2147483647   null
+Rio Içana próximo a Serra do Grilo    2147483647   null
+___________________________________
+
+Centroid >> Reserva Gavião Km  trilha central    2147483647   null
+Reserva Gavião Km  trilha central    2147483647   null
+Reserva Gavião Km  trilha central    2147483647   null
+___________________________________
+
+Centroid >> Rio Negro Igarapé Tarumãzinho igarapé Pretinho Rio Negro Igarapé Tarumãzinho igarapé Pretinho    2147483647   null
+Rio Negro Igarapé Tarumãzinho igarapé Pretinho Rio Negro Igarapé Tarumãzinho igarapé Pretinho    2147483647   null
+___________________________________
+
+Centroid >> Guariúba Rio Aripuanã    2147483647   null
+Guariúba Rio Aripuanã    2147483647   null
+___________________________________
+
+Centroid >> Rio Negro km acima da foz do Rio Branco Mata de igapó Mal drenado independente    2147483647   null
+Rio Negro km acima da foz do Rio Branco Mata de igapó Mal drenado independente    2147483647   null
+___________________________________
+
+Centroid >> Riverine forest ca  Km west of Budare on south bank of upper Rio Temi  Km direct air distance southwest of Yavita GPS unit used    1996   null
+Riverine forest ca  Km west of Budare on south bank of upper Rio Temi  Km direct air distance southwest of Yavita GPS unit used    1996   null
+___________________________________
+
+Centroid >> Vicinity of Manáos Río Negro Reserva Ducke    2147483647   null
+Vicinity of Manáos Río Negro Reserva Ducke    2147483647   null
+Vicinity of Manaós Río Negro Reserva Ducke    2147483647   null
+___________________________________
+
+Centroid >> Cerca de km norte da cidade    1980   Geo[-4.866666793823242,-66.9000015258789]
+Cerca de  Km Norte da cidade    1980   Geo[-4.866666793823242,-66.9000015258789]
+Cerca de km norte da cidade    1980   Geo[-4.866666793823242,-66.9000015258789]
+___________________________________
+
+Centroid >> Campus do INPA Campus do INPA caminho em frente a caixa d água até o viveiro do peixeboi Capoeira antiga solo argiloso local úmido beira de caminho    2147483647   null
+Campus do INPA Campus do INPA caminho em frente a caixa d água até o viveiro do peixeboi Capoeira antiga solo argiloso local úmido beira de caminho    2147483647   null
+Campus do INPA caminho em frente à caixa dágua até o viveiro do peixeboi Capoeira antiga solo argiloso local úmido Beira do caminho    2147483647   null
+Campus do INPA caminho em frente a caixa d água até o viveiro do peixeboi Capoeira antiga solo argiloso local úmido beira de caminho    2147483647   null
+Campus do INPA caminho em frente a caixa dágua até o viveiro do peixeboi Capoeira antiga solo argiloso local úmido beira do caminho    2147483647   null
+Campus do INPA Sede do INPA perto do prédio da Administração Ocasional na capoeira a beira do caminho    2147483647   null
+Campus do INPA Campus do INPA caminho em frente à caixa dágua até o viveiro do peixeboi Capoeira antiga solo argiloso local muito úmido beira do caminho    2147483647   null
+Campus do INPA Campus do INPA caminho em frente a caixa dágua até o viveiro do peixeboi Capoeira antiga solo argiloso local úmido beira do caminho    2147483647   null
+___________________________________
+
+Centroid >> Comunidade Nova Aliança Ilha    2147483647   null
+Comunidade Nova Aliança Ilha    2147483647   null
+___________________________________
+
+Centroid >> Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR  Norte de Manaus    2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR  norte de Manaus Am    2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR  norte de Manaus Am    2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR  Norte de Manaus    2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR     2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR  norte de Manaus Am    2147483647   null
+Estação de Manejo Florestal km  do ramal ZF da BR  norte de Manaus Am    2147483647   null
+___________________________________
+
+Centroid >> Lago Grande    2003   Geo[-1.9119440317153933,-61.73222351074219]
+Lago Grande do Badajós    2003   Geo[-1.9119440317153933,-61.73222351074219]
+lago Badajós    2003   Geo[-1.9119440317153933,-61.73222351074219]
+Lago Grande    2003   Geo[-1.9119440317153933,-61.73222351074219]
+Lago Grande    2003   Geo[-1.9119440317153933,-61.73222351074219]
+Lago Grande    2006   Geo[-1.9119440317153933,-61.73222351074219]
+Lago Grande    2006   Geo[-1.9119440317153933,-61.73222351074219]
+Lago Grande    2003   Geo[-1.9119440317153933,-61.73222351074219]
+Lago Grande do Badajós    2003   Geo[-1.9119440317153933,-61.73222351074219]
+Lago Grande de Manacapurú    2003   Geo[-1.9119440317153933,-61.73222351074219]
+Lago Grande do Badajós    2003   Geo[-1.9119440317153933,-61.73222351074219]
+Lago do Badajós    2003   Geo[-1.9119440317153933,-61.73222351074219]
+___________________________________
+

@@ -6,6 +6,7 @@ import com.bbn.openmap.geo.Geo;
 public class Place implements Cloneable {
 
 	private int year;
+	private int ID;
 	private String location;
 	private String nameFilter;
 	private String county;
@@ -20,7 +21,17 @@ public class Place implements Cloneable {
     private Place relation;
     private String relationName;
     
-    public boolean isPartOf() {
+    
+    
+    public int getID() {
+		return ID;
+	}
+
+	public void setID(int iD) {
+		ID = iD;
+	}
+
+	public boolean isPartOf() {
 		return partOf;
 	}
 
@@ -73,13 +84,14 @@ public class Place implements Cloneable {
 		this.local = local;
 	}
 
-	public Place(int year, String location, String nameFilter, String county,Geo geo, String repository ) {
+	public Place(int year, String location, String nameFilter, String county,Geo geo, String repository, int index ) {
 		this.year = year;
 		this.location = location;
 		this.nameFilter = nameFilter;
 		this.county = county;
 		this.geometry = geo;
 		this.repository=repository;
+		this.ID = index;
 	}
 	public Place( String location ) {
 		this.location = location;
@@ -95,12 +107,13 @@ public class Place implements Cloneable {
 		this.repository=repository;
 	}
 	
-	public Place(int year, String location, String nameFilter, String county,String repository) {
+	public Place(int year, String location, String nameFilter, String county,String repository, int index) {
 		this.year = year;
 		this.location = location;
 		this.nameFilter = nameFilter;
 		this.county = county;
 		this.repository=repository;
+		this.ID = index;
 	}
 	public int getYear() {
 		return year;

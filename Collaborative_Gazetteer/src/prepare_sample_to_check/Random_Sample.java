@@ -22,11 +22,17 @@ public class Random_Sample {
 	      Random rand = new Random();
 	      for(int i=0;i<num;i++){
 	    	  int temp = rand.nextInt(cloned.size());
+	    	  writer.write("Centroid >> "+cloned.get(temp).getCentroid().getLocation()+"    "+cloned.get(temp).getCentroid().getYear()+"   "+cloned.get(temp).getCentroid().getGeometry());
+	    	  writer.write("\n");
 	    	  for(Place p: cloned.get(temp).getPlaces()){
 	    		  writer.write(p.getLocation()+"    "+p.getYear()+"   "+p.getGeometry()); 
+	    		  writer.write("\n");
 	    		  writer.flush();
 	    	  }
 	    	  cloned.remove(temp);
+	    	  writer.write("___________________________________");
+	    	  writer.write("\n");
+	    	  writer.write("\n");
 	      }
 	      writer.close();
 	}
@@ -43,6 +49,7 @@ public class Random_Sample {
 	      for(int i=0;i<num;i++){
 	    	  	  int temp = rand.nextInt(cloned.size());
 	    		  writer.write(cloned.get(temp).getCentroid().getLocation()+"    "+cloned.get(temp).getCentroid().getYear()+"   "+cloned.get(temp).getCentroid().getGeometry()); 
+	    		  writer.write("\n");
 	    		  writer.flush();
 	    		  cloned.remove(temp);
 	      }

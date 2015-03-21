@@ -57,14 +57,15 @@ public class Read_Biodiversity_files {
 	
 	public void read_SpeciesLink_biodiversity_files(Repository repo) throws InterruptedException, UnsupportedEncodingException, FileNotFoundException{
 		System.out.println("lendo: "+repo.getName()+" ...");
-			
+		int index=0;	
 		 try{     
 			 BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(repo.getPath()), "UTF-8"));
 			 Statistics number = new Statistics();
 	         while(br.ready()){  
 	            String linha = br.readLine();  
 	            String values [] = linha.split("\t");
-	            String record []= dataTreated(values,repo.getColumns());
+	            index++;
+	            String record []= dataTreated(values,repo.getColumns(),index);
 	           
 	            if((!record[1].equals(" ") && !record[1].equals("")) && (!record[2].equals(" ") && !record[2].equals("")) && (!record[3].equals("") && !record[3].equals("0") && !record[3].equals("0.0")) && (!record[4].equals("") && !record[4].equals("0")&& !record[4].equals("0.0"))){
 	            	number.setAllrecords(number.getAllrecords()+1);	  
@@ -90,9 +91,9 @@ public class Read_Biodiversity_files {
 	      } 
 	}
 	
-	public String [] dataTreated(String values[],int columns[]){
+	public String [] dataTreated(String values[],int columns[],int index){
 		String temp,temp1;
-		String query [] = new String[5];
+		String query [] = new String[6];
              temp = values[columns[1]].replaceAll("\\p{Punct}|\\d","");  //PLACE
              temp = temp.replaceAll("NÃO INFORMADO", "");
              if(temp.contains("não determinado"))
@@ -104,8 +105,8 @@ public class Read_Biodiversity_files {
              query[2]=temp1;//COUNTY
              query[3]=values[columns[3]];//LATI
              query[4]=values[columns[4]];//LONG
-             
-  // Return in type: [DATE] [PLACE] [COUNTY] [LAT] [LONG]
+             query[5]=String.format("%s", index);//ID REPOSITORY
+  // Return in type: [DATE] [PLACE] [COUNTY] [LAT] [LONG] [ID REPOSITORY]
 		return query;
 	}
 	
@@ -122,7 +123,7 @@ public class Read_Biodiversity_files {
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node nNode = nList.item(temp);
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-            	int columns [] = new int [6];
+            	int columns [] = new int [7];
                 Element eElement = (Element) nNode;
                 
                 String filepath =eElement.getElementsByTagName("filepath").item(0).getTextContent();

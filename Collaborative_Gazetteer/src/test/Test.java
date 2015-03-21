@@ -28,11 +28,13 @@ import javax.xml.parsers.ParserConfigurationException;
 
 
 
+
 import mapping_to_ontology.Mapping;
 
 import org.xml.sax.SAXException;
 
 import prepare_sample_to_check.Random_Sample;
+import put_data_in_Triple_Store.Insert_Triple_Store;
 
 import com.bbn.openmap.geo.Geo;
 import com.bbn.openmap.tools.icon.OpenMapAppPartCollection.OpenMapAppPart.Poly;
@@ -57,14 +59,15 @@ public class Test {
 		Random_Sample sample = new Random_Sample();
 		Geonames geonames = new Geonames();
 		DBpedia dbpedia = new DBpedia();
-		Desambiguation ds = new Desambiguation();
 		Read_Biodiversity_files rb = new Read_Biodiversity_files();
 		Transform_and_Filter tsf = new Transform_and_Filter();
 		Out_Polygon out = new Out_Polygon();
 		Star_algorithm start = new Star_algorithm();
 		Summarize sumy = new Summarize();
 		Mapping map = new Mapping();
-		ArrayList<Group> group= new ArrayList<Group>();
+		Insert_Triple_Store tripleStore = new Insert_Triple_Store();
+		
+	/*	ArrayList<Group> group= new ArrayList<Group>();
 		ArrayList<Place> all_place = new ArrayList<Place>();
 		try {
 			rb.read_Expression();
@@ -169,8 +172,13 @@ public class Test {
 		System.out.println("Coordinates improved"+Summarize.improved);
 		
 		long fim = System.currentTimeMillis()/1000;
+		*/
+		System.out.println("Inserting data in triple store...");
+		tripleStore.insertData();
+		System.out.println("Data inserted!!!");
 		
-		System.out.println(fim-inicio);
+		
+	//	System.out.println(fim-inicio);
 	}
 
 }

@@ -67,7 +67,7 @@ public class Mapping {
          for(Group rep:group){
         	  	 Place p = rep.getCentroid();
         	  	         			
-        		 System.out.println(total);
+        		 //System.out.println(total);
         		 if(p.isAmbiguo()){
         			 /*Individual pl1=null,pl2=null;
         			 //System.out.println(model.getNsPrefixURI("")+total);
@@ -128,8 +128,8 @@ public class Mapping {
 		public void writeNtriples(){
 			
 			 try {
-				OutputStream out = new FileOutputStream("triples.rdf");
-				model.write(out,"RDF/XML");
+				OutputStream out = new FileOutputStream("triples.nt");
+				model.write(out,"N-TRIPLES");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -160,7 +160,7 @@ public class Mapping {
 	 }
 	 
 	 private void insertGeo(Individual geo, Geo geometry){
-		 String ponto ="<![CDATA[<http://www.opengis.net/def/crs/OGC/1.3/CRS84>Point("+geometry.toString().replaceAll("Geo", "").replace("[", "").replace("]", "")+")]]>";
+		 String ponto ="<http://www.opengis.net/def/crs/EPSG/4326> POINT("+geometry.toString().replaceAll("Geo", "").replace("[", "").replace("]", "")+")";
 		 TypeMapper.getInstance().registerDatatype(WktLiteral.wktLiteralType);
 		 geo.addLiteral(model.getProperty("http://www.opengis.net/ont/geosparql#asWKT"), ResourceFactory.createTypedLiteral(ponto, WktLiteral.wktLiteralType));
 		 

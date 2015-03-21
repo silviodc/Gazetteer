@@ -32,7 +32,7 @@ public class Desambiguation {
 	private OntModel model;
 	
 	public Collection<? extends Place> resolveCompositePlaces(ArrayList<Place> ambiguoPlace) throws CloneNotSupportedException {
-		System.out.println("PROCESSING COMPOSITE!");
+	//	System.out.println("PROCESSING COMPOSITE!");
 		ArrayList<Place> places = new ArrayList<Place>();
 		ArrayList<Place> novos = new ArrayList<Place>();
 		if(model == null)
@@ -117,7 +117,7 @@ public class Desambiguation {
 			insertInformation(pl,temp1,word);
 			if(relation)
 				antigo.setRelation(pl);
-			System.out.println("COUNT______"+places.size()+"____WAITING__"+ambiguoPlace.size());
+//			System.out.println("COUNT______"+places.size()+"____WAITING__"+ambiguoPlace.size());
 			ambiguoPlace.remove(0);
 		}
 		System.out.println("DONE COMPOSITE!");

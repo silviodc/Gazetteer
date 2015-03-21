@@ -70,13 +70,14 @@ public class Repository {
 	}
 	
 	public void setData(String[] data) {
+		int index = Integer.parseInt(data[5]);
 		if(!data[3].equals("")&& !data[4].equals("") && !data[0].equals("")){
 			float x =transformFloat(data[3]);
-            float y = transformFloat(data[4]);
+            float y = transformFloat(data[4]);            
 			//constructor (int year, String location, String nameFilter, String county, Geo geometry)
-			 places.add(new Place(Integer.parseInt(data[0]),data[1]," ",data[2], new Geo(x,y),this.name));
+			 places.add(new Place(Integer.parseInt(data[0]),data[1]," ",data[2], new Geo(x,y),this.name,index));
 			 }else{
-				 places.add(new Place(Integer.MAX_VALUE,data[1]," ",data[2],this.name));
+				 places.add(new Place(Integer.MAX_VALUE,data[1]," ",data[2],this.name,index));
 			 }
 	}
 	public Statistics getNumbers() {

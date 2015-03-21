@@ -1,0 +1,50 @@
+Lago Ilha Camaleão    2009   Geo[-3.024722099304199,-60.15972137451171]
+Rio Maués Rio Maués    2147483647   null
+Serra de Aracá Igarapé Pretinho no rio Jauari Cuieiras próximo a Serra do Aracá    1985   Geo[0.800000011920929,-63.349998474121094]
+Neblina Camp   km NNW of Pico Phelps Pico Neblina  km NE of Base Camp Heliamphora  Neblinaria savana with Euterpe swamps along streams In Euterpe swamp    1985   null
+Serra Curicuriari Serra Curicuriari    1979   Geo[-0.6499999761581421,-66.91666412353516]
+Campus do INPA INPA in front of servicios communitarios    2147483647   null
+Noroeste do Rio Juruá Poço NEJ I Campinarana solo alagado Sobre árvore à m de alt    2147483647   null
+Bacia do rio UrucuPetrobrás Coleta na base Santo Antônio até a linha  acima de Porto Hélio Mata de igapó Água do rio barrenta meio escura    2147483647   null
+Colonia Santo Antonio Manaus not very accurate ER    2147483647   null
+Rio Solimões and Rio Javari Behind São Paulo de Olivença    2147483647   null
+Rio Negro acima da boca do Curicuriari lugar Incaí Mata de terra firme submata Árvore frequente    1936   Geo[-1.3333330154418945,-66.25]
+Lago Janauacá margem direita rio Solimões Lago Janauacá    2147483647   null
+Lago do Araçá Cambixe Lago do Boto Cambixe Igapó    2147483647   null
+Bosque do Parque Dez    2147483647   null
+Lago permanente  m ao Noroeste da BR  km     1980   Geo[-7.516666889190674,-63.16666793823243]
+Along Rio Apoquitaua just above mouth of Rio Pacoval forest of terra firme    1983   Geo[-3.766666889190674,-57.91666793823242]
+Ponta Negra  Anavilhanas lago do Cajú    2147483647   null
+Campo I  m ao norte da BR Km     1980   Geo[-7.516666889190674,-63.16666793823243]
+INPA campus I lado externo do muro voltado para a rua Otvio Cabral    2147483647   null
+Rio Aracá a  horas de Barcelos Rio Aracá a  horas de Barcelos    1985   Geo[-0.3333329856395721,-63.0]
+Vila de Balbina Estrada da Cachoeira Morena Km     2147483647   null
+Rio Uaupés local chamado Taraquá sítio Matapi    1987   Geo[0.16666699945926663,-68.5]
+Campo de apodrecimento Durabilidade natural da madeira na Fazenda ExperimentalUFAM  Km  ManausCaracaraí    2147483647   null
+Palmeiras subbase do Projeto RADAMBRASIL próximo á beira do rio Javarí Mata de terra firme    2147483647   null
+Reserva Experimental próximo a área Plantio de Belinga    2147483647   null
+MOuth of rio Bauana In capoeira    1982   Geo[-3.483333110809326,-65.0]
+Igapó da boca do Lago de Serpa    1913   Geo[-3.2416670322418217,-58.74472045898438]
+Campos    2147483647   null
+Margem direita do rio Negro próximo à boca do rio Marié    1987   Geo[-0.41666701436042786,-66.38333129882812]
+Rio Cubate afluente do Içana Campina ao lago do rio    1987   Geo[0.4499999880790711,-67.53333282470703]
+Rio Surubim a tributary of the rio Abacaxis ca  km S of Terra Preta Occasional in wet sand full sun campina    2147483647   null
+Rebio Uatumã Entorno Rio Uatumã abaixo da represa    2147483647   null
+ Km of Km  of Perimetral N Hwy Pico Rondon summit    1984   Geo[1.5333329439163208,-62.799999237060554]
+Km  BR  ROAM Hotel Tupana Entre a coinha e a recepção do hotel    2147483647   null
+Campus Universitário    1988   Geo[-2.4000000953674316,-59.91666793823243]
+Rio Preto da Eva Reserva Florestal Walter Egler road ManausItacoatiara km  Forest on terra firme caly soil    2147483647   null
+Campus do INPA caminho em frente à caixa dágua até o viveiro do peixeboi Capoeira antiga solo argiloso local úmido beira do caminho    2147483647   null
+Ilha do Cumaru    2147483647   null
+Serra de Aracá Serra Aracá vic of lower airstrip caatinga    1984   Geo[0.8166670203208923,-63.31666564941406]
+Baia de Buiaçá Rio Negro    2147483647   null
+Estrada ManausPorto Velho margem do acampamento do Deram    2147483647   null
+rio Negro igarap Zamula    2147483647   null
+Campus do INPA Campus INPA Transect vouchers Line     2147483647   null
+igarap A afluente do rio Juma Md do igarap    2147483647   null
+Ilha de MarchantariaLago Camaleao    2147483647   null
+Estrada de Flores igarapé de Santa Maria balneár Estrada de Flores igarapé de Santa Maria balneário Nerylândia T arenoso capoeira aberta margem de igarapé    2147483647   null
+BR  Rodovia ManausPorto Velho a  Km de Humaitá Campo natural solo arenoso    1985   Geo[-7.666666984558103,-63.0]
+BR  Porto velhoManaus  km n of Humaitá compo and of gallery forest    1985   Geo[-7.499999999999999,-63.16666793823243]
+Lago de Manacapuru Mata de baixio solo argiloso    2147483647   null
+BDFF Reserve Km   Km N of Manaus on BR  and then  Km E on ZF A voucher specimen collected for a study on spatial distribution of palms in an Amazon forest Fragments Project BDFF Usually found near igarapé but common at G on terra fir    2147483647   null
