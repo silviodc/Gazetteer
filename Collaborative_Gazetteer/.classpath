@@ -5,5 +5,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jena.2.11"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/geonames-1.1.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/openmap.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/JENA/strabon-endpoint-client-3.3.2-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
