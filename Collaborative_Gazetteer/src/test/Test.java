@@ -29,6 +29,7 @@ import javax.xml.parsers.ParserConfigurationException;
 
 
 
+
 import mapping_to_ontology.Mapping;
 
 import org.xml.sax.SAXException;
@@ -174,7 +175,14 @@ public class Test {
 		long fim = System.currentTimeMillis()/1000;
 		*/
 		System.out.println("Inserting data in triple store...");
-		tripleStore.insertData();
+		try {
+			String queryString = "DELETE WHERE { <http://www.semanticweb.org/ontologies/Gazetter#5032> <http://www.semanticweb.org/ontologies/Gazetter#contributors> \"13\"^^<http://www.w3.org/2001/XMLSchema#long> . } ";
+		
+			tripleStore.updateDataRemote(queryString);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		System.out.println("Data inserted!!!");
 		
 		
