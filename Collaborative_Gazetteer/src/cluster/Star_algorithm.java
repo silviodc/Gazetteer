@@ -32,7 +32,7 @@ public class Star_algorithm {
 			ArrayList<Expression> exp) throws InstantiationException,
 			IllegalAccessException, CloneNotSupportedException, IOException {
 
-		findComposite(places);
+	//	findComposite(places);
 
 		ArrayList<Place> candidate_place = new ArrayList<Place>();
 		ArrayList<Place> composite = new ArrayList<Place>();

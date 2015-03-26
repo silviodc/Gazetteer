@@ -12,17 +12,17 @@
         <ColumPoly>files\\Amazonas_polygon.txt</ColumPoly> 
        <!--<ColumPoly>files/Amazonas_polygon.txt</ColumPoly> -->
     </repository>
-<!--      <repository>
-       <name>gbif</name>
-       <filepath>files\\occurrence.txt</filepath> --> 
-      <!-- <filepath>files/occurrence.txt</filepath>-->
-  <!--       <ColumDate>27</ColumDate>
-        <ColumPlace>56</ColumPlace>
-        <ColumCounty>53</ColumCounty>
-        <ColumLati>25</ColumLati>
-        <ColumLong>26</ColumLong>
-      <ColumPoly>files\\Amazonas_polygon.txt</ColumPoly> --> 
-     <!--    <ColumPoly>files/Amazonas_polygon.txt</ColumPoly> -->
-    <!--  </repository> --> 
+<!--       <repository> -->
+<!--        <name>gbif</name> -->
+<!--        <filepath>files\\occurrence.txt</filepath>   -->
+<!--       <filepath>files/occurrence.txt</filepath> -->
+<!--          <ColumDate>27</ColumDate> -->
+<!--         <ColumPlace>56</ColumPlace> -->
+<!--         <ColumCounty>53</ColumCounty> -->
+<!--         <ColumLati>25</ColumLati> -->
+<!--         <ColumLong>26</ColumLong> -->
+<!--       <ColumPoly>files\\Amazonas_polygon.txt</ColumPoly>   -->
+<!--         <ColumPoly>files/Amazonas_polygon.txt</ColumPoly> -->
+<!--    </repository>  -->
      
 </root>

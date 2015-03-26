@@ -67,14 +67,21 @@ public class Test {
 		Summarize sumy = new Summarize();
 		Mapping map = new Mapping();
 		Insert_Triple_Store tripleStore = new Insert_Triple_Store();
+	
+		sample.checkAmoutCorrectBeforeSWI("corrected_link_before_swi.txt");
 		
-	/*	ArrayList<Group> group= new ArrayList<Group>();
+		ArrayList<Group> group= new ArrayList<Group>();
 		ArrayList<Place> all_place = new ArrayList<Place>();
 		try {
 			rb.read_Expression();
 			rb.start_read();			
 			tsf.transform_Repository_to_Place(rb.getRepository());	
+			
+			
+			
 			for(int i=0;i<rb.getRepository().size();i++){
+							
+				//sample.corrected_link_before_swi(rb.getRepository().get(i).getPlaces(),"corrected_link_before_swi.txt");
 				
 				System.out.println("Statistics: <<<<<<<");
 				System.out.println("All records: "+rb.getRepository().get(i).getNumbers().getAllrecords());
@@ -161,31 +168,35 @@ public class Test {
 			int relative_date [][]= Count_Coordinates.countDate(rb.getRepository().get(i).getPlaces(),rb.getRepository().get(i).getPolygon());
 			Count_Coordinates.build_csv(relative_date,rb.getRepository().get(i).getName()+"New");
 		}
-				
+			
+		System.out.println("Preparing the sample to check coordinates after SWI");
 		int lugar=0;
 		for(int i=0;i<rb.getRepository().size();i++){
 			for(Place pl: rb.getRepository().get(i).getPlaces()){
 				if(pl.getGeometry()!=null)
 					lugar++;
 			}
+			sample.corrected_link_before_swi(rb.getRepository().get(i).getPlaces(),"corrected_link_after_swi.txt");
 		}
+		System.out.println("Sample after SWI prepared");
 		System.out.println("Amouth of coordinates after processing: "+lugar);
 		System.out.println("Coordinates improved"+Summarize.improved);
 		
 		long fim = System.currentTimeMillis()/1000;
-		*/
+		/*
 		System.out.println("Inserting data in triple store...");
 		try {
-			String queryString = "DELETE WHERE { <http://www.semanticweb.org/ontologies/Gazetter#5032> <http://www.semanticweb.org/ontologies/Gazetter#contributors> \"13\"^^<http://www.w3.org/2001/XMLSchema#long> . } ";
+			tripleStore.insertDataLocalhost();
+	//		String queryString = "DELETE WHERE { <http://www.semanticweb.org/ontologies/Gazetter#5032> <http://www.semanticweb.org/ontologies/Gazetter#contributors> \"13\"^^<http://www.w3.org/2001/XMLSchema#long> . } ";
 		
-			tripleStore.updateDataRemote(queryString);
+		//	tripleStore.updateDataRemote(queryString);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 		System.out.println("Data inserted!!!");
 		
-		
+	
 	//	System.out.println(fim-inicio);
 	}
 

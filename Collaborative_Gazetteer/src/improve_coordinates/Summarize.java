@@ -47,7 +47,7 @@ public class Summarize {
 				if(arrayList.get(i).getYear()<=today){
 					if(tempYear!=0 && tempYear>arrayList.get(i).getYear() && arrayList.get(i).getGeometry().distance(moda.getGeometry())<300){
 						tempYear = arrayList.get(i).getYear();
-					}else if(tempYear==0 && arrayList.get(i).getGeometry().distance(moda.getGeometry())<300){
+					}else if(tempYear==0 && arrayList.get(i).getGeometry()!=null && arrayList.get(i).getGeometry().distance(moda.getGeometry())<300){
 						tempYear = arrayList.get(i).getYear();
 					 }
 				}			
