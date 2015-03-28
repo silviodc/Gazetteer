@@ -1,50 +1,50 @@
-Campo de apodrecimento Durabilidade natural de madeira de Bactris gasipaes Kunth instalado no pátio do CPPF CAP II Campus do INPA I    2147483647   null
-Ilha Saracura Lago Balbina    1993   Geo[-1.897166967391968,-59.45316696166992]
-Lago do Calado Igarapé do Mota beira do igarapé    2147483647   null
-TF de Rondônia Rio JiParaná estrada Rolim de Moura Margem do rio JiParaná Mata primária solo argiloso    2147483647   null
-Rio Cuieiras  km upstream near farm of Sr Nemerio    2147483647   null
-Cabeceira do lago perto da praia    2147483647   null
-Between RioArarirá and Rio Petro Igapó    1987   Geo[-0.25,-63.58333206176758]
-rio Uatum lago Tapan Santana    2147483647   null
-Reserva Florestal Ducke Próximo ao alojamento Terreno brejoso campo de futebol Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Vicinity of Ponta Negra beach on the Rio Negro ca  Km W of Manaus    1971   Geo[-3.5,-60.833332061767585]
-ZF km  Reserva Cuieiras INPA ZF Reserva Cuieiras INPA Bacia I Em platô terra frime sobre solo argiloso    2147483647   null
-Estrada ManausItacoatiara km  Reserva Ducke Medium sized palm growing in clearing of Terra firme forest Measurements accompanying specimen    2147483647   null
-Rio MauésAçu ca  Km S of church Across from Maués Along trail into terra firme forest    1983   Geo[-3.3833329677581787,-57.74999999999999]
-Distrito Agropecuário ZF Acampamento Colosso WWFINPA fazenda Esteio    2147483647   null
-Próximo a Ilha do Guarani    1995   Geo[-1.2333329916000366,-62.33333206176758]
-Cachoeira    2147483647   null
-Campo da Catuquira cerca de  Km ao sul de Manaus Campina    2007   Geo[-4.912582874298096,-61.10851669311523]
-Rio Jauaperi No lado leste do rio oposto Maral    2010   Geo[-0.6577000021934509,-61.447799682617195]
-Bacia do Rio Juruá Rio Tarauacá em várzea próximo da Boca do Rio Embira    2147483647   null
-Rio Madeira ca  hour upstream from town Wet place near the river    2147483647   null
-BR km  Campina INPA Campina da Reserva do INPA km  da BR  na periferia das ilhas de vegetação lenhosa    2147483647   null
-Aldeia dos Tenhains Km   TRANS mata    2147483647   null
-Rio Jauari  km SE da boca Campina palmar Barcella odora y sabana sobre arena blanca ubicadas en la ribera izquierda del Río Aracá medio aprox  Km al SE en línea recta de la boca del Río Jauarí    1985   Geo[0.41666701436042786,-63.38333129882813]
-Lago do Carão Careiro Amazonas Brasil    2147483647   null
-Rio Negro Iauaret levantamento do Projeto RADAM    2147483647   null
-Rio Brancinho    2147483647   null
-Rio Tucano afluente do rio Canaburi na base da C Rio Tucano afluente do rio Canaburi na base da Cordilheira do Pico da Neblina    2147483647   null
-igarap Esperana usina Hidreltrica de Balbina prximo  fazenda  ponto Me da represa    2147483647   null
-Km from Manaus on rio Negro Disticous up sandy soilmostly sand on top some soil beneath    2147483647   null
-Praia à beira do Rio Solimões    2001   Geo[-2.7500000000000004,-65.16666412353516]
-rio Madeira vrzea alagvel atrs da casa do ribeirinho que ajudou na coleta numa baixada seca atrs do barranco Md do rio    2147483647   null
-Parque Nacional do Pico da Neblina Rio Cuiabixi Floresta ombrófila densa montana    2147483647   null
-Estação Ecol de Anavilhanas Arquipélago das Anavilhanas    2147483647   null
-Pico Rondon lower vine forest    1984   Geo[0.800000011920929,-63.349998474121094]
-BR  ZF    2147483647   null
-BR  sentido Presidente Figueredo Km  m antes ponte Rio Urubu mata à esquerda na estrada acesso Sítio Jatobá mata seca População ao longo estrada acesso Sítio Jatobá lado direito    2009   Geo[-2.115556001663208,-59.99166870117188]
-Ilha do Cantagalo próximo à boca do Jauaperi Lago    1995   Geo[-1.25,-61.23333358764649]
-Reserva  Cabo Frio do Projeto Dinâmica Biológica de Fragmentos Florestais PDBFF No km  da estrada vicinal ZF A ZF tem início no km  da BR ao Norte de Manaus    2005   Geo[-2.6500000953674316,-60.516666412353516]
-Vicinity of Manáos Río Negro Reserva Ducke    2147483647   null
-Ilha das Flores Alto rio Negro  inventário florestal da caatinga da Ilha das Flores Quadra     2147483647   null
-Campus do INPA INPAV    2147483647   null
-Serra de Aracá  km of central portion of Serra Araca and  km E of Rio Jauarí ca  hr walk SE from camp    1984   Geo[0.8166670203208923,-63.31666564941406]
-Distrito da Suframa highway BR   Swamp by roadside    1985   Geo[-3.1333329677581787,-60.01666641235351]
-Rio Negro Ilha Acaburu Rio Negro Ilha Acaburu    1979   Geo[-0.6666669845581055,-66.66666412353516]
-BR Km  Campus UNIR    2147483647   null
-Rio Negro Furo do Meio Bahía do Buiusu Write sand periodically inundated islands and shore lines    2147483647   null
-Estrada ManausItacoatiara km   km da margem da estrada fazenda de Abraão Sabbá igarapé da Loura    2147483647   null
-Basin of Rio Negro Island in river    2147483647   null
-Rio Uatumã acima da barragem da UHE Balbina margem esquerda    2147483647   null
-Rio Negro near island of Jauari Rio Negro near island of Jauari capoeira slightly higher  terra firma   more humid    2147483647   null
+Tapuruquara Rio Negro igarapé Dara Varzea forest clay soil    2147483647   null
+Trilha que vai para a cachoeira do aeroporto    2147483647   null
+BR  Rodovia Transamazônica a  Km de Humaitá Reserva Indígena dos Tenharim Mata de terra firme solo argiloso úmido    1985   Geo[-7.966667175292969,-62.03333282470703]
+Along Rio Abacaxis ca  Km below mouth of igarapé Surubim growing along river    1983   Geo[-4.483333110809326,-58.46666717529297]
+BR  Porto VelhoManaus  km n of Humaitá Bonfuturo Forest on terra firme    1985   Geo[-7.1666669845581055,-63.0]
+Basin of rio Negro Tapuruquara Rocky island in river Rocky riverside    2147483647   null
+Campus do INPA Estrada do Aleixo Séde do INPA próximo do Parque    2147483647   null
+Rio Içana Comunidade Jandu Cachoeira Secondary forest on sandy loam in campinarana white sand matrix Along path near small stream bed    2002   Geo[1.5136109590530398,-68.7219467163086]
+Parque Nacional do Jáu Seringalzinho inventário    2147483647   null
+Lago do Caroçal    2000   Geo[-5.699999809265137,-67.69999694824219]
+Rio Negro opposite Caatinga    1987   Geo[-0.16666699945926663,-67.0]
+Margem direita do Rio Negro Ilha Grande    2147483647   null
+Distrito Agropecuário  Reserva   km  da SmithsonianINPA Terra firme Local Q      1990   Geo[-2.425277948379517,-59.76388931274414]
+Rio Cuieiras acima do repartimento Igapó Rio Cuieiras acima do repartimento Igapó    2147483647   null
+Rio Madeira Road Humaitá to Porto Velho Km  Open grassy savanna    2147483647   null
+Reserva Ducke material do levantamento RK     2147483647   null
+rio Aripuan lago no centro da ilha do Mamo    2147483647   null
+Igapó Igarapé Jacitara Rio Içana acima da comunidade Tunui da Cachoeira    2008   Geo[1.3830560445785522,-68.15277862548828]
+Campo da Catuquira    2007   Geo[-5.502294063568115,-61.176727294921875]
+Ilha Pé Inchado  L Balbina    1995   Geo[-1.897166967391968,-59.45316696166992]
+Rio Madeira margem direita afluente do rio Amazo Rio Madeira margem direita afluente do rio Amazonas a  Km da cidade de Borba    2147483647   null
+Rio Negro near Camuru capoeira very recently cut apparently mostly saplings    2147483647   null
+BR  Km  ZF PDBFF Reserva Ilagivel    2147483647   null
+Comunidade Murutinga    2004   Geo[-3.3772330284118652,-59.25408172607422]
+Km  da ZF que começa no Km  da BR Fazenda Esteio    1997   Geo[-2.5530560016632085,-59.88055419921876]
+Serra de Aracá Serra Araca ca along Rio Jauarí on sandy bank    2147483647   null
+Estrada do V balneário do Dr Amaury Farias Estrada do V balneário do Dr Amaury Farias    2147483647   null
+Fazenda Experimental da UFAM  BR Km  Mata de terra firme solo argiloso nfComponentes Quantitativos e Qualitativos do Sistema PlantaPolinizadas em três espécies de Rubiaceae no subbosque de floresta primária na Amazônia Central    2007   Geo[-2.0000000000000004,-59.99999999999999]
+Rio Solimões Lago Janauacá    1991   Geo[-3.4666669368743896,-60.283332824707024]
+Rio Javari Pameiras Army Base Várzea near black water igarapé    1973   Geo[-6.3333330154418945,-72.81666564941406]
+Rio Amazonas    2147483647   null
+BR Rio Branco Terra firme Estrada ManausCaracaraí Rio Branco Terra firme solo arenoso campina carrasco    2147483647   null
+Boca do paraná do Janauarí no rio Amazonas Várze Boca do paraná do Janauarí no rio Amazonas Várzea de água barrenta    2147483647   null
+Rio Curiare Fruteiras du village Luis    2147483647   null
+Rio Negro acima da foz do Curicuriary margem indundável Frequens ad ripas inundatas Rio Negro superioris civit Amazonas inter Camanaos et ostium fluminis Curicuriary    2147483647   null
+Estrada BR  Km  de S G Estrada BR  Km  de S G    1987   Geo[0.16666699945926666,-66.80000305175781]
+Manaus and vicinity Rio Negro near to Tarumã    2147483647   null
+Foz do rio Tumbiras    2147483647   null
+Comunidade Nova Aliança Área de igapó ilha    2004   Geo[-4.350832939147949,-69.600830078125]
+Bairro do rio Japurá ilha dos Macacos    2147483647   null
+BR  Km  Ramal Torre    2147483647   null
+IgarapéAçú do rio Andirá    2147483647   null
+Floresta de campinarana próximo a campina do acampamento no Rio Sucunduri    2006   Geo[-8.0,-58.99999999999999]
+Lago de Tefé próximo a Vila Nogueira    1986   Geo[-3.4999999999999996,-64.0]
+Ilha Boa Vista Alto Rio Negro próximo a boca do rio Branco Ilha Boa Vista    2147483647   null
+Anavilhanas Ilha Maracanã Novo Airão Amazonas Brasil Mata aberta parentemente seca solo argiloso    2147483647   null
+Rua Duque de Caxias Rua Duque de Caxias Terra firme solo arenoso    2147483647   null
+Km  north from Manaus on BR AM    2147483647   null
+Rio Preto da Eva    2147483647   null
+Igarapé Koyari small southern tributary of Rio Solimões due S of Tabatinga primary on greyish sandy clay    2147483647   null

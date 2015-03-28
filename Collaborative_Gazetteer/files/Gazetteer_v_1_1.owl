@@ -1082,6 +1082,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#hasCounty -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;hasCounty"/>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/Gazetter#km -->
 
     <owl:ObjectProperty rdf:about="&Gazetter;km">

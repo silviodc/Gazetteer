@@ -9,7 +9,7 @@ public class Place implements Cloneable {
 	private int ID;
 	private String location;
 	private String nameFilter;
-	private String county;
+	private County county;
     private Geo geometry;
     private String type;
     private String local;
@@ -84,7 +84,7 @@ public class Place implements Cloneable {
 		this.local = local;
 	}
 
-	public Place(int year, String location, String nameFilter, String county,Geo geo, String repository, int index ) {
+	public Place(int year, String location, String nameFilter, County county,Geo geo, String repository, int index ) {
 		this.year = year;
 		this.location = location;
 		this.nameFilter = nameFilter;
@@ -99,7 +99,7 @@ public class Place implements Cloneable {
 	}
 		
 	
-	public Place(int year, String location, String county,Geo geo, String repository ) {
+	public Place(int year, String location, County county,Geo geo, String repository ) {
 		this.year = year;
 		this.location = location;
 		this.county = county;
@@ -107,7 +107,7 @@ public class Place implements Cloneable {
 		this.repository=repository;
 	}
 	
-	public Place(int year, String location, String nameFilter, String county,String repository, int index) {
+	public Place(int year, String location, String nameFilter, County county,String repository, int index) {
 		this.year = year;
 		this.location = location;
 		this.nameFilter = nameFilter;
@@ -133,10 +133,10 @@ public class Place implements Cloneable {
 	public void setNameFilter(String nameFilter) {
 		this.nameFilter = nameFilter;
 	}
-	public String getCounty() {
+	public County getCounty() {
 		return county;
 	}
-	public void setCounty(String county) {
+	public void setCounty(County county) {
 		this.county = county;
 	}
 	public Geo getGeometry() {

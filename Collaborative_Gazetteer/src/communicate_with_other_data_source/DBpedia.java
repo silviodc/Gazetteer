@@ -1,7 +1,9 @@
 package communicate_with_other_data_source;
 
+import TAD.County;
 import TAD.Place;
 import analyze_geographical_coordinates.Out_Polygon;
+import cluster.Bigram_Similarity;
 
 import com.bbn.openmap.geo.Geo;
 import com.bbn.openmap.geo.OMGeo.Polygon;
@@ -12,7 +14,9 @@ import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory; 
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
+import com.hp.hpl.jena.rdf.model.Literal;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.sparql.engine.http.QueryExceptionHTTP;
 
 
@@ -24,6 +28,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class DBpedia {
 	
@@ -152,6 +157,41 @@ public class DBpedia {
 	public HashMap<String,String> findAmazonasCounty(){
 		return null;
 		
+	}
+	
+	public void getMunicipalityFromAmazonas(ArrayList<Place> places){
+		List<County> countys = new ArrayList<County>();
+		String service="http://dbpedia.org/sparql";
+		String query = "PREFIX geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> "
+				+ " PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+				+ " select * where {"
+				+ " ?s <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Populated_places_in_Amazonas_(Brazilian_state)>."
+				+ " ?s rdfs:label ?nome ."
+				+ " ?s geo:lat ?latitude ."
+				+ " ?s geo:long ?longitude ."
+				+ "FILTER(langMatches(lang(?nome), \"pt\"))}";
+		QueryExecution qe=QueryExecutionFactory.sparqlService(service, query);
+		ResultSet rs=qe.execSelect(); 
+		while (rs.hasNext()){			
+				QuerySolution s=rs.nextSolution(); 
+				Literal nome = s.getLiteral("nome");
+				Literal latitude = s.getLiteral("latitude");
+				Literal longitude = s.getLiteral("longitude");
+				RDFNode uri = s.get("s");
+				County county = new County(nome.getString().replaceAll("@pt", "").replaceAll("(Amazonas)", "").replaceAll("(Manaus)", ""));
+				county.setURI(uri);
+				county.setPoint(new Geo(latitude.getFloat(),longitude.getFloat()));
+				countys.add(county);
+		}
+		Bigram_Similarity bg = new Bigram_Similarity();
+		for(int i=0;i<countys.size();i++){
+			for(int j=0;j<places.size();j++){
+				if(places.get(j).getCounty()!=null && places.get(j).getCounty().getNome()!=null && !places.get(j).getCounty().getNome().equals(""))
+					if(bg.stringSimilarityScore(bg.bigram(places.get(j).getCounty().getNome()), bg.bigram(countys.get(i).getNome()))>0.7)
+						places.get(j).setCounty(countys.get(i));
+				
+			}
+		}
 	}
 }
 

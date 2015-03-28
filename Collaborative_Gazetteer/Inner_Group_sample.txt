@@ -1,1498 +1,579 @@
-Centroid >> Campina das Pedras BR k  lado direito    2147483647   null
-Campina das Pedras BR k  lado direito    2147483647   null
-Campina das Pedras BR km  lado esquerdo    2147483647   null
+Centroid >> Rio Negro Parauiry Estirão bordes of river of whitish water    2147483647   null
+Rio Negro Parauiry Estirão bordes of river of whitish water    2147483647   null
 ___________________________________
 
-Centroid >> Baixo rio Iça Boiussú Várzea    1906   Geo[-3.25,-68.16666412353516]
-Rio Solimões Rio Içá Boiussú Várzea    1906   Geo[-3.25,-68.16666412353516]
-Baixo rio Iça Boiussú Várzea    1906   Geo[-3.25,-68.16666412353516]
+Centroid >> Beira do rio Limoeiro  do outro lado da vila na areia branca da praia no posto onde havia uma industria de pau rosa pilão mecânico movido a motor pertencente ao Senhor Henrique Magnani    2147483647   null
+Beira do rio Limoeiro  do outro lado da vila na areia branca da praia no posto onde havia uma industria de pau rosa pilão mecânico movido a motor pertencente ao Senhor Henrique Magnani    2147483647   null
 ___________________________________
 
-Centroid >> Alto Solimões Estrada do Bonfim logo após a saída da cidade de São Paulo de Olivença    1986   Geo[-3.5,-69.0]
-Alto Dolimoes Plato ao sul da cidade estrada para a localidade Bom Fim Caatinga sobre solo arenoso branco    1986   Geo[-3.5,-69.0]
-Alto Solimões Estrada do Bonfim logo após a saída da cidade de São Paulo de Olivença    1986   Geo[-3.5,-69.0]
-Alto Solimões Estrada do Bonfim logo após a saída da cidade de São Paulo de Olivença    1986   Geo[-3.5,-69.0]
-Alto Solimões Estrada do Bonfim logo após a saída da cidade de São Paulo de Olivença    1986   Geo[-3.5,-69.0]
-Alto Solimões Estrada do Bonfim logo após a saída da cidade de São Paulo de Olivença    1986   Geo[-3.5,-69.0]
-Alto Solimões Estrada do Bonfim logo após a saída da cidade de São Paulo de Olivença    1986   Geo[-3.5,-69.0]
+Centroid >> Rio Amazonas ilha do Careiro quase em frente ao encontro das águas Rio Amazonas    2147483647   null
+Rio Amazonas ilha do Careiro quase em frente ao encontro das águas Rio Amazonas    2147483647   null
+Rio Amazonas ilha do Careiro quase em frente ao encontro das águas Rio Amazonas    2147483647   null
 ___________________________________
 
-Centroid >> Igarapé de Flores margem da BR Terreno e habitat Brejo    2147483647   null
-Igarapé de Flores margem da BR Terreno e habitat Brejo    2147483647   null
+Centroid >> Vicinity of Manaus South bank of rio Negro Baia de Bueussu  km above Manaus Sandy river beach    2147483647   null
+Vicinity of Manaus South bank of rio Negro Baia de Bueussu  km above Manaus Sandy river beach    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km above Manus    2147483647   null
+Vicinity of Manaus South bank of rio Negro Baía de Buíussu  km above Manaus Sandy rivewr beach    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km de Manaus    2147483647   null
+South bank of rio Negro baia de Bueussu  Km Above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km above Manaus nfsandy river beach    2147483647   null
+Vicinity of Manaus South bank of rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+South bank of lower rio Negro  Km above Manaus Baia do Buiaçu    2147483647   null
+South bank of rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+Vicinity of Manaus south bank of Rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  km above Manaus    2147483647   null
+Vicinyti of Manaus south bank of Rio Negro Baia de Buiussu km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  km above Manaus    2147483647   null
+South of lower Rio Negro  km above Manaus Baia do Boiaçu    2147483647   null
+South bank of Rio Negro Baia de Buiussu  km above Manaus    2147483647   null
+Vicinity of Manaus South bank of rio Negro Baia de Bueussu  Km above Manaus Sandy river beach    2147483647   null
+South bank of Rio Negro Bahia de Bueussu  Km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Boiussu  km    2147483647   null
+South bank of rio Negro Baía de Bueussu km above Manaus    2147483647   null
+South bank of rio Negro Baia de Bueussu km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+Vicinity of Manaus South bank of Rio Negro Baia de Bueussu  Km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Bueusso km above Manaus    2147483647   null
+South bank of Rio Negro Baia de Buiussu  km above Manaus    2147483647   null
 ___________________________________
 
-Centroid >>  Km da Vila Residencial Atroari Canteiro de Obras de Balbina    1986   Geo[-2.0000000000000004,-59.99999999999999]
- Km da Vila Residencial Atroari Canteiro de Obras de Balbina    1986   Geo[-2.0000000000000004,-59.99999999999999]
- Km da Vila Residêncial Atroari Canteiro de obras de Balbina Mata de terra firme solo argiloso    1986   Geo[-2.0000000000000004,-59.99999999999999]
- Km da Vila Residêncial Atroarí Canteiro de obras de Balbina Mata de terra firme solo argiloso    1986   Geo[-2.0000000000000004,-59.99999999999999]
- Km da Vila Residêncial Atroarí Canteiro de obras de Balbina Mata de terra firme solo argiloso    1986   Geo[-2.0000000000000004,-59.99999999999999]
+Centroid >> Paraná do AutazMirim Lago de Caioé Static black water    2147483647   null
+Paraná do AutazMirim Lago de Caioé Static black water    2147483647   null
+Lago do Arapari no Paraná do AutazMirim    2147483647   null
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke logo após acampamento temporário do Benjamin    2147483647   null
-Reserva Florestal Ducke logo após acampamento temporário do Benjamin    2147483647   null
+Centroid >> Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Basin of rioPurús rio Cunhuá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunha at Deni Indian village Forest beside stream Liverwort    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Basin of rio Purus    1971   Geo[-6.716667175292969,-66.78333282470703]
+Basin of rio Purus Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhá at Deni Indian Village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian Village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian Village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian Village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Basin of Rio Purus Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Beside small stream Growing beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream Moss    1971   Geo[-6.716667175292969,-66.78333282470703]
+Basin of Rio Purus Rio Cunhuá a Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest on terra firme    1971   Geo[-6.716667175292969,-66.78333282470703]
+Basi of Rio Purus Rio Cunhua at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian Village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhá at Deni Indian village Forest beside stream Liverwort    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhá at Deni Indian village Forest beside stream Liverwort    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Jamamadi Indian village W of rio Purus Beside small stream    1975   Geo[-6.716667175292969,-66.78333282470703]
+Jamamadi Indian village W of Rio Purus Beside small stream    1975   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Basin of rio Purus    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian Village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian Village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest on terra firme    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhá at Deni Indian village Forest on terra firme beside small stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Basin of Rio Pusus Rio Cunhua at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest on terra firme Moss    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream Moss    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream Liverwort    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village Forest beside stream    1971   Geo[-6.716667175292969,-66.78333282470703]
+Rio Cunhuá at Deni Indian village    1971   Geo[-6.716667175292969,-66.78333282470703]
 ___________________________________
 
-Centroid >> Beira do rio Japurá Mata de várzea    2147483647   null
-Beira do rio Japurá Mata de várzea    2147483647   null
-Rio Japurá Mata de várzea    2147483647   null
-Rio Japurá Mata de várzea    2147483647   null
-Beira do rio Japurá    2147483647   null
-Rio Japurá Mata de várzea    2147483647   null
-Rio Japurá Mata de Várzea    2147483647   null
-Na beira do rio Japurá    2147483647   null
-Beira do rio Japurá Mata de várzea    2147483647   null
-Na beira do rio Japurá Mata de igapó    2147483647   null
-Rio Japurá Mata de várzea    2147483647   null
-Rio Japurá mata de capoeira baixa    2147483647   null
-Beira d rio Japurá Mata de várzea    2147483647   null
-Beira do rio Japurá    2147483647   null
-Beira do rio Japurá    2147483647   null
-Na beira do rio Japurá    2147483647   null
-Na beira do rio Japurá Mata de várzea    2147483647   null
-Beira do rio Japurá    2147483647   null
-Na beira do rio Japurá    2147483647   null
-Rio Japurá Mata de várzea    2147483647   null
-Beira do rio Japurá    2147483647   null
-Rio Japurá Capoeira de várzea    2147483647   null
-Rio Japurá Mata de várzea    2147483647   null
-Rio Japurá Mata de capoeira baixa    2147483647   null
-Beira do rio Japurá Mata de várzea    2147483647   null
-Rio Japurá Mata de capoeira    2147483647   null
-Na beira do rio Japura    2147483647   null
+Centroid >> Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
+Environs of the Yanomami village of Watoriketheri close to the FUNAI PIN Demini on the old route of the abandoned BR Perimetral Norte highway Km     1994   Geo[-1.5166670083999632,-62.81666564941407]
 ___________________________________
 
-Centroid >> Rio Apuquetaua Rio Apuquetaua    2147483647   null
-Rio Apuquetaua Rio Apuquetaua    2147483647   null
-Rio Apuquetaua Rio Apuquetaua    2147483647   null
-Rio Apuquetaua Rio Apuquetaua    2147483647   null
+Centroid >> Rodovia AM Km  Itapiranga  Silves Sítio Areial Igarapé Grande mata de terra firme    2010   Geo[-2.728888988494873,-58.08638763427735]
+Rodovia AM ManausItacoatiara  km  ZF km  Mata de borda terra firme solo argiloso    2010   Geo[-2.728888988494873,-58.08638763427735]
+Rodovia AM ManausItacoatiara Reserval Florestal A Ducke solo argiloso terra firme    2010   Geo[-2.728888988494873,-58.08638763427735]
+Estrada ManausCaracaraí km  campina distante  km a oeste da rodovia floresta de terra firme    2010   Geo[-2.728888988494873,-58.08638763427735]
+Rodovia Transamazônica Km  de Humaitá em direção à Lábrea Mata de terra firme solo argiloso    2010   Geo[-2.728888988494873,-58.08638763427735]
+Estrada Manaus  Caracaraí Km  campina distante  Km a oeste da rodovia Mata de terra firme    2010   Geo[-2.728888988494873,-58.08638763427735]
+Rodovia AM Km  Itapiranga  Silves Sítio Areial Igarapé Grande mata de terra firme    2010   Geo[-2.728888988494873,-58.08638763427735]
+Estação Experimental no km  da Rodovia ManausCaracaraí solo argiloarenoso    2010   Geo[-2.728888988494873,-58.08638763427735]
 ___________________________________
 
-Centroid >> Rio Negro perto da Serra de Curicuriari Cachoeira do Igarapé Arabu crescendo em pedras coberta de briofitas    2147483647   null
-Rio Negro perto da Serra de Curicuriari Cachoeira do Igarapé Arabu crescendo em pedras coberta de briofitas    2147483647   null
-Rio negro rio curicuriari perto da cachoeira piraiauara    2147483647   null
-Rio Marié Cachoeira Imé em pedra úmida coberta de briófitas    2147483647   null
-Rio Marié cachoeira Imé arredores da Cachoeira Na pedra úmida coberta de briophyta    2147483647   null
-Rio Negro rio Curicuriari no caminho perto da cachoeira Piraiauara    2147483647   null
-Rio Marié cachoeira Imé perto da caída dágua Em pedra úmida coberta de briófitas    2147483647   null
-Rio Negro margem do rio Curicuriari em pedras e areia branca com muitas briophytas    2147483647   null
-Rio Negro caminho para a Serra de Curicuriari cachoeira do igarapé Arabu no pé da Serra Crescendo em pedras    2147483647   null
+Centroid >> Alto rio Negro Carâmpans Capoeirão de terra firm Alto rio Negro Carâmpans Capoeirão de terra firme    2147483647   null
+Alto rio Negro Carâmpans Capoeirão de terra firm Alto rio Negro Carâmpans Capoeirão de terra firme    2147483647   null
 ___________________________________
 
-Centroid >> BR  Cruzamento Rio Gregório Terra firme frequência rara Floresta aberta com palmeiras rêlevo ondulado Folha SBYC ponto F     1987   null
-BR  Cruzamento Rio Gregório Terra firme frequência rara Floresta aberta com palmeiras rêlevo ondulado Folha SBYC ponto F     1987   null
+Centroid >> Reserva de  ha Q   Fazenda Dimona    2000   Geo[-2.400000095367432,-59.71666717529297]
+Reserva de  ha Q   Fazenda Dimona    2000   Geo[-2.400000095367432,-59.71666717529297]
+km  Fazenda Dimona Reserva  Pto W limit  m trail    2000   Geo[-2.400000095367432,-59.71666717529297]
+Reserva de  ha Dimona    2000   Geo[-2.400000095367432,-59.71666717529297]
 ___________________________________
 
-Centroid >> Bacia do rio Taruma próximo a foz entrada pela Marina Tauá sempre pelo caminho da esquerda Area atrás de novo loteamento Pelas estrada de acesso Campina arbórea aberta com áreas exposta com Cladonia Dossel  m mas Pagamea dominando na área    2000   Geo[-3.041666984558105,-60.09944534301758]
-Paleocanal do TarumaMirim Estrada do Pau Rosa final do Ramal do Novo Amanhecer por trilha ca  km em direção ao rio Campinarana Baixa ao longo do paleocanal area encharcada Ocorre em simpatria com P coriacea e P plicatiformis Comum Solo    2000   Geo[-3.041666984558105,-60.09944534301758]
-Paleocanal do TarumaMirim Estrada do Pau Rosa final do Ramal do Novo Amanhecer por trilha ca  km em direção ao rio Subosque de Campinarana Alta no primeiro compartimento arenoso do paleocanal nao inundavel Ausente nos ambientes mais encharc    2000   Geo[-3.041666984558105,-60.09944534301758]
-Bacia do rio Taruma próximo a foz entrada pela Marina Tauá sempre pelo caminho da esquerda Area atrás de novo loteamento Pelas estrada de acesso Campina arbórea aberta com áreas exposta com Cladonia Dossel  m mas Pagamea dominando na área    2000   Geo[-3.041666984558105,-60.09944534301758]
-Bacia do rio Taruma próximo a foz entrada pela Marina Tauá sempre pelo caminho da esquerda Area atrás de novo loteamento Pelas estrada de acesso Campina arbórea aberta com áreas exposta com Cladonia Dossel  m mas Pagamea dominando na área    2000   Geo[-3.041666984558105,-60.09944534301758]
-Bacia do rio Taruma próximo a foz entrada pela Marina Tauá sempre pelo caminho da esquerda Area atrás de novo loteamento Pelas estrada de acesso Campina arbórea aberta com áreas exposta com Cladonia Dossel  m mas Pagamea dominando na área    2000   Geo[-3.041666984558105,-60.09944534301758]
-Bacia do rio Taruma próximo a foz entrada pela Marina Tauá sempre pelo caminho da esquerda Area atrás de novo loteamento Pelas estrada de acesso Campina arbórea aberta com áreas exposta com Cladonia Dossel  m mas Pagamea dominando na área    2000   Geo[-3.041666984558105,-60.09944534301758]
-Paleocanal do TarumaMirim Estrada do Pau Rosa final do Ramal do Novo Amanhecer por trilha ca  km em direção ao rio Campinarana Baixa ao longo do paleocanal area encharcada Ocorre em simpatria com P coriacea e P plicatiformis Comum Solo    2000   Geo[-3.041666984558105,-60.09944534301758]
+Centroid >> Acima do Paraná do Amanã Rio Japurá Beira do Lago Água preta misturada com branca    2147483647   null
+Acima do Paraná do Amanã Rio Japurá Beira do Lago Água preta misturada com branca    2147483647   null
+Rio Madeira Paraná do Arariá Rio Madeira Paraná do Arariá T hab margem do rio de água branca    2147483647   null
 ___________________________________
 
-Centroid >> BR   Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  Floresta    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2005   Geo[-4.661110877990723,-61.572223663330085]
-Estrada Velha da BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km  PDBFF Floresta    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  PDBFF Floresta    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km  PDBFF Floresta    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF Km  Floresta    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  Floresta    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Esteio Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Res florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF  Florestal    1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF  Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF  Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Porto Alegre Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Esteio Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Florestal    1985   Geo[-4.661110877990723,-61.572223663330085]
-BR ZF Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  KM  F Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-Br  Km  ZF    2007   Geo[-4.661110877990723,-61.572223663330085]
-Br  Km  ZF    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF Km  PDBFF Acamp Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-Br  ZF  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  PDBFF Res     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF    1985   Geo[-4.661110877990723,-61.572223663330085]
-Estrada BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF Km  Res N    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF Km  Res I    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF Km  Res I    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF Km  Res I    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Esteio Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Porto Alegre Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Porto Alegre Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Porto Alegre Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Porto Alegre Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  PDBFF Res     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Porto Alegre Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Res     1995   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Res     1995   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  EESTS    1991   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1986   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1986   Geo[-4.661110877990723,-61.572223663330085]
-Estrada BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  EEST S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR km  EESTS    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR km  EESTS    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST Camp    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST INPA S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Jacareúba    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST INPA S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EESTS    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Jacareúba    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  BR  EEST INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Dimona    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EESTINPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  EEST S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  EEST S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Fucada    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S IMPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Areal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR km  EESTS    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR km  EESTS    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EESTS    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EESTS    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-EEST km  BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EESTINPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-EESTINPA BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-EEST km  BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  FUCADA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Areal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-Tarumã BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Areal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-Tarumã BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Areal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Areal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-Br Km   EEST S    2007   Geo[-4.661110877990723,-61.572223663330085]
-Br Km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-Br  Km   EEST S INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  BR  EEST INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF  Km     1987   Geo[-4.661110877990723,-61.572223663330085]
-Estrada BR  Km     1977   Geo[-4.661110877990723,-61.572223663330085]
-Estrada para Cucuí BR km     2008   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF Km  Res     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF PDBFF Acamp Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF PDBFF Acamp Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF PDBFF Acamp Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  PDBFF Res     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  PDBFF Res     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF PDBFF Acamp Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Esteio Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  res     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ZF Km  PDBFF Res Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  N    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  Res     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  L    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Porto Alegre Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  ZF Fazenda Esteio Florestal    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EESTINPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EESTS INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EESTINPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EESTS    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  S     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  Mata    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  S    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  km  EEST  INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  BR  EEST INPA    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2005   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2005   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2005   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2005   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2005   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2005   Geo[-4.661110877990723,-61.572223663330085]
-Est BR   km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da estrada BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Floresta do Passarinho km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Floresta do Passarinho BR km  Terra firme    2007   Geo[-4.661110877990723,-61.572223663330085]
-Br Km  estrada a direita    2007   Geo[-4.661110877990723,-61.572223663330085]
-Igarapé de Flores M da Br    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da Br    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  AM  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  AM  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-KM  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  Estrada à direita    2007   Geo[-4.661110877990723,-61.572223663330085]
-A oeste da BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Oeste da BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-B A M Km  BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  ca  Km SW    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada da BR km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada velha da BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-A oeste da BR km     1980   Geo[-4.661110877990723,-61.572223663330085]
-BR   Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Br entre km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Floresta do Passarinho km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  estrada à direita    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2005   Geo[-4.661110877990723,-61.572223663330085]
-Estrada velha da BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Coletada na BR  Km     2008   Geo[-4.661110877990723,-61.572223663330085]
-Estrada Velha da BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  AM  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Coletada na BR  Km     2011   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR km  estrada a direita    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Ao oeste da BR km     1980   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR  Km  da BR  Flores    2007   Geo[-4.661110877990723,-61.572223663330085]
-Coletada na BR  Km     2008   Geo[-4.661110877990723,-61.572223663330085]
-BR  AM  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR km  estrada a direita    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-A oeste da BR  Km     1980   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada Cucuí BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada Cucuí BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da Br    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR   km     2005   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre o Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada Velha da BR  kM     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada da BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  Estrada a direita    2007   Geo[-4.661110877990723,-61.572223663330085]
-km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-KM  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-KM  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BAM Km  BR à direita    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  AM  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada da BR  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada da BR km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada da BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR  entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da Br    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da estrada BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Br  km  Várzea    2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada da Br  km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada velha da BR  Km     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre Km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da Br     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-Estrada da BR km     2007   Geo[-4.661110877990723,-61.572223663330085]
-BAM km  da BR    2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre o km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-BR entre km  e     2007   Geo[-4.661110877990723,-61.572223663330085]
-Km  da BR     2007   Geo[-4.661110877990723,-61.572223663330085]
+Centroid >> Plateau of Serra Aracá N side of North Mountain Cloud forest    1984   Geo[0.949999988079071,-63.349998474121094]
+Plateau of Serra Aracá N side of North Mountain Cloud forest    1984   Geo[0.949999988079071,-63.349998474121094]
 ___________________________________
 
-Centroid >> Roçado atrás da cidade aprox  km do centro Solo arenoso    1986   Geo[-2.7666668891906734,-66.75]
-Roçado atrás da cidade aprox  km do centro Solo arenoso    1986   Geo[-2.7666668891906734,-66.75]
-Estrada de Breu atrás da Cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7666668891906734,-66.75]
-Estrada de Breu atrás da cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7666668891906734,-66.75]
+Centroid >> Parintins cultivada na cidade    1932   Geo[-3.0333330631256104,-57.21666717529297]
+Parintins cultivada na cidade    1932   Geo[-3.0333330631256104,-57.21666717529297]
 ___________________________________
 
-Centroid >> Reserva Biológica de Cuieiras    2147483647   null
-Reserva Biológica de Cuieiras    2147483647   null
+Centroid >> Pastagem de várzea margem do rio Mamuru    2020   Geo[-2.893888950347901,-56.68611145019531]
+Pastagem de várzea margem do rio Mamuru    2020   Geo[-2.893888950347901,-56.68611145019531]
+Pastagem de várzea margem do rio Mamuru    2020   Geo[-2.893888950347901,-56.68611145019531]
+Pastagem de várzea margem do rio Mamuru    2020   Geo[-2.893888950347901,-56.68611145019531]
+Pastagem de várzea margem do rio Mamuru    2020   Geo[-2.893888950347901,-56.68611145019531]
+Pastagem de várzea margem do rio Mamuru    2020   Geo[-2.893888950347901,-56.68611145019531]
+Pastagem de várzea margem do rio Mamuru    2020   Geo[-2.893888950347901,-56.68611145019531]
+Pastagem de várzea margem do rio Mamuru    2020   Geo[-2.893888950347901,-56.68611145019531]
 ___________________________________
 
-Centroid >> Rua Santo Antônio n°  Bairro Coroado  Quintal do Sr Raimundo    2147483647   null
-Rua Santo Antônio n°  Bairro Coroado  Quintal do Sr Raimundo    2147483647   null
+Centroid >> Estrada de Breu atrás da cidade de Jutaí aprox  Km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francísco a ±  Km da cidade Mata de terra firme pertubada solo argiloso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada do Breu atrás da Cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí approx km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da Cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso Sobre tronco morto    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aproximadamente  Km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairo de São Francisco a   km da cidade Mata de terra firme pertubarda solo argiloso    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São francisco a  km da cidade mata de terra firme pertubada solo argiloso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada do Breu atrás da Cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Vegetaçao atras do bairro de Sao Francisco a ±  km da cidade    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francísco a   Km da cidade    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí approx km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu a  km da cidade Mata alterada de terra firme solo argiloso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu a Km da cidade Mata de terra firme solo argilosoúmido    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aprox  Km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aprox  Km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aprox  Km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francisco a ±  Km da cidade Mata de terra firme pertubada solo argiloso    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francisco a   Km da cidade    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francisco a   km da cidade Mata de terra firme perturbada solo argiloso    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francisco a ±  km da cidade    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francísco a ±  Km da cidade Mata de terra firme pertubada solo argiloso    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francisco a   km da cidade    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francisco a   km da cidade    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francísco a mais ou menos  Km da cidade    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da Cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da Cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aprox  km do centro Mata de terra firme solo argiloarenoso Sobre tronco morto    1986   Geo[-2.7833330631256104,-66.75]
+Vegetação atrás do Bairro de São Francisco a   km da cidade Mata de terra firme perturbada solo argiloso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Jutaí aproximadamente  Km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
+Estrada de Breu atrás da cidade de Juataí aproximadamente  Km do centro Mata de terra firme solo argiloarenoso    1986   Geo[-2.7833330631256104,-66.75]
 ___________________________________
 
-Centroid >> Rio Solimões Paraná do Manaquiri lugar barro Alt Rio Solimões Paraná do Manaquiri lugar barro Alto    2147483647   null
-Rio Solimões Paraná do Manaquiri lugar barro Alt Rio Solimões Paraná do Manaquiri lugar barro Alto    2147483647   null
-Rio Solimões Paraná do Manaquiri lugar barro Alt Rio Solimões Paraná do Manaquiri lugar barro Alto    2147483647   null
-Rio Solimões perto de Manaquirí Bastante frequen Rio Solimões perto de Manaquirí Bastante frequente na várzea    2147483647   null
-Rio Solimões paraná do Manaquirí perto do Poção Rio Solimões paraná do Manaquirí perto do Poção    2147483647   null
-Rio Solimões perto de Manaquiriia Rio Solimões perto de Manaquiriia    2147483647   null
+Centroid >> Rio Negro São Tomé Rio Negro São tomé    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroTaracuá Alto rio Negro  Tarauá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro near Tapurucuára    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro  Taracuá Alto Rio Negro  Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroTaracuá Alto rio Negro  Taracuá Quadra      1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba rio Negro Igapó    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro No solo    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto Rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Serra de Waupés Alto Rio Negro Serra de Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Alto Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Uaupés Alto Rio Negro Uaupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroTaracuá Alto Rio Negro  Taracuá Quadra      1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto rio Negro Taracuá Quadra     1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto Rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio negroSerra de Vaupés Alto rio negro  Serra de Vaupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Carampama Alto rio Negro Carampama    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Alto rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto Rio Negro Taracuá Quadra      1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto Rio Negro Taracuá Quadra     1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto Rio Negro Taracuá Quadra     1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara ao longo do rio    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Taracuá Alto Rio Negro Taracuá Quadra     1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroWaupés Alto Rio Negro  Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio NegroNova Vida Alto rio Negro  Nova Vida    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto Rio NegroRio Uaupés Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tarauacá no Rio Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroTaracuá Alto Rio Negro  Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroCarâmpana Alto Rio NegroCarâmpana    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto do Rio Negro Taracuá Alto do Rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroCamanaus Alto Rio NegroCamanaus    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto Rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto Rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Paraná do Ubim Rio Negro Paraná do Ubim Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro ilha do Mauá Alto Rio Negro ilha do Mauá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Cucuí Rio Negro Igapó Cucuí Rio Negro Igapó    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba rio Negro Igapó    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba rio Negro Igapó    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do ParacuúbaRio Negro Lago do Paracuúba  Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Tapuruquara Rio Negro perto de Santa Izabel do Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio negro  Ilha Aracabu Rio negro  Ilha Aracabu    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio negro  Ilha Aracabu Rio negro  Ilha Aracabu    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto Rio Negro Taracuá Quadra  e     1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto Rio Negro Taracuá Quadra     1979   Geo[-0.3666670024394989,-64.16666412353516]
+Taracuá alto Rio Negro Taracuá alto Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto Rio Negro Taracuá quadra  e     1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto rio Negro Taracua Quadra     1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro rio Uaupés Alto rio Negro rio Uaupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroTaracuá Alto Rio Negro  Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Rio Waupés Taracuá Alto Rio Negro Rio Waupés Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto Rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Cucuí Rio Negro Igapó Cucuí Rio Negro Igapó    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro São Tomé Rio Negro São Tomé    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Temenduí Rio Negro Temenduí Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroUaupés Alto Rio Negro  Uaupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Alto Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Alto Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Camanaus Alto Rio Negro Camanaus    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuuba Rio Negro Lago do Paracuuba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Alto rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto rio Negro Taracua    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Alto Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tpuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro  km W of Tapurucuará    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro  km W of Tapurucuará    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Waupés Alto Rio Negro Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Tapereira Rio Negro Tapereira Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Waupés Alto rio Negro Wuapés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1987   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1987   Geo[-0.3666670024394989,-64.16666412353516]
+Cucuí Rio Negro Cucuí Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Próximo ao rio Arara igapó rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Waupés Alto Rio Negro Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Cucuí Rio Negro Cucuí Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tarumã Rio Negro Tarumã    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tarauacá no rio Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Quadra     Alto rio Negro Taracuá Quadra         1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Serra de Waupés Alto Rio Negro Serra de Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negroa montante de S Tomé Alto Rio Negro  a montante de S Tomé    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Waupés Alto rio Negro Waupés Serra de Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Waupés Alto Rio Negro Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Cucuí Rio Negro Cucuí Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Rio Uaupés Taraquá próx ao Aeroporto    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tarumã Rio Negro Tarumã    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Igapó Rio Negro próximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Margem do rio da Ponta Negra rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Alto rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Rio Uaupés Taraquá próx ao Aeroporto    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Rio Uaupés Taraquá próx ao Aeroporto    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negrorio Vaupés Taracuá Alto rio Negro  rio Vaupés Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Alto rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Rio Uaupés Taraquá próx ao Aeroporto    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro São Tomé Rio Negro São Tomé Margem do rio    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroTaracuá Alto Rio Negro  Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Aracá subafl do Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro entre Cucui e Rio Xié afl do rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara ao longo do rio    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Taracuá Alto Rio NegroRio UaupésTaracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Waupés Alto Rio Negro Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Cucuí Rio Negro Cucuí Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Alto Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tarauacá no rio Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Alto Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Ato Rio NegroTaracuá Ato Rio NegroTaracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroTaracuá Alto rio Negro  Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto Rio Negro Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Taracuá rio Negro Taracuá rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroTapuruquara Alto Rio NegroTapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro a montante de S Tomé Alto rio Negro a montante de S Tomé    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Waupés Alto rio Negro Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tarauacá no rio Waupés    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Camanaus Alto rio Negro Camanaus    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Margem do rio Negro Margem do rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroTaracuá Alto Rio Negro  Taracuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Baixo rio Negro Paraná do Apuau Baixo rio Negro Paraná do Apuau    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro igapó    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto rio Negro Taracuá Quadra      1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara Ilha de Maracá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquaral    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro  km W of Tapurucuará    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara ilha de Maracá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Tapereira Rio Negro Tapereira Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro São Tomé Rio Negro São tomé    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio NegroCamanaus alto Rio NegroCamanaus    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Urubatá Alto rio Negro Urubatá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Camanaus Alto rio Negro Camanaus    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Taracuá Alto Rio Negro Turacuá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto Rio Negro Quadra  Alto Rio Negro Quadra     1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Alto rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Ilha Maracá    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro São Tomé Rio Negro São Tomé    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Tapuruquara Rio Negro perto da Santa Isabel do Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio NegroCarâmpana Alto rio Negro  Carâmpana    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Lago do Paracuúba Rio Negro Lago do Paracuúba Rio Negro Igapó    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Marabitanas margem do rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro proximo ao rio Arara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro  km W of Tapurucuará    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Waupés Alto rio Negro Waupés Alto rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Alto rio Negro Camanaus Alto Rio Negro Camanaus    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro entre Cucui e Rio Xié afl do rio Negro    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro Cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
+Rio Negro Tapuruquará Rio Negro cidade de Tapuruquara    1979   Geo[-0.3666670024394989,-64.16666412353516]
 ___________________________________
 
-Centroid >> Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mineruá tributary of Rio Juruá Paraná Mumupina right bank near entrance to paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina right bank near mouth of paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mimeruá tributary of Rio Juruá Paraná Mamupina São Sebastião near entrance to paraná Terra firme forest on level terrain    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mineruá tributary of Rio Juruá Paraná Mumupina right bank near entrance to paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
-Paraná Mineruá tributary of Rio Juruá Paraná Mamupina São Sebastião near entrance to paraná    1986   Geo[-2.700000047683716,-65.98332977294922]
+Centroid >> BR  Canal do Capitari    2147483647   null
+BR  Canal do Capitari    2147483647   null
+BR  Canal do Capitari    2147483647   null
+BR Canal do Capitari    2147483647   null
 ___________________________________
 
-Centroid >> Roadside woods km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods Km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods Km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods Km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods Km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods Km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods Km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods Km  south of Manaus on Porto Velho Road    2147483647   null
-Roadside woods Km  south of Manaus on Porto Velho road    2147483647   null
-Roadside woods Km  south of Manaus on Porto Velho road    2147483647   null
-Rodside woods km  south of Manaus on Porto Velho road    2147483647   null
+Centroid >> Sítio de Pesquisa PPBio BR  M    2010   null
+Sítio de Pesquisa PPBio BR  M    2010   null
+Sítio de Pesquisa PPBio BR  M    2010   null
+Sítio de Pesquisa PPBio BR  M    2010   null
+Sítio de Pesquisa PPBio BR  M    2010   null
+Sítio de Pesquisa PPBio BR  M    2010   null
+Sítio de Pesquisa PPBio BR  M    2010   null
+Sítio de Pesquisa PPBio BR  MTN    2010   null
+Sítio de Pesquisa PPBio BR  M    2010   null
+Sítio de Pesquisa PPBio BR  M    2010   null
+Sítio de Pesquisa PPBio BR  M    2010   null
 ___________________________________
 
-Centroid >> Lago Calado Margin of caboclo field    2147483647   null
-Lago Calado Margin of caboclo field    2147483647   null
+Centroid >> Rio Japurá Sítio Fortaleza approx  Km NW of Town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio fortaleza aprimadamentekmNw of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approxim  km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sitio Fortaleza approx  Km NW of town of Maraã    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá  Sítio Fortaleza approx  km NW of town of Maraã  primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  km NW of town of Maraã Primary forest on terra firme Wood voucher    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá environs of town of Maraã Lago Maraã Primary forest on terra firme Growing in primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá environs of town of Maraã Lago Maraã Primary forest on terra firme In primary forest    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  Km NW of Town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japura Sitio Fortaleza approx  km NW of town of Maraa    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá environs of twon of Maraã Lago Maraã Primary forest on terra firme Growing on dead branches on forest floor    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá environs of town of Maraã Lago Maraã Primary forest on terra firme Growing on dead fallen log on forest floor    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  Km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza Approx  Km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sitio Fortaleza approx  km NW of town of Maraã    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  Km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  Km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sitio Fortaleza approx  Km NW of town of Maraã    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx  Km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá environs of town of Maraã Headwaters of Lago Maraã Primary forest on terra firme On tree trunk m above ground    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá environs of Maraã Headwaters of Lago Maraã Primary forest on terra firme in forest near bank of igapó    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá envirous of town of Maraã Lago Maraã Primary forest on terra firme forming small clumps in forest at ground level or in leaf humus    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Sítio Fortaleza approx km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá sítio Fortaleza approxim  Km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
+Rio Japurá Fortaleza approx  km NW of town of Maraã Primary forest on terra firme    1982   Geo[-1.8333330154418948,-65.63333129882812]
 ___________________________________
 
-Centroid >> Acânga Ilha do Japó Acânga acroos from Ilha do Japó    1979   Geo[-1.1666669845581055,-62.50000000000001]
-Acânga Ilha do Japó Acânga across from Ilha do Japó terra firme    1979   Geo[-1.1666669845581055,-62.50000000000001]
-Acânga Ilha do Japó Acânga across from Ilha do Japó terra firme    1979   Geo[-1.1666669845581055,-62.50000000000001]
-Acânga Ilha do Japó Acânga acroos from Ilha do Japó    1979   Geo[-1.1666669845581055,-62.50000000000001]
-Acânga Ilha do Japó Acanga across from Ilha do Japó terra firme    1979   Geo[-1.1666669845581055,-62.50000000000001]
-Acânga Ilha do Japó Acânga across from Ilha do Japó terra firme    1979   Geo[-1.1666669845581055,-62.50000000000001]
+Centroid >> Ilha da Marchantaria área de estudos da HeidiMax Planck    2147483647   null
+Ilha da Marchantaria área de estudos da HeidiMax Planck    2147483647   null
+Ilha da Marchantaria área de estudos da HeidiMax Planck    2147483647   null
 ___________________________________
 
-Centroid >> Rio Javarí margem direita localidade Paumarí a  km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumari a  km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumari a  km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a km da margem Mata de terra firme solo argiloso    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a km da margem Mata de terra firme solo argiloso    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  km da marge    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  km da margem Mata de terra firme solo argiloso    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  Km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javarí margem direita localidade Pauamarí a  km da margem Mata de terra firme solo argiloso    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  Km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  Km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javari margem direita localidade Paumarí a  km da margem Mata de terra firme solo argiloso    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javarí margem direita localidade Paumarí a  km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
-Rio Javarí margem direita localidade Paumarí a  km da margem    1989   Geo[-4.283332824707031,-70.30000305175781]
+Centroid >> Lago Puracuecuara margem esquerda ca km abaixo do porto CEASA Mata de várzea    2010   Geo[-3.053889036178589,-59.83305740356446]
+Lago Puracuecuara margem esquerda ca km abaixo do porto CEASA Mata de várzea    2010   Geo[-3.053889036178589,-59.83305740356446]
+Entrada de baixo do lago Puracuecuara Mata de várzea    2010   Geo[-3.053889036178589,-59.83305740356446]
+Lago Puracuecuara margem esquerda ca  km abaixo do porto CEASA Mata de várzea    2010   Geo[-3.053889036178589,-59.83305740356446]
+Estrada de baixo do lago Puracuecuara Mata de várzea    2010   Geo[-3.053889036178589,-59.83305740356446]
+Lago Puracuecuara margem esquerda ca km abaixo do porto CEASA Mata de várzea    2010   Geo[-3.053889036178589,-59.83305740356446]
+Entrada de baixo do lago Puracuecuara Mata de várzea    2010   Geo[-3.053889036178589,-59.83305740356446]
 ___________________________________
 
-Centroid >> Rua Recife proximo a travessa Fortaleza    2147483647   null
-Rua Recife proximo a travessa Fortaleza    2147483647   null
+Centroid >> Margem do rio Curicuriari na margem do caminho substrato bem drenado    2147483647   null
+Margem do rio Curicuriari na margem do caminho substrato bem drenado    2147483647   null
+Margem do Rio Curicuriari Margem do rio Mal drenado Independente    2147483647   null
+Margem do rio Curicuriari Mata de igapó Substrato mal drenado    2147483647   null
+Margem do rio Curicuriari Margem do rio substrato mal drenado    2147483647   null
+Margem do rio Curicuriari mal drenado independente    2147483647   null
+Margem do Rio curicuriari Margem de Rio Mal drenado Independente    2147483647   null
+Margem do rio Curicuriari Substrato mal drenado    2147483647   null
 ___________________________________
 
-Centroid >> Rio Cuieiras farm of Sr Nemério On humid soil at margin of campina    2147483647   null
-Rio Cuieiras farm of Sr Nemério On humid soil at margin of campina    2147483647   null
+Centroid >> Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky floo plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Curicuriari between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Curicuriari between trhe Rio Negro and Cachoeira do Cararangueijo mstly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky flood plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
+Rio Cauaburi Along Rio Cauaburi between the Rio Negro and Cachoeira do Carangueijo mostly rocky floo plain forest    1979   Geo[-0.24999999999999994,-65.91666412353516]
 ___________________________________
 
-Centroid >> Rio urubu  km above ManausItacoatiara road    2147483647   null
-Rio urubu  km above ManausItacoatiara road    2147483647   null
-Rio Urubu entre Manaus Itacoatiara e Serra da Lua    2147483647   null
-Rio Urubu entre a estrada ManausItacoatiara e Serra da Lua    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-ManausItacoatiara Highway Km  near rio Urubu    2147483647   null
-Road ManausItacoatiara AM ca de  W of rio Urubu    2147483647   null
-ManausItacoatiara Road km  East of east bank of rio Urubu    2147483647   null
-ManausItacoatiara Highway km   km west of Rio Urubu    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-ManausItacoatiara Road Km  East of east bank of Rio Urubu Forest on terra firme    2147483647   null
-ManausItacoatiara highway Rio Urubu north of road Sandy beach    2147483647   null
-Rio Urubú  km above ManausIatcoatiara road Low forest on riverside    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
-ManausItacoatiara Highway Rio Urubu near ferry    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
- km ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
-ManausItacoatiara Road km  East of east bank of Rio Urubu Forest on terra firme    2147483647   null
- km N of ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara Road near Rio Preto da Eva km     2147483647   null
-km N of ManausItacoatiara road near Rio Preto da Eva km     2147483647   null
- km N of ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
- km of ManausItacoatiara road at km  near Rio Preto da Eva    2147483647   null
- Km N of ManausItacoatiara Road at Km  near Rio Preto da Eva    2147483647   null
- km N of ManausItacoatiara Road near Rio Preto da Eva km     2147483647   null
- km N of ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
-Rio Urubu between factory and ManausItacoatiara road    2147483647   null
-ManausItacotiara road km  East of east bank of Rio Urubu    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-Rio Urubu  km above mamausItacoatiara Road Low forest on riverside    2147483647   null
-Rio Urubu  km above ManausItacoatiara Road Low forest on riverside    2147483647   null
-ManausCaracaraí Road km  Rio Urubu    2147483647   null
- km N of ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu floresta    2147483647   null
-Estrada ManausCaracaraí Road Km  Rio Urubu    1974   null
-ManausCaracaraí Road Km  Rio Urubu    2147483647   null
-Rio Negro  Km above Manaus    2147483647   null
-ManausCaracaraí Road Km  Rio Urubu    2147483647   null
-ManausItacoatiara Road Km  East of east bank of Rio Urubu    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-Rio Urubu left bank  mile above ferry at ManausItacoatiara Km     2147483647   null
-ManausItacoatiara Rio Urubu north of road    2147483647   null
-ManausItacoatiara Km   Km west of Rio Urubu    2147483647   null
-Rio Urubu between factory and ManausItacaotiara road    2147483647   null
- km N of ManausItacoatiara road at Km  near Rio Preto da Eva    2147483647   null
-Estrada ManausItacoatiara km margem do rio Preto    2147483647   null
-ManausCaracaraí Road km  Rio Urubu Forest beside river    2147483647   null
-Estrada ManausItacoatiara rio Preto    2147483647   null
- Km N of ManausItacoatiara Road at Km  near Rio Preto da Eva    2147483647   null
-Rio Urubu entre a Estrada ManausItacoatiara    2147483647   null
-Estrada ManausCaracaraí rio Urubu    2147483647   null
-Rio Urubu entre a estrada ManausItacoatiara e Serra da Lua    2147483647   null
-Rio Urubu ManausCaracaraí Km     2147483647   null
-ManausItacoatiara highway km  banks of Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu floresta    2147483647   null
-Rio Urubu  Km above ManausItacoatiara road Campina on white sand    2147483647   null
-Rio Urubu  Km above ManausItacoatiara road Campina on white sand    2147483647   null
-ManausItacoatiara Highway Rio Urubu north of road    2147483647   null
-ManausItacoatiara highway km   km west of Rio Urubu    2147483647   null
-ManausItacoatiara Highway Rio Urubu north of road    2147483647   null
- Km N of ManausItacoatiara Road near Rio Preto da Eva Km     2147483647   null
-ManausItacoatiara highway Rio Urubu north of road    2147483647   null
-Rio Urubu between factory and ManausItacoatiara road    2147483647   null
-ManausItacoatiara highway Rio Urubu right bank North of road    2147483647   null
-ManausItacoatiara highway km  near Rio Urubu    2147483647   null
-Rio Negro ManausItacoatiara Km     2147483647   null
-Rio Urubu between factory and ManausItacoetiara road    2147483647   null
-ManausItacoatiara Highway Rio Urubu north of road    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu floresta    2147483647   null
-Estrada ManausCaracaraí km  rio Urubu    2147483647   null
-Manaus Itacoatiara Highway Rio Urubu north of road    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-ManausItacoatiara Highway km   km west of Rio Urubu    2147483647   null
-Estrada Manaus  Caracaraí Km  Rio Urubu    2147483647   null
-ManausItacoatiara Highway Km  near Rio Urubu Forest on terra firme    2147483647   null
-ManausItacoatiara Highway Rio Urubu north of road Low forest    2147483647   null
-ManausItacoatiara Highway Rio Urubu north of road Low forest    2147483647   null
-Rio Urubu entre ManausCaracaraí At edge of river    2147483647   null
-Rio Urubu  Km above ManausItacoatiara road Campina on white sand    2147483647   null
-Rio Urubu ManausCaracaraí Km     2147483647   null
-Rio Urubu entre Estrada ManausItacoatiara e a Serra da Lua    2147483647   null
-ManausItacoatiara road Km  east of east bank of Rio Urubu    2147483647   null
-Rio Urubu  Km above Manaus  Itacoatiara road    2147483647   null
-ManausItacoatiara highway km  near Rio urubu    2147483647   null
-Rio Urubu ManausCaracaraí km     2147483647   null
-ManausItacoatiara Highway Km  near Rio Urubu    2147483647   null
-ManausItacoatiara highway km  near Rio Urubu    2147483647   null
- Km N of ManausItacoatiara Road at Km  near Rio Preto da Eva    2147483647   null
-ManausCaracaraí Km  Rio Urubu    2147483647   null
-Estrada ManausItacoatiara Km  margem do rio Preto    2147483647   null
-Rio Urubu left bank  mile above ferry at ManausItacoatiara Km     2147483647   null
-ManausItacoatiara Highway Rio Preto Km     2147483647   null
-Itacoatiara highway Km  banks of Rio Urubu    2147483647   null
-ManausItacoatiara Highway Rio Preto Km     2147483647   null
-Rio Urubu ManausCaracaraí Km     2147483647   null
-Rio Negro  Km above Manaus    2147483647   null
-Manaus  Itacoatiara Highway Rio Urubu near ferry    2147483647   null
-Manaus  Itacoatiara Highway Rio Urubu near ferry    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-ManausItacoatiara Highway Rio Urubu right bank North of road    2147483647   null
-ManausItacoatiara highway Km  near rio Urubu    2147483647   null
-Rio Urubu  Km da estr ManausCaracaraí    2147483647   null
-ManausItacoatiara Highway Km  near Rio Urubu    2147483647   null
-Rio Urubu  Km above ManausItacoatiara road    2147483647   null
-ManausItacoatiara Highway Km  banks of Rio Urubu    2147483647   null
-Manaus  Itacoatiara Highway Rio Preto Km     2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-Rio Urubu ManausCaracaraí km     2147483647   null
-Rio Urubu ManausCaracaraí km     2147483647   null
-ManausCaracaraí Road km  Rio Urubu    2147483647   null
-Estrada ManausItacoatiara km  dentro do rio    2147483647   null
- km N of ManausItacoatiara Road near Rio Preto da Eva km     2147483647   null
-Estrada ManausItacoatiara km  à beira do rio    2147483647   null
-ManausCaracaraí Road km  Rio Urubu    2147483647   null
-Rio Urubu between factory and ManausItacoatiara road    2147483647   null
-ManausItacoatiara Highway Rio Urubú near ferry    2147483647   null
-Rio Ururbu between factory and ManausItacoatiara Road    2147483647   null
-Rio Urubu between factory and ManausItacoatiara road    2147483647   null
-ManausCaracaraí Road km  Rio Urubu    2147483647   null
-Rio urubu ManausCaracaraí km     2147483647   null
- km N of ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-Rio Negro  km above Manaus    2147483647   null
-ManausItacoatiara km  banks of Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubú    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubú    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubú    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubú    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubú    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubú    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu floresta    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Manaus Itacoatiara Highway Rio Urubu north of road    2147483647   null
-ManausItacoatiara Highway Rio Urubu north of road    2147483647   null
-ManausItacoatiara Highway Rio Urubu near ferry    2147483647   null
-ManausItacoatiara Highway Rio Urubu right bank north of road    2147483647   null
-ManausItacoatiara Highway Rio Urubu right bank north of road    2147483647   null
-Rio Urubu entre ManausItacoatiara e Serra da Lua    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-ManausItacoatiara highway Km  banks of rio Urubu    2147483647   null
-Road ManausItacoatiara AM ca  Km W of Rio Urubu  Km in on dirt road N of highway    2147483647   null
-ManausItacoatiara Highway Km  near Rio Urubu    2147483647   null
-Rio Urubu Km  Above ManausItacoatiara Road    2147483647   null
-Rio Urubu ManausCaracaraí Km     2147483647   null
-Rio Urubu km abov Manaus  Itacoatiara Road    2147483647   null
-ManausItacoatiara Highway Km  near Rio Urubu    2147483647   null
-ManausItacoatiara Road Km  East of east bank of Rio Urubu    2147483647   null
-ManausItacoatiara Road Km  East of east bank of Rio Urubu    2147483647   null
-Rio Urubu entre ManausCaracaraí    2147483647   null
-Manaus  Caracaraí road Km  Rio Urubu Serra da Lua    2147483647   null
-Vicinity of Rio Preto da Eva ManausItacoatiara Km     2147483647   null
-Rio urubu ManausCaracaraí km     2147483647   null
-Itacoatiara Highway km  near Rio Urubu    2147483647   null
-ManausItacoatiara Highway km banks of Rio Urubu    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-ManausItacoatiara Highway Igarapé left side of rio Urubu North of road    2147483647   null
-ManausItacoatiara Highway km km west of Rio Urubu    2147483647   null
-ManausItacoatiara highway km  banks of rio Urubu    2147483647   null
-ManausItacoatiara Highway km near Rio Urubu    2147483647   null
-ManausItacoatiara Highway Rio Urubú north of road    2147483647   null
-ManausItacoatiara Highway km near Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Rio Urubu between factory and ManausItacoatiara road    2147483647   null
-ManausItacoatiara highway Rio Urubu north of road    2147483647   null
-Rio Urubu ManausItacoatiara road km     2147483647   null
-Rio Urubu  km above ManausItacoatiara road    2147483647   null
-Rio Urubu entre ManausItacoatiara e Serra da Lua at edge of river    2147483647   null
- Km N of ManausItacoatiara Road at Km  near Rio Preto da Eva    2147483647   null
-Rio Urubu entre a estrada ManausItacoatiara Serra da Lua    2147483647   null
-Rio Urubu entre ManausItacoatiara e a Serra da Lua    2147483647   null
-Rio Urubu above ManausItacoatiara Road Low forest on riverside    2147483647   null
-ManausItacoatiara Highway Rio Urubu north of road    2147483647   null
-Rio Urubu ManausCaracaraí Km     2147483647   null
-ManausItacoatiara Highway Km  near Rio Urubu    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-Rio Urubu  km above Manausitacoatiara Road Campina on whsite sand    2147483647   null
-ManausItacoatiara road KM  East of east bank of rio Urubu Forest on terra firme    2147483647   null
- km N of ManausItacoatiara Road at km  near Rio Preto da Eva    2147483647   null
-ManausItacoatiara Road km  East of east bank of Rio Urubu Forest on terra firme    2147483647   null
-Manaus  Itacoatiara Highway Km  banks of Rio Urubu    2147483647   null
-Rio Urubu Km  ManausItacoatiara road    2147483647   null
-ManausItacoatiara Highway Riverside rio Urubu North of road    2147483647   null
- km N of ManausItacoatiara Road near Rio Preto de Eva km     2147483647   null
- km N of ManausItacoatiara Road near Rio Preto de Eva km     2147483647   null
-Manaus  Itacoatiara Highway km  banks of rio Urubu    2147483647   null
-Rio Urubu ManausCaracaraí Km     2147483647   null
-Rio Urubu above ManausItacoatiara road    2147483647   null
-Rio Urubu ManausItacoatiara road Km     2147483647   null
-ManausItacoatiara Highway Rio Urubu north of road    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Rio Urubu  Km above ManausItacoatiara Road    2147483647   null
-Rio Negro  Km above Manaus    2147483647   null
-ManausCaracaraí km  rio Urubu    2147483647   null
-Rio Urubu ManausItacoatiara road km  Secondary margin to primary forest    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
-Estrada ManausCaracaraí km  Rio Urubu    2147483647   null
- km of Manausltacoatiara road near Rio Preto da Eva km     2147483647   null
-Rio urubu  Km above ManausItacoatiara road    2147483647   null
-Rio Urubu  Km above Manaus  Itacoatiara Road    2147483647   null
-Manaus Itacoatiara Highway km  banks of Rio Urubu    2147483647   null
-Manaus Itacoatiara Highway km  banks of Rio Urubu    2147483647   null
-ManausItacoatiara Highway Rio Urubu north of road    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-Rio Urubu between factory and ManausItacoatiara Road    2147483647   null
-Rio Urubu  Km above ManausItacoatiara road Low forest on riverside    2147483647   null
+Centroid >> Pátio do Campus Avançado    1979   Geo[-7.516666889190674,-63.16666793823243]
+Pátio do Campus Avançado    1979   Geo[-7.516666889190674,-63.16666793823243]
+Campus avançado    1979   Geo[-7.516666889190674,-63.16666793823243]
+Próximo ao Campus Avançado    1976   Geo[-7.516666889190674,-63.16666793823243]
+m do Campus cerrado    1979   Geo[-7.516666889190674,-63.16666793823243]
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke Por trilha a esquerda do km  da estrada alojamentotorre Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Porção Nordeste da Reserva vale do Igarapé do Tinga Solo arenoso Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Ipiranga na trilha para da divisa ao Igarapé do Uberê Adolpho Ducke    1998   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Ipiranga junto ao limite sudoeste da Reserva Adolpho Ducke    1998   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Por trilha a esquerda do km  da estrada alojamentotorre Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Reserva Florestal Ducke Igarapé da Bolívia Sentido Bairro Sabiá Floresta de Platô Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Continuação da estrada alojamentotorre estrada da Petrobrás Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Barro Branco próximo a piscina Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Uberê até Igarapé Ipiranga Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próximo a torre sobre galho de Dinizia excelsa caido Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Picada que liga Igarapé do TingaÁgua Branca e Reserva Adolpho Ducke    1996   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Trilha a esquerda no km  da estrada alojamentotorre Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Tinga junto a divisa da Reserva Em local de solo encharcado junto a margem do Igarapé Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próximo a estação Sabiá  porção SW da Reserva Adolpho Ducke    1996   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Porção Nordeste da Reserva vale do Igarapé do Tinga Solo argiloso Adolpho Ducke    1904   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Entrance road bem ao lado de placa Cedrorana perto de torre de madeira Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próx Igarapé do Acará a jusante do acampamento Solo arenoso Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Barro Branco entre campo de futebol e piscina Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô rumo ao Igarapé Uberê Adolpho Ducke    1907   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Lateral oesta da reserva próximo Igarapé do Barro Branco Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé da Bolívia na pequena mancha de Campina Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Continuação da estrada alojamentotorre estrada da Petrobrás Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Uberê até Igarapé Ipiranga Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Ducke Km  Platô Trilha principal sentido igarapé Acará    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Uberê até Igarapé Ipiranga Beira de Igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Continuação da estrada alojamentotorre estrada da Petrobrás Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Acará a montante do acampamento Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Lateral oesta da reserva próximo Igarapé do Barro Branco Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do acará a montante do alojamento próximo a margem do igarapé Adolpho Ducke    1997   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próximo ao Igarapé do Barro Branco junto a cabeceira Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé da Bolívia na pequena mancha de Campina Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Continuação da estrada alojamentotorre estrada da Petrobrás Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Acará junto a divisa da Reserva Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próximo a estação meteorológica plantio experimental Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Ipiranga na trilha que vai da divisa ao Igarapé do Uberê Adolpho Ducke    1998   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Barro Branco ao lado da cantina na estrada para o campo de futebol Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Tinga junto a divisa da Reserva Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Ipiranga junto ao limite sudoeste da Reserva Adolpho Ducke    1998   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Em trilha secundária da torre descendo em direção ao Igarapé do Acará Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próximo Igarapé do Acará a jusante do acampamento Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próximo ao acampamento do Igarapé do Acará Solo arenoso Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-No Igarapé do Tinga próximo à entrada da Reserva Adolpho Ducke    1997   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Por trilha a esquerda no km  estrada alojamentotorre Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Dossel Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé da Bolívia Estrada do PauRosa Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Sobre árvore cultivada próxima a cantina Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Adolpho Ducke Rodovia ManausItacoatiara km  Parcelas SemiAquáticas Longitudinal I Trilha LO  Igarapé do Ipiranga    2004   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próx à estrada principal e guarita Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Acará a montante do acampamento Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próx Igarapé do Acará a jusante do acampamento Solo arenoso Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Estrada AlojamentoTorre km  trilha ao lado direito Solo argiloso Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Barro Branco próximo a piscina Adolpho Ducke    1996   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Porção Nordeste da Reserva vale do Igarapé do Tinga Solo arenoso Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Barro Branco junto campo de futebol Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Pela trilha a esquerda do km  da estrada alojamentotorre Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Entrada da reserva atrás do sítio do Euclides Adolpho Ducke    1996   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Acará junto ao limite W da Reserva Campinarana Adolpho Ducke    1997   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Acará junto ao limite W banho Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé da Bolívia na pequena mancha de Campina Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé da Bolívia na pequena mancha de Campina Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Igarapé do Passarinho Reserva Florestal Ducke T capoeira aberta Sobre árvore    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Uberê até Igarapé Ipiranga Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Adolpho Ducke Rodovia ManausItacoatiara km  Parcelas SemiAquáticas Longitudinal I Trilha NS m Igarapé do Ipiranga    2004   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Subindo afluente do Igarapé do Acará cuja foz é próxima junto ao acampamento Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Por trilha a esquerda do km  da estrada alojamentotorre Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Antiga estrada da Petrobrás cont estrada alojamentotorre Solo argiloso Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Próx Igarapé do Acará a jusante do acampamento Solo arenoso Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Acará próximo ao acampamento Subbosque solo arenoso Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Na trilha da divisa entre Ig do Acará e Ig do Pau Rosa Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Barro Branco a jusante da piscina Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Trilha sobre platô sentido Igarapé Uberê Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido LesteOeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Trilha TorreAcará próx torre Solo argiloso Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé da Bolívia na pequena mancha de Campina Adolpho Ducke    1995   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Pique do INPA Sentido OesteLeste Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Barro Branco próximo a piscina Adolpho Ducke    1996   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé do Barro Branco próximo a piscina Adolpho Ducke    1996   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Igarapé Ipiranga Do platô descendo para o igarapé Adolpho Ducke    1993   Geo[-2.883332967758179,-59.966667175292976]
-Reserva Florestal Ducke Estrada de acesso próximo a plantio de massaranduba Adolpho Ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
+Centroid >>  km E of Borba region of the rio Madeira    1983   Geo[-4.383333206176757,-59.583332061767585]
+W bank of Rio Madeira km above Abunã    1983   Geo[-4.383333206176757,-59.583332061767585]
+Inland on West bank of Rio Madeira opposite Abuna    1983   Geo[-4.383333206176757,-59.583332061767585]
+Inland on West bank of Rio Madeiro opposite Abuna    1983   Geo[-4.383333206176757,-59.583332061767585]
+Inland on West bank of Rio Madeira about  km upstream from Abuna    1983   Geo[-4.383333206176757,-59.583332061767585]
+W bank of Rio Madeira  Km above Abunã    1983   Geo[-4.383333206176757,-59.583332061767585]
+Rio Madeira  km S of town    1983   Geo[-4.383333206176757,-59.583332061767585]
+Rio Madeira  km S of town    1983   Geo[-4.383333206176757,-59.583332061767585]
+Rio Madeira  km s of town    1983   Geo[-4.383333206176757,-59.583332061767585]
+S bank of Rio Negro  km above Manaus    1983   Geo[-4.383333206176757,-59.583332061767585]
+East bank of rio Purus  km above Labrea    1983   Geo[-4.383333206176757,-59.583332061767585]
+Inland on West bank of Rio Madeira opposite Abuna    1983   Geo[-4.383333206176757,-59.583332061767585]
+W bank of Rio Madeira opposite Abunã    1983   Geo[-4.383333206176757,-59.583332061767585]
+ km above mouth of Rio Brancinho    1983   Geo[-4.383333206176757,-59.583332061767585]
+Trail from W bank of Rio Madeira  km below Rio Abunã    1983   Geo[-4.383333206176757,-59.583332061767585]
+ km E of Borba region of the rio Madeira    1983   Geo[-4.383333206176757,-59.583332061767585]
+W bank of Rio Madeira opposite Abunã    1983   Geo[-4.383333206176757,-59.583332061767585]
+East bank of rio Purús km above Lábrea    1983   Geo[-4.383333206176757,-59.583332061767585]
+Inland on West bank of Rio Madeira about  km upstream from Abuna    1983   Geo[-4.383333206176757,-59.583332061767585]
 ___________________________________
 
-Centroid >> ZF  EESTINPA  Estação Experimental de Silvicultura Tropical do Instituto Nacional de Pesquisa da AmazôniaINPA Km  da Rodovia ManausBoa Vista Lago do Janauari    2147483647   null
-ZF  EESTINPA  Estação Experimental de Silvicultura Tropical do Instituto Nacional de Pesquisa da AmazôniaINPA Km  da Rodovia ManausBoa Vista Lago do Janauari    2147483647   null
-ZF  EESTINPA  Estação Experimental de Silvicultura Tropical do Instituto Nacional de Pesquisa da AmazôniaINPA Km  da Rodovia ManausBoa Vista Lago do Janauari    2147483647   null
-ZF  EESTINPA  Estação Experimental de Silvicultura Tropical do Instituto Nacional de Pesquisa da AmazôniaINPA Km  da Rodovia ManausBoa Vista Lago Janauari    2147483647   null
-ZF  EESTINPA  Estação Experimental de Silvicultura Tropical do Instituto Nacional de Pesquisa da AmazôniaINPA Km  da Rodovia ManausBoa Vista Lago Janauari    2147483647   null
-ZF  EESTINPA  Estação Experimental de Silvicultura Tropical do Instituto Nacional de Pesquisa da AmazôniaINPA Km  da Rodovia ManausBoa Vista Lago Janauari    2147483647   null
-ZF  EESTINPA  Estação Experimental de Silvicultura Tropical do Instituto Nacional de Pesquisa da AmazôniaINPA Km  da Rodovia ManausBoa Vista Lago Janauari    2147483647   null
-ZF  EESTINPA  Estação Experimental de Silvicultura Tropical do Instituto Nacional de Pesquisa da AmazôniaINPA Km  da Rodovia ManausBoa Vista Lago Janauari    2147483647   null
+Centroid >> AM Cidade Visconde de Mauá Km  Terra firme AM Cidade Visconde de Mauá Km  Terra firme solo arenoso capoeira    2147483647   null
+AM Cidade Visconde de Mauá Km  Terra firme AM Cidade Visconde de Mauá Km  Terra firme solo arenoso capoeira    2147483647   null
+Estrada do Aleixo km  no lado direito em direção à cidade Capoeira de terra firme solo argiloso    2147483647   null
+Estrada AM km  cidade Visconte de Maua Estrada AM km  cidade Visconte de Maua    2147483647   null
+Estrada AM Cidade Visconde de Maua km  Estrada AM Cidade Visconde de Maua km     2147483647   null
 ___________________________________
 
-Centroid >> Morro dos Seis Lagos Lago Dragão    2147483647   null
-Morro dos Seis Lagos Lago Dragão    2147483647   null
+Centroid >> Vicinity of Ponta negra beach on the Rio Negro ca  km W of Manaus Open barrens of white sand with many lichens and Eriocaulaceae    1971   Geo[-3.5,-60.833332061767585]
+Vicinity of Manaus Ponta Negra Banks of rio Negro Low scrub white sand    1971   Geo[-3.5,-60.833332061767585]
+Vicinity of Manaus Ponta Negra Banks of rio Negro Low scrub on white sand    1971   Geo[-3.5,-60.833332061767585]
+Vicinity of Ponta Negra beach on the Rio Negro ca  Km W of Manaus Open barrens of white sand with many lichens and Eriocaulaceae    1971   Geo[-3.5,-60.833332061767585]
+Vicinity of Ponta negra beach on the Rio Negro ca  km W of Manaus Open barrens of white sand with many lichens and Eriocaulaceae    1971   Geo[-3.5,-60.833332061767585]
+Vicinity of Ponta Negra Rio Negro Savana on white sand    1971   Geo[-3.5,-60.833332061767585]
+Ponta Negra Banks of Rio Negro Low scrub on white sand    1971   Geo[-3.5,-60.833332061767585]
 ___________________________________
 
-Centroid >> Lago do Araçá Cambixe Lago do Araçá Cambixe    2147483647   null
-Lago do Araçá Cambixe Lago do Araçá Cambixe    2147483647   null
-Lago do Araçá Cambixe Lago do Araçá Cambixe T Hab Igapó    2147483647   null
-Paraná do Cambixe Paraná do Cambixe próximo do Lago dos Reis Terrenou úmido margem do Lago    2147483647   null
-Lago do Araçá Cambixe Lago do Araçá Cambixe    2147483647   null
-Lago do Araçá Cambixe Lago do Araçá Cambixe    2147483647   null
+Centroid >> Road Humaitá to Porto Velho  km from Humaitá Campo de Humaitá    1979   Geo[-7.599999904632568,-63.083332061767585]
+Road Humaitá to Porto Velho  km from Humaitá Campo de Humaitá    1979   Geo[-7.599999904632568,-63.083332061767585]
+Humaitá Savanna ca  Km SW of Humaitá  Km SW of turn to Humaitá on Manaus  Porto Velho highway    1979   Geo[-7.599999904632568,-63.083332061767585]
+Road Humaitá to Porto Velho  km from Humaitá Campo Humaitá    1979   Geo[-7.599999904632568,-63.083332061767585]
 ___________________________________
 
-Centroid >> Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen Along Igarapé    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras igarapé Lobishomen Igapó    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobisomen Igapó near terra firme    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cueiras Igarapé LobishomenPlants treted in ETOH    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieiras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieiras Mata de igapó    2010   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieiras Igarapé Lobishomem    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen Igapó    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen Plants treated in ETOH    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieiras igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
-Rio Cuieras Igarapé Lobishomen    1991   Geo[-2.516666889190674,-60.25000000000001]
+Centroid >> Right bank of rio Negro near Carapanã    1987   Geo[0.08333300054073334,-67.25]
+Right bank of rio Negro near Carapanã    1987   Geo[0.08333300054073334,-67.25]
+Right bank of Rio Negro near Carapanã    1987   Geo[0.08333300054073334,-67.25]
+Rio Negro river bank near Tarumãzinho    1987   Geo[0.08333300054073334,-67.25]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke  levantamento L P    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Capoeira    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Local aberto    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2006   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2006   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2006   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke próximo ao alojamento local com muito sol    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke Am  km  LO m    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke Am  km    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke Am  km    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke AM Km    2005   Geo[-2.0000000000000004,-58.99999999999999]
- km NE Manaus Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
- km NE Manaus Reserva florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Próximo ao igarapé Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal ha m dentro    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Resserva Florestal Ducke levantamento floristico em capoeirão    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke  levantamento L P Capoeira de terra firme Solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke parcela Experimental EEFF    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do Levantamento L P Reserva Ducke  Solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  Material do levantamento L P    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke material de levantamento  L P    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke  material do levantamento   L P    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke área próxima ao alojamento    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental P Solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Trilha alojamentoestação meteorológica    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke próximo ao plantio de Paurosa    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Levantamento L P Reserva Ducke  Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental E E F F    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela experimental B E E F F    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke parcela experimental E E F F canteiro     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke ig Sempre Viva entre PD e Pf    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Sabiá I Área de vertente    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke picada A do levantamento feito pelo Dr Vivaldo    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Reserva Florestal Ducke levantamento florístico em capoeirão    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke material do levantamento RK  Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke material do levantamento RK  Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke material do levantamento RK  Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke material do levantamento RK  Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke material do levantamento RK  Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L Pl Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke material do levantamento RK  Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do levantamento L P Reserva Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Levantamento L P Reserva Ducke  Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do levantameto L P Reserva Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do levantameto L P Reserva Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Material do Levantamento L Pl Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Estrada ManausItacoatiara km  levantamento Florestal RK     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do levantamento L P Reserva Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do levantamento L P Reserva Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do levantamento L P Reserva Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke material do levantamento RK     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Mateiral do Levantameto L P Reserva Ducke      2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Local aberto    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Mata de terra firme sobreado    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do levantamento L P Reserva Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke material do levantamento RK  capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Próximo a estação meteorológica    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke perto da árvore  do fenológico    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Igarapé do Barro Branco próximo aos alojamentos    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Estrada da Reserva Ducke entre a porta e os alojamentos    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke na estrada entre portaria e alojamento    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke próximo a árvore  do fenológico    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke próximo a árvore  do Fenológico    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Reserva Florestal Ducke levantamento florístico em Capoeirão    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental E E F F    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental E E F F canteiro nº     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental E E F F    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Reserva Florestal Ducke levantamento florístico    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Reserva Florestal Ducke levantamento florístico em capoeirão    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke Plantio perto do alojamento    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke parcela Experimental E E F F    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental E E F F    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  Material do levantamento L P    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental E E F F    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento l P Capoeira de terra firme solo argilosos estéril    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2006   Geo[-2.0000000000000004,-58.99999999999999]
-Material do Levantamento L P Reserva Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do levantamento L P Reserva Florestal Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Material do Levantamento L P Reserva Florestal Ducke     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental E  E  F  F canteiro nº     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke parcela Experimental  B    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke parcela Experimental E E F F    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke setor baixo Acará    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke próximo ao alojamento local com muito sol    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Levantamento L P reserva Ducke  apoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke proximo ao igarape SempreViva    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke picada A do Levantamento feito pelo Dr Vivaldo    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Próximo Igarapé do Barro Branco a montante do alojamento    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental G canteiro nº     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Parcela Experimental G canteiro nº     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Ducke  levantamento L  P     2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Em frente ao alojamento    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke próximo a árvore  do Fenológico    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Reserva Florestal Ducke levantamento floristico em Capoeirão    2005   Geo[-2.0000000000000004,-58.99999999999999]
-REserva Florestal Ducke  levantamento L P Capoeira de terra firme solo argiloso    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Adolpho Ducke    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke Reserva Florestal Ducke Q A    2005   Geo[-2.0000000000000004,-58.99999999999999]
-Reserva Florestal Ducke picada A do levantamento feito pelo Dr Vivaldo    2005   Geo[-2.0000000000000004,-58.99999999999999]
+Centroid >> UHE Balbina  Estrada Cachoeira Morena Muito frequente campinarana de terra firme solo arenoso humoso    2147483647   null
+UHE Balbina  Estrada Cachoeira Morena Muito frequente campinarana de terra firme solo arenoso humoso    2147483647   null
 ___________________________________
 

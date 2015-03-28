@@ -127,9 +127,10 @@ public class Test {
 			all_place.addAll((Collection<? extends Place>) rb.getRepository().get(i).getPlaces().clone());
 		}
 		all_place.addAll(geonames.getGeonamesPlaces());
-		if(dbpedia.DBpediaWorks())
+		if(dbpedia.DBpediaWorks()){
 			all_place.addAll(dbpedia.pull_query());
-		
+			dbpedia.getMunicipalityFromAmazonas(all_place);
+		}
 		System.out.println("Starting clustering ...");
 		group.addAll(start.start_clustering(all_place,rb.getExp()));
 		System.out.println("clustering done!!");

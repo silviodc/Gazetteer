@@ -167,12 +167,16 @@ public class Mapping {
 	 }
 	 
 	 private void insertIndividualsWithRelation(Individual pl1, Place p){
-		 
 		 if(!p.getLocation().equals("")){
 			pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"locality"),p.getLocation());
 		 }
-		 if(!p.getCounty().equals(""))
-			 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"county"),p.getCounty());
+		 if(p.getCounty()!=null && p.getCounty().getNome()!=null && !p.getCounty().getNome().equals(""))
+			 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"county"),p.getCounty().getNome());
+		 	if(p.getCounty().getURI()!=null){
+		 		ObjectProperty relation  = model.createObjectProperty(model.getNsPrefixURI("")+"hasCounty");
+		 		pl1.addProperty(relation, p.getCounty().getURI());
+			 
+		 }
 		 if(p.getYear()<=2015)
 			 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"date"),p.getYear());
 		 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"agreement"),0);

@@ -115,8 +115,8 @@ public class Star_algorithm {
 					jaccard.bigram(centroid.getNameFilter()),
 					jaccard.bigram(candidate_place.get(i).getNameFilter()));
 			if (value >= similarity
-					&& verific_county(candidate_place.get(i).getCounty(),
-							centroid.getCounty())) {
+					&& verific_county(candidate_place.get(i).getCounty().getNome(),
+							centroid.getCounty().getNome())) {
 				local_group.getPlaces().add(candidate_place.get(i).clone());
 				candidate_place.remove(candidate_place.get(i));
 			}
