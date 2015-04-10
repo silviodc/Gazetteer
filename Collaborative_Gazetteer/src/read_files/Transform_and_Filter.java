@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.text.Normalizer;
 import java.util.ArrayList;
 
 import com.bbn.openmap.geo.Geo;
@@ -41,8 +42,9 @@ public class Transform_and_Filter {
 	        for(Place p:places){
 	            String ok ="";
 	            p.setLocal(p.getLocation());
-	            p.setNameFilter(p.getLocation().toLowerCase().replaceAll("[^\\p{ASCII}]", " "));
-	            temp = p.getNameFilter().split(" ");
+	            String localtemp = Normalizer.normalize(p.getLocation(), Normalizer.Form.NFD);  
+				 localtemp = localtemp.replaceAll("(?!\")\\p{Punct}", "");
+	             temp = localtemp.split(" ");
 	             for (String s : stop_words) {
 	                for(int k=0;k<temp.length;k++){
 	                    if(temp[k].equals(s) || temp[k].equals(""))
@@ -54,7 +56,8 @@ public class Transform_and_Filter {
 	                if(!temp[n].equals(""))
 	                    ok +=temp[n]+" ";
 	            }
-	            p.setNameFilter(ok+".");
+	            p.setNameFilter(ok);
+	          //  System.out.println(ok);
 	            p.setRepository(repository);
 	        }        
 	    }

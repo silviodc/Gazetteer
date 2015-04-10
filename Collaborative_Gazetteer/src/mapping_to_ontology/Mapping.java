@@ -6,129 +6,82 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
+import TAD.Group;
+import TAD.Place;
 
 import com.bbn.openmap.geo.Geo;
-import com.hp.hpl.jena.datatypes.RDFDatatype;
 import com.hp.hpl.jena.datatypes.TypeMapper;
-import com.hp.hpl.jena.ontology.AnnotationProperty;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.ontology.OntModelSpec;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.rdf.model.RDFNode;
-import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
-import com.hp.hpl.jena.vocabulary.OWL;
-import com.hp.hpl.jena.vocabulary.OWL2;
-
-import TAD.Expression;
-import TAD.Group;
-import TAD.Place;
-import TAD.Repository;
 
 public class Mapping {
-	private OntModel model;
-	HashMap<String,OntClass> classes = new HashMap<String,OntClass>();
 	
+	private static HashMap<String,OntClass> classes = new HashMap<String,OntClass>();
 	
+	private  OntModel model ;
+	private OntClass geo;
+	private OntClass feature;
+	private String basePrefix;
+	private String geoSparqlP;
+	
+	public void rebuildModel(){
+		model = OpenConnectOWL();
+        geo = model.getOntClass("http://www.opengis.net/ont/sf#Geometry");
+        feature = model.getOntClass("http://www.geonames.org/ontology#Feature");
+        basePrefix=model.getNsPrefixURI("");
+        geoSparqlP = model.getNsPrefixURI("geosparql");
+        /*
+		 * get the class from ontology
+		 */
+		ExtendedIterator<OntClass> iter = model.listClasses();
+		while (iter.hasNext()) {
+			OntClass thisClass = (OntClass) iter.next();
+			classes.put(thisClass.toString(),thisClass);
+			
+		 }
+	}
 	public  void build_RDF(ArrayList<Group> group) throws IOException{
       	 
-         int total=10;           
+         int total=1;           
          int coords=0;
-         model = OpenConnectOWL();
-         OntClass geo = model.getOntClass("http://www.opengis.net/ont/sf#Geometry");
-         OntClass feature = model.getOntClass("http://www.geonames.org/ontology#Feature");
-         String basePrefix=model.getNsPrefixURI("");
-         String geoSparqlP = model.getNsPrefixURI("geosparql");
-         /*
- 		 * get the class from ontology
- 		 */
- 		ExtendedIterator<OntClass> iter = model.listClasses();
- 		while (iter.hasNext()) {
- 			OntClass thisClass = (OntClass) iter.next();
- 			ExtendedIterator label = thisClass.listLabels(null);
- 			while (label.hasNext()) {
- 				RDFNode thisLabel = (RDFNode) label.next();
- 				if(thisLabel.isLiteral()){
- 					String labl = thisLabel.toString().split("http")[0].replaceAll("(?!\")\\p{Punct}", "").replaceAll("@en", "");
- 					classes.put(labl.toLowerCase(),thisClass);
- 				}
- 			}
- 		 }
+	     rebuildModel();
          for(Group rep:group){
         	  	 Place p = rep.getCentroid();
-        	  	         			
-        		 //System.out.println(total);
-        		 if(p.isAmbiguo()){
-        			 /*Individual pl1=null,pl2=null;
-        			 //System.out.println(model.getNsPrefixURI("")+total);
-        			 OntClass type = whatClass(p.getLocation());
-        			 if(type != null){
-        				 System.out.println(type);
-        				 pl1 = model.createIndividual(basePrefix+total, type);
-        			 }else{
-        				  pl1 = model.createIndividual(basePrefix+total, feature);	 
-        			 }
-        			 ObjectProperty relation  = model.createObjectProperty( basePrefix+p.getRelationName());
-        			 ObjectProperty geoRelation  = model.createObjectProperty( geoSparqlP+"hasGeometry");
-        			 type = whatClass(p.getRelation().getLocation());
+        	  		 Individual pl1;
         			 total++;
-        			 if(type != null){
-        				  pl2 = model.createIndividual( basePrefix+total,type);
-        			 }else{
-        				  pl2 = model.createIndividual( basePrefix+total, feature);	 
-        			 }
-        			 pl1.addProperty(relation, pl2);
-        			 insertIndividualsWithRelation(pl1,p);
-        			 insertIndividualsWithRelation(pl2,p.getRelation());
-        			 if(p.getGeometry()!=null){
-        				 total++;
-        				 Individual geo1 = model.createIndividual(basePrefix+total,geo);
-		        		 pl1.addProperty(geoRelation, geo1);
-        			 	 insertGeo(geo1, p.getGeometry());
-        			 }
-        			 if(p.getRelation().getGeometry()!=null){
-        				 total++;
-        				 Individual geo2 = model.createIndividual(basePrefix+total,geo);
-        			 	 pl2.addProperty(geoRelation, geo2);
-        			 	 insertGeo(geo2, p.getRelation().getGeometry());
-        			 }*/
-        		 }else{
-        			 Individual pl1;
-        			 total++;
-        			 OntClass type = whatClass(p.getLocation());
-					if(type!=null){
-						pl1 = model.createIndividual(basePrefix+total, type);
-					}else{
-						  pl1 = model.createIndividual(basePrefix+total, feature);
-					}
-        			 insertIndividualsWithRelation(pl1,p);
+        			 OntClass type = useMoreGeneric(p.getTypes());
+        			 System.out.println(type.toString());
+        			  pl1 = model.createIndividual(basePrefix+total, type);
+					 insertIndividualsWithRelation(pl1,p,rep.getPlaces().size());
 	        		 if(p.getGeometry()!=null){
-	        			 total++;
-	        			 Individual geo1 = model.createIndividual(basePrefix+total,geo );
+	        			 coords=total+1;
+	        			 Individual geo1 = model.createIndividual(basePrefix+coords,geo );
 	        			 ObjectProperty geoRelation  = model.createObjectProperty( geoSparqlP+"hasGeometry");
 	        			 insertGeo(geo1, p.getGeometry());
 	        			 pl1.addProperty(geoRelation, geo1);
+	        			 total++;
 	        		 }
-        		 }
-        	 }
-         
-         writeNtriples();
+   		 }
+      
+         writeNtriples(total+"");
+         classes.clear();
+         model.close();
      }
 		
-		public void writeNtriples(){
+		public void writeNtriples(String name){
 			
 			 try {
-				OutputStream out = new FileOutputStream("triples.nt");
+				OutputStream out = new FileOutputStream(name+".nt");
 				model.write(out,"N-TRIPLES");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
@@ -137,50 +90,58 @@ public class Mapping {
 			
 		}
 
-	 
-	 private OntClass whatClass(String name){
-		 OntClass ant=null;
-		 String temp [] = name.split(" ");
-		 int count =0;
-		 for(int j=0;j<temp.length;j++){
-			 if(ant!=null){
-				 if(!ant.equals(classes.get(temp[j].toLowerCase())))
-					 count++;
-			 }
-			if( ant == null && classes.get(temp[j].toLowerCase())!=null)
-				count++;
+		private OntClass useMoreGeneric(List<String> cl) {
+			System.out.println(cl.get(0));
+			System.out.println(classes.get(cl.get(0)).toString());
+			OntClass first = classes.get(cl.get(0));
+			
+			boolean find = false;
+			for(int i=1;i<cl.size();i++){
+				if(classes.get(cl.get(i)).hasSuperClass(first)){
+					first = classes.get(cl.get(i));
+					find = true;
+				}else if(first.hasSubClass(classes.get(cl.get(i)))){
+					find = true;
+				}
+			}
+			if(find)
+				return first;
+			
+			if(!find && cl.size()>=1)
+				return classes.get(cl.get(0));
+			
+			return feature;
 		}
-		 if(count <2){
-			 for(int j=0;j<temp.length;j++){
-					if(classes.get(temp[j].toLowerCase())!=null)
-						 return classes.get(temp[j].toLowerCase());
-					}
-		 } 
-		return classes.get("Feature");
-	 }
+	 
 	 
 	 private void insertGeo(Individual geo, Geo geometry){
-		 String ponto ="<http://www.opengis.net/def/crs/EPSG/4326> POINT("+geometry.toString().replaceAll("Geo", "").replace("[", "").replace("]", "")+")";
+		 String ponto ="POINT("+geometry.toString().replaceAll("Geo", "").replace("[", "").replace("]", "").replaceAll(",", " ")+");"+WktLiteral.CRS84;
 		 TypeMapper.getInstance().registerDatatype(WktLiteral.wktLiteralType);
 		 geo.addLiteral(model.getProperty("http://www.opengis.net/ont/geosparql#asWKT"), ResourceFactory.createTypedLiteral(ponto, WktLiteral.wktLiteralType));
-		 
+		 ObjectProperty relation  = model.createObjectProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+		 geo.addProperty(relation, "<http://www.opengis.net/ont/sf#Point>");
 	 }
 	 
-	 private void insertIndividualsWithRelation(Individual pl1, Place p){
+	 private void insertIndividualsWithRelation(Individual pl1, Place p,int common){
 		 if(!p.getLocation().equals("")){
 			pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"locality"),p.getLocation());
 		 }
 		 if(p.getCounty()!=null && p.getCounty().getNome()!=null && !p.getCounty().getNome().equals(""))
 			 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"county"),p.getCounty().getNome());
-		 	if(p.getCounty().getURI()!=null){
-		 		ObjectProperty relation  = model.createObjectProperty(model.getNsPrefixURI("")+"hasCounty");
-		 		pl1.addProperty(relation, p.getCounty().getURI());
-			 
+		 	if(p.getCounty()!=null){
+		 		ObjectProperty relation  = model.createObjectProperty(model.getNsPrefixURI("")+"sameAs");
+		 		if( p.getCounty().getURI()!=null &&  !p.getCounty().getURI().equals("")){
+		 			pl1.addProperty(relation, p.getCounty().getURI());
+		 			relation = model.createObjectProperty(model.getNsPrefixURI("")+"part_of");
+		 			pl1.addProperty(relation, p.getCounty().getURI());
+		 		}
+		 		
 		 }
 		 if(p.getYear()<=2015)
 			 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"date"),p.getYear());
 		 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"agreement"),0);
-		 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"contributors"),0);        			 
+		 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"contributors"),0); 
+		 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"ntriples"),common);
 		 
 		 
 	 }

@@ -5,9 +5,9 @@ import com.hp.hpl.jena.datatypes.RDFDatatype;
 import com.hp.hpl.jena.graph.impl.LiteralLabel;
 
 public class WktLiteral extends BaseDatatype {
-    public static final String TypeURI = "http://www.opengis.net/ont/sf#wktLiteral";
+    public static final String TypeURI = "http://strdf.di.uoa.gr/ontology#WKT";
 
-    public static final String CRS84 = "<http://www.opengis.net/def/crs/OGC/1.3/CRS84>";
+    public static final String CRS84 = "http://www.opengis.net/def/crs/EPSG/0/4326";
 
     public static final RDFDatatype wktLiteralType = new WktLiteral();
 

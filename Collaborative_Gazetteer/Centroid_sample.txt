@@ -1,50 +1,50 @@
-Tapuruquara Rio Negro igarapé Dara Varzea forest clay soil    2147483647   null
-Trilha que vai para a cachoeira do aeroporto    2147483647   null
-BR  Rodovia Transamazônica a  Km de Humaitá Reserva Indígena dos Tenharim Mata de terra firme solo argiloso úmido    1985   Geo[-7.966667175292969,-62.03333282470703]
-Along Rio Abacaxis ca  Km below mouth of igarapé Surubim growing along river    1983   Geo[-4.483333110809326,-58.46666717529297]
-BR  Porto VelhoManaus  km n of Humaitá Bonfuturo Forest on terra firme    1985   Geo[-7.1666669845581055,-63.0]
-Basin of rio Negro Tapuruquara Rocky island in river Rocky riverside    2147483647   null
-Campus do INPA Estrada do Aleixo Séde do INPA próximo do Parque    2147483647   null
-Rio Içana Comunidade Jandu Cachoeira Secondary forest on sandy loam in campinarana white sand matrix Along path near small stream bed    2002   Geo[1.5136109590530398,-68.7219467163086]
-Parque Nacional do Jáu Seringalzinho inventário    2147483647   null
-Lago do Caroçal    2000   Geo[-5.699999809265137,-67.69999694824219]
-Rio Negro opposite Caatinga    1987   Geo[-0.16666699945926663,-67.0]
-Margem direita do Rio Negro Ilha Grande    2147483647   null
-Distrito Agropecuário  Reserva   km  da SmithsonianINPA Terra firme Local Q      1990   Geo[-2.425277948379517,-59.76388931274414]
-Rio Cuieiras acima do repartimento Igapó Rio Cuieiras acima do repartimento Igapó    2147483647   null
-Rio Madeira Road Humaitá to Porto Velho Km  Open grassy savanna    2147483647   null
-Reserva Ducke material do levantamento RK     2147483647   null
-rio Aripuan lago no centro da ilha do Mamo    2147483647   null
-Igapó Igarapé Jacitara Rio Içana acima da comunidade Tunui da Cachoeira    2008   Geo[1.3830560445785522,-68.15277862548828]
-Campo da Catuquira    2007   Geo[-5.502294063568115,-61.176727294921875]
-Ilha Pé Inchado  L Balbina    1995   Geo[-1.897166967391968,-59.45316696166992]
-Rio Madeira margem direita afluente do rio Amazo Rio Madeira margem direita afluente do rio Amazonas a  Km da cidade de Borba    2147483647   null
-Rio Negro near Camuru capoeira very recently cut apparently mostly saplings    2147483647   null
-BR  Km  ZF PDBFF Reserva Ilagivel    2147483647   null
-Comunidade Murutinga    2004   Geo[-3.3772330284118652,-59.25408172607422]
-Km  da ZF que começa no Km  da BR Fazenda Esteio    1997   Geo[-2.5530560016632085,-59.88055419921876]
-Serra de Aracá Serra Araca ca along Rio Jauarí on sandy bank    2147483647   null
-Estrada do V balneário do Dr Amaury Farias Estrada do V balneário do Dr Amaury Farias    2147483647   null
-Fazenda Experimental da UFAM  BR Km  Mata de terra firme solo argiloso nfComponentes Quantitativos e Qualitativos do Sistema PlantaPolinizadas em três espécies de Rubiaceae no subbosque de floresta primária na Amazônia Central    2007   Geo[-2.0000000000000004,-59.99999999999999]
-Rio Solimões Lago Janauacá    1991   Geo[-3.4666669368743896,-60.283332824707024]
-Rio Javari Pameiras Army Base Várzea near black water igarapé    1973   Geo[-6.3333330154418945,-72.81666564941406]
-Rio Amazonas    2147483647   null
-BR Rio Branco Terra firme Estrada ManausCaracaraí Rio Branco Terra firme solo arenoso campina carrasco    2147483647   null
-Boca do paraná do Janauarí no rio Amazonas Várze Boca do paraná do Janauarí no rio Amazonas Várzea de água barrenta    2147483647   null
-Rio Curiare Fruteiras du village Luis    2147483647   null
-Rio Negro acima da foz do Curicuriary margem indundável Frequens ad ripas inundatas Rio Negro superioris civit Amazonas inter Camanaos et ostium fluminis Curicuriary    2147483647   null
-Estrada BR  Km  de S G Estrada BR  Km  de S G    1987   Geo[0.16666699945926666,-66.80000305175781]
-Manaus and vicinity Rio Negro near to Tarumã    2147483647   null
-Foz do rio Tumbiras    2147483647   null
-Comunidade Nova Aliança Área de igapó ilha    2004   Geo[-4.350832939147949,-69.600830078125]
-Bairro do rio Japurá ilha dos Macacos    2147483647   null
-BR  Km  Ramal Torre    2147483647   null
-IgarapéAçú do rio Andirá    2147483647   null
-Floresta de campinarana próximo a campina do acampamento no Rio Sucunduri    2006   Geo[-8.0,-58.99999999999999]
-Lago de Tefé próximo a Vila Nogueira    1986   Geo[-3.4999999999999996,-64.0]
-Ilha Boa Vista Alto Rio Negro próximo a boca do rio Branco Ilha Boa Vista    2147483647   null
-Anavilhanas Ilha Maracanã Novo Airão Amazonas Brasil Mata aberta parentemente seca solo argiloso    2147483647   null
-Rua Duque de Caxias Rua Duque de Caxias Terra firme solo arenoso    2147483647   null
-Km  north from Manaus on BR AM    2147483647   null
-Rio Preto da Eva    2147483647   null
-Igarapé Koyari small southern tributary of Rio Solimões due S of Tabatinga primary on greyish sandy clay    2147483647   null
+rio uneiuxi igapo?    2000   Geo[-0.5000000000000001,-64.93333435058594]
+weedy roadside rua codaja?s cachoeirinha common in the city    2147483647   null
+sem dados    2147483647   null
+distrito agropecua?rio zf3 distrito agropecua?rio da suframa rod br174 km 64 depois 34 km leste na zf3 fazenda esteio    1981   Geo[-2.433332920074463,-59.79999923706055]
+fazenda reino encantando    2147483647   null
+cachoeira uruca? mun uiramuta?    2147483647   null
+br319 canal do capitari    2147483647   null
+salves salves    2147483647   null
+c 3 km from benjamin constant on trail towards cruzeiro do sul disturbed primary forest on steep ridge in primary forest    2147483647   null
+rio solimo?es campo de pastagem ocorrendo na comunidade nova alianc?a solos da formac?a?o solimo?es    2147483647   null
+sa?o pedro    2147483647   null
+lago jacarecanga    2147483647   null
+serra tepequem    2147483647   null
+uaupe?s serra de sa?o gabriel capoeira grossa    2147483647   null
+near lago calado forest on terra firme humid soil    2147483647   null
+fazenda vista alegre on igarape? chidarony 8 km ese of tefe? white sand    2147483647   null
+parque nacional do pico da neblina  trilha para a cachoeira do anta entre o acampamento lajero e o marco 5 da fronteira do brasil com a venezuela a?rea aberta no alto da serra da neblina o topo da montanha estava dominado por bromeliaceas terrestr    2147483647   null
+rio preto terreno u?mido sujeito a inundac?a?o rio preto terreno u?mido sujeito a inundac?a?o    2147483647   null
+cordilheira colan ne of la peca    2147483647   null
+igarape? camatia? igarape? camatia? margin of creek    2147483647   null
+igarap233 da prainha na boca que liga ao lago xad225 v225rzea    2147483647   null
+vau pes corocoro    2147483647   null
+rfad  baixio l3900 solo arenoargiloso ambiente sombreado    2005   Geo[-2.0000000000000004,-58.99999999999999]
+rio maue?sassu lado oposto a cidade de maue?s mata de igapo? solo argiloarenoso    1983   Geo[-3.3833329677581787,-57.74999999999999]
+cj dos jornalistas    2147483647   null
+vicinity of pico rondon perimetral norte highway km 211 southern ridge of pico rondon granite rock outcrop    1984   Geo[1.5333329439163208,-62.799999237060554]
+proc conj d pedro ii    2147483647   null
+mutum aproximadamente 4 km da margem    2147483647   null
+rio negro neblina camp 10 125 km nnw of pico phelps  pico neblina 1625 km ne of base camp    1985   null
+forest immediatley behind "el tobogan de la selva" camping area 35 km south of puerto ayacucho    2147483647   null
+regenerac?a?o b08 u08 a09    2147483647   null
+rua duque de caxias rua duque de caxias terra firme solo arenoso    2147483647   null
+rio cunucunuma rio orinoco    2147483647   null
+si?tio do sr manuel vale    2147483647   null
+bairro aleixo av cosme ferreira n186 7311 condom237nio 211pera de paris    2147483647   null
+clareira 2 pq 2    2008   Geo[-4.8594441413879395,-65.03166961669922]
+inaja? between salinopolis  sa?o joa?o de piraba    2147483647   null
+rio sucunduri    2147483647   null
+track from boca do acre airport to monte verde north bank of monte verde    2147483647   null
+km 64 reserva florestal walter egler plato? rio preto da eva    2147483647   null
+manausbelbina am 240 km 12 pousada a?gua viva    2147483647   null
+nas proximidades do porto    2147483647   null
+baixo madeira    2147483647   null
+fazdimona 80 km n    1987   Geo[-2.383332967758179,-60.099998474121094]
+rio negro novo aira?o estaleiro naval sa?o jose? ltda    1992   Geo[-2.633332967758179,-60.933334350585945]
+60 km n fazenda esteio zf 3 km 23    2147483647   null
+bacabal bacabal    2147483647   null
+distrito da suframa highway br 174 km 30 swamp by roadside    1985   Geo[-3.1333329677581787,-60.01666641235351]
+estrada do taruma? km 2 si?tio chouvila?ndia haras    2147483647   null
+cucui?    2147483647   null

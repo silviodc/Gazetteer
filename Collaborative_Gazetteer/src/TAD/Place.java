@@ -1,21 +1,29 @@
 package TAD;
 
 
+import java.io.Serializable;
+import java.util.List;
+
 import com.bbn.openmap.geo.Geo;
+import com.hp.hpl.jena.ontology.OntClass;
 
-public class Place implements Cloneable {
+public class Place implements Cloneable,Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int year;
 	private int ID;
 	private String location;
 	private String nameFilter;
 	private County county;
     private Geo geometry;
-    private String type;
+    private List<String> types;
     private String local;
     private boolean used=false;
     private boolean ambiguo=false;
-    private String repository;
+    private String repository="";
     private boolean partOf;
     private Place father;
     private Place relation;
@@ -145,12 +153,7 @@ public class Place implements Cloneable {
 	public void setGeometry(Geo geometry) {
 		this.geometry = geometry;
 	}
-	public String getType() {
-		return type;
-	}
-	public void setType(String type) {
-		this.type = type;
-	}
+
 	public boolean getIspolygon() {
 		// TODO Auto-generated method stub
 		return false;
@@ -178,6 +181,14 @@ public class Place implements Cloneable {
 	//Sobreescreva o metodo clone.  
     public Place clone() throws CloneNotSupportedException{  
             return (Place) super.clone();  
-     }  
+     }
+
+	public List<String> getTypes() {
+		return types;
+	}
+
+	public void setTypes(List<String> types) {
+		this.types = types;
+	}  
 
 }

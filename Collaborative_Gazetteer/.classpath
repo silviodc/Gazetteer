@@ -6,7 +6,6 @@
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/geonames-1.1.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/openmap.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/JENA/strabon-endpoint-client-3.3.2-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Silvio/Desktop/strabon-runtime-3.3.2-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/JENA/strabon-runtime-3.3.2-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/JENA/sesame-sail-monetdb-3.3.2-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/JENA/sesame-sail-postgis-3.3.2-SNAPSHOT.jar"/>
@@ -159,5 +158,19 @@
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/JENA/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/jersey-bundle-1.18.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/jcommon-1.0.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/jfreechart-1.0.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/jfreechart-1.0.16-experimental.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/jfreechart-1.0.16-swt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/jfreesvg-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/lucene-analyzers-common-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/lucene-core-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/lucene-queryparser-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/orsonpdf-1.2-eval.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/swtgraphics2d.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/stanford-ner-1.2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

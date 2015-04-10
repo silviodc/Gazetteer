@@ -141,6 +141,72 @@
     
 
 
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="&terms;description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="&terms;hasVersion"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="&terms;issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="&terms;modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="&terms;publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="&terms;title"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#relation -->
+
+    <owl:AnnotationProperty rdf:about="&Gazetter;relation"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="&skos;altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="&skos;definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="&skos;note"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="&skos;prefLabel"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/name -->
 
     <owl:AnnotationProperty rdf:about="&foaf;name"/>
@@ -207,6 +273,12 @@
     <!-- http://www.opengis.net/ont/sf#wktLiteral -->
 
     <rdfs:Datatype rdf:about="http://www.opengis.net/ont/sf#wktLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="&xsd;date"/>
     
 
 
@@ -1183,7 +1255,7 @@
     <!-- http://www.semanticweb.org/ontologies/Gazetter#partyOf -->
 
     <owl:ObjectProperty rdf:about="&Gazetter;partyOf">
-        <rdfs:label rdf:datatype="&xsd;string">partyOf</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">party_of</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">faz parte</skos:altLabel>
     </owl:ObjectProperty>
     
@@ -1213,6 +1285,12 @@
         <rdfs:label rdf:datatype="&xsd;string">river_hole</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">furo</skos:altLabel>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#sameAs -->
+
+    <owl:ObjectProperty rdf:about="&Gazetter;sameAs"/>
     
 
 
@@ -1539,6 +1617,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/Gazetter#ntriples -->
+
+    <owl:DatatypeProperty rdf:about="&Gazetter;ntriples"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1556,7 +1640,7 @@
         <rdfs:label xml:lang="en">Airport</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Airport"/>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">Aeroporto</skos:altLabel>
+        <skos:altLabel xml:lang="pt">Aeroporto</skos:altLabel>
     </owl:Class>
     
 
@@ -1585,6 +1669,8 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Building">
         <rdfs:label xml:lang="en">Building</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">construcao</skos:altLabel>
+        <skos:altLabel xml:lang="pt">construção</skos:altLabel>
     </owl:Class>
     
 
@@ -1605,6 +1691,7 @@
         <rdfs:label xml:lang="en">Cave</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Cave"/>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">caverna</skos:altLabel>
     </owl:Class>
     
 
@@ -1615,6 +1702,7 @@
         <rdfs:label xml:lang="en">Church</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Church"/>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">igreja</skos:altLabel>
     </owl:Class>
     
 
@@ -1622,9 +1710,9 @@
     <!-- http://dbpedia.org/ontology/Community -->
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Community">
-        <rdfs:label rdf:datatype="&xsd;language">community</rdfs:label>
+        <rdfs:label xml:lang="en">community</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">comunidade</skos:altLabel>
+        <skos:altLabel xml:lang="pt">comunidade</skos:altLabel>
     </owl:Class>
     
 
@@ -1644,6 +1732,7 @@
         <rdfs:label xml:lang="en">Country</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/Country"/>
         <rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+        <skos:altLabel xml:lang="pt">pais</skos:altLabel>
     </owl:Class>
     
 
@@ -1682,8 +1771,8 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Island">
         <rdfs:label rdf:datatype="&xsd;language">Island</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">ilha</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">ilha</skos:altLabel>
     </owl:Class>
     
 
@@ -1693,8 +1782,10 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Lake">
         <rdfs:label xml:lang="en">Lake</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/LakeBodyOfWater"/>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">lago</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">igarape?</skos:altLabel>
+        <skos:altLabel xml:lang="pt">igarapé</skos:altLabel>
+        <skos:altLabel xml:lang="pt">lago</skos:altLabel>
     </owl:Class>
     
 
@@ -1724,7 +1815,8 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Mountain">
         <rdfs:label xml:lang="en">Mountain</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Mountain"/>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">montanha</skos:altLabel>
     </owl:Class>
     
 
@@ -1752,8 +1844,12 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Park">
         <rdfs:label xml:lang="en">Park</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/ProtectedArea"/>
         <owl:equivalentClass rdf:resource="http://schema.org/Park"/>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">parque</skos:altLabel>
+        <skos:altLabel xml:lang="pt">parque nacional
+</skos:altLabel>
     </owl:Class>
     
 
@@ -1771,10 +1867,14 @@
     <!-- http://dbpedia.org/ontology/ProtectedArea -->
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/ProtectedArea">
-        <rdfs:label rdf:datatype="&xsd;language">ProtectedArea</rdfs:label>
+        <rdfs:label xml:lang="en">ProtectedArea</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">parque</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;language">reserva florestal</skos:altLabel>
+        <skos:altLabel xml:lang="en">reserve</skos:altLabel>
+        <skos:altLabel xml:lang="pt">ZF2</skos:altLabel>
+        <skos:altLabel xml:lang="pt">ZF3</skos:altLabel>
+        <skos:altLabel xml:lang="pt">parque</skos:altLabel>
+        <skos:altLabel xml:lang="pt">reserva</skos:altLabel>
+        <skos:altLabel xml:lang="pt">reserva florestal</skos:altLabel>
     </owl:Class>
     
 
@@ -1802,8 +1902,9 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/River">
         <rdfs:label>River</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">Rio</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/ProtectedArea"/>
+        <skos:altLabel xml:lang="pt">Rio</skos:altLabel>
+        <skos:altLabel xml:lang="pt">rio</skos:altLabel>
     </owl:Class>
     
 
@@ -1812,9 +1913,10 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Road">
         <rdfs:label xml:lang="en">Road</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">br</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;language">estrada</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology/mappings#Higway"/>
+        <skos:altLabel xml:lang="en">road</skos:altLabel>
+        <skos:altLabel xml:lang="pt">br</skos:altLabel>
+        <skos:altLabel xml:lang="pt">estrada</skos:altLabel>
     </owl:Class>
     
 
@@ -1891,7 +1993,7 @@
     <owl:Class rdf:about="http://dbpedia.org/ontology/Valley">
         <rdfs:label xml:lang="en">Valley</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">vale</skos:altLabel>
+        <skos:altLabel xml:lang="pt">vale</skos:altLabel>
     </owl:Class>
     
 
@@ -1900,8 +2002,9 @@
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Village">
         <rdfs:label rdf:datatype="&xsd;language">Village</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">aldeia</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://schema.org/City"/>
+        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology/mappings#Township"/>
+        <skos:altLabel xml:lang="pt">aldeia</skos:altLabel>
     </owl:Class>
     
 
@@ -1911,7 +2014,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/AbandonedStation">
         <rdfs:label xml:lang="en">Abandoned Station</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">Estação Abandonada</skos:altLabel>
+        <skos:altLabel xml:lang="pt">Estação Abandonada</skos:altLabel>
     </owl:Class>
     
 
@@ -1930,7 +2033,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Airport">
         <rdfs:label xml:lang="en">Airport</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">aeroporto</skos:altLabel>
+        <skos:altLabel xml:lang="pt">aeroporto</skos:altLabel>
     </owl:Class>
     
 
@@ -1940,6 +2043,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Aqueduct">
         <rdfs:label xml:lang="en">Aqueduct</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">aqueduto</skos:altLabel>
     </owl:Class>
     
 
@@ -1967,6 +2071,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Beach">
         <rdfs:label xml:lang="en">Beach</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <rdfs:comment xml:lang="pt">praia</rdfs:comment>
     </owl:Class>
     
 
@@ -1976,6 +2081,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Bridge">
         <rdfs:label xml:lang="en">Bridge</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">ponte</skos:altLabel>
     </owl:Class>
     
 
@@ -2049,6 +2155,7 @@
         <rdfs:label xml:lang="en">Cemetery</rdfs:label>
         <owl:equivalentClass rdf:resource="http://linkedgeodata.org/ontology/GraveYard"/>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">ceminterio</skos:altLabel>
     </owl:Class>
     
 
@@ -2068,6 +2175,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/CommunityCentre">
         <rdfs:label xml:lang="en">Community Centre</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">centro comunitario</skos:altLabel>
     </owl:Class>
     
 
@@ -2095,8 +2203,8 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Dam">
         <rdfs:label xml:lang="en">Dam</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">represa</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology/mappings#Hydroelectric"/>
+        <skos:altLabel xml:lang="pt">represa</skos:altLabel>
     </owl:Class>
     
 
@@ -2115,8 +2223,8 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Farm">
         <rdfs:label xml:lang="en">Farm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">fazenda</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;language">sitio</skos:altLabel>
+        <skos:altLabel xml:lang="pt">fazenda</skos:altLabel>
+        <skos:altLabel xml:lang="pt">sitio</skos:altLabel>
     </owl:Class>
     
 
@@ -2135,6 +2243,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Garden">
         <rdfs:label xml:lang="en">Garden</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">jardim</skos:altLabel>
     </owl:Class>
     
 
@@ -2182,7 +2291,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Harbour">
         <rdfs:label xml:lang="en">Harbour</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">porto</skos:altLabel>
+        <skos:altLabel xml:lang="pt">porto</skos:altLabel>
     </owl:Class>
     
 
@@ -2201,6 +2310,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Hill">
         <rdfs:label xml:lang="en">Hill</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">morro</skos:altLabel>
     </owl:Class>
     
 
@@ -2285,6 +2395,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Mall">
         <rdfs:label xml:lang="en">Mall</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <rdfs:comment xml:lang="en">supermercado</rdfs:comment>
     </owl:Class>
     
 
@@ -2312,6 +2423,7 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Mine">
         <rdfs:label xml:lang="en">Mine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">mina</skos:altLabel>
     </owl:Class>
     
 
@@ -2365,7 +2477,8 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Peak">
         <rdfs:label xml:lang="en">Peak</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">pico</skos:altLabel>
     </owl:Class>
     
 
@@ -2411,7 +2524,6 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Plateau">
         <rdfs:label xml:lang="en">Plateau</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">planalto</skos:altLabel>
     </owl:Class>
     
 
@@ -2513,9 +2625,9 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Ridge">
         <rdfs:label xml:lang="en">Ridge</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">cordilheira</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;language">serra</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">cordilheira</skos:altLabel>
+        <skos:altLabel xml:lang="pt">serra</skos:altLabel>
     </owl:Class>
     
 
@@ -2533,7 +2645,7 @@
 
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/School">
         <rdfs:label xml:lang="en">School</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf rdf:resource="http://linkedgeodata.org/ontology/University"/>
     </owl:Class>
     
 
@@ -2581,8 +2693,9 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/University">
         <rdfs:label xml:lang="en">University</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">Campus</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;language">Universidade</skos:altLabel>
+        <skos:altLabel xml:lang="pt">Campus</skos:altLabel>
+        <skos:altLabel xml:lang="pt">Universidade</skos:altLabel>
+        <skos:altLabel xml:lang="pt">universitário</skos:altLabel>
     </owl:Class>
     
 
@@ -2611,7 +2724,8 @@
     <owl:Class rdf:about="http://linkedgeodata.org/ontology/Waterfall">
         <rdfs:label xml:lang="en">Waterfall</rdfs:label>
         <owl:equivalentClass rdf:resource="http://schema.org/Waterfall"/>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">cachoeira</skos:altLabel>
     </owl:Class>
     
 
@@ -2653,16 +2767,6 @@
     
 
 
-    <!-- http://rdf.insee.fr/geo/Commune -->
-
-    <owl:Class rdf:about="http://rdf.insee.fr/geo/Commune">
-        <rdfs:label xml:lang="fr">Commune</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
-        <rdfs:isDefinedBy rdf:resource="http://data.lirmm.fr/ontologies/geo-fr#Commune"/>
-    </owl:Class>
-    
-
-
     <!-- http://rdf.insee.fr/geo/Departement -->
 
     <owl:Class rdf:about="http://rdf.insee.fr/geo/Departement">
@@ -2678,7 +2782,7 @@
     <owl:Class rdf:about="http://schema.org/AdministrativeArea">
         <rdfs:label xml:lang="en">AdministrativeArea</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">Área Administrativa</skos:altLabel>
+        <skos:altLabel xml:lang="pt">Área Administrativa</skos:altLabel>
     </owl:Class>
     
 
@@ -2705,8 +2809,8 @@
 
     <owl:Class rdf:about="http://schema.org/City">
         <rdfs:label xml:lang="en">City</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">Cidade</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Country"/>
+        <skos:altLabel xml:lang="pt">Cidade</skos:altLabel>
     </owl:Class>
     
 
@@ -2742,7 +2846,11 @@
 
     <owl:Class rdf:about="http://schema.org/LakeBodyOfWater">
         <rdfs:label xml:lang="en">LakeBodyOfWater</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">igarape</skos:altLabel>
+        <skos:altLabel xml:lang="pt">igarape?</skos:altLabel>
+        <skos:altLabel xml:lang="pt">igarapé</skos:altLabel>
+        <skos:altLabel xml:lang="pt">lago</skos:altLabel>
     </owl:Class>
     
 
@@ -2769,7 +2877,9 @@
 
     <owl:Class rdf:about="http://schema.org/Mountain">
         <rdfs:label xml:lang="en">Mountain</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">montanha
+</skos:altLabel>
     </owl:Class>
     
 
@@ -2869,6 +2979,7 @@
     <owl:Class rdf:about="http://schema.org/State">
         <rdfs:label xml:lang="en">State</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">estado</skos:altLabel>
     </owl:Class>
     
 
@@ -2913,7 +3024,7 @@
 
     <owl:Class rdf:about="http://schema.org/Waterfall">
         <rdfs:label xml:lang="en">Waterfall</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
     </owl:Class>
     
 
@@ -2923,6 +3034,7 @@
     <owl:Class rdf:about="http://schema.org/Zoo">
         <rdfs:label xml:lang="en">Zoo</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">zoologico</skos:altLabel>
     </owl:Class>
     
 
@@ -2939,9 +3051,9 @@
     <!-- http://www.geonames.org/ontology/mappings#Agricultural_township -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Agricultural_township">
-        <rdfs:label rdf:datatype="&xsd;language">Agricultural_township</rdfs:label>
+        <rdfs:label xml:lang="en">Agricultural_township</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">Distrito Agropecuário</skos:altLabel>
+        <skos:altLabel xml:lang="pt">Distrito Agropecuário</skos:altLabel>
     </owl:Class>
     
 
@@ -2950,18 +3062,8 @@
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Avenue">
         <rdfs:label rdf:datatype="&xsd;language">Avenue</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">avenida</skos:altLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.geonames.org/ontology/mappings#Branch_river -->
-
-    <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Branch_river">
-        <rdfs:label rdf:datatype="&xsd;language">Branch_river</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">igarape</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://schema.org/City"/>
+        <skos:altLabel xml:lang="pt">avenida</skos:altLabel>
     </owl:Class>
     
 
@@ -2969,8 +3071,8 @@
     <!-- http://www.geonames.org/ontology/mappings#Camp -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Camp">
-        <rdfs:label rdf:datatype="&xsd;language">Camp</rdfs:label>
-        <rdfs:label rdf:datatype="&xsd;language">campo</rdfs:label>
+        <rdfs:label xml:lang="en">Camp</rdfs:label>
+        <rdfs:label xml:lang="pt">campo</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     </owl:Class>
     
@@ -2980,8 +3082,8 @@
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Camping">
         <rdfs:label rdf:datatype="&xsd;language">Camping</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">acampamento</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">acampamento</skos:altLabel>
     </owl:Class>
     
 
@@ -2991,7 +3093,7 @@
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Coast">
         <rdfs:label rdf:datatype="&xsd;language">Coast</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">costa</skos:altLabel>
+        <skos:altLabel xml:lang="pt">costa</skos:altLabel>
     </owl:Class>
     
 
@@ -3001,7 +3103,7 @@
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Grove">
         <rdfs:label rdf:datatype="&xsd;language">Grove</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">bosque</skos:altLabel>
+        <skos:altLabel xml:lang="pt">bosque</skos:altLabel>
     </owl:Class>
     
 
@@ -3010,8 +3112,8 @@
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Higway">
         <rdfs:label rdf:datatype="&xsd;language">Higway</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">rodovia</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/River"/>
+        <skos:altLabel xml:lang="pt">rodovia</skos:altLabel>
     </owl:Class>
     
 
@@ -3019,9 +3121,9 @@
     <!-- http://www.geonames.org/ontology/mappings#Hydroelectric -->
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Hydroelectric">
-        <rdfs:label rdf:datatype="&xsd;language">Hydroelectric</rdfs:label>
+        <rdfs:label xml:lang="en">Hydroelectric</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">hidreletrica</skos:altLabel>
+        <skos:altLabel xml:lang="pt">hidreletrica</skos:altLabel>
     </owl:Class>
     
 
@@ -3031,7 +3133,8 @@
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Station">
         <rdfs:label rdf:datatype="&xsd;language">Station</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">estação</skos:altLabel>
+        <skos:altLabel xml:lang="pt">estacao</skos:altLabel>
+        <skos:altLabel xml:lang="pt">estação</skos:altLabel>
     </owl:Class>
     
 
@@ -3040,8 +3143,8 @@
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Street">
         <rdfs:label rdf:datatype="&xsd;language">Street</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">rua</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology/mappings#Higway"/>
+        <skos:altLabel xml:lang="pt">rua</skos:altLabel>
     </owl:Class>
     
 
@@ -3050,9 +3153,9 @@
 
     <owl:Class rdf:about="http://www.geonames.org/ontology/mappings#Township">
         <rdfs:label rdf:datatype="&xsd;language">Township</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
-        <skos:altLabel rdf:datatype="&xsd;language">distrito</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;language">vila</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Village"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/City"/>
+        <skos:altLabel xml:lang="pt">vila</skos:altLabel>
     </owl:Class>
     
 
@@ -3148,6 +3251,7 @@
 
     <owl:Class rdf:about="&Gazetter;Caatinga">
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">caatinga</skos:altLabel>
     </owl:Class>
     
 
@@ -3156,13 +3260,8 @@
 
     <owl:Class rdf:about="&Gazetter;Seringal">
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+        <skos:altLabel xml:lang="pt">seringal</skos:altLabel>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/silvio/ontologies/www.linkedgeodata/ontology/Ridge -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/silvio/ontologies/www.linkedgeodata/ontology/Ridge"/>
     
 
 

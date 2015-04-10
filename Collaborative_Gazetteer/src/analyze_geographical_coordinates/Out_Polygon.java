@@ -60,8 +60,9 @@ public class Out_Polygon {
 	             String vetor [] = line.split(" ");
 	             for(int i=0;i<vetor.length;i++){
 	                    String [] coordinate = vetor[i].split(",");
-	                    float temp =transformFloat(coordinate[0]);
-	                    float temp1 = transformFloat(coordinate[1]);
+	                    //System.out.println(coordinate[0]+"  "+coordinate[1]);
+	                    float temp =transformFloat(coordinate[0].trim());
+	                    float temp1 = transformFloat(coordinate[1].trim());
 	                    p1.add(temp);
 	                    p2.add(temp1);
 	                }
@@ -74,7 +75,7 @@ public class Out_Polygon {
 	        return poly;
 	    }
 	    
-	 private float transformFloat(String numero) {
+	 public float transformFloat(String numero) {
 	        float valor = 0;
 	        char n[] = numero.toCharArray();
 	        numero = "";

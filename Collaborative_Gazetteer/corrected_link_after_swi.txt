@@ -1,300 +1,300 @@
-Centroid >> Fortaleza Savanna Rio Paciari tributary of Rio Ituxi  km above mouth    Geo[-1.8666670322418213,-65.73332977294922]
+Centroid >> reserva florestal ducke adolpho ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Parque Nacional do Jaú    Geo[-1.9127780199050903,-61.5897216796875]
+Centroid >> km 160 da br 174    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Amazonas rio Urubu Km da estrada ManausCaracarai    Geo[-4.116666793823242,-58.99999999999999]
+Centroid >> rbcampina br174 km 45    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke Rodovia ManausItacoatiara km  Trilha LO km  Solo arenoso    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> furo do catal227o    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke Próximo a entrada da Reserva Adolpho Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> camanaus alto rio negro near harbour    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Rio Solimões Lago Grande de Manacapuru east end    Geo[-3.049999952316284,-61.58333206176757]
+Centroid >> coletada na locac?a?o curimata de baixo pertencente ao campo petroli?fero do rio urucu mata de terra firme solo argiloarenoso    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Divisa de municipio Beruri RDS PiagaçúPurus Setor Itapuru  Beira direita Purus Baixo rio Purus Floresta de várzea parcela  E placa      Geo[-4.222750186920166,-62.52199935913087]
+Centroid >> serra de araca? plato? da serra araca? parte se da serra norte    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Parque Nacional do Pico da Neblina Serra da Neblina    Geo[0.7469440102577211,-65.97083282470703]
+Centroid >> serra de araca? 01 km ao sul da parte central da serra do araca? e 9 km a leste do rio jauari    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke picada PG piqueti     Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> reserva florestal ducke pro?x a? escada adolpho ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Right bank of Rio Madeira Lago do Purusinho  ½ hours north from Humaitá Mata do igapó    Geo[-7.333333015441894,-62.83333206176757]
+Centroid >> pnj parque nacional do jau? rio unini margem direita igarape? acajuri?    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Estrada ZF km  coletado ao lado da Reserva nº  Mata de terra firme solo argiloso    Geo[-2.9275000095367427,-59.97639083862305]
+Centroid >> margem esquerda do rio madeira a?rea delimitada de 56x58 m 3248 m 2 km ao oeste da cidade de humaita? distante da rodovia transamazo?nica savanna densa com a?rvores de ate? 8 m de altura elementos lenhosos predominantes physocalymma scaberrim    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Reserva Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> rio negro entre a ponta da ilha maraiua? e massaribi no caminho para uaupe?s    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Frequent at dumping area along levee of rio Madeira at Borba    Geo[-4.383333206176757,-59.583332061767585]
+Centroid >> estrada manauscaracarai? km 125 solo de mata virgem    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Igarapé Paniol  Km ao norte da BR  Km     Geo[-7.516666889190674,-63.16666793823243]
+Centroid >> campus do inpa aleixo nova sede do inpa perto da casa do diretor    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> cordilheira do pico da neblina cordilheira do pico da neblina na encosta do planalto    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Matas de ambas as margens do rio Aracá perto do r Matas de ambas as margens do rio Aracá perto do rio Jauari    Geo[0.5000000000000001,-63.49999999999999]
+Centroid >> umirizal a?rea de estrac?a?o de areia km 41 da estrada borba campinarana 1015 m de dossel solo areia branca coberta por espessa camada de serrapilheira    Geo[-4.5863890647888175,-59.5636100769043]
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke Igarapé do Acará Adolpho Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> a?rea indi?gena waimiri atroari rio camanau? vicinity of aldeia mare?    Geo[-1.75,-61.24999999999999]
 ___________________________________
 
-Centroid >> Campus do INPA Campus INPA estrada do aleixo    Geo[-3.0833330154418945,-59.98333358764648]
+Centroid >> distrito agropecua?rio zf3 distrito agropecua?rio fazenda porto alegre reserva 3402 cabo frio of the wwfinpa msc project nonflooded moist forest    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> BR Km  igarapé das Laje Estrada ManausCaracaraí Km  igarapé das Lajes Campina das Pedras erva sobre laje de pedra solo úmido freqüente    Geo[-2.0499999523162846,-60.41666793823242]
+Centroid >> pro?ximo ao campo de futebol adolpho ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Uatumã margem esquerda do igarapé Esperança  km acima da barragem de Balbina    Geo[-1.5,-59.5]
+Centroid >> entre tamandare? e manguari rio japura? afluente do rio solimo?es ao longo do rio    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> estrada br 17 km 38    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Parque Nacional do Pico da Neblina Serra da Neblina    Geo[0.7469440102577211,-65.97083282470703]
+Centroid >> parque 10    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> lago Janauc    Geo[-3.3333330154418945,-60.283332824707024]
+Centroid >> km 9 da br 17 terra firme    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke Terra firme    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> manausporto velho highway km 22 2km on road to purupuru pleistocene varzea terrace now terra firme tall forest on clay soil    Geo[-3.5,-59.99999999999999]
 ___________________________________
 
-Centroid >> Rio Solimões Ilha da Marchantaria    Geo[-3.25,-59.966667175292976]
+Centroid >> rio javari behind estira?o de equador primary forest on terra firme    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Terra firme na beira do lago da Usina Hidrelétrica de Balbina porto de atracagem do futuro acampamento do PPBio Aproximadamente h e m horas de barco    Geo[-1.7833329439163208,-59.28333282470704]
+Centroid >> serra de araca? plateau of serra araca n side of north mountain cloud forest    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke    Geo[-2.0000000000000004,-58.99999999999999]
+Centroid >> estrada manausitacoatiara km 108    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Serra do Tapirapecó    Geo[1.2002780437469482,-64.79888916015625]
+Centroid >> reserva florestal ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Médio Rio Juami    Geo[-1.9556670188903813,-67.92994689941406]
+Centroid >> rio jauari abaixo do entroncamento com o igarape? p rio jauari abaixo do entroncamento com o igarape? pretinho beira do rio mata de terra firme solo argiloso    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva florestal Adolpho Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> dist agrop zf3 pdbff res 3304    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Distrito Agropecuário ZF Distrito Agropecuário Reserva  Km     Geo[-2.400000095367432,-59.71666717529297]
+Centroid >> am 010 km 215 fazenda aruana?    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> rio urucu base da petrobra?s ca 20min de motor de popa margem direita do rio mata de terra firme solo argiloso    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke Terra firme    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> rio maue?s upper rio urupadi rio marau    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva ZF Floresta primária de platô Área do Projeto TEAM Parcela do Km  subparcela  indiíduo nº     Geo[-2.406388998031616,-59.90111160278321]
+Centroid >> estrada para ceasa na capoeiara solo argiloso    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Distrito Agropecuário ZF Distrito Agropecuário da Suframa rodovia BR    Geo[-2.400000095367432,-59.71666717529297]
+Centroid >> along rio abacaxis icinity of terra preta    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Ao longo do Rio Maraiuá beira do rio    Geo[-7.516666889190674,-63.16666793823243]
+Centroid >> campo i 500m ao norte da br 230 km 2 campo natural com grupos de a?rvores e a?rvores esparsas em a?gua e em depresso?es u?midas nos campos    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Rio Negro Anavilhanas Island near to mouth on Rio Cuieras    Geo[-2.566667079925537,-60.316665649414055]
+Centroid >> br 174 km 44 eest  inpa    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Japurá afluente do rio Solimões ao longo do rio    Geo[-1.8333330154418948,-65.58333587646484]
+Centroid >> reserva florestal ducke reserva florestal ducke fenologico nº 21    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Estrada Humaitá Porto Velho km  Mata de terra firme solo vermelho    Geo[-0.1333329975605011,-63.0]
+Centroid >> embrapa    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Distrito Agropecuário ZF Distrito Agropecuário da SUFRAMA Rod BR Km  depois  Km Leste na ZF Fazenda Porto Alegre    Geo[-2.316667079925537,-60.08333206176758]
+Centroid >> reserva ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Distrito Agropecuário ZF Distrito Agropecuário  Reserva  Km  do SmithsonianINPA  Projeto Dinâmica Biológica dos Fragmentos Florestais  Terra firme    Geo[-2.316667079925537,-60.08333206176758]
+Centroid >> near junction of rios cuieiras and branquinho primary forest on terra firme    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> BR  Estrada Transamazonica km  On Rio Marmelos    Geo[-7.966667175292969,-62.03333282470703]
+Centroid >> reserva florestal ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> BR  Km  Reserva Campinas    Geo[-2.583333015441894,-60.03333282470703]
+Centroid >> lago tupe? rdstupe? estac?a?o 5    Geo[-3.043056011199951,-60.254722595214844]
 ___________________________________
 
-Centroid >> Amazonas mun de Jutaí rio Solimões margem direita localidade Natal a  min abaixo da cidade de Jutaí a   km da margem do rio Mata de terra firme solo argiloso úmido    Geo[-2.7166669368743896,-66.69999694824219]
+Centroid >> vila do caviana    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Boca do Rio Içana Margem direita do rio Trilha atrás da comunidade Boa Vista    Geo[0.472016990184784,-67.34525299072266]
+Centroid >> rio taruma? mata de terra firme    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Bacia do Rio Içana Aprox  km ao sudeste da comunidade São José Capoeira de três anos Solo sandy loam    Geo[1.0,-68.0]
+Centroid >> rio jandiatuba afluente da margem direita do alto rio solimo?es lugar alto alegre e a 1 km da margem    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Estirão do Equador Rio Javari Forest on terra firme    Geo[-1.8500000238418575,-65.5999984741211]
+Centroid >> parque nacional do pico da neblina  trilha para a cachoeira do anta entre o acampamento bebedouro novo e cuiabixi subindo a serra da neblina floresta ombro?fila densa montana    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Campos Sales Km  BR    Geo[-3.1166670322418213,-60.01666641235351]
+Centroid >> resex unini rio unini lago galoma?nha terra firme    Geo[-1.57027804851532,-62.981666564941406]
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke Próximo a piscina Igarapé do Barro Branco Solo arenoso Adolpho Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> rio cunhua? at deni indian village forest beside stream    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Igarapé da Cachoeira Alta Igarapé da Cachoeira Alta    Geo[-3.1166670322418213,-60.01666641235351]
+Centroid >> br 174 km 157    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke Reserva Florestal Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> rio negro rio tiquie? paricachoeiras    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke Terra firme    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> reserva florestal adolpho ducke terra firme    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Margem esquerda do Rio Aracá Bacuquara Margem esquerda do Rio Aracá Localidade de Bacuquara    Geo[-0.33333298563957214,-63.49999999999999]
+Centroid >> reserva florestal ducke igarape? do tinga solo arenoso adolpho ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke L m subparcela de m    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> ilha de marchantaria    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Estrada Manaus  Caracaraí Km  campina distante  Km a oeste da rodovia Mata de terra firme    Geo[-2.728888988494873,-58.08638763427735]
+Centroid >> acariquara linha mata de terra firme solo argiloarenoso    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Vila Bittencourt rio Japurá margem direita    Geo[-1.4166669845581055,-69.41666412353516]
+Centroid >> disturbed primary forest near manoa housing development 17 km beyond cidade nova    Geo[-3.1166670322418213,-58.98333358764648]
 ___________________________________
 
-Centroid >> Rio Solimões Ilha da Marchantaria segunda faixa alta de terra a direita no canal que vai para o Lago Camaleão    Geo[-3.25,-66.0]
+Centroid >> reserva ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Praia Grande Rio Ngero Perto de Manaus    Geo[-3.0333330631256104,-60.5]
+Centroid >> campo i 500 m ao norte da br 230 km 2 campo natural com grupos de a?rvores e a?rvores esparsas beira de estrada    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> rio japura? margem direita entre a sede do munici?pio e a localidade matupiri?    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Rio Carabinani Terra Firme    Geo[-1.9483330249786384,-61.518890380859375]
+Centroid >> rio uatuma?  rio pitinga rio uatuma? margem esquerda em frente a? boca do rio pitinga mata de terra firme solo argiloso    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> estrada HumaitáPorto Velho Km     Geo[-0.1333329975605011,-63.0]
+Centroid >> campus do inpa sede do inpa    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Cachoeira Alta do Tarumã Cachoeira Alta do Tarumã    Geo[-3.416666984558106,-60.03333282470703]
+Centroid >> dap  501 cm planta marcada 34188 bota?o    Geo[-2.9166669845581055,-59.98333358764648]
 ___________________________________
 
-Centroid >> Distrito Agropecuário ZF Distrito Agropecuário  km NNE de Manaus Reserva  km     Geo[-2.400000095367432,-59.71666717529297]
+Centroid >> flores    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Parque do Mindu    Geo[-3.1333329677581787,-60.01666641235351]
+Centroid >> br 174 km 23 zf3 reserva 1208    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Parque Nacional do Pico da Neblina Serra da Neblina    Geo[0.7469440102577211,-65.97083282470703]
+Centroid >> rio xie? rio xie? 30min de motor de popa acima da boca acima da comunidade batista de sa?o jose?    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Campo SalesIgarapé da Cachoeira Alta do Tarumã    Geo[-3.416666984558106,-60.03333282470703]
+Centroid >> swamp around lago da cobra rio purus north bank opposite boca do acre    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> AM km  Reserva Florest Estrada ManausItacoatiara km  Reserva Florestal Walter Egler    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> rio jurua? 510 km above mouth rio jurua? 510 km above mouth    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Área de floresta ombrófila densa no km  da BR  ManausPorto Velho À  Km da comunidade Tupana Terra firme    Geo[-4.000000000000001,-61.0]
+Centroid >> serra dos 6 lagos margem do lago das patas    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Uatumã margem esquerda rio Macacabóia Terra firme argiloso humoso várzea alta na margem do rio    Geo[-3.316667079925537,-57.683334350585945]
+Centroid >> estrada manauscaracarai? km 60 mata de terra firme    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke Trilha a  graus E do campo de futebol Solo arenoargiloso Adolpho Ducke    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> morro dos seis lagos    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Ducke ManausItacoatiara Road km     Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> aldeia dos tenharins km 120  trans    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Negro  km ca de São Gabriel da Cachoeira    Geo[-0.16666699945926666,-67.08333587646484]
+Centroid >> serra de araca? lowland forest at base of western massif of serra araca? forest in terra firme    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Javari fields around Palmeiras Army Post    Geo[-6.3333330154418945,-72.81666564941406]
+Centroid >> solimo?es  fazenda nossa senhora do perpetuo socorro    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Boca do Rio Içana Margem direita do rio Trilha atrás da comunidade Boa Vista    Geo[0.4832830131053925,-67.33958435058594]
+Centroid >> parque 10 margem do igarape? do parque 10    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Campus do INPA Campus of INPA Estrada do Aleixo    Geo[-3.0833330154418945,-59.98333358764648]
+Centroid >> manauscaracarai? km 26 forest on terra firme    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Lago do Ataãna alto Rio Negro    Geo[-0.41666701436042786,-65.01667022705078]
+Centroid >> reserva florestal ducke igarape? do acara? adolpho ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Catuquira FLONA Tefé Região do MédioBaixo Rio Tefé aprox  km acima do Lago Tefé Área de igapó    Geo[-4.130888938903809,-65.07830810546875]
+Centroid >> igarape? arua?    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Negro Taruma Grande    Geo[-3.0333330631256104,-60.5]
+Centroid >> ponta negra hotel tropical ponta negra hotel tropical    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Marauia    Geo[-0.5000000000000001,-64.93333435058594]
+Centroid >> p 3 sp 73campus da universidade  manaus    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Distrito Agropecuário ZF Distrito Agropecuário da Suframa Rodovia BR km  depois da fazenda    Geo[-2.516666889190674,-59.83333206176758]
+Centroid >> lago cutiuau? parque nacional do jau?    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Uatumã Igarapé Caititu Along Igarapé Caititu off Rio Uatumã at Antônio Filinto old rosewood factory campina    Geo[-1.75,-59.83333206176758]
+Centroid >> reserva florestal adolpho ducke rodovia manausitacoatiara km 26 trilha lo5 km 25 solo argiloso    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> BR  Km  PDBFF Derrubada    Geo[-2.400000095367432,-59.866668701171875]
+Centroid >> reserva florestal ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> BR  Km  PDBFF    Geo[-2.383332967758179,-59.8499984741211]
+Centroid >> pro?ximo a piscina igarape? do barro branco solo arenoargiloso adolpho ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Base of west facing talus slope of Serra Araca near Central Portion of serra about  min walk from lower airstrip tall moist igapó forest with palms    Geo[0.8166670203208923,-63.31666564941406]
+Centroid >> igarape? do acara? a jusante do acampamento adolpho ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Km N Manaus Fazenda Esteio ZF Km    Geo[-3.03333306312561,-58.83333206176758]
+Centroid >> estrada de manaus  caracarai km 35    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Parauarí entre os lugares Laranjal e Vila Darcy ao longo do rio    Geo[-4.366666793823241,-57.56666564941406]
+Centroid >> parque nacional do jau? igapo?    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> BR  Km  ZF PDBFF    Geo[-2.383332967758179,-59.8499984741211]
+Centroid >> zf3 km 41    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Estrada ManausPorto Velho Rio Castanho em direção a Porto Velho    Geo[-2.8666670322418213,-67.25]
+Centroid >> rio negro parana? tauatu? acima de manaus 1 dia de viagem em motor de 116 hp    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Distrito Agropecuário ZF Ca  Km N de Manaus Distrito Agropecuário da SUFRAMA Rodovia BR  Km  depois  Km oeste da BR Fazenda Dimona Reserva nº  Upland tropical evergreen forest mata de terra firme sobre latosolo amarelo    Geo[-2.316667079925537,-60.08333206176758]
+Centroid >> 60km n de manaus fazenda esteio zf3 km 23 reserva 1210    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Serra do Curicuriari Slopes and summit of Serra Curicuriari from Igarapé Arabú of the Rio Curicuriari to the summit ca m at summit    Geo[-0.3333329856395721,-66.83333587646484]
+Centroid >> poc?o jurua? 1 mata de terra firme solo argiloso    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >>  Km from Rio Cuieiras at  Km below mouth of Rio Brancinho Campina on white sand    Geo[-2.750000000000001,-60.45000076293945]
+Centroid >> br 230 rod transamazo?nica a 300 km de humaita? pro?ximo ao acampamento do dner a 3 km da rodovia    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Rio Solimões proximo a foz do Rio Juruá    Geo[-3.4666669368743896,-60.283332824707024]
+Centroid >> cordilheira do pico da neblina cordilheira do pico da neblina planalto 31 de marc?o campina rala terra firme    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> Serra de Aracá  km S of central portion of Serra Araca and  km E of Rio Jauarí    Geo[0.8166670203208923,-63.31666564941406]
+Centroid >> campus do inpa a?rea just ne of inpa estrada do aleixo km 3 ne manaus weedy open area    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Estrada ManausCaracarai km  Reserva Experimental de Silvicultura Tropical    Geo[-2.583333015441894,-60.03333282470703]
+Centroid >> igarape? de sa?o raimundo solo arenoso capoeira fechada    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva da Campina BR  Km  Campina    Geo[-2.583333015441894,-60.03333282470703]
+Centroid >> bogpm base de operac?o?es geo?logo pedro de moura rio urucu? terra firme    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Área do alojamento Rio Caribe da empresa Precious Woods    Geo[-2.7166669368743896,-58.516666412353516]
+Centroid >> baia de buiac?u lower rio negro sandy river banks    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> BR  km  EEST  S    Geo[-2.376111030578614,-59.877498626708984]
+Centroid >> ilha saracura lago balbina    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Campo petrolífero do Rio Urucu    Geo[-4.0,-65.0]
+Centroid >> campo i 500m ao norte da br 230 km 2 campo natural com grupos de a?rvores e a?rvores isoladas na sombra de uma a?rvore em solo relativamente u?mido    Geo[-0.4166670143604278,-65.53333282470703]
 ___________________________________
 
-Centroid >> paran da ilha do Mamo margem direita do rio Aripuan Me do paran    Geo[-4.283332824707031,-70.30000305175781]
+Centroid >> estrada manausitacoatira km 26 reserva florestal ducke    Geo[-1.8387500047683716,-61.60005569458008]
 ___________________________________
 
-Centroid >> Reserva Florestal Adolpho Ducke Terra firme    Geo[-2.883332967758179,-59.966667175292976]
+Centroid >> universidade do amazonas    Geo[-3.1008329391479497,-59.97388839721679]
 ___________________________________
 

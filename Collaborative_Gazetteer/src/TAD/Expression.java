@@ -1,7 +1,13 @@
 package TAD;
 
-public class Expression {
-	    private String name;
+import java.io.Serializable;
+
+public class Expression implements Serializable{
+	    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 5358809359962697467L;
+		private String name;
 	    private String local;
 	    private String expression;
 	    private String feature;

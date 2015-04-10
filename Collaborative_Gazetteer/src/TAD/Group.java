@@ -1,13 +1,20 @@
 package TAD;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
 import com.bbn.openmap.geo.OMGeo.Polygon;
 
-public class Group {
+public class Group implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2L;
 	private ArrayList<Place> places = new ArrayList<Place>();
-	private Expression exp;
+	private List<String> County = new ArrayList<String>();
+	private String type;
 	private Statistics stats;
 	private String repository;
 	private Place centroid;
@@ -25,11 +32,11 @@ public class Group {
 	public void setPlaces(ArrayList<Place> places) {
 		this.places = places;
 	}
-	public Expression getExp() {
-		return exp;
+	public String getExp() {
+		return type;
 	}
-	public void setExp(Expression exp) {
-		this.exp = exp;
+	public void setExp(String exp) {
+		this.type = exp;
 	}
 	public Statistics getStats() {
 		return stats;
@@ -49,7 +56,11 @@ public class Group {
 	public void setPoly(Polygon poly) {
 		this.poly = poly;
 	}
-	
-	
+	public List<String> getCounty() {
+		return County;
+	}
+	public void setCounty(List<String> county) {
+		County = county;
+	}
 	
 }

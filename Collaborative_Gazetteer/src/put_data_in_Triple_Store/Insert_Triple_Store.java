@@ -36,7 +36,7 @@ public class Insert_Triple_Store {
 	
 	
 	public void updateLocalhost(String queryString) throws Exception{
-		Strabon endpoint = new Strabon("endpoint2", "postgres", "postgres", 5432, "localhost", true);
+		Strabon endpoint = new Strabon("endpoint", "postgres", "postgres", 5432, "localhost", true);
 		//	String queryString = "DELETE WHERE { <http://www.semanticweb.org/ontologies/Gazetter#5032> <http://www.semanticweb.org/ontologies/Gazetter#contributors> \"0\"^^<http://www.w3.org/2001/XMLSchema#long> . }; INSERT DATA {<http://www.semanticweb.org/ontologies/Gazetter#1107> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.semanticweb.org/ontologies/Gazetter#1108> . }";
 			endpoint.update(queryString, endpoint.getSailRepoConnection());
 			endpoint.close();
@@ -62,10 +62,10 @@ public class Insert_Triple_Store {
 	
 	public void insertDataLocalhost() throws Exception{
 		 BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("triples.nt"), "UTF-8"));
-		 Strabon endpoint = new Strabon("endpoint2", "postgres", "postgres", 5432, "localhost", true);
+		 Strabon endpoint = new Strabon("endpoint", "postgres", "postgres", 5432, "localhost", true);
 		 while(br.ready()){  
 			 String queryString = br.readLine();
-			 endpoint.storeInRepo(queryString, "N-Triples", false);
+			 endpoint.storeInRepo(queryString, "N-Triples", true);
 		 }
 		 endpoint.close();
 //		SPARQLEndpoint end = new SPARQLEndpoint("127.0.0.1", 8080,"swiendpoint");

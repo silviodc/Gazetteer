@@ -19,7 +19,8 @@ public class Random_Sample {
 	
 	
 	public void corrected_link_before_swi(ArrayList<Place> place, String nameFile) throws IOException{
-		ArrayList<Place> arrayList = (ArrayList<Place>) place.clone();
+		ArrayList<Place> arrayList = new ArrayList<Place>();
+		arrayList.addAll(place);
 		 File file = new File(nameFile);
 	      // creates the file
 	      file.createNewFile();
@@ -42,9 +43,8 @@ public class Random_Sample {
 	      writer.close();
 	}
 	
-	public void random_inner_Group(ArrayList<Group> group, int num) throws IOException{
-		  ArrayList<Group> cloned = (ArrayList<Group>) group.clone();
-		  File file = new File("Inner_Group_sample.txt");
+	public void random_inner_Group(ArrayList<Group> group, int num,String simi) throws IOException{
+		  File file = new File("Inner_Group_sample"+simi+".txt");
 	      // creates the file
 	      file.createNewFile();
 	      // creates a FileWriter Object
@@ -52,15 +52,16 @@ public class Random_Sample {
 	      // Writes the content to the file
 	      Random rand = new Random();
 	      for(int i=0;i<num;i++){
-	    	  int temp = rand.nextInt(cloned.size());
-	    	  writer.write("Centroid >> "+cloned.get(temp).getCentroid().getLocation()+"    "+cloned.get(temp).getCentroid().getYear()+"   "+cloned.get(temp).getCentroid().getGeometry());
+	    	  int temp = rand.nextInt(group.size());
+	    	   	  
+	    	  writer.write("Centroid >> "+group.get(temp).getCentroid().getLocation()+"    "+group.get(temp).getCentroid().getYear()+"   "+group.get(temp).getCentroid().getGeometry());
 	    	  writer.write("\n");
-	    	  for(Place p: cloned.get(temp).getPlaces()){
-	    		  writer.write(p.getLocation()+"    "+p.getYear()+"   "+p.getGeometry()); 
+	    	  for(Place p: group.get(temp).getPlaces()){
+	    		  writer.write("=="+p.getLocation()+"    "+p.getYear()+"   "+p.getGeometry()); 
 	    		  writer.write("\n");
 	    		  writer.flush();
 	    	  }
-	    	  cloned.remove(temp);
+	    	  group.remove(temp);
 	    	  writer.write("___________________________________");
 	    	  writer.write("\n");
 	    	  writer.write("\n");
@@ -68,9 +69,9 @@ public class Random_Sample {
 	      writer.close();
 	}
 	
-	public void random_Centroid(ArrayList<Group> group, int num) throws IOException{
-		ArrayList<Group> cloned = (ArrayList<Group>) group.clone();
-		  File file = new File("Centroid_sample.txt");
+	public void random_Centroid(ArrayList<Group> group, int num,String simi) throws IOException{
+		ArrayList<Group> cloned =  group;
+		  File file = new File("Centroid_sample"+simi+".txt");
 	      // creates the file
 	      file.createNewFile();
 	      // creates a FileWriter Object

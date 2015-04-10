@@ -2,6 +2,7 @@ package TAD;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.ArrayList;
 
 import analyze_geographical_coordinates.Out_Polygon;
@@ -9,7 +10,12 @@ import analyze_geographical_coordinates.Out_Polygon;
 import com.bbn.openmap.geo.Geo;
 import com.bbn.openmap.geo.OMGeo;
 
-public class Repository {
+public class Repository implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3L;
 	private String path;
 	private String name;
 	private String path_polygon;
@@ -71,13 +77,25 @@ public class Repository {
 	
 	public void setData(String[] data) {
 		int index = Integer.parseInt(data[5]);
+		
+		County c;
+        
+		if(data[2]==null || data[2].equals("null"))
+        	c = new County("");
+        else
+        	c = new County(data[2]);
+        
 		if(!data[3].equals("")&& !data[4].equals("") && !data[0].equals("")){
 			float x =transformFloat(data[3]);
             float y = transformFloat(data[4]);            
 			//constructor (int year, String location, String nameFilter, String county, Geo geometry)
-			 places.add(new Place(Integer.parseInt(data[0]),data[1]," ",new County(data[2]), new Geo(x,y),this.name,index));
+             Place ptemp = new Place(Integer.parseInt(data[0]),data[1]," ",c, new Geo(x,y),this.name,index);
+             ptemp.setRepository(this.name);
+			 places.add(ptemp);
 			 }else{
-				 places.add(new Place(Integer.MAX_VALUE,data[1]," ",new County(data[2]),this.name,index));
+				 Place ptemp =new Place(Integer.MAX_VALUE,data[1]," ",c,this.name,index);	 
+				 ptemp.setRepository(this.name);
+				 places.add(ptemp);
 			 }
 	}
 	public Statistics getNumbers() {

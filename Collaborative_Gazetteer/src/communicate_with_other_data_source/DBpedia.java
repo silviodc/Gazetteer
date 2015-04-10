@@ -26,6 +26,7 @@ import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -132,8 +133,10 @@ public class DBpedia {
 					float lat = s.getLiteral("?lat").getFloat();
 					float log = s.getLiteral("?long").getFloat();
 					if(out.insidePolygon(poly,lat,log)){
-						System.out.println(s.getLiteral("name").toString()+" "+s.getLiteral("?lat").getFloat()+" "+s.getLiteral("long").getFloat());
-						dbpedia_places.add(new Place(s.getLiteral("name").toString().replaceAll("@en", ""), new Geo(lat,log)));
+						 String temp = Normalizer.normalize(s.getLiteral("name").toString().replaceAll("@en", ""), Normalizer.Form.NFD);  
+						 temp = temp.replaceAll("(?!\")\\p{Punct}", "").toLowerCase();
+						System.out.println(temp+" "+s.getLiteral("?lat").getFloat()+" "+s.getLiteral("long").getFloat());
+						dbpedia_places.add(new Place( temp, new Geo(lat,log)));
 						dbpedia_places.get(dbpedia_places.size()-1).setNameFilter(s.getLiteral("name").toString());
 				}
 			}catch(Exception ex){
@@ -178,8 +181,12 @@ public class DBpedia {
 				Literal latitude = s.getLiteral("latitude");
 				Literal longitude = s.getLiteral("longitude");
 				RDFNode uri = s.get("s");
-				County county = new County(nome.getString().replaceAll("@pt", "").replaceAll("(Amazonas)", "").replaceAll("(Manaus)", ""));
-				county.setURI(uri);
+				
+				String temp = Normalizer.normalize(nome.getString().replaceAll("@pt", ""), Normalizer.Form.NFD);  
+				temp = temp.replaceAll("(?!\")\\p{Punct}", "").toLowerCase();
+				
+				County county = new County(temp);
+				county.setURI(uri.toString());
 				county.setPoint(new Geo(latitude.getFloat(),longitude.getFloat()));
 				countys.add(county);
 		}
@@ -189,7 +196,6 @@ public class DBpedia {
 				if(places.get(j).getCounty()!=null && places.get(j).getCounty().getNome()!=null && !places.get(j).getCounty().getNome().equals(""))
 					if(bg.stringSimilarityScore(bg.bigram(places.get(j).getCounty().getNome()), bg.bigram(countys.get(i).getNome()))>0.7)
 						places.get(j).setCounty(countys.get(i));
-				
 			}
 		}
 	}

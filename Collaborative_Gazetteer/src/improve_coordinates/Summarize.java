@@ -4,9 +4,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+import TAD.County;
 import TAD.Expression;
 import TAD.Group;
 import TAD.Place;
+import cluster.Bigram_Similarity;
 
 import com.bbn.openmap.geo.Geo;
 
@@ -14,55 +20,64 @@ import com.bbn.openmap.geo.Geo;
 public class Summarize {
 
 	public static int improved=0;
-	public void referenciaGeo(ArrayList<Group> group,int today){
-		   for (Group gp:group) {
-	        	int numTimes=1;
-	        	Place moda=null;
-	 	        int compValue=0;
-	 	        for(int j=0;j<gp.getPlaces().size();j++){
-	 	        	if(gp.getPlaces().get(j).getGeometry()!=null){
-	 	        			Place pl = gp.getPlaces().get(j);
-	 	        			for(int i=j+1;i<gp.getPlaces().size();i++){
-	 	        				if(gp.getPlaces().get(i).getGeometry()!=null && pl.getGeometry().distance(gp.getPlaces().get(i).getGeometry())==0)
-	 	        					numTimes++;
-	 	        			}
-	 	        			if(numTimes>compValue){
-	 	        				compValue=numTimes;
-	 	        				numTimes=1;
-	 	        				moda = gp.getPlaces().get(j);
-	 	        			}
-	 	        	}
-	 	        }
-	 	        if(moda!=null){
-	 	        	gp.setCentroid(moda);
-	 	        	replace_moda_all_data(moda, gp.getPlaces(),today);
-	 	        }
-	       }
-	}
 
-	private static void replace_moda_all_data(Place moda, ArrayList<Place> arrayList,int today) {
-		int tempYear=0;
-		if(moda.getYear()>today){
-			for(int i=0;i<arrayList.size();i++){
-				if(arrayList.get(i).getYear()<=today){
-					if(tempYear!=0 && tempYear>arrayList.get(i).getYear() && arrayList.get(i).getGeometry().distance(moda.getGeometry())<300){
-						tempYear = arrayList.get(i).getYear();
-					}else if(tempYear==0 && arrayList.get(i).getGeometry()!=null && arrayList.get(i).getGeometry().distance(moda.getGeometry())<300){
-						tempYear = arrayList.get(i).getYear();
-					 }
-				}			
+	private boolean verific_county( County county) {
+
+		if (county != null && !county.getNome().equals("não informado") && !county.getNome().equals(" ") && !county.getNome().equals("")) {
+			return true;
+		}
+		return false;
+	}
+	public void referenciaGeo(ArrayList<Group> group){
+		for (Group gp:group) {
+			Place moda=null;
+			int ant=0,ant2=0;
+			String municipality="";
+			County c=null;
+			List<String> geo = new ArrayList<String>();
+			List<String> county = new ArrayList<String>();
+			gp.getPlaces().remove(null);
+			for(int j=0;j<gp.getPlaces().size();j++){
+				if(gp.getPlaces().get(j).getGeometry()!=null){
+					geo.add(gp.getPlaces().get(j).getGeometry().toString());
+				}
+				if(verific_county(gp.getPlaces().get(j).getCounty())){
+					county.add(gp.getPlaces().get(j).getCounty().getNome());
+				}
+			}
+			for(int j=0;j<gp.getPlaces().size();j++){
+				if(gp.getPlaces().get(j).getGeometry()!=null){
+					if(Collections.frequency(geo, gp.getPlaces().get(j).getGeometry().toString())>ant){
+						moda =  gp.getPlaces().get(j);
+					}
+					if(verific_county(gp.getPlaces().get(j).getCounty()) && Collections.frequency(county, gp.getPlaces().get(j).getCounty().getNome())>ant2){
+						municipality = gp.getPlaces().get(j).getCounty().getNome();
+					}
+				}
+			}
+			for(int j=0;j<gp.getPlaces().size();j++){
+				if(verific_county(gp.getPlaces().get(j).getCounty()) && gp.getPlaces().get(j).getCounty().equals(municipality)){
+					c = gp.getPlaces().get(j).getCounty();
+					break;
+				}
+			}
+			if(moda!=null){
+				if(moda.getGeometry()!=null){
+					gp.getCentroid().setGeometry(moda.getGeometry());
+					gp.getCentroid().setCounty(c);
+				}
+				replace_moda_all_data(moda, gp.getPlaces(),c);
 			}
 		}
-		if(tempYear!=0)
-			moda.setYear(tempYear);
-					
+	}
+
+	private static void replace_moda_all_data(Place moda, ArrayList<Place> arrayList,County municipality) {
 		for(int i=0;i<arrayList.size();i++){
-			 arrayList.get(i).setGeometry(moda.getGeometry());
-			 if(arrayList.get(i).getYear()>today){
-				 arrayList.get(i).setYear(moda.getYear());
-				 improved++;
-			 }
+			if(moda.getGeometry()!=null)
+			arrayList.get(i).setGeometry(moda.getGeometry());
+			if(municipality!=null)
+			arrayList.get(i).setCounty(municipality);
 		}
-		
+
 	}
 }

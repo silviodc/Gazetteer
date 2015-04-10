@@ -7,6 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.text.Normalizer;
 import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -94,12 +95,18 @@ public class Read_Biodiversity_files {
 	public String [] dataTreated(String values[],int columns[],int index){
 		String temp,temp1;
 		String query [] = new String[6];
-             temp = values[columns[1]].replaceAll("\\p{Punct}|\\d","");  //PLACE
-             temp = temp.replaceAll("NÃO INFORMADO", "");
-             if(temp.contains("não determinado"))
+             temp = values[columns[1]].toLowerCase();  //PLACE
+             temp = temp.replaceAll("NÃO INFORMADO", "").replaceAll("não informado", "").replaceAll("NAO INFORMADO", "").replaceAll("nao informado", "");;
+             temp = Normalizer.normalize(temp, Normalizer.Form.NFD);  
+			 temp = temp.replaceAll("(?!\")\\p{Punct}", "").replaceAll("\\?", "");
+             
+             if(temp.contains("na?o determinado") || temp.contains("nao determinado"))
             		 temp="";
-             temp1 = values[columns[2]].replaceAll("\\p{Punct}|\\d","");  
-             temp1= temp1.replaceAll("NÃO INFORMADO", "");
+             temp1 = values[columns[2]].toLowerCase();
+             temp1 = temp1.replaceAll("NÃO INFORMADO", "").replaceAll("não informado", "").replaceAll("NAO INFORMADO", "").replaceAll("nao informado", "");;
+             temp1 = Normalizer.normalize(temp1, Normalizer.Form.NFD);  
+			 temp1 = temp1.replaceAll("(?!\")\\p{Punct}", "").toLowerCase();
+			 
              query[0]=values[columns[0]];//DATE
              query[1]=temp;//PLACE
              query[2]=temp1;//COUNTY

@@ -1,6 +1,12 @@
 package TAD;
 
-public class Statistics {
+import java.io.Serializable;
+
+public class Statistics implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4L;
 	private int allrecords;
 	private int onlyLocalityAndCounty;
 	private int onlyPlace;
