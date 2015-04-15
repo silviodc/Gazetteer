@@ -14,6 +14,7 @@ import TAD.Place;
 
 import com.bbn.openmap.geo.Geo;
 import com.hp.hpl.jena.datatypes.TypeMapper;
+import com.hp.hpl.jena.graph.Node;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
@@ -57,34 +58,52 @@ public class Mapping {
 	     rebuildModel();
          for(Group rep:group){
         	  	 Place p = rep.getCentroid();
+        	  	 int date[] = Date(rep.getPlaces());
+       	  	  
         	  		 Individual pl1;
         			 total++;
         			 OntClass type = useMoreGeneric(p.getTypes());
-        			 System.out.println(type.toString());
-        			  pl1 = model.createIndividual(basePrefix+total, type);
+        			 pl1 = model.createIndividual(basePrefix+total, type);
 					 insertIndividualsWithRelation(pl1,p,rep.getPlaces().size());
 	        		 if(p.getGeometry()!=null){
 	        			 coords=total+1;
 	        			 Individual geo1 = model.createIndividual(basePrefix+coords,geo );
 	        			 ObjectProperty geoRelation  = model.createObjectProperty( geoSparqlP+"hasGeometry");
-	        			 insertGeo(geo1, p.getGeometry());
+	        			 insertGeo(geo1, p.getGeometry(),date,p);
 	        			 pl1.addProperty(geoRelation, geo1);
-	        			 total++;
+	        			 total+=2;
 	        		 }
    		 }
-      
          writeNtriples(total+"");
          classes.clear();
          model.close();
      }
 		
+	private int[] Date(ArrayList<Place> places) {
+		places.remove(null);
+		if(places.size()<=0)
+			return null;
+		int min = places.get(0).getYear();
+		for(int i=1;i<places.size();i++){
+			if(min>places.get(i).getYear() && places.get(i).getYear()<2015)
+				min = places.get(i).getYear();
+		}
+		int max = places.get(0).getYear();
+		for(int j=1;j<places.size();j++){
+			if(max<places.get(j).getYear()&& places.get(j).getYear()<2015)
+				max = places.get(j).getYear();
+		}
+		if(min>=2015 || max>=2015 || min<=0 || max<=0)
+			return null;
+		
+		return new int[]{min,max};
+	}
 		public void writeNtriples(String name){
 			
 			 try {
 				OutputStream out = new FileOutputStream(name+".nt");
 				model.write(out,"N-TRIPLES");
 			} catch (FileNotFoundException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
@@ -114,12 +133,33 @@ public class Mapping {
 		}
 	 
 	 
-	 private void insertGeo(Individual geo, Geo geometry){
-		 String ponto ="POINT("+geometry.toString().replaceAll("Geo", "").replace("[", "").replace("]", "").replaceAll(",", " ")+");"+WktLiteral.CRS84;
-		 TypeMapper.getInstance().registerDatatype(WktLiteral.wktLiteralType);
+	 private void insertGeo(Individual geo, Geo geometry,int date[],Place pl){
+		 String ponto ="";
+		 if(pl.isGoldStandart()){
+			 ponto = pl.getWktgoldStandart();
+			 System.out.println("GOLLDD STANDART!!!"+pl.getLocation());
+		 }else{
+			 ponto ="POINT ("+geometry.toString().replaceAll("Geo", "").replace("[", "").replace("]", "").replaceAll(",", " ")+");"+WktLiteral.CRS84;
+		 }
+		  TypeMapper.getInstance().registerDatatype(WktLiteral.wktLiteralType);
 		 geo.addLiteral(model.getProperty("http://www.opengis.net/ont/geosparql#asWKT"), ResourceFactory.createTypedLiteral(ponto, WktLiteral.wktLiteralType));
 		 ObjectProperty relation  = model.createObjectProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-		 geo.addProperty(relation, "<http://www.opengis.net/ont/sf#Point>");
+		 if(ponto.split(" ")[0].equals("POINT"))
+			 geo.addProperty(relation, "<http://www.opengis.net/ont/sf#Point>");
+		 else if (ponto.split(" ")[0].equals("POLYGON"))
+			 geo.addProperty(relation, "<http://www.opengis.net/ont/sf#Polygon>");
+		 else if(ponto.split(" ")[0].equals("LINESTRING"))
+			 geo.addProperty(relation, "http://www.opengis.net/ont/sf#LineString");
+		 else if(ponto.split(" ")[0].equals("MULTIPOLYGON"))
+			 geo.addProperty(relation, "<http://www.opengis.net/ont/sf#MultiPolygon>");
+		 else
+			 System.out.println(ponto);
+		 if(pl.isGoldStandart())
+			 geo.addLiteral(model.getProperty(model.getNsPrefixURI("")+"date"),pl.getYear());
+		 else if(date!=null){
+			 geo.addLiteral(model.getProperty(model.getNsPrefixURI("")+"date"),date[1]);
+		 }
+		  
 	 }
 	 
 	 private void insertIndividualsWithRelation(Individual pl1, Place p,int common){
@@ -131,18 +171,17 @@ public class Mapping {
 		 	if(p.getCounty()!=null){
 		 		ObjectProperty relation  = model.createObjectProperty(model.getNsPrefixURI("")+"sameAs");
 		 		if( p.getCounty().getURI()!=null &&  !p.getCounty().getURI().equals("")){
-		 			pl1.addProperty(relation, p.getCounty().getURI());
+		 			pl1.addProperty(relation, ResourceFactory.createResource(p.getCounty().getURI()));
 		 			relation = model.createObjectProperty(model.getNsPrefixURI("")+"part_of");
-		 			pl1.addProperty(relation, p.getCounty().getURI());
+		 			pl1.addProperty(relation, ResourceFactory.createResource(p.getCounty().getURI()));
+		 		}else{
+		 			System.out.println(p.getCounty().getURI());
 		 		}
 		 		
 		 }
-		 if(p.getYear()<=2015)
-			 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"date"),p.getYear());
 		 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"agreement"),0);
-		 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"contributors"),0); 
+		 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"contributors"),0);
 		 pl1.addLiteral(model.getProperty(model.getNsPrefixURI("")+"ntriples"),common);
-		 
 		 
 	 }
 	 private OntModel OpenConnectOWL() {

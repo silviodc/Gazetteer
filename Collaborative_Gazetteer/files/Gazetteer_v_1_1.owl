@@ -1870,8 +1870,14 @@
         <rdfs:label xml:lang="en">ProtectedArea</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
         <skos:altLabel xml:lang="en">reserve</skos:altLabel>
+        <skos:altLabel xml:lang="pt">ESTAÇÃO ECOLÓGICA</skos:altLabel>
+        <skos:altLabel xml:lang="pt">FLORESTA ESTADUAL</skos:altLabel>
+        <skos:altLabel xml:lang="pt">FLORESTA NACIONAL</skos:altLabel>
+        <skos:altLabel xml:lang="pt">PARQUE NACIONAL</skos:altLabel>
+        <skos:altLabel xml:lang="pt">PROTEÇÃO AMBIENTAL</skos:altLabel>
         <skos:altLabel xml:lang="pt">ZF2</skos:altLabel>
         <skos:altLabel xml:lang="pt">ZF3</skos:altLabel>
+        <skos:altLabel xml:lang="pt">national park</skos:altLabel>
         <skos:altLabel xml:lang="pt">parque</skos:altLabel>
         <skos:altLabel xml:lang="pt">reserva</skos:altLabel>
         <skos:altLabel xml:lang="pt">reserva florestal</skos:altLabel>

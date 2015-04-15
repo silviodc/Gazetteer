@@ -172,5 +172,21 @@
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/servlet.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/swtgraphics2d.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/Lucene/stanford-ner-1.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/xercesImpl-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/xml-apis-1.3.03.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/xmlParserAPIs-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/postgresql-9.2-1002.jdbc4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/jython-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/OpenJUMP-1.6.3-r3576-nosrc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/jts-1.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/jmathplot-20070905.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/jdom-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/jmatharray-20070905.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/jai_core-1.1.2_01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/jama-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/jai_codec-1.1.2_01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Silvio/Documents/GitHub/Gazetteer/Collaborative_Gazetteer/files/OpenJML/buoy-1.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

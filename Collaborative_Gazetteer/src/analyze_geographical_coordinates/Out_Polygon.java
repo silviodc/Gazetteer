@@ -47,7 +47,7 @@ public class Out_Polygon {
 	}
 	
 	
-	 public OMGeo.Polygon buildPolygon(String path) throws FileNotFoundException, IOException{
+	 public static OMGeo.Polygon buildPolygon(String path) throws FileNotFoundException, IOException{
 	       
 	        String line;
 	        ArrayList<Float> p1 =new ArrayList<Float>();
@@ -75,7 +75,7 @@ public class Out_Polygon {
 	        return poly;
 	    }
 	    
-	 public float transformFloat(String numero) {
+	 public static float transformFloat(String numero) {
 	        float valor = 0;
 	        char n[] = numero.toCharArray();
 	        numero = "";

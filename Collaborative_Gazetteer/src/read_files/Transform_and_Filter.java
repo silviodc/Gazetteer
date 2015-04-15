@@ -41,7 +41,6 @@ public class Transform_and_Filter {
 	        String temp [];
 	        for(Place p:places){
 	            String ok ="";
-	            p.setLocal(p.getLocation());
 	            String localtemp = Normalizer.normalize(p.getLocation(), Normalizer.Form.NFD);  
 				 localtemp = localtemp.replaceAll("(?!\")\\p{Punct}", "");
 	             temp = localtemp.split(" ");

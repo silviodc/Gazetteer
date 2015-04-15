@@ -5,7 +5,6 @@ import java.io.Serializable;
 import java.util.List;
 
 import com.bbn.openmap.geo.Geo;
-import com.hp.hpl.jena.ontology.OntClass;
 
 public class Place implements Cloneable,Serializable {
 
@@ -20,55 +19,16 @@ public class Place implements Cloneable,Serializable {
 	private County county;
     private Geo geometry;
     private List<String> types;
-    private String local;
     private boolean used=false;
-    private boolean ambiguo=false;
-    private String repository="";
-    private boolean partOf;
-    private Place father;
-    private Place relation;
-    private String relationName;
-    
-    
-    
+    private String repository="";  
+    private boolean goldStandart;
+    private String wktgoldStandart;
     public int getID() {
 		return ID;
 	}
 
 	public void setID(int iD) {
 		ID = iD;
-	}
-
-	public boolean isPartOf() {
-		return partOf;
-	}
-
-	public String getRelationName() {
-		return relationName;
-	}
-
-	public void setRelationName(String relationName) {
-		this.relationName = relationName;
-	}
-
-	public Place getRelation() {
-		return relation;
-	}
-
-	public void setRelation(Place relation) {
-		this.relation = relation;
-	}
-
-	public void setPartOf(boolean partOf) {
-		this.partOf = partOf;
-	}
-
-	public Place getFather() {
-		return father;
-	}
-
-	public void setFather(Place father) {
-		this.father = father;
 	}
 
 	public String getRepository() {
@@ -83,14 +43,7 @@ public class Place implements Cloneable,Serializable {
     	this.location = location;
     	this.geometry = geo;
     }
-    
-	public String getLocal() {
-		return local;
-	}
-
-	public void setLocal(String local) {
-		this.local = local;
-	}
+   
 
 	public Place(int year, String location, String nameFilter, County county,Geo geo, String repository, int index ) {
 		this.year = year;
@@ -123,6 +76,16 @@ public class Place implements Cloneable,Serializable {
 		this.repository=repository;
 		this.ID = index;
 	}
+	
+	
+	public String getWktgoldStandart() {
+		return wktgoldStandart;
+	}
+
+	public void setWktgoldStandart(String wktgoldStandart) {
+		this.wktgoldStandart = wktgoldStandart;
+	}
+
 	public int getYear() {
 		return year;
 	}
@@ -169,15 +132,17 @@ public class Place implements Cloneable,Serializable {
 	public void setUsed(boolean used) {
 		this.used = used;
 	}
-
-	public boolean isAmbiguo() {
-		return ambiguo;
-	}
-
-	public void setAmbiguo(boolean ambiguo) {
-		this.ambiguo = ambiguo;
-	}
 	
+	
+
+	public boolean isGoldStandart() {
+		return goldStandart;
+	}
+
+	public void setGoldStandart(boolean goldStandart) {
+		this.goldStandart = goldStandart;
+	}
+
 	//Sobreescreva o metodo clone.  
     public Place clone() throws CloneNotSupportedException{  
             return (Place) super.clone();  

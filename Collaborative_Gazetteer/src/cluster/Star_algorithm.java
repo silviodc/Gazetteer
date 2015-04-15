@@ -33,31 +33,30 @@ import TAD.Place;
 public class Star_algorithm {
 
 	private OntModel model;
-	private final double similarity = 0.8;
+	private final double similarity = 0.38;
 	private List <OntClass> usedClass = new ArrayList<OntClass>();
 	private HashMap<String,OntClass> classes = new HashMap<String,OntClass>();
 
-	public ArrayList<Group> start_clustering(ArrayList<Place> places) throws InstantiationException,
+	public ArrayList<Group> start_clustering(HashMap<Integer,Place> places) throws InstantiationException,
 	IllegalAccessException, CloneNotSupportedException, IOException {
 
 
 		findComposite(places);
 
-		ArrayList<Place> candidate_place = new ArrayList<Place>();
+		HashMap<Integer,Place> candidate_place = new HashMap<Integer,Place>();
 
 		ArrayList<Group> group = new ArrayList<Group>();
 		System.out.println("Used class = "+usedClass.size());
 		for (OntClass e :usedClass) {
 			// Split names according with regular expression
-			for (int i=0; i<places.size();i++) {
-				if (contaisSomeClass(places.get(i).getTypes(),e.toString()) && !places.get(i).isUsed()) {
+			for(int i=0;i<places.size();i++){
+				if (places.get(i)!=null && contaisSomeClass(places.get(i).getTypes(),e.toString()) && !places.get(i).isUsed()) {
 					//System.out.println(e.toString());
 					Place candidate = places.get(i);
-					places.remove(candidate);
-					candidate_place.add(candidate);
-				}else if(places.get(i).isUsed()){
-					Place candidate = places.get(i);
-					places.remove(candidate);
+					places.remove(i);
+					candidate_place.put(i,candidate);
+				}else if(places.get(i)!=null && places.get(i).isUsed()){
+					places.remove(i);
 				}
 			}
 			System.out.println("Candidate_place: "+candidate_place.size());
@@ -65,11 +64,7 @@ public class Star_algorithm {
 			candidate_place.clear();
 			System.out.println(e+"    "+group.size()+"  "+places.size());
 		}
-		if(places.size()>0){
-			for(Place p:places){
-				System.out.println(p.getLocation()+"  "+p.getTypes().size());
-			}
-		}
+
 		while(places.size()>0){
 			agroup(places, group);
 		}
@@ -89,12 +84,11 @@ public class Star_algorithm {
 		return false;
 	}
 
-	private void agroup(ArrayList<Place> candidate_place, ArrayList<Group> group) throws CloneNotSupportedException {
-		while (candidate_place.size() > 0) {
-			Random rand = new Random();
-			Place centroid = candidate_place.get(rand.nextInt(candidate_place.size())); // get some centroid to start matching
-
-			candidate_place.remove(centroid);// remove centroid from candidate places
+	private void agroup(HashMap<Integer,Place> candidate_place, ArrayList<Group> group){
+		while (candidate_place.size() > 0) {			
+			int index =  lookForGoldStandart(candidate_place); // get some centroid to start matching
+			Place centroid = candidate_place.get(index);
+			candidate_place.remove(index);// remove centroid from candidate places
 
 			Group group_created = clustering_using_start(candidate_place,centroid);
 			//System.out.println(candidate_place.size());
@@ -110,6 +104,20 @@ public class Star_algorithm {
 		}
 	}
 
+	private int  lookForGoldStandart(HashMap<Integer,Place> candidate_place) {
+		Random rand = new Random();
+		Set<Integer> key = candidate_place.keySet();
+		Iterator it = key.iterator();
+		while(it.hasNext()){
+			int index = (Integer) it.next();
+			if(candidate_place.get(index).isGoldStandart())
+				return index;
+		}
+		Iterator it2 = key.iterator();
+		int index = (Integer) it2.next();
+		return index;
+	}
+
 	private boolean forward(List<String> tempArrayList, List<String>group){
 		Bigram_Similarity bigram = new Bigram_Similarity();
 
@@ -121,7 +129,7 @@ public class Star_algorithm {
 		set2.addAll(group);
 		group = new ArrayList<String>(set);
 
-		
+
 		for(String t: tempArrayList){
 			for(String p:group ){
 				if(verific_county(bigram,new County(t), new County(p))){
@@ -208,8 +216,8 @@ public class Star_algorithm {
 		return (OntModel) m.read(in, "");
 	}
 
-	public Group clustering_using_start(ArrayList<Place> candidate_place,
-			Place centroid) throws CloneNotSupportedException {
+	public Group clustering_using_start(HashMap<Integer,Place> candidate_place,
+			Place centroid){
 
 		// CLUSTERING!!! using star
 		centroid.setUsed(true);
@@ -219,17 +227,19 @@ public class Star_algorithm {
 		Bigram_Similarity jaccard = new Bigram_Similarity(); // try resolve matching using jaccard similarity metric
 
 		for (int i = 0; i < candidate_place.size(); i++) {
-			double value = jaccard.stringSimilarityScore(jaccard.bigram(centroid.getNameFilter()),jaccard.bigram(candidate_place.get(i).getNameFilter()));
-			boolean county = verific_county(jaccard,candidate_place.get(i).getCounty(),centroid.getCounty());			
-			if (value >= similarity	&& county) {
-				Place candidate = candidate_place.get(i);
-				candidate.setUsed(true);
-				candidate_place.remove(candidate); //remove place similar  from list
-				local_group.getPlaces().add(candidate); //add similar place in a new group
-				if(candidate.getCounty()!=null)
-					local_group.getCounty().add(candidate.getCounty().getNome());
-				
-			}			
+			if(candidate_place.get(i)!=null){
+
+				double value = jaccard.stringSimilarityScore(jaccard.bigram(centroid.getNameFilter()),jaccard.bigram(candidate_place.get(i).getNameFilter()));
+				boolean county = verific_county(jaccard,candidate_place.get(i).getCounty(),centroid.getCounty());			
+				if (value >= similarity	&& county) {
+					Place candidate = candidate_place.get(i);
+					candidate.setUsed(true);
+					candidate_place.remove(i); //remove place similar  from list
+					local_group.getPlaces().add(candidate); //add similar place in a new group
+					if(candidate.getCounty()!=null)
+						local_group.getCounty().add(candidate.getCounty().getNome());
+				}			
+			}
 		}
 
 		return local_group;
@@ -258,7 +268,7 @@ public class Star_algorithm {
 		return classes;
 	}
 
-	private void findComposite(ArrayList<Place> places) throws CloneNotSupportedException {
+	private void findComposite(HashMap<Integer,Place> places) throws CloneNotSupportedException {
 		if(model==null)
 			model = loadOntology();
 		ExtendedIterator<OntClass> iter = model.listClasses();
@@ -315,7 +325,7 @@ public class Star_algorithm {
 	public List<OntClass> verifyContainClass(List<OntClass> used,List<OntClass> test){
 		List<OntClass> temp = new ArrayList<OntClass>();
 
-		if(temp.size()==0)
+		if(used.size()==0)
 			test.add(classes.get("feature"));
 		for(OntClass t: test){
 			if(!used.contains(t)){
@@ -325,5 +335,4 @@ public class Star_algorithm {
 		return temp;
 	}
 
-	
 }

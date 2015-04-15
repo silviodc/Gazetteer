@@ -1,28 +1,5 @@
 package communicate_with_other_data_source;
 
-import TAD.County;
-import TAD.Place;
-import analyze_geographical_coordinates.Out_Polygon;
-import cluster.Bigram_Similarity;
-
-import com.bbn.openmap.geo.Geo;
-import com.bbn.openmap.geo.OMGeo.Polygon;
-import com.hp.hpl.jena.ontology.OntClass;
-import com.hp.hpl.jena.ontology.OntModel;
-import com.hp.hpl.jena.ontology.OntModelSpec;
-import com.hp.hpl.jena.query.QueryExecution; 
-import com.hp.hpl.jena.query.QueryExecutionFactory; 
-import com.hp.hpl.jena.query.QuerySolution;
-import com.hp.hpl.jena.query.ResultSet;
-import com.hp.hpl.jena.rdf.model.Literal;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.rdf.model.RDFNode;
-import com.hp.hpl.jena.sparql.engine.http.QueryExceptionHTTP;
-
-
-import com.hp.hpl.jena.util.FileManager;
-import com.hp.hpl.jena.util.iterator.ExtendedIterator;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -31,9 +8,27 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import TAD.County;
+import TAD.Place;
+import analyze_geographical_coordinates.Out_Polygon;
+import cluster.Bigram_Similarity;
+
+import com.bbn.openmap.geo.Geo;
+import com.bbn.openmap.geo.OMGeo.Polygon;
+import com.hp.hpl.jena.ontology.OntModel;
+import com.hp.hpl.jena.ontology.OntModelSpec;
+import com.hp.hpl.jena.query.QueryExecution;
+import com.hp.hpl.jena.query.QueryExecutionFactory;
+import com.hp.hpl.jena.query.QuerySolution;
+import com.hp.hpl.jena.query.ResultSet;
+import com.hp.hpl.jena.rdf.model.Literal;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.rdf.model.RDFNode;
+import com.hp.hpl.jena.sparql.engine.http.QueryExceptionHTTP;
+import com.hp.hpl.jena.util.FileManager;
+
 public class DBpedia {
 	
-	@SuppressWarnings("finally")
 	public boolean DBpediaWorks() { 
 		String service = "http://dbpedia.org/sparql"; 
 		String query = "ASK { }";
@@ -53,27 +48,12 @@ public class DBpedia {
 	
 	public ArrayList<Place> pull_query() throws NumberFormatException, FileNotFoundException, IOException{
 		
-		Out_Polygon out = new Out_Polygon();
-		Polygon poly = out.buildPolygon("files"+File.separator+"Amazonas_polygon.txt");
+	
+		Polygon poly = Out_Polygon.buildPolygon("files"+File.separator+"Amazonas_polygon.txt");
 		String query="";
         ArrayList<Place> dbpedia_places = new ArrayList<Place>();
     
-        query = " PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>"
-	        			+ " PREFIX dbo: <http://dbpedia.org/ontology/> "
-	        			+ " PREFIX dcterms: <http://purl.org/dc/terms/> "
-	        			+ " PREFIX dbpedia-owl:<http://dbpedia.org/ontology/>  "
-	        			+ " PREFIX dbpedia:<http://dbpedia.org/resource/>"
-	        			+ " PREFIX state:<http://pt.dbpedia.org/resource/> "
-	        			+ " PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-	        			+ " PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> "
-	        			+ " PREFIX foaf:<http://xmlns.com/foaf/0.1/> "
-	        			+ " SELECT * WHERE  {"
-	        			+ " ?s geo:lat ?lat ."
-	        			+ " ?s geo:long ?long ."
-	        			+ " ?s foaf:name ?name ."
-	        			+ " ?s dbpedia-owl:country <http://dbpedia.org/resource/Brazil>. }";
-	        	query(query, dbpedia_places,poly);		
-   
+        
 		query = "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
 				+ "PREFIX dbpedia-owl:<http://dbpedia.org/ontology/> "
 				+ "PREFIX foaf:<http://xmlns.com/foaf/0.1/> "
@@ -162,7 +142,7 @@ public class DBpedia {
 		
 	}
 	
-	public void getMunicipalityFromAmazonas(ArrayList<Place> places){
+	public void getMunicipalityFromAmazonas(ArrayList<Place> places) throws Exception{
 		List<County> countys = new ArrayList<County>();
 		String service="http://dbpedia.org/sparql";
 		String query = "PREFIX geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> "
@@ -190,12 +170,25 @@ public class DBpedia {
 				county.setPoint(new Geo(latitude.getFloat(),longitude.getFloat()));
 				countys.add(county);
 		}
+		
 		Bigram_Similarity bg = new Bigram_Similarity();
+		List<County> IBGEcounty = Build_Polygons_using_IBGE.loadMunicipality();
+		
 		for(int i=0;i<countys.size();i++){
+			for(int j=0;j<IBGEcounty.size();j++){
+				if(bg.stringSimilarityScore(bg.bigram(IBGEcounty.get(j).getNome()), bg.bigram(countys.get(i).getNome()))>0.7){
+					IBGEcounty.get(j).setURI(countys.get(i).getURI());
+					IBGEcounty.get(j).setPoint(countys.get(i).getPoint());
+				}
+					
+			}
+		}
+		
+		for(int i=0;i<IBGEcounty.size();i++){
 			for(int j=0;j<places.size();j++){
 				if(places.get(j).getCounty()!=null && places.get(j).getCounty().getNome()!=null && !places.get(j).getCounty().getNome().equals(""))
-					if(bg.stringSimilarityScore(bg.bigram(places.get(j).getCounty().getNome()), bg.bigram(countys.get(i).getNome()))>0.7)
-						places.get(j).setCounty(countys.get(i));
+					if(bg.stringSimilarityScore(bg.bigram(places.get(j).getCounty().getNome()), bg.bigram(IBGEcounty.get(i).getNome()))>0.7)
+						places.get(j).setCounty(IBGEcounty.get(i));
 			}
 		}
 	}

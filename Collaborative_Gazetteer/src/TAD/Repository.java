@@ -89,7 +89,8 @@ public class Repository implements Serializable {
 			float x =transformFloat(data[3]);
             float y = transformFloat(data[4]);            
 			//constructor (int year, String location, String nameFilter, String county, Geo geometry)
-             Place ptemp = new Place(Integer.parseInt(data[0]),data[1]," ",c, new Geo(x,y),this.name,index);
+            Geo geometry = new Geo(x,y);
+             Place ptemp = new Place(Integer.parseInt(data[0]),data[1]," ",c,geometry,this.name,index);
              ptemp.setRepository(this.name);
 			 places.add(ptemp);
 			 }else{
