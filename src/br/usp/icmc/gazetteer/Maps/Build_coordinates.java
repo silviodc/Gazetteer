@@ -32,7 +32,7 @@ public class Build_coordinates {
 
 	public void KMLfile(OMGeo.Polygon geo, ArrayList<Place> places,String name) throws FileNotFoundException, UnsupportedEncodingException, IOException{
 	       System.out.println("Building KML file");
-	       File aq1 = new File(name+".kml").getAbsoluteFile(); 
+	       File aq1 = new File("files"+File.separator+"results"+File.separator+"Original_"+name+".kml").getAbsoluteFile(); 
 	       BufferedWriter amostg = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(aq1),"UTF-8"));  
 	       String template ="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
 	       "<kml xmlns=\"http://www.opengis.net/kml/2.2\">  <Document> \n";
