@@ -1,4 +1,4 @@
-/*
+/**
  *  This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -17,17 +17,14 @@ package br.usp.icmc.gazetteer.PrepareSampleToCheck;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Random;
 
 import br.usp.icmc.gazetteer.TAD.Group;
 import br.usp.icmc.gazetteer.TAD.Place;
-import br.usp.icmc.gazetteer.TAD.Statistics;
 
 public class Random_Sample {
 	
@@ -58,7 +55,7 @@ public class Random_Sample {
 	}
 	
 	public void random_inner_Group(ArrayList<Group> group, int num,String simi) throws IOException{
-		  File file = new File("Inner_Group_sample"+simi+".txt");
+		  File file = new File("files"+File.separator+"results"+File.separator+"Inner_Group_sample"+simi+".txt");
 		  boolean used [] = new boolean[group.size()];
 	      // creates the file
 	      file.createNewFile();
@@ -88,7 +85,7 @@ public class Random_Sample {
 	
 	public void random_Centroid(ArrayList<Group> group, int num,String simi) throws IOException{
 		  boolean used [] = new boolean[group.size()];
-		  File file = new File("Centroid_sample"+simi+".txt");
+		  File file = new File("files"+File.separator+"results"+File.separator+"Centroid_sample"+simi+".txt");
 	      // creates the file
 	      file.createNewFile();
 	      // creates a FileWriter Object
@@ -110,7 +107,7 @@ public class Random_Sample {
 	public void checkAmoutCorrectBeforeSWI(String local) throws IOException {
 		   int wrong=0,correct=0;
 		   String path = new File(local).getAbsolutePath();
-		   FileWriter writer = new FileWriter(path);
+		   FileWriter writer = new FileWriter("files"+File.separator+"results"+File.separator+path);
 		   BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path), "UTF-8"));
 		     while(br.ready()){  
 	            String linha = br.readLine();  
@@ -132,7 +129,7 @@ public class Random_Sample {
 	      // creates a FileWriter Object
 	      FileWriter writer = new FileWriter(file);
 	      
-		String polyPath = new File("files"+File.separator+name).getAbsolutePath();
+		String polyPath = new File("files"+File.separator+"results"+File.separator+name).getAbsolutePath();
 		BufferedReader read =  new BufferedReader(new InputStreamReader(new FileInputStream(polyPath), "UTF-8"));
         String line="";
         String polygon="";

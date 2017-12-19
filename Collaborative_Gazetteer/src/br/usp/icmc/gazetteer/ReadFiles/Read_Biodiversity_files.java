@@ -1,18 +1,17 @@
-/*    This file is part of SWI Gazetteer.
-
-    SWI Gazetteer is free software: you can redistribute it and/or modify
+/**
+ *  This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    SWI Gazetteer is distributed in the hope that it will be useful,
+    This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with SWI Gazetteer.  If not, see <http://www.gnu.org/licenses/>.
-    */
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 package br.usp.icmc.gazetteer.ReadFiles;
 
 import java.io.BufferedReader;
@@ -63,7 +62,7 @@ public class Read_Biodiversity_files {
 
 	public void start_read() throws InterruptedException, IOException, ParserConfigurationException, SAXException{
 	
-	    String path = new File("files"+File.separator+"Archives_location.xml").getAbsolutePath();
+	    String path = new File("files"+File.separator+"configFiles"+File.separator+"Archives_location.xml").getAbsolutePath();
 	 	read_repository(path);
 	 	for(Repository r:repository){
 	 		r.build_polygon_to_repository();
@@ -163,7 +162,7 @@ public class Read_Biodiversity_files {
     }
 	
 	public void read_Expression()  throws FileNotFoundException, IOException, ParserConfigurationException, SAXException {
-		  	String path = new File("files"+File.separator+"toponimos.xml").getAbsolutePath();
+		  	String path = new File("files"+File.separator+"configFiles"+File.separator+"toponimos.xml").getAbsolutePath();
 			File fXmlFile = new File(path);
 	        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 	        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();

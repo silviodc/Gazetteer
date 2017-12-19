@@ -1,18 +1,17 @@
-/*    This file is part of SWI Gazetteer.
-
-    SWI Gazetteer is free software: you can redistribute it and/or modify
+/**
+ *  This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    SWI Gazetteer is distributed in the hope that it will be useful,
+    This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with SWI Gazetteer.  If not, see <http://www.gnu.org/licenses/>.
-    */
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 package br.usp.icmc.gazetteer.ReadFiles;
 import java.io.BufferedReader;
@@ -27,14 +26,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
-import br.usp.icmc.gazetteer.TAD.Group;
-import br.usp.icmc.gazetteer.TAD.Place;
-import br.usp.icmc.gazetteer.TAD.Repository;
-
-import com.bbn.openmap.geo.Geo;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
@@ -43,13 +35,17 @@ import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 
+import br.usp.icmc.gazetteer.TAD.Group;
+import br.usp.icmc.gazetteer.TAD.Place;
+import br.usp.icmc.gazetteer.TAD.Repository;
+
 public class Transform_and_Filter {
 
 	
 	
 	public void transform_Repository_to_Place(ArrayList<Repository> repository) throws FileNotFoundException, IOException{
 		
-		 ArrayList<String> stop_words = read_stop_words("files"+File.separator+"stop_words.txt");
+		 ArrayList<String> stop_words = read_stop_words("files"+File.separator+"stopWords"+File.separator+"stop_words.txt");
 		 
 		 for(Repository r: repository){
 			 remove_stop_word(r.getPlaces(),stop_words,r.getName());
@@ -100,7 +96,7 @@ public class Transform_and_Filter {
 			// String ontologyIRI =
 			// "https://raw.githubusercontent.com/silviodc/Gazetteer/master/Collaborative_Gazetteer/files/Gazetteer_v_1_1.owl";
 
-			String path = new File("files" + File.separator + "Gazetteer_v_1_1.owl")
+			String path = new File("files"+ File.separator +"ontology" + File.separator + "Gazetteer_v_1_1.owl")
 			.getAbsolutePath();
 			OntModel m = ModelFactory.createOntologyModel();
 			InputStream in = FileManager.get().open(path);

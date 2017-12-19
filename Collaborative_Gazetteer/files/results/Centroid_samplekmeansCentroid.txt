@@ -1,0 +1,94 @@
+campus do inpa campus do inpa próximo a casa do diretor    2147483647   Geo[-3.0833330154418945,-59.98333358764648]
+igarapé da cachoeira alta do tarumã terra firme igarapé da cachoeira alta do tarumã terra firme solo arenoso capoeira    2147483647   Geo[-3.1166670322418213,-60.01666641235351]
+igarapé da cachoeira alta solo arenoso úmido de igarapé da cachoeira alta solo arenoso úmido descampado    2147483647   null
+reserva florestal ducke estrada do acará    2147483647   Geo[-2.883332967758179,-59.966667175292976]
+north part of northern mountain near peak    1984   Geo[0.8500000238418579,-63.349998474121094]
+estrada manausporto velho estrada entre o rio castanho e o rio tupana em direção a porto velho    2147483647   null
+rebio uatumã grade do ppbio baixio área encharcada beira de igarapé solo arenoargiloso a ca 30 m do piquete lo02p600 ca 2 m da planta de marcação 668    2147483647   null
+tapereira  são tomé tapereira cemetary and old fort and são tomé and vicinity campina with rock gneiss    1979   Geo[-0.41666701436042786,-64.41666412353516]
+pnj parque nacional do jaú rio carabinani médio jaú margem esquerda    2147483647   Geo[-2.299999952316284,-64.6500015258789]
+rio xié afluente do rio negro    2147483647   Geo[-0.33333298563957214,-67.41666412353516]
+pn do pico da neblina platô 5 km do pico da neblina matas nebulares    2147483647   null
+low forest to scrub on rocky and sandy soil granitic hill north of tunuí village    2008   Geo[-1.399999976158142,-68.1500015258789]
+br 307 along br 307 n from são gabriel da cachoeira to cucuí just n of igarapé iámirim near jerusalém primary forest    2147483647   Geo[0.3333329856395721,-66.58333587646484]
+campus universitário    2147483647   Geo[-3.1008329391479497,-59.97388839721679]
+rebio uatumã entorno ilha na represa uatumã 2 km da base waba    2147483647   null
+cemitério são joão batista boulevard amazonas em frente ao cemitério são joão batista    2147483647   null
+vila do apuy vicinal sulina 8 km mata de terra firme    2147483647   null
+zf3 km 41    1996   Geo[-2.4572219848632812,-59.75]
+br174 km 44 eest zf 02 eestinpa  estação experimental de silvicultura tropical do instituto nacional de pesquisa da amazôniainpa km 45 da rodovia manausboa vista lago janauari    2147483647   null
+reserva florestal ducke adolpho ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
+embrapa research station at kilometer 54 of the br174 highway lowland seasonally wet terrafirme rainforest in capoeira on the bark of vismia cayemensis jacq pers    2001   Geo[-2.4999999999999996,-60.01666641235351]
+estação ecológica de mamirauá reserva de desenvolvimento sustentável de mamirauá    2147483647   null
+estrada manaus  boa vista km 45 ramal zf2  km 34 ambiente baixio solo úmidos podzol hidromórfico área de estudo do projeto lba    2147483647   Geo[-2.0000000000000004,-59.99999999999999]
+serra do curicuriarierva terrestre    2147483647   null
+planalto do pico 31 de março na cordilheira do pi planalto do pico 31 de março na cordilheira do pico da neblina campina    2147483647   null
+próximo ao aeroporto subbase do projeto quadrícula sb19 xa ponto 02 capoeira baixa de terra firme    2147483647   null
+coletada em uma área de vertente próximo ao lago do dragão n 00º17 240 w 066º 41 081 vegetação esparsa com dossel próximo de oito metros de altura substrato composto de uma camada de solo fina e muitas rochas aparentes rebio morro d    2147483647   null
+vila de balbina    2147483647   Geo[-2.565721988677979,-59.737361907958984]
+distrito agropecuário zf3 ca 90 km n de manaus distrito agropecuário da suframa rodovia br174 km 64 depois 7 km leste na zf3 fazenda porto alegre    1989   Geo[-2.3666670322418213,-58.99999999999999]
+margem direita do rio solimões localidade monte cristo abaixo de jutaí 5 km da margem mata de terra firme terreno ondulado solo argiloarenoso    1986   Geo[-2.71666693687439,-66.75]
+estrada manausitacoatiara km 232 fazenda aruanã    2147483647   null
+estrada manauscaracaraí km 39 reserva experimental de silvicultura tropical    2147483647   null
+25 km n of manausitacoatiara road at km 79 near rio preto da eva    2147483647   null
+14 km nw of manaus near tarumã waterfall 14 km nw of manaus near tarumã waterfall    2147483647   null
+inpa arredores da reserva 1207 inpa arredores da 1207    2147483647   null
+margin of igapó açu at crossing with br319 manausporto velho road    2147483647   null
+vila trocaris    2003   Geo[-3.9137499332427987,-62.84981918334961]
+ilha aramaçá almost opposite tabatinga    2147483647   null
+distrito agropecuário zf3 distrito agropecuário 90 km nne de manaus reserva 1501 km 41 projeto dinâmica biológica de fragmento florestais mata de terra firme entre 50125 m de altura    2147483647   Geo[-2.407222032546997,-59.71666717529297]
+campus do inpa inpa estrada do aleixo km 3    2147483647   null
+br 230 rod transamazônica a 94 km de humaitá reserva indígena dos tenharim    1985   Geo[-6.9166669845581055,-62.24999999999999]
+campus do inpa sede do inpa estrada do aleixo km 3 atrás do pavilhão de preparação de material botânico    2147483647   null
+highway of between humaitá and porto velho 60 km s of humaitá at highway crossing of são joão stream igapó forest on bank of clearwater stream immediately upstream of higway conopy open    2147483647   null
+am10 km 109 picada x estrada manausitacoatiara km 109 picada x    2147483647   null
+around ipeaao experimental station secondary forest    2147483647   null
+serra de aracá summit of central massif of serra aracá open scrub    1985   Geo[0.8500000238418579,-63.28333282470703]
+serra de aracá serra aracá terra firme open forest deep litter dry    2147483647   null
+reserva florestal ducke próximo a entrada da reserva adolpho ducke    1994   Geo[-2.883332967758179,-59.966667175292976]
+coletada na estrada de camanaus em área de terra firme presente na campinarana em solo espodossolo com textura muito arenosa    2147483647   Geo[-0.15577800571918485,-66.95841979980469]
+distrito agropecuário zf3 distrito agropecuário da suframa rodovia br 174 km 64 then 23 km east on zf3 fazenda esteio former tropical evergreen forest weeds around camp colosso on hardpacked clay mostly unshaded    1992   Geo[-2.416666984558105,-59.866668701171875]
+praia camaleão    2147483647   null
+estrada manausitacoatiara km 71    2147483647   null
+estrada que dá acesso a estação de desmatamento margem direita do rio uatumã acima da barragem mata de campinarana solo arenoso    2147483647   null
+campus do inpa campus do inpa área de vegetação secundária próximo ao prédio do gpa    2147483647   null
+lago caruacá igarapé pauleta rio iça lago caruacá igarapé pauleta margin of creek    2147483647   null
+rio solimões    2147483647   Geo[-3.3333330154418945,-60.16666793823242]
+serra de aracá serra do aracá face norte topo da encosta floresta ombrófila densa alto montana dossel homogêneo de 810 m de altura solo arenoso de cor negra com alto teor orgânico    2001   Geo[0.9483330249786376,-63.391666412353516]
+igarapé da cachoeira alta do tarumã terra firme igarapé da cachoeira alta do tarumã terra firme solo arenoso capoeira grossa    2147483647   null
+road humaitá to lábrea km 80 between rios ipixuna and itaparana    2147483647   null
+campus do inpa estação de silvicultura do hotel tropical inpa solo pobre arenoso vegetação tipo caatinga amazônica    2147483647   null
+igarapé da cachoeira alta do tarumã terreno firme igarapé da cachoeira alta do tarumã terreno firme arenoso úmido capoeira fechada    2147483647   null
+río negro isla de marapata costa de xiborena frente a la refinería de manaus crece sobre el barranco a orilla del río o en igapó    2147483647   null
+lago do castanhomirim igarapé panelão    2147483647   null
+rio purus lago preto 2 km north of lábrea    2147483647   null
+estrada manauscaracaraí km 130 vegetação de campina    2147483647   null
+reserva de desenvolvimento sustentável de mamirauá    2147483647   Geo[-4.846020221710205,-60.529388427734375]
+ramal que dá acesso a presidente figueiredo a balbina    2147483647   null
+reserva biológica walter alberto egler    2147483647   null
+rio negro rio ariaú paraná do sumauma acima da ilha das anavilhanas    2147483647   null
+igarapé da cachoeira grande    2147483647   Geo[-3.416666984558106,-60.03333282470703]
+nova prainha    2147483647   null
+road to praia dourada c 10 km nw of manaus    2147483647   null
+ponte da bolívia    2147483647   null
+santo antônio de abonari manauscaracaraí km 220    2147483647   null
+distrito agropecuário zf3 ca 90 km n de manaus distrito agropecuário da suframa rodovia br 174 km 64 depois 7 km leste na zf3 fazenda porto alegre reserva nº 3304 mata de terra firme sobre latosolo amarelo    1992   Geo[-2.3666670322418217,-59.95000076293946]
+paraná do urariá várzea    2147483647   null
+estação experimental de olericultura no km 14 de am 010 em área de mata secundária ou capoeira alta em solo argilosso vermelho amarelo textura arenosa    2001   Geo[-2.0000000000000004,-59.99999999999999]
+igarapé do buião terra firme solo arenoso desca igarapé do buião terra firme solo arenoso descampado    2147483647   Geo[-3.1166670322418213,-60.01666641235351]
+serra de aracá encosta da parte central da serra do aracá sobre pedras de arenito    1984   Geo[0.8166670203208923,-63.31666564941406]
+lago do castanhomirim estrada da petrobrás próximo ao campo de aviação    2147483647   null
+tapuruquara beside road to airport forest on terra firme    2147483647   null
+estrada do aleixo próximo a estaman    2147483647   null
+ilha jacaré    1995   Geo[-2.5999999046325684,-61.150001525878906]
+distrito agropecuário zf3 distrito agropecuário 90 km nne de manaus reserva 1501 km 41    1991   Geo[-2.400000095367432,-59.71666717529297]
+lago queiroz    2003   Geo[-1.8919440507888796,-61.72027969360352]
+capoeira de solo arenoso próximo a aldeia trovão entre paricachoeira e iauretê    2147483647   null
+campo de apodrecimento durabilidade natural da madeira na fazenda experimentalufam  km 40 manauscaracaraí    2147483647   null
+serra do cachimbo base aérea do cachimbo ca 20 km n of the border with mato grosso on cuiabásantarém highway br163 humid tall forest with deep litter on lower slopes of a hill gradually becoming cerrado on ridge top    1983   null
+represa de balbina    1986   Geo[-1.8333330154418948,-59.53333282470703]
+ponte da bolívia ponte da bolívia    2147483647   null
+perimetral norte highway 45 km w of caracaraí fazenda repartimento igarapé repartimento do ajaraní    1984   Geo[-2.016666889190674,-61.46666717529297]
+br17 km 9    2147483647   Geo[-3.1166670322418213,-60.01666641235351]
+campus do inpa aleixo nova sede do inpa perto da casa do diretor    2147483647   null
+05 km de porto urucu lado direito da estrada que vai para ruc3    2147483647   null

@@ -1,4 +1,4 @@
-/*
+/**
  *  This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -22,15 +22,10 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.logging.Level;
 
-import br.usp.icmc.gazetteer.TAD.Group;
-import br.usp.icmc.gazetteer.TAD.Place;
-import br.usp.icmc.gazetteer.cluster.Star_algorithm;
 
 import com.bbn.openmap.geo.Geo;
 import com.hp.hpl.jena.datatypes.TypeMapper;
-import com.hp.hpl.jena.graph.Node;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
@@ -40,6 +35,9 @@ import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
+
+import br.usp.icmc.gazetteer.TAD.Group;
+import br.usp.icmc.gazetteer.TAD.Place;
 
 public class Mapping {
 	
@@ -74,11 +72,11 @@ public class Mapping {
          int total=1;           
          int coords=0;
 	     rebuildModel();
-	     Star_algorithm.fLogger.log(Level.SEVERE,group.size()+" <<< total Grupos >>>>>"+total);
+	     System.out.println(group.size()+" <<< total Grupos >>>>>"+total);
          for(Group rep:group){
         //	
         	  	 Place p = rep.getCentroid();
-        	    // Star_algorithm.fLogger.log(Level.SEVERE,""+p.getLocation()+""+p.getCounty()+""+p.getGeometry());
+        	    // System.out.println(""+p.getLocation()+""+p.getCounty()+""+p.getGeometry());
         	  	 int date[] = Date(rep.getPlaces());
        	  	  
         	  		 Individual pl1;
@@ -96,15 +94,15 @@ public class Mapping {
 	        			 pl1.addProperty(geoRelation, geo1);
 	        			 total+=2;
 	        		 }
-	        	//	 Star_algorithm.fLogger.log(Level.SEVERE,total+" <<< total RDF");
+	        	//	 System.out.println(total+" <<< total RDF");
    		 }
-         Star_algorithm.fLogger.log(Level.SEVERE,group.size()+" <<< total Grupos >>>>>"+total);
+         System.out.println(group.size()+" <<< total Grupos >>>>>"+total);
          writeNtriples("triples");
          classes.clear();
          model.close();
      }
 		
-	private int[] Date(ArrayList<Place> places) {
+	private int[] Date(List<Place> places) {
 		places.remove(null);
 		if(places.size()<=0)
 			return null;
@@ -126,7 +124,7 @@ public class Mapping {
 		public void writeNtriples(String name){
 			
 			 try {
-				OutputStream out = new FileOutputStream(name+".nt");
+				OutputStream out = new FileOutputStream("files"+File.separator+"results"+File.separator+name+".nt");
 				model.write(out,"N-TRIPLES");
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
@@ -159,7 +157,7 @@ public class Mapping {
 		 String ponto ="";
 		 if(gold){
 			 ponto = wkt;
-			// Star_algorithm.fLogger.log(Level.SEVERE,"GOLLDD STANDART!!!");
+			// System.out.println("GOLLDD STANDART!!!");
 		 }else{
 			 ponto ="POINT ("+geometry.toString().replaceAll("Geo", "").replace("[", "").replace("]", "").replaceAll(",", " ")+");"+WktLiteral.CRS84;
 		 }
@@ -233,7 +231,7 @@ public class Mapping {
 		 return coords;
 	}
 	private OntModel OpenConnectOWL() {
-			String path = new File("files" + File.separator + "Gazetteer_v_1_1.owl")
+			String path = new File("files" + File.separator + "ontology" + File.separator + "Gazetteer_v_1_1.owl")
 			.getAbsolutePath();
 			OntModel mod = ModelFactory
 					.createOntologyModel(OntModelSpec.OWL_MEM_RULE_INF);

@@ -1,38 +1,41 @@
 package br.usp.icmc.gazetteer.Clustering;
-/*    This file is part of SWI Gazetteer.
+/**
+ *  This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-SWI Gazetteer is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-SWI Gazetteer is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with SWI Gazetteer.  If not, see <http://www.gnu.org/licenses/>.
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.InputStream;
 import java.text.Normalizer;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeSet;
 
-import br.usp.icmc.gazetteer.TAD.County;
-import br.usp.icmc.gazetteer.TAD.Group;
-import br.usp.icmc.gazetteer.TAD.Place;
-import br.usp.icmc.gazetteer.cluster.Similarity;
-import weka.clusterers.SimpleKMeans;
 
+import com.aliasi.cluster.Clusterer;
+import com.aliasi.cluster.KMeansClusterer;
+import com.aliasi.cluster.SingleLinkClusterer;
+import com.aliasi.tokenizer.IndoEuropeanTokenizerFactory;
+import com.aliasi.tokenizer.TokenizerFactory;
+import com.aliasi.util.Distance;
+import com.aliasi.util.Strings;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
@@ -40,27 +43,36 @@ import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 
+import br.usp.icmc.gazetteer.Similarity.Metrics;
+import br.usp.icmc.gazetteer.TAD.County;
+import br.usp.icmc.gazetteer.TAD.Group;
+import br.usp.icmc.gazetteer.TAD.Place;
+
+
+/**
+ * <p>The Cluster is done using the library: https://mvnrepository.com/artifact/de.julielab/aliasi-lingpipe</p>
+ * 
+ * <p>Web site: http://alias-i.com/lingpipe/index.html</p>
+ * 
+ * <p><li>To do so, 
+ *  1) We build small groups of data:
+ *  <ul>1.1) Associate the annotation labels in our ontology to biodiversity data.</ul>
+ *  <ul>1.2) Verify if the municipality mentioned is the same of IBGE or wasn't informed</ul>
+ *  <ul>2) Cluster the data</ul></li>
+ */
 public class GazetterCluster {
 	private static OntModel model;
 	private static List <OntClass> usedClass = new ArrayList<OntClass>();
 	private static HashMap<String,OntClass> classes = new HashMap<String,OntClass>();
+	private static int epochs=10;
 
-	private static final Random random = new Random();
-	public  List<Place> allPoints;
-	public final int k;
-	private SimpleKMeans kmeans = new SimpleKMeans();
 
-	/**@param pointsFile : the csv file for input points
-	 * @param k : number of clusters
-	 */
-	public GazetterCluster( ) {}
+	public GazetterCluster() {}
 
 	public static OntModel loadOntology() {
-		// String ontologyIRI =
-		// "https://raw.githubusercontent.com/silviodc/Gazetteer/master/Collaborative_Gazetteer/files/Gazetteer_v_1_1.owl";
 
-		String path = new File("files" + File.separator + "Gazetteer_v_1_1.owl")
-		.getAbsolutePath();
+		String path = new File("files" + File.separator +"ontology"+ File.separator + "Gazetteer_v_1_1.owl")
+				.getAbsolutePath();
 		OntModel m = ModelFactory.createOntologyModel();
 		InputStream in = FileManager.get().open(path);
 		if (in == null)
@@ -69,13 +81,17 @@ public class GazetterCluster {
 		return (OntModel) m.read(in, "");
 	}
 
-	public static void findComposite(HashMap<Integer,Place> places) throws CloneNotSupportedException {
+	public static void findComposite(List<Place> places) throws CloneNotSupportedException {
+
+
 		if(model==null)
 			model = loadOntology();
+
+
 		ExtendedIterator<OntClass> iter = model.listClasses();
 		while (iter.hasNext()) {
 			OntClass thisClass = (OntClass) iter.next();
-			ExtendedIterator label = thisClass.listLabels(null);
+			ExtendedIterator<?> label = thisClass.listLabels(null);
 			while (label.hasNext()) {
 				RDFNode thisLabel = (RDFNode) label.next();
 				if(thisLabel.isLiteral()){
@@ -85,7 +101,6 @@ public class GazetterCluster {
 					labl = labl.replaceAll("^^", "");
 					if(labl.contains("^^"))
 						labl = labl.substring(0, labl.length()-2);
-					//	fLogger.log(Level.SEVERE,(labl);
 					classes.put(labl, thisClass);
 				}
 			}
@@ -110,7 +125,6 @@ public class GazetterCluster {
 		usedClass.addAll(verifyContainClass(usedClass,cl));
 		cl.clear();
 		classes.clear();
-		//classesStartAlgorithm();
 
 	}
 	public static List<String> getManyTypes(List<OntClass> test){
@@ -135,58 +149,98 @@ public class GazetterCluster {
 		}
 		return temp;
 	}
-	
-	private static boolean verific_county( County county, County county1) {
-		Similarity jaccard = new Similarity();
+
+	private static boolean verific_county( County county, County county1, String method) {
+		Metrics metric = new Metrics(method);
 		if (county == null || county1 == null || county1.getNome().equals("")	|| county1.getNome().equals("n�o informado") || county.getNome().equals(" ")
 				|| county1.getNome().equals(" ") || county.getNome().equals("n�o informado")) {
 			return true;
 		}else{
-			double value = jaccard.stringSimilarityScore(jaccard.bigram(county1.getNome()),jaccard.bigram(county.getNome()));	
-			if(value>=0.7)
+			double value = metric.getSimilarity(county.getNome(), county.getNome());	
+			if(value>=0.6)
 				return true;
 		}
 		return false;
 	}
-	
-	public static boolean agroup(FileWriter writer,ArrayList<Place> all_place,ArrayList<Group> group1) throws IOException{
+
+	public boolean agroup(FileWriter writer,Set<Place> all_place,List<Group>  group1,String method, String cluster) throws Exception{
+
+		if(all_place.size()<2)
+			return false;
+
 		int kvalue = (int) Math.sqrt(all_place.size()/2);
 		if(kvalue<2)
 			kvalue=2;
-		if(all_place.size()>2){
-			GazetterCluster kMeans = new GazetterCluster(all_place,kvalue);
-			List<GazetterCluster> pointsClusters = new ArrayList<GazetterCluster>();
-			pointsClusters.addAll(kMeans.getPointsClusters());
-			for (int i = 0 ; i < kMeans.k; i++){
-				writer.write("Cluster " + i + ": " + pointsClusters.get(i).getCentroid().getLocation()+"\n");
-				Group p = new Group();
-				p.setRepository(pointsClusters.get(i).getCentroid().getRepository());
-				p.setCentroid(pointsClusters.get(i).getCentroid());
-				for(int j=0;j<pointsClusters.get(i).getPoints().size();j++){
-					if(pointsClusters.get(i).getPoints().get(j).getCounty()!=null)
-					writer.write("\t\t\t" + pointsClusters.get(i).getPoints().get(j).getLocation()+" Municipality: "+pointsClusters.get(i).getPoints().get(j).getCounty().getNome()+" Geo: "+pointsClusters.get(i).getPoints().get(j).getGeometry()+" id: "+pointsClusters.get(i).getPoints().get(j).getID()+"\n");
-					else
-						writer.write("\t\t\t" + pointsClusters.get(i).getPoints().get(j).getLocation()+" Geo: "+pointsClusters.get(i).getPoints().get(j).getGeometry()+" id: "+pointsClusters.get(i).getPoints().get(j).getID()+"\n");
-					
-				}
-				p.setPlaces((ArrayList<Place>) pointsClusters.get(i).getPoints());
-				kMeans.allPoints.clear();
-				kMeans.pointClusters.clear();
-				group1.add(p);	
-			}//end k means cluster
-			pointsClusters.clear();
-		}else{
-			return false;
+		TokenizerFactory factory = IndoEuropeanTokenizerFactory.INSTANCE;;
+		PlaceFeatureExtractor<Place> extractor = new PlaceFeatureExtractor<Place>(factory);
+
+
+
+		Distance<Place> metrics = new Metrics(method);
+		Clusterer<Place> clustering = null;
+		if(cluster.equalsIgnoreCase("star"))
+			clustering = new SingleLinkClusterer<Place>(metrics);
+		else if(cluster.equalsIgnoreCase("kmeans"))
+			clustering = new KMeansClusterer<Place>(extractor,kvalue,epochs,false,0.1);
+
+
+		if(clustering==null)
+			throw new Exception("A cluster method must to be specified");
+
+		System.out.println("IT CAN TAKE SOME TIME");
+
+		Set<Set<Place>> result = clustering.cluster(all_place);
+		System.out.println(result.size()+" clusters found");
+		for(Set<Place> clusters : result) {
+			Group g = new Group();
+			Place centroid = getMostOccured(clusters);
+			g.setPlaces(clusters);
+			g.setRepository(centroid.getRepository());
+			g.setCentroid(centroid);
+			writer.write("Cluster " + clusters.hashCode() + ": " + g.getCentroid().getLocation()+"\n");
+			for(Place pl : clusters){
+				if(pl.getCounty()!=null)
+					writer.write("\t\t\t" +pl.getLocation()+" Municipality: "+pl.getCounty().getNome()+" Geo: "+pl.getGeometry()+" id: "+pl.getID()+"\n");
+				else
+					writer.write("\t\t\t" + pl.getLocation()+" Geo: "+pl.getGeometry()+" id: "+pl.getID()+"\n");
+
+			}
+			group1.add(g);
 		}
+
 		return true;
 	}
 
-	public static ArrayList<Group> buildKmeans(HashMap<Integer,Place> candidate_place,ArrayList<County>municipality) throws Exception{
-		
+	private Place getMostOccured(Set<Place> clusters) {
+		Map<String,Integer> occurences = new HashMap<>();
+		for(Place p: clusters)
+			if(occurences.containsKey(p.getLocation()))
+				occurences.put(p.getLocation(), occurences.get(p.getLocation())+1);
+			else
+				occurences.put(p.getLocation(), 1);
+
+		int max = Integer.MIN_VALUE;
+		String betterPlace=Strings.EMPTY_STRING;
+		for(Entry<String, Integer> entry:occurences.entrySet()) {
+			if(entry.getValue()>max) {
+				max = entry.getValue();
+				betterPlace = entry.getKey();
+			}
+		}
+
+		for(Place p: clusters)
+			if(p.getLocation().equalsIgnoreCase(betterPlace))
+				return p;
+		return null;
+	}
+
+	public ArrayList<Group> buildCluster(List<Place> candidate_place,ArrayList<County>municipality,String method,String cluster) throws Exception{
+
 		findComposite(candidate_place);
 		ArrayList<Group> group1 = new ArrayList<Group>();
-		File file = new File("kmeans.txt");
-		ArrayList<Place> all_place = new ArrayList<Place>();
+		List<Place> toRemove = new ArrayList<>();
+		File file = new File("files"+File.separator+"results"+File.separator+cluster+"_"+method+".txt");
+		Set<Place> all_place = new HashSet<>();
 		// creates the file
 		file.createNewFile();
 		// creates a FileWriter Object
@@ -196,55 +250,54 @@ public class GazetterCluster {
 			for(int k=0;k<municipality.size();k++){
 				all_place.clear();
 				for(int i=0; i<max;i++) {
-					if (candidate_place.get(i)!=null && verific_county(candidate_place.get(i).getCounty(),municipality.get(k)) && contaisSomeClass(candidate_place.get(i).getTypes(),e.toString())) {
+					if (candidate_place.get(i)!=null && verific_county(candidate_place.get(i).getCounty(),municipality.get(k),method) && contaisSomeClass(candidate_place.get(i).getTypes(),e.toString())) {
 						Place candidate = candidate_place.get(i);
 						all_place.add(candidate);
-						candidate_place.remove(i);
 					}
 				}
-				if(!agroup(writer,all_place,group1)){
-					for(int j=0;j<all_place.size();j++)
-					candidate_place.put(all_place.get(j).getID(), all_place.get(j));
+				candidate_place.removeAll(all_place);
+				if(all_place.size()>0)
+					System.out.println("Trying to cluster: "+all_place.size()+" entries.... OWLClass:"+e.getLocalName()+" Municipality "+municipality.get(k).getNome());
+
+				if(!agroup(writer,all_place,group1,method,cluster)){
+					candidate_place.addAll(all_place);
 				}
+				max = candidate_place.size();
 			}//end municipality
 		}//end classes
-        if(candidate_place.size()>0){
-        	for(int k=0;k<municipality.size();k++){
+		if(candidate_place.size()>0){
+			for(int k=0;k<municipality.size();k++){
 				all_place.clear();
-	        	Set<Integer> iterator = candidate_place.keySet();
-	        	Iterator<Integer> it = iterator.iterator();
-	        	while(it.hasNext()){
-	        		int index = it.next();	        	
-	        		if (candidate_place.get(index)!=null && verific_county(candidate_place.get(index).getCounty(),municipality.get(k))) 
-	        				all_place.add(candidate_place.get(index));
+				Iterator<Place> it = candidate_place.iterator();
+				while(it.hasNext()){
+					Place pl = it.next();	        	
+					if (pl!=null && verific_county(pl.getCounty(),municipality.get(k),method)) 
+						all_place.add(pl);
 				}
-	        	for(int i=0;i<all_place.size();i++)
-	        		candidate_place.remove(all_place.get(i));
-	        	if(!agroup(writer,all_place,group1)){
-					for(int j=0;j<all_place.size();j++)
-					candidate_place.put(all_place.get(j).getID(), all_place.get(j));
+				for(Place p: all_place)
+					candidate_place.remove(p);
+				if(!agroup(writer,all_place,group1,method,cluster)){
+					for(Place p: all_place)
+						candidate_place.remove(p);
 				}
-        	}
-        	all_place.clear();
-        	Set<Integer> iterator = candidate_place.keySet();
-        	Iterator<Integer> it = iterator.iterator();
-        	while(it.hasNext()){
-        		all_place.add(candidate_place.get(it.next()));
-        	}
-        	for(int i=0;i<all_place.size();i++)
-        		candidate_place.remove(all_place.get(i));
-        	if(!agroup(writer,all_place,group1)){
-				for(int j=0;j<all_place.size();j++)
-				candidate_place.put(all_place.get(j).getID(), all_place.get(j));
 			}
-        	
-        }
+			all_place.clear();
+			all_place.addAll(candidate_place);
+
+			for(Place p: all_place)
+				candidate_place.remove(p);
+			if(!agroup(writer,all_place,group1,method,cluster)){
+				for(Place p: all_place)
+					candidate_place.remove(p);
+			}
+
+		}
 		System.out.println("Candidate Place: "+candidate_place.size());
 		writer.close();
 		return group1;
 	}
 
-	
+
 	public static boolean contaisSomeClass(List<String> types, String type){
 		Set<String> set = new TreeSet<String>(String.CASE_INSENSITIVE_ORDER);
 		set.addAll(types);

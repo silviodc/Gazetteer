@@ -1,4 +1,4 @@
-/*
+/**
  *  This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -21,18 +21,10 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-
-
-
-
-
-import java.util.logging.Level;
-
-import br.usp.icmc.gazetteer.TAD.Place;
-import br.usp.icmc.gazetteer.cluster.Similarity;
-import br.usp.icmc.gazetteer.cluster.Star_algorithm;
-
 import com.bbn.openmap.geo.Geo;
+
+import br.usp.icmc.gazetteer.Similarity.Metrics;
+import br.usp.icmc.gazetteer.TAD.Place;
 
 public class Geonames {
 
@@ -43,8 +35,9 @@ public class Geonames {
 	}
 	
 	public void acessGeonames() throws Exception{		
-		String path = new File("files"+File.separator+"geonames.txt").getAbsolutePath();		
-		 BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path), "UTF-8"));
+		String path = new File("files"+File.separator+"trustCoordinates"+File.separator+"geonames.txt").getAbsolutePath();		
+		 @SuppressWarnings("resource")
+		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path), "UTF-8"));
          while(br.ready()){  
             String linha = br.readLine();  
             String values [] = linha.split("\t");
@@ -55,18 +48,18 @@ public class Geonames {
             	geonamesPlaces.get(geonamesPlaces.size()-1).setNameFilter(values[1]);
             	}catch(Exception ex){
             		ex.printStackTrace();
-            		Star_algorithm.fLogger.log(Level.SEVERE,values[1]+" "+geo);
+            		System.out.println(values[1]+" "+geo);
             	}
             }
          }
 	}
 	
-	public void compareGeonames_and_Places(ArrayList<Place> places) throws Exception{
+	public void compareGeonames_and_Places(ArrayList<Place> places, String method) throws Exception{
 		int count=0;
-		Similarity jaccard = new Similarity();
+		Metrics metric = new Metrics(method);
 		for(Place p:geonamesPlaces){
 			for(Place pl:places){
-				if(jaccard.stringSimilarityScore(jaccard.bigram(p.getLocation()), jaccard.bigram(pl.getNameFilter()))>=0.6){
+				if(metric.getSimilarity(p.getLocation(), pl.getLocation())>=0.6){
 					pl.setLocation(p.getLocation());
 					pl.setGeometry(p.getGeometry());
 				
@@ -74,7 +67,7 @@ public class Geonames {
 				}
 			}
 		}
-		Star_algorithm.fLogger.log(Level.SEVERE,"Number locations improved  "+count);
+		System.out.println("Number locations improved  "+count);
 	}
 	 private float transformFloat(String numero) {
 		 	numero = numero.replaceAll(",", ".");

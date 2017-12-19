@@ -1,4 +1,4 @@
-/*
+/**
  *  This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -19,14 +19,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.logging.Level;
+
+import com.bbn.openmap.geo.OMGeo;
 
 import br.usp.icmc.gazetteer.AnalyzeGeographicalCoordinates.Out_Polygon;
 import br.usp.icmc.gazetteer.TAD.Place;
-import br.usp.icmc.gazetteer.TAD.Repository;
-import br.usp.icmc.gazetteer.cluster.Star_algorithm;
-
-import com.bbn.openmap.geo.OMGeo;
 
 public class Count_Coordinates {
 	
@@ -54,7 +51,7 @@ public class Count_Coordinates {
 			}
 			places.remove(0);
 		}
-		Star_algorithm.fLogger.log(Level.SEVERE,"Fez a busca");
+		System.out.println("Fez a busca");
 		places.clear();
 		places =  (ArrayList<Place>) original_places.clone();
 		
@@ -63,11 +60,11 @@ public class Count_Coordinates {
 			tmp[i]= pl.get(i);
 		}
 		Arrays.sort(tmp);
-		Star_algorithm.fLogger.log(Level.SEVERE,"Ordenou");
+		System.out.println("Ordenou");
 		for(int i=0;i<tmp.length;i++){
 			years.add(new Integer[]{tmp[i],0});
 		}
-		Star_algorithm.fLogger.log(Level.SEVERE,"Vai computar os anos... tam("+years.size()+")");
+		System.out.println("Vai computar os anos... tam("+years.size()+")");
 		for(int i=0;i<years.size();i++){
 			int year = years.get(i)[0];
 			int count =0;
@@ -82,7 +79,7 @@ public class Count_Coordinates {
 			}
 			years.get(i)[1]=count;
 		}
-		Star_algorithm.fLogger.log(Level.SEVERE,"Criando a matriz...");
+		System.out.println("Criando a matriz...");
 		int [][] mat = new int [years.size()][2];
 		int i=0;
 		for(Integer[]temp:years){
@@ -95,7 +92,7 @@ public class Count_Coordinates {
     
 	public static void build_csv(int [][] years, String name) throws IOException{
 		
-		File file = new File(name+".csv");
+		File file = new File("files"+File.separator+"results"+File.separator+name+".csv");
 	    // creates the file
 	    file.createNewFile();
 	    // creates a FileWriter Object

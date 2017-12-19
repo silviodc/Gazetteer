@@ -15,18 +15,17 @@
 package br.usp.icmc.gazetteer.AnalyzeGeographicalCoordinates;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-import br.usp.icmc.gazetteer.TAD.Place;
-
 import com.bbn.openmap.geo.Geo;
 import com.bbn.openmap.geo.OMGeo;
 import com.bbn.openmap.geo.OMGeo.Polygon;
+
+import br.usp.icmc.gazetteer.TAD.Place;
 
 public class Out_Polygon {
 	
@@ -66,8 +65,8 @@ public class Out_Polygon {
 	        String line;
 	        ArrayList<Float> p1 =new ArrayList<Float>();
 	        ArrayList<Float> p2 =new ArrayList<Float>();
-	        File arq = new File(path).getAbsoluteFile();
-	        BufferedReader read =  new BufferedReader(new InputStreamReader(new FileInputStream(path), "UTF-8"));
+	        @SuppressWarnings("resource")
+			BufferedReader read =  new BufferedReader(new InputStreamReader(new FileInputStream(path), "UTF-8"));
 	           
 	        while((line = read.readLine())!=null){ 
 	                

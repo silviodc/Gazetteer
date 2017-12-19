@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jump</groupId>
+  <artifactId>b3p</artifactId>
+  <versioning>
+    <versions>
+      <version>5.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20171219165432</lastUpdated>
+  </versioning>
+</metadata>

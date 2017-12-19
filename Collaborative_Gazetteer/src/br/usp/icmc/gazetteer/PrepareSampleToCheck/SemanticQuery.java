@@ -1,4 +1,4 @@
-/*
+/**
  *  This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -17,23 +17,20 @@ package br.usp.icmc.gazetteer.PrepareSampleToCheck;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 
-import br.usp.icmc.gazetteer.AnalyzeGeographicalCoordinates.Out_Polygon;
 
 import com.bbn.openmap.geo.OMGeo;
 import com.bbn.openmap.geo.OMGeo.Polygon;
-import com.hp.hpl.jena.query.Query;
-import com.hp.hpl.jena.query.QueryFactory;
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.Literal;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.sparql.engine.http.QueryEngineHTTP;
+
+import br.usp.icmc.gazetteer.AnalyzeGeographicalCoordinates.Out_Polygon;
 
 public class SemanticQuery {
 	
@@ -52,11 +49,11 @@ public class SemanticQuery {
 				+ " ?instance swi:locality ?local"
 				+ "} ORDER BY(?instance) ";
 		System.out.println(queryString);
-		Query query = QueryFactory.create(queryString) ;
-		QueryEngineHTTP queryExecution=new QueryEngineHTTP(URL_endpoint,query);
-		ResultSet results= queryExecution.execSelect();
-		while(results.hasNext()){
-			QuerySolution soln = results.nextSolution() ;
+		@SuppressWarnings("resource")
+		QueryEngineHTTP result = new QueryEngineHTTP(URL_endpoint, queryString);
+		ResultSet rs = result.execSelect();
+		while(rs.hasNext()){
+			QuerySolution soln = rs.nextSolution() ;
 			RDFNode ontUri = soln.get("?instance") ;
 			Literal nome = soln.get("?local").asLiteral();
 			uris.put(ontUri.toString(),nome.getString());
@@ -74,7 +71,7 @@ public class SemanticQuery {
 	}
 	
 	public void verifyPlacesInsideJauPark(String path) throws IOException{
-		File file = new File("manaus.txt");
+		File file = new File("files"+File.separator+"trustCoordinates"+File.separator+"manaus.txt");
 		FileWriter writer = new FileWriter(file);
 		Out_Polygon out = new Out_Polygon();
 		Polygon p = Out_Polygon.buildPolygon(path);
@@ -91,11 +88,11 @@ public class SemanticQuery {
 				+ " ?instance swi:county ?municipio."
 				+ " FILTER EXISTS { ?instance geo:hasGeometry ?o } }";
 		System.out.println(queryString);
-		Query query = QueryFactory.create(queryString) ;
-		QueryEngineHTTP queryExecution=new QueryEngineHTTP(URL_endpoint,query);
-		ResultSet results= queryExecution.execSelect();
-		while(results.hasNext()){
-			QuerySolution soln = results.nextSolution();
+		@SuppressWarnings("resource")
+		QueryEngineHTTP result = new QueryEngineHTTP(URL_endpoint, queryString);
+		ResultSet rs = result.execSelect();
+		while(rs.hasNext()){
+			QuerySolution soln = rs.nextSolution();
 			Literal point = soln.getLiteral("?geo");
 			String value = point.getString().replaceAll("<http://www.opengis.net/def/crs/EPSG/4326> POINT", "");
 			value = (String) value.subSequence(1, value.length()-1);
@@ -120,11 +117,11 @@ public class SemanticQuery {
 				+ " ?s2 geo:asWKT ?o2."
 				+ " FILTER(strdf:Disjoint(?o1, ?o2)) . }limit 100";
 		System.out.println(queryString);
-		Query query = QueryFactory.create(queryString) ;
-		QueryEngineHTTP queryExecution=new QueryEngineHTTP(URL_endpoint,query);
-		ResultSet results= queryExecution.execSelect();
-		while(results.hasNext()){
-			QuerySolution soln = results.nextSolution();
+		@SuppressWarnings("resource")
+		QueryEngineHTTP result = new QueryEngineHTTP(URL_endpoint, queryString);
+		ResultSet rs = result.execSelect();
+		while(rs.hasNext()){
+			QuerySolution soln = rs.nextSolution();
 			System.out.println(soln.get("?s1").toString());
 		}
 	}

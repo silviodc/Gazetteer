@@ -1,4 +1,4 @@
-/*
+/**
  *  This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -18,10 +18,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import br.usp.icmc.gazetteer.Similarity.Metrics;
 import br.usp.icmc.gazetteer.TAD.County;
 import br.usp.icmc.gazetteer.TAD.Group;
 import br.usp.icmc.gazetteer.TAD.Place;
-import br.usp.icmc.gazetteer.cluster.Similarity;
 
 
 public class Summarize {
@@ -35,9 +35,9 @@ public class Summarize {
 		}
 		return false;
 	}
-	public void referenciaGeo(ArrayList<Group> group){
+	public void referenciaGeo(ArrayList<Group> group,String method){
 		System.out.println("GROUP SIZE"+group.size());
-		Similarity sm = new Similarity();
+		Metrics sm = new Metrics(method);
 		for (int i=0;i<group.size();i++) {
 			Group gp = group.get(i);
 			Place moda=null;
@@ -69,7 +69,7 @@ public class Summarize {
 			}else{	
 				
 				for(int j=0;j<gp.getPlaces().size();j++){
-					if(sm.jaccardSimilarity(gp.getCentroid().getLocation(), gp.getPlaces().get(j).getLocation())>=0.4)
+					if(sm.getSimilarity(gp.getCentroid().getLocation(), gp.getPlaces().get(j).getLocation())>=0.4)
 						locality.add(gp.getPlaces().get(j).getLocation());
 				}
 				for(int j=0;j<gp.getPlaces().size();j++){
@@ -112,7 +112,7 @@ public class Summarize {
 		}
 	}
 
-	private void replace_moda_all_data(Place moda, ArrayList<Place> arrayList,County municipality) {		
+	private void replace_moda_all_data(Place moda, List<Place> arrayList,County municipality) {		
 		for(int i=0;i<arrayList.size();i++){
 			 arrayList.get(i).setGeometry(moda.getGeometry());
 				 arrayList.get(i).setCounty(municipality);
