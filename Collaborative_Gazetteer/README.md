@@ -9,8 +9,10 @@ Project to develop a Collaborative Gazetteer for Biodiversity data. This reposit
     1.2 Count the number of data regarding its specification. (county, place, latitude, longitude and name.)
     
 2- Read external data sources like Geonames, DBpedia and use it to improve the Biodiversity records
-	2.1 We are using downloaded Geonames files** and requesting data from DBpedia using SPARQL
+	2.1 We are using RDF dump of Geonames** files and requesting data from DBpedia using SPARQL
     2.2 These informations are aggregated in our biodiversity files.
+
+**See: http://www.geonames.org/ontology/documentation.html
 
 3- Cluster all Biodiversity data 
 	3.1 By default we are using jaccard similarity string.  The other methods still lacking comparison 
@@ -64,14 +66,15 @@ The files in the package br.usp.icmc.gazetteer.Test are used as main example of 
 Before running the SWI Gazetteer, you have to configure the Archives_location.xml file in [files/configFiles/] with the necessary information:
  
 ```
-	<repository>  Indicates a new data repository
-	<name> speciesLink </ name>  repository name
-	<filepath>  CSV that contains information about localities
-    <ColumDate>  Date Information
-    <ColumPlace> Name Place
-    <ColumCounty> County, municipality
-    <ColumLati> >>> Latitude (WGS84 eg -2.9421)
-    <ColumLong> >>> Longitude (WGS84 eg -2.9421)
-    <ColumPoly> >>> Polygon that contains informations about (e.g. Amazonas State)
-```    
+<repository>  Indicates a new data repository
+<name> speciesLink </ name>  repository name
+<filepath>  CSV that contains information about localities
+<ColumDate>  Date Information
+<ColumPlace> Name Place
+<ColumCounty> County, municipality
+<ColumLati> >>> Latitude (WGS84 eg -2.9421)
+<ColumLong> >>> Longitude (WGS84 eg -2.9421)
+<ColumPoly> >>> Polygon that contains informations about (e.g. Amazonas State)
+```
+
 For more details please, open an issue!
