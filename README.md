@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/silviodc/Gazetteer.svg?branch=master)](https://travis-ci.org/silviodc/Gazetteer)
 # SWI: A Semantic Web Interactive Gazetteer to support Linked Open Data
 
 Project to develop a Collaborative Gazetteer for Biodiversity data. This repository will be used to store .java files to be used in the background of the mentioned Gazetteer.
