@@ -3,6 +3,6 @@ jdk:
   - oraclejdk8
 cache:
   directories:
-  - ./Collaborative_Gazetteer/files/lib
+  - ./files/lib
 install:
   mvn install -DskipTests=Flase -Dmaven.javadoc.skip=true -B -V
